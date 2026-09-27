@@ -267,7 +267,7 @@
    "STATIKA 1NP: stěna 1NP-S10 nemá nad sebou věnec statiky (kryto 3 %; pod deskou 100 %)",
    "STATIKA 1NP: stěna 1NP-S11 nemá nad sebou věnec statiky (kryto 2 %; pod deskou 100 %)",
    "STATIKA 1NP: sloup statiky 1NP-SL05 (520 x 440) nemá protějšek mezi odvozenými sloupy (mezery ve šrafě, SOLID)",
-   "STATIKA 2NP: věnec 2NP-V17 (0.06 m2) má pod sebou zdivo z dat jen na 19 % plochy (výkres tvaru kreslí zdivo pod deskou tam, kde v seznamu stěn nic není, nebo jinak široké)",
+   "STATIKA 2NP: věnec 2NP-V17 (0.06 m2) má pod sebou zdivo z dat jen na 0 % plochy (výkres tvaru kreslí zdivo pod deskou tam, kde v seznamu stěn nic není, nebo jinak široké)",
    "STATIKA 2NP: věnec 2NP-V18 (0.13 m2) má pod sebou zdivo z dat jen na 51 % plochy (výkres tvaru kreslí zdivo pod deskou tam, kde v seznamu stěn nic není, nebo jinak široké)",
    "STATIKA 2NP: věnec 2NP-V19 (0.17 m2) má pod sebou zdivo z dat jen na 38 % plochy (výkres tvaru kreslí zdivo pod deskou tam, kde v seznamu stěn nic není, nebo jinak široké)",
    "STATIKA 2NP: stěna 2NP-S16 nemá nad sebou věnec statiky (kryto 38 %; pod deskou 99 %)",
@@ -1621,6 +1621,28 @@
    "zdvih": 0
   },
   {
+   "id": "1NP-O06-překlad",
+   "kat": "překlad",
+   "podlazi": "1NP",
+   "material": "překlad nad dveřmi + dorovnání, typ NEZNÁMÝ (prefabrikát, nebo ŽB)",
+   "tl": 300,
+   "delka": 900,
+   "box": [
+    -844396.0,
+    202014,
+    -844096.0,
+    202914
+   ],
+   "z0": 1970,
+   "z1": 2400,
+   "zdroj": "nad dveřmi 1NP-O06 (popiska 800/1970, horní hrana 1970) je do horní hrany zdiva 2400 pás 430 mm; investor 27. 9. 2026 21:07:38 SELČ (S0.20, hlasový přepis, doslovně: „Obecně platí, že na to tvorem [= nad otvorem] nemůže být volně zdivo. Tam je buď to hotový příklad [= překlad] jako výrobek nebo je tam železobeton.“); do S0.19 kreslen jako kus zdiva; typ překladu a co je nad ním je otázka staviteli (E57); ve 2.NP má výkres tvaru otvory dveří „2190;HH=5.110“ (od +2,920), tedy o 50 mm výš než popiska 800/1970 od podlahy (E71)",
+   "jistota": "neznámá",
+   "otvor": "1NP-O06",
+   "zdvih": 1,
+   "vyska": 430,
+   "barva": "#5c5c5c"
+  },
+  {
    "id": "1NP-průchod-S15+S05",
    "kat": "otvor",
    "typ": "mezera",
@@ -1705,6 +1727,28 @@
    "zdvih": 1
   },
   {
+   "id": "2NP-O01-překlad",
+   "kat": "překlad",
+   "podlazi": "2NP",
+   "material": "překlad nad dveřmi + dorovnání, typ NEZNÁMÝ (prefabrikát, nebo ŽB)",
+   "tl": 200,
+   "delka": 900,
+   "box": [
+    -835191,
+    208655.0,
+    -834291,
+    208855.0
+   ],
+   "z0": 5060,
+   "z1": 5740,
+   "zdroj": "nad dveřmi 2NP-O01 (popiska 800/1970, horní hrana 5060) je do horní hrany zdiva 5740 pás 680 mm; investor 27. 9. 2026 21:07:38 SELČ (S0.20, hlasový přepis, doslovně: „Obecně platí, že na to tvorem [= nad otvorem] nemůže být volně zdivo. Tam je buď to hotový příklad [= překlad] jako výrobek nebo je tam železobeton.“); do S0.19 kreslen jako kus zdiva; typ překladu a co je nad ním je otázka staviteli (E57); ve 2.NP má výkres tvaru otvory dveří „2190;HH=5.110“ (od +2,920), tedy o 50 mm výš než popiska 800/1970 od podlahy (E71)",
+   "jistota": "neznámá",
+   "otvor": "2NP-O01",
+   "zdvih": 2,
+   "vyska": 680,
+   "barva": "#5c5c5c"
+  },
+  {
    "id": "2NP-O02",
    "kat": "otvor",
    "typ": "dveře",
@@ -1732,6 +1776,28 @@
    "vyska": 1970,
    "barva": "#ffb347",
    "zdvih": 1
+  },
+  {
+   "id": "2NP-O02-překlad",
+   "kat": "překlad",
+   "podlazi": "2NP",
+   "material": "překlad nad dveřmi + dorovnání, typ NEZNÁMÝ (prefabrikát, nebo ŽB)",
+   "tl": 200,
+   "delka": 900,
+   "box": [
+    -833632,
+    208655.0,
+    -832732,
+    208855.0
+   ],
+   "z0": 5060,
+   "z1": 5740,
+   "zdroj": "nad dveřmi 2NP-O02 (popiska 800/1970, horní hrana 5060) je do horní hrany zdiva 5740 pás 680 mm; investor 27. 9. 2026 21:07:38 SELČ (S0.20, hlasový přepis, doslovně: „Obecně platí, že na to tvorem [= nad otvorem] nemůže být volně zdivo. Tam je buď to hotový příklad [= překlad] jako výrobek nebo je tam železobeton.“); do S0.19 kreslen jako kus zdiva; typ překladu a co je nad ním je otázka staviteli (E57); ve 2.NP má výkres tvaru otvory dveří „2190;HH=5.110“ (od +2,920), tedy o 50 mm výš než popiska 800/1970 od podlahy (E71)",
+   "jistota": "neznámá",
+   "otvor": "2NP-O02",
+   "zdvih": 2,
+   "vyska": 680,
+   "barva": "#5c5c5c"
   },
   {
    "id": "2NP-O03",
@@ -1819,6 +1885,28 @@
    "zdvih": 1
   },
   {
+   "id": "2NP-O05-překlad",
+   "kat": "překlad",
+   "podlazi": "2NP",
+   "material": "překlad nad dveřmi + dorovnání, typ NEZNÁMÝ (prefabrikát, nebo ŽB)",
+   "tl": 200,
+   "delka": 900,
+   "box": [
+    -833491,
+    206034.0,
+    -832591,
+    206234.0
+   ],
+   "z0": 5060,
+   "z1": 5740,
+   "zdroj": "nad dveřmi 2NP-O05 (popiska 800/1970, horní hrana 5060) je do horní hrany zdiva 5740 pás 680 mm; investor 27. 9. 2026 21:07:38 SELČ (S0.20, hlasový přepis, doslovně: „Obecně platí, že na to tvorem [= nad otvorem] nemůže být volně zdivo. Tam je buď to hotový příklad [= překlad] jako výrobek nebo je tam železobeton.“); do S0.19 kreslen jako kus zdiva; typ překladu a co je nad ním je otázka staviteli (E57); ve 2.NP má výkres tvaru otvory dveří „2190;HH=5.110“ (od +2,920), tedy o 50 mm výš než popiska 800/1970 od podlahy (E71)",
+   "jistota": "neznámá",
+   "otvor": "2NP-O05",
+   "zdvih": 2,
+   "vyska": 680,
+   "barva": "#5c5c5c"
+  },
+  {
    "id": "2NP-O06",
    "kat": "otvor",
    "typ": "okno",
@@ -1894,7 +1982,7 @@
    "zdroj": "nad okny nástavby garáže: výkres tvaru 2.NP statiky „4x PŘEKLAD POROTHERM KP 7 (nad novým oknem)“ a „3x PŘEKLAD POROTHERM KP 7 (pro budoucí okno)“, výšková pozice podle architektury; řez A-A v DWG kreslí nad oknem západní stěny tři kusy 75 mm na vrstvě A2_ZDIVO + izolace 40 mm, +5,490 až +5,740, roletový box (ANSI37) před nimi v izolaci, ŽB věnec až od +5,740 (`zdivo/steny/rezy-vysky.md`, S0.19); zda mají být ŽB je otázka staviteli 3 (E68); délka jen přes otvor, uložení neznámé",
    "jistota": "pracovní",
    "otvor": "2NP-O07",
-   "zdvih": 1,
+   "zdvih": 2,
    "vyska": 250,
    "barva": "#5c5c5c"
   },
@@ -1945,7 +2033,7 @@
    "zdroj": "nad okny nástavby garáže: výkres tvaru 2.NP statiky „4x PŘEKLAD POROTHERM KP 7 (nad novým oknem)“ a „3x PŘEKLAD POROTHERM KP 7 (pro budoucí okno)“, výšková pozice podle architektury; řez A-A v DWG kreslí nad oknem západní stěny tři kusy 75 mm na vrstvě A2_ZDIVO + izolace 40 mm, +5,490 až +5,740, roletový box (ANSI37) před nimi v izolaci, ŽB věnec až od +5,740 (`zdivo/steny/rezy-vysky.md`, S0.19); zda mají být ŽB je otázka staviteli 3 (E68); délka jen přes otvor, uložení neznámé",
    "jistota": "pracovní",
    "otvor": "2NP-O08",
-   "zdvih": 1,
+   "zdvih": 2,
    "vyska": 250,
    "barva": "#5c5c5c"
   },
@@ -1995,7 +2083,7 @@
    "zdroj": "výkres tvaru 2.NP statiky: na severní stěně přístavku nad 1.NP u otvoru 3800 (= O09, stěna S17) popiska „DH +5,490“, tedy železobeton pod deskou od +5,490 (nadpraží 250 + věnec 200); řez architektury tudy nevede (S0.19, `docs/znalosti/vence-a-preklady.md`); délka jen přes otvor, uložení neznámé",
    "jistota": "pracovní",
    "otvor": "2NP-O09",
-   "zdvih": 1,
+   "zdvih": 2,
    "vyska": 250,
    "barva": "#5c5c5c"
   },
@@ -2045,7 +2133,7 @@
    "zdroj": "řez A-A v DWG prochází oknem O10 (stěna S18): nad oknem železobeton ANSI35 od +5,490 do +5,940 v jednom polygonu s deskou (nadpraží 250 + věnec 200), obrys na vrstvě A2_ZB; PDF řezu potvrzuje (kóta 450 = 150 podhled + 300) (`zdivo/steny/rezy-vysky.md`, S0.19); výkres tvaru 2.NP statiky u tohoto okna popisku nemá; délka jen přes otvor, uložení neznámé",
    "jistota": "pracovní",
    "otvor": "2NP-O10",
-   "zdvih": 1,
+   "zdvih": 2,
    "vyska": 250,
    "barva": "#5c5c5c"
   },
@@ -2096,7 +2184,7 @@
    "zdroj": "okno s horní hranou +5,490 pod horní hranou zdiva +5,740: žádný řez tudy nevede; řez A-A kreslí nad O10 ŽB od +5,490 a nad plnými zdmi 2.NP prvek 200 × 250 s křížem na vrstvě zdiva; výkres tvaru 2.NP statiky má u tohoto okna jen mezeru ve zdivu pod deskou bez popisky (ŽB DH +5,490 jen u severního okna a u O09); TZ 5.4.1: věnce nad okny slouží jako překlady (S0.19, otázka statikovi 9 a projektantce); délka jen přes otvor",
    "jistota": "neznámá",
    "otvor": "2NP-O11",
-   "zdvih": 1,
+   "zdvih": 2,
    "vyska": 250,
    "barva": "#5c5c5c"
   },
@@ -2147,7 +2235,7 @@
    "zdroj": "okno s horní hranou +5,490 pod horní hranou zdiva +5,740: žádný řez tudy nevede; řez A-A kreslí nad O10 ŽB od +5,490 a nad plnými zdmi 2.NP prvek 200 × 250 s křížem na vrstvě zdiva; výkres tvaru 2.NP statiky má u tohoto okna jen mezeru ve zdivu pod deskou bez popisky (ŽB DH +5,490 jen u severního okna a u O09); TZ 5.4.1: věnce nad okny slouží jako překlady (S0.19, otázka statikovi 9 a projektantce); délka jen přes otvor",
    "jistota": "neznámá",
    "otvor": "2NP-O12",
-   "zdvih": 1,
+   "zdvih": 2,
    "vyska": 250,
    "barva": "#5c5c5c"
   },
@@ -2198,7 +2286,7 @@
    "zdroj": "okno s horní hranou +5,490 pod horní hranou zdiva +5,740: žádný řez tudy nevede; řez A-A kreslí nad O10 ŽB od +5,490 a nad plnými zdmi 2.NP prvek 200 × 250 s křížem na vrstvě zdiva; výkres tvaru 2.NP statiky má u tohoto okna jen mezeru ve zdivu pod deskou bez popisky (ŽB DH +5,490 jen u severního okna a u O09); TZ 5.4.1: věnce nad okny slouží jako překlady (S0.19, otázka statikovi 9 a projektantce); délka jen přes otvor",
    "jistota": "neznámá",
    "otvor": "2NP-O13",
-   "zdvih": 1,
+   "zdvih": 2,
    "vyska": 250,
    "barva": "#5c5c5c"
   },
@@ -2249,7 +2337,7 @@
    "zdroj": "nad okny nástavby garáže: výkres tvaru 2.NP statiky „4x PŘEKLAD POROTHERM KP 7 (nad novým oknem)“ a „3x PŘEKLAD POROTHERM KP 7 (pro budoucí okno)“, výšková pozice podle architektury; řez A-A v DWG kreslí nad oknem západní stěny tři kusy 75 mm na vrstvě A2_ZDIVO + izolace 40 mm, +5,490 až +5,740, roletový box (ANSI37) před nimi v izolaci, ŽB věnec až od +5,740 (`zdivo/steny/rezy-vysky.md`, S0.19); zda mají být ŽB je otázka staviteli 3 (E68); délka jen přes otvor, uložení neznámé",
    "jistota": "pracovní",
    "otvor": "2NP-O14",
-   "zdvih": 1,
+   "zdvih": 2,
    "vyska": 250,
    "barva": "#5c5c5c"
   },
@@ -2330,32 +2418,6 @@
    "zdvih": 0
   },
   {
-   "id": "1NP-N06",
-   "kat": "kus nad otvorem",
-   "podlazi": "1NP",
-   "material": "VAPIS 300",
-   "tl": 300,
-   "delka": 900,
-   "box": [
-    -844396.0,
-    202014,
-    -844096.0,
-    202914
-   ],
-   "z0": 1970,
-   "z1": 2400,
-   "zdroj": "hrubě 2400 − 1970 = 430 mm včetně překladu (překlad odečte krok S7); spodní hrana věnce +2,400 nad zdivem 1.NP (řez A-A v DWG (výškové kóty a šrafy, `tools/steny/README.md`)); věnec 300 slouží jako překlad (TZ statiky)",
-   "jistota": "pracovní",
-   "otvor": "1NP-O06",
-   "steny": [
-    "1NP-S14",
-    "1NP-S09"
-   ],
-   "vyska": 430,
-   "barva": "#7e3ff2",
-   "zdvih": 0
-  },
-  {
    "id": "1NP-P07",
    "kat": "kus parapet",
    "podlazi": "1NP",
@@ -2382,58 +2444,6 @@
    "zdvih": 0
   },
   {
-   "id": "2NP-N01",
-   "kat": "kus nad otvorem",
-   "podlazi": "2NP",
-   "material": "VAPIS 200",
-   "tl": 200,
-   "delka": 900,
-   "box": [
-    -835191,
-    208655.0,
-    -834291,
-    208855.0
-   ],
-   "z0": 5060,
-   "z1": 5740,
-   "zdroj": "hrubě 5740 − 5060 = 680 mm včetně překladu (překlad odečte krok S7); horní hrana zdiva 2.NP +5,740 = 2,920 + 70 + 11 x 250 (řezy B-B, C-C, D-D výkresu tvaru 2.NP statiky (DH věnce +5,740 u všech proříznutých stěn, deska +5,940) a řez A-A v DWG (`zdivo/steny/rezy-vysky.md`, S0.19)); nad okny s horní hranou +5,490 je pás +5,490 až +5,740 = nadpraží (ŽB nad O09, O10 a nad severním oknem, jinde typ neznámý), ne zdivo",
-   "jistota": "pracovní",
-   "otvor": "2NP-O01",
-   "steny": [
-    "2NP-S03",
-    "2NP-S04"
-   ],
-   "vyska": 680,
-   "barva": "#2f7ff2",
-   "zdvih": 1
-  },
-  {
-   "id": "2NP-N02",
-   "kat": "kus nad otvorem",
-   "podlazi": "2NP",
-   "material": "VAPIS 200",
-   "tl": 200,
-   "delka": 900,
-   "box": [
-    -833632,
-    208655.0,
-    -832732,
-    208855.0
-   ],
-   "z0": 5060,
-   "z1": 5740,
-   "zdroj": "hrubě 5740 − 5060 = 680 mm včetně překladu (překlad odečte krok S7); horní hrana zdiva 2.NP +5,740 = 2,920 + 70 + 11 x 250 (řezy B-B, C-C, D-D výkresu tvaru 2.NP statiky (DH věnce +5,740 u všech proříznutých stěn, deska +5,940) a řez A-A v DWG (`zdivo/steny/rezy-vysky.md`, S0.19)); nad okny s horní hranou +5,490 je pás +5,490 až +5,740 = nadpraží (ŽB nad O09, O10 a nad severním oknem, jinde typ neznámý), ne zdivo",
-   "jistota": "pracovní",
-   "otvor": "2NP-O02",
-   "steny": [
-    "2NP-S04",
-    "2NP-S05"
-   ],
-   "vyska": 680,
-   "barva": "#2f7ff2",
-   "zdvih": 1
-  },
-  {
    "id": "2NP-P04",
    "kat": "kus parapet",
    "podlazi": "2NP",
@@ -2456,31 +2466,6 @@
     "2NP-S01"
    ],
    "vyska": 1070,
-   "barva": "#2f7ff2",
-   "zdvih": 1
-  },
-  {
-   "id": "2NP-N05",
-   "kat": "kus nad otvorem",
-   "podlazi": "2NP",
-   "material": "VAPIS 200",
-   "tl": 200,
-   "delka": 900,
-   "box": [
-    -833491,
-    206034.0,
-    -832591,
-    206234.0
-   ],
-   "z0": 5060,
-   "z1": 5740,
-   "zdroj": "hrubě 5740 − 5060 = 680 mm včetně překladu (překlad odečte krok S7); horní hrana zdiva 2.NP +5,740 = 2,920 + 70 + 11 x 250 (řezy B-B, C-C, D-D výkresu tvaru 2.NP statiky (DH věnce +5,740 u všech proříznutých stěn, deska +5,940) a řez A-A v DWG (`zdivo/steny/rezy-vysky.md`, S0.19)); nad okny s horní hranou +5,490 je pás +5,490 až +5,740 = nadpraží (ŽB nad O09, O10 a nad severním oknem, jinde typ neznámý), ne zdivo",
-   "jistota": "pracovní",
-   "otvor": "2NP-O05",
-   "steny": [
-    "2NP-S09"
-   ],
-   "vyska": 680,
    "barva": "#2f7ff2",
    "zdvih": 1
   },
@@ -42703,7 +42688,7 @@
    "z1": 5940,
    "zdroj": "výkres tvaru 2.NP statiky: „PRŮVLAK DH +5,490“ mezi ŽB parapety P02 a P03 a řez B-B téhož výkresu (ŽB od +5,490 nad oknem s parapetem HH +3,990, deska +5,940); TZ 5.4.3: ocelové sloupky podpírají železobetonová okenní nadpraží; půdorys = ŽB parapet 2NP-P90 bez ŽB pilíře [odvození: výkres tvaru plochu nadpraží nekreslí, `statika_pdf.py` našel 0 ploch ŽB pod deskou, E65]; výška +5,490 až 5940 = nadpraží 250 + věnec 200 v jednom (S0.19)",
    "jistota": "pracovní",
-   "zdvih": 1,
+   "zdvih": 2,
    "vyska": 450,
    "barva": "#5c5c5c"
   },
@@ -42724,7 +42709,7 @@
    "z1": 5940,
    "zdroj": "výkres tvaru 2.NP statiky: „PRŮVLAK DH +5,490“ mezi ŽB parapety P02 a P03 a řez B-B téhož výkresu (ŽB od +5,490 nad oknem s parapetem HH +3,990, deska +5,940); TZ 5.4.3: ocelové sloupky podpírají železobetonová okenní nadpraží; půdorys = ŽB parapet 2NP-P91 bez ŽB pilíře [odvození: výkres tvaru plochu nadpraží nekreslí, `statika_pdf.py` našel 0 ploch ŽB pod deskou, E65]; výška +5,490 až 5940 = nadpraží 250 + věnec 200 v jednom (S0.19)",
    "jistota": "pracovní",
-   "zdvih": 1,
+   "zdvih": 2,
    "vyska": 450,
    "barva": "#5c5c5c"
   },
@@ -42745,7 +42730,7 @@
    "z1": 5940,
    "zdroj": "výkres tvaru 2.NP statiky: „PRŮVLAK DH +5,490“ mezi ŽB parapety P02 a P03 a řez B-B téhož výkresu (ŽB od +5,490 nad oknem s parapetem HH +3,990, deska +5,940); TZ 5.4.3: ocelové sloupky podpírají železobetonová okenní nadpraží; půdorys = ŽB parapet 2NP-P91 bez ŽB pilíře [odvození: výkres tvaru plochu nadpraží nekreslí, `statika_pdf.py` našel 0 ploch ŽB pod deskou, E65]; výška +5,490 až 5940 = nadpraží 250 + věnec 200 v jednom (S0.19)",
    "jistota": "pracovní",
-   "zdvih": 1,
+   "zdvih": 2,
    "vyska": 450,
    "barva": "#5c5c5c"
   },
@@ -42766,7 +42751,7 @@
    "z1": 5940,
    "zdroj": "výkres tvaru 2.NP statiky: „PRŮVLAK DH +5,490“ mezi ŽB parapety P02 a P03 a řez B-B téhož výkresu (ŽB od +5,490 nad oknem s parapetem HH +3,990, deska +5,940); TZ 5.4.3: ocelové sloupky podpírají železobetonová okenní nadpraží; půdorys = ŽB parapet 2NP-P92 bez ŽB pilíře [odvození: výkres tvaru plochu nadpraží nekreslí, `statika_pdf.py` našel 0 ploch ŽB pod deskou, E65]; výška +5,490 až 5940 = nadpraží 250 + věnec 200 v jednom (S0.19)",
    "jistota": "pracovní",
-   "zdvih": 1,
+   "zdvih": 2,
    "vyska": 450,
    "barva": "#5c5c5c"
   }
