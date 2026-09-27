@@ -107,7 +107,8 @@
    "výztuž horní": "výztuž při horním povrchu desky",
    "výztuž lemovací": "lemovací výztuž (okraje desky, otvory)",
    "ŽB věnec souvislý (pracovní)": "ŽB věnec souvislý po obvodu i nad okny (PRACOVNÍ zjednodušení, investor 27. 9. 2026; provedení potvrdí statik a stavitel)",
-   "atika (pracovní)": "atika 200 × 250 po vnějším obvodu desek nad 2.NP (PRACOVNÍ odvození, materiál podle řezu A-A, E43)"
+   "atika (pracovní)": "atika 200 × 250 po vnějším obvodu desek nad 2.NP jako souvislý obdélník bez zářezů desky (PRACOVNÍ odvození, materiál podle řezu A-A, E43)",
+   "ocelový sloupek (pracovní)": "ocelové sloupky cca 150 × 150 v zářezech desky nad 2.NP, na ŽB parapetu, nesou desku (PRACOVNÍ, investor 27. 9. 2026, TZ 5.4.1)"
   },
   "legenda": [
    [
@@ -157,6 +158,10 @@
    [
     "atika VAPIS 200 (pracovní)",
     "#2f7ff2"
+   ],
+   [
+    "ocelový sloupek (pracovní)",
+    "#37474f"
    ]
   ],
   "kat_default_off": [
@@ -166,8 +171,28 @@
    "ŽB věnec"
   ],
   "atika": {
+   "zarezy_uzavrene": [
+    [
+     -829490,
+     211964,
+     -829322,
+     212164
+    ],
+    [
+     -832106,
+     211964,
+     -831886,
+     212164
+    ],
+    [
+     -837322,
+     211964,
+     -837150,
+     212164
+    ]
+   ],
    "2NP-D01": {
-    "delka_mm": 43280,
+    "delka_mm": 42880,
     "z0": 6160,
     "z1": 6410,
     "material": "ŽB"
@@ -183,7 +208,8 @@
     "z0": 6140,
     "z1": 6390,
     "material": "VAPIS 200"
-   }
+   },
+   "ocelove_sloupky": 3
   },
   "pozn": "ŽB ze statiky je převzaté z výkresů tvaru a výztuže (PDF, DPS 11. 6. 2025), ne odvozené; souvislý věnec a atika jsou od S0.16 pracovní odvození (investor 27. 9. 2026); rozpočet ani nabídky nejsou zdroj (E45)",
   "chybi": [
@@ -42171,24 +42197,32 @@
    "rings": [
     [
      [
-      -831886,
-      211964
-     ],
-     [
-      -831886,
+      -837322,
       212164
      ],
      [
-      -829490,
+      -837322,
       212164
-     ],
-     [
-      -829490,
-      211964
      ],
      [
       -829322,
-      211964
+      212164
+     ],
+     [
+      -829322,
+      212164
+     ],
+     [
+      -829322,
+      212164
+     ],
+     [
+      -829322,
+      198724
+     ],
+     [
+      -829322,
+      198724
      ],
      [
       -829322,
@@ -42200,69 +42234,25 @@
      ],
      [
       -837322,
-      211964
+      198724
      ],
      [
-      -837150,
-      211964
+      -837322,
+      198724
      ],
      [
-      -837150,
+      -837322,
       212164
      ],
      [
-      -832106,
+      -837322,
       212164
-     ],
-     [
-      -832106,
-      211964
-     ],
-     [
-      -831886,
-      211964
      ]
     ],
     [
      [
-      -829522,
-      211764
-     ],
-     [
-      -829690,
-      211764
-     ],
-     [
-      -829690,
-      211964
-     ],
-     [
-      -831686,
-      211964
-     ],
-     [
-      -831686,
-      211764
-     ],
-     [
-      -832306,
-      211764
-     ],
-     [
-      -832306,
-      211964
-     ],
-     [
-      -836950,
-      211964
-     ],
-     [
-      -836950,
-      211764
-     ],
-     [
       -837122,
-      211764
+      211964
      ],
      [
       -837122,
@@ -42274,14 +42264,18 @@
      ],
      [
       -829522,
-      211764
+      211964
+     ],
+     [
+      -837122,
+      211964
      ]
     ]
    ],
    "podlazi": "2NP",
    "material": "ŽB atika 200 × 250 [odvození ze šrafy ANSI35 v řezu A-A, E43]",
    "tl": 200,
-   "delka": 43280,
+   "delka": 42880,
    "box": [
     -837322,
     198724,
@@ -42290,7 +42284,7 @@
    ],
    "z0": 6160,
    "z1": 6410,
-   "zdroj": "PRACOVNÍ odvození (S0.16, investor 27. 9. 2026 16:34 SELČ (S0.16, textové zadání session): „jeste musime pracovne doresit atiku“): pás 200 mm po vnějším obvodu sjednocení desek nad 2.NP z výkresu tvaru (statika), na desce 2NP-D01 (HH 6160), výška 250 = 6160 až 6410 podle řezu A-A (`docs/znalosti/atika.md`); délka vnějšího obvodu na této desce 43280 mm; vnitřní hranice mezi deskami atiku nemají; stávající garáž (ATIKA HH +3,240 / +4,170 ve výkresu tvaru 1.NP) tu není; potvrdí projektantka (otázka 8, E43)",
+   "zdroj": "PRACOVNÍ odvození (S0.16, investor 27. 9. 2026 16:34 SELČ (S0.16, textové zadání session): „jeste musime pracovne doresit atiku“): pás 200 mm po vnějším obvodu sjednocení desek nad 2.NP z výkresu tvaru (statika), na desce 2NP-D01 (HH 6160), výška 250 = 6160 až 6410 podle řezu A-A (`docs/znalosti/atika.md`); délka vnějšího obvodu na této desce 42880 mm; vnitřní hranice mezi deskami atiku nemají; stávající garáž (ATIKA HH +3,240 / +4,170 ve výkresu tvaru 1.NP) tu není; potvrdí projektantka (otázka 8, E43)",
    "jistota": "odvození",
    "opacity": 0.9,
    "zdvih": 2,
@@ -42468,6 +42462,10 @@
      ],
      [
       -850268,
+      198724
+     ],
+     [
+      -850268,
       198924
      ],
      [
@@ -42485,6 +42483,10 @@
      [
       -850254,
       203114
+     ],
+     [
+      -850252,
+      203314
      ],
      [
       -850252,
@@ -42514,6 +42516,69 @@
    "zdvih": 2,
    "vyska": 250,
    "barva": "#2f7ff2"
+  },
+  {
+   "id": "2NP-OS01",
+   "kat": "ocelový sloupek (pracovní)",
+   "podlazi": "2NP",
+   "material": "ocelový sloupek cca 150 × 150 mm (rozměr: investor „15x15mm“, čteno agentem jako 150 × 150; TZ statiky 5.4.1: ke ŽB parapetům budou kotveny ocelové sloupky)",
+   "tl": 150,
+   "delka": 150,
+   "box": [
+    -837311,
+    211989,
+    -837161,
+    212139
+   ],
+   "z0": 3990,
+   "z1": 5940,
+   "zdroj": "PRACOVNÍ (S0.16c, investor 27. 9. 2026 17:47 SELČ): v zářezu obrysu desky 2NP-D01 (172 × 200 mm, x -837322 až -837150) stojí ocelový sloupek na ŽB parapetu 2NP-P91 (horní hrana 3990) a nese desku (DH 5940); poloha = střed zářezu, rozměr 150 × 150 čtení agenta; výkres tvaru sloupek nekreslí, deska má v tom místě zářez (převzato „tak jak je“)",
+   "jistota": "odvození",
+   "zdvih": 1,
+   "vyska": 1950,
+   "barva": "#37474f"
+  },
+  {
+   "id": "2NP-OS02",
+   "kat": "ocelový sloupek (pracovní)",
+   "podlazi": "2NP",
+   "material": "ocelový sloupek cca 150 × 150 mm (rozměr: investor „15x15mm“, čteno agentem jako 150 × 150; TZ statiky 5.4.1: ke ŽB parapetům budou kotveny ocelové sloupky)",
+   "tl": 150,
+   "delka": 150,
+   "box": [
+    -832071,
+    211989,
+    -831921,
+    212139
+   ],
+   "z0": 3990,
+   "z1": 5940,
+   "zdroj": "PRACOVNÍ (S0.16c, investor 27. 9. 2026 17:47 SELČ): v zářezu obrysu desky 2NP-D01 (220 × 200 mm, x -832106 až -831886) stojí ocelový sloupek na ŽB parapetu 2NP-P91 (horní hrana 3990) a nese desku (DH 5940); poloha = střed zářezu, rozměr 150 × 150 čtení agenta; výkres tvaru sloupek nekreslí, deska má v tom místě zářez (převzato „tak jak je“)",
+   "jistota": "odvození",
+   "zdvih": 1,
+   "vyska": 1950,
+   "barva": "#37474f"
+  },
+  {
+   "id": "2NP-OS03",
+   "kat": "ocelový sloupek (pracovní)",
+   "podlazi": "2NP",
+   "material": "ocelový sloupek cca 150 × 150 mm (rozměr: investor „15x15mm“, čteno agentem jako 150 × 150; TZ statiky 5.4.1: ke ŽB parapetům budou kotveny ocelové sloupky)",
+   "tl": 150,
+   "delka": 150,
+   "box": [
+    -829481,
+    211989,
+    -829331,
+    212139
+   ],
+   "z0": 3990,
+   "z1": 5940,
+   "zdroj": "PRACOVNÍ (S0.16c, investor 27. 9. 2026 17:47 SELČ): v zářezu obrysu desky 2NP-D01 (168 × 200 mm, x -829490 až -829322) stojí ocelový sloupek na ŽB parapetu 2NP-P91 (horní hrana 3990) a nese desku (DH 5940); poloha = střed zářezu, rozměr 150 × 150 čtení agenta; výkres tvaru sloupek nekreslí, deska má v tom místě zářez (převzato „tak jak je“)",
+   "jistota": "odvození",
+   "zdvih": 1,
+   "vyska": 1950,
+   "barva": "#37474f"
   }
  ]
 }
