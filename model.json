@@ -184,7 +184,8 @@
    "výztuž dolní",
    "výztuž horní",
    "výztuž lemovací",
-   "ŽB celek (pracovní)"
+   "ŽB celek (pracovní)",
+   "otvor v desce"
   ],
   "atika": {
    "zarezy_uzavrene": [
@@ -227,6 +228,188 @@
    },
    "ocelove_sloupky": 3
   },
+  "mistnosti": [
+   {
+    "cislo": "101",
+    "nazev": "Vstupní prostor",
+    "podlazi": "1NP",
+    "x": -845755,
+    "y": 204701,
+    "z": 0,
+    "zdroj": "půdorys 1NP (D11-01), textová vrstva PDF, číslo místnosti výšky písma 310"
+   },
+   {
+    "cislo": "102",
+    "nazev": "Hala - jídelna",
+    "podlazi": "1NP",
+    "x": -840522,
+    "y": 202525,
+    "z": 0,
+    "zdroj": "půdorys 1NP (D11-01), textová vrstva PDF, číslo místnosti výšky písma 310"
+   },
+   {
+    "cislo": "103",
+    "nazev": "Dílna",
+    "podlazi": "1NP",
+    "x": -847358,
+    "y": 201270,
+    "z": 0,
+    "zdroj": "půdorys 1NP (D11-01), textová vrstva PDF, číslo místnosti výšky písma 310"
+   },
+   {
+    "cislo": "104",
+    "nazev": "Sprcha, WC",
+    "podlazi": "1NP",
+    "x": -843747,
+    "y": 200296,
+    "z": 0,
+    "zdroj": "půdorys 1NP (D11-01), textová vrstva PDF, číslo místnosti výšky písma 310"
+   },
+   {
+    "cislo": "105",
+    "nazev": "Garáž",
+    "podlazi": "1NP",
+    "x": -853852,
+    "y": 200971,
+    "z": 0,
+    "zdroj": "půdorys 1NP (D11-01), textová vrstva PDF, číslo místnosti výšky písma 310"
+   },
+   {
+    "cislo": "106",
+    "nazev": "Obývací pokoj, kuchyně",
+    "podlazi": "1NP",
+    "x": -833157,
+    "y": 207099,
+    "z": 0,
+    "zdroj": "půdorys 1NP (D11-01), textová vrstva PDF, číslo místnosti výšky písma 310"
+   },
+   {
+    "cislo": "107",
+    "nazev": "Hala - schodiště",
+    "podlazi": "1NP",
+    "x": -835835,
+    "y": 202013,
+    "z": 0,
+    "zdroj": "půdorys 1NP (D11-01), textová vrstva PDF, číslo místnosti výšky písma 310"
+   },
+   {
+    "cislo": "108",
+    "nazev": "Technická místnost",
+    "podlazi": "1NP",
+    "x": -832589,
+    "y": 201016,
+    "z": 0,
+    "zdroj": "půdorys 1NP (D11-01), textová vrstva PDF, číslo místnosti výšky písma 310"
+   },
+   {
+    "cislo": "109",
+    "nazev": "WC",
+    "podlazi": "1NP",
+    "x": -834114,
+    "y": 199843,
+    "z": 0,
+    "zdroj": "půdorys 1NP (D11-01), textová vrstva PDF, číslo místnosti výšky písma 310"
+   },
+   {
+    "cislo": "110",
+    "nazev": "Spíž",
+    "podlazi": "1NP",
+    "x": -830893,
+    "y": 202138,
+    "z": 0,
+    "zdroj": "půdorys 1NP (D11-01), textová vrstva PDF, číslo místnosti výšky písma 310"
+   },
+   {
+    "cislo": "105",
+    "nazev": "Garáž (nástavba, střecha)",
+    "podlazi": "2NP",
+    "x": -854257,
+    "y": 201196,
+    "z": 3090,
+    "zdroj": "půdorys 2NP (D11-02), textová vrstva PDF, číslo místnosti výšky písma 310"
+   },
+   {
+    "cislo": "201",
+    "nazev": "Hala",
+    "podlazi": "2NP",
+    "x": -835184,
+    "y": 200631,
+    "z": 3090,
+    "zdroj": "půdorys 2NP (D11-02), textová vrstva PDF, číslo místnosti výšky písma 310"
+   },
+   {
+    "cislo": "202",
+    "nazev": "Koupelna, WC",
+    "podlazi": "2NP",
+    "x": -831408,
+    "y": 205442,
+    "z": 3090,
+    "zdroj": "půdorys 2NP (D11-02), textová vrstva PDF, číslo místnosti výšky písma 310"
+   },
+   {
+    "cislo": "203",
+    "nazev": "Šatna",
+    "podlazi": "2NP",
+    "x": -834537,
+    "y": 207662,
+    "z": 3090,
+    "zdroj": "půdorys 2NP (D11-02), textová vrstva PDF, číslo místnosti výšky písma 310"
+   },
+   {
+    "cislo": "204",
+    "nazev": "Koupelna, WC",
+    "podlazi": "2NP",
+    "x": -831408,
+    "y": 207872,
+    "z": 3090,
+    "zdroj": "půdorys 2NP (D11-02), textová vrstva PDF, číslo místnosti výšky písma 310"
+   },
+   {
+    "cislo": "205",
+    "nazev": "Ložnice",
+    "podlazi": "2NP",
+    "x": -832167,
+    "y": 210696,
+    "z": 3090,
+    "zdroj": "půdorys 2NP (D11-02), textová vrstva PDF, číslo místnosti výšky písma 310"
+   },
+   {
+    "cislo": "206",
+    "nazev": "Ložnice",
+    "podlazi": "2NP",
+    "x": -835317,
+    "y": 203776,
+    "z": 3090,
+    "zdroj": "půdorys 2NP (D11-02), textová vrstva PDF, číslo místnosti výšky písma 310"
+   },
+   {
+    "cislo": "207",
+    "nazev": "Ložnice",
+    "podlazi": "2NP",
+    "x": -830563,
+    "y": 201784,
+    "z": 3090,
+    "zdroj": "půdorys 2NP (D11-02), textová vrstva PDF, číslo místnosti výšky písma 310"
+   },
+   {
+    "cislo": "208",
+    "nazev": "Pracovna",
+    "podlazi": "2NP",
+    "x": -835385,
+    "y": 210452,
+    "z": 3090,
+    "zdroj": "půdorys 2NP (D11-02), textová vrstva PDF, číslo místnosti výšky písma 310"
+   },
+   {
+    "cislo": "209",
+    "nazev": "Sklad, pracovna",
+    "podlazi": "2NP",
+    "x": -847181,
+    "y": 200631,
+    "z": 3090,
+    "zdroj": "půdorys 2NP (D11-02), textová vrstva PDF, číslo místnosti výšky písma 310"
+   }
+  ],
   "slouceni_sloupu": [
    {
     "statika": "1NP-SL01",
@@ -291,6 +474,7 @@
    }
   ],
   "nalezy": [
+   "PŘEKRYV ŽB 2NP-VP01 x 2NP-PR04: 300 x 3500 x 200 mm",
    "PŘEKRYV ŽB × ZDIVO 2NP-PR04 x 2NP-S16: 300 x 3500 x 250 mm (zdivo v pásu průvlaku/překladu)",
    "ŽB POD HORNÍ HRANOU OTVORU 1NP: 1NP-DS02 (DH 2700) začíná 100 mm pod horní hranou 1NP-D07 (2800)",
    "PŘEKRYV 2NP-S05 x 2NP-P04: 200 x 200 x 1070 mm",
@@ -2942,25 +3126,25 @@
    "id": "2NP-O15",
    "kat": "stěna",
    "podlazi": "2NP",
-   "material": "VAPIS 240",
-   "tl": 240,
+   "material": "VAPIS 200 (atika nad 209, tl. 200)",
+   "tl": 200,
    "delka": 6875,
    "box": [
     -844196,
     198724.0,
     -837321,
-    198964.0
+    198924.0
    ],
    "z0": 2920,
    "z1": 4240,
-   "zdroj": "investor 27. 9. 2026 16:34 SELČ (S0.16, textové zadání session), doslovně: „2np-15 je ve skutecnosti stena vapis 240 - a k ni je dotaz na email, zda to bude vapis, protoze jde o tepelne mosty“ (otázka projektantce 14, E54); spodní hrana +2,920 jako sousední S25/S26 [odvození], horní hrana +4,240 (výšková kóta v DWG); v seznamu stěn zatím není (doplní se při přečíslování E36). Délka: v DWG je pás dlouhý 6275 a mezera mezi S25 a S26 je 6875, do S0.17 stěna končila 300 mm před každou sousední zdí; od S0.18 (27. 9. 2026) se kreslí přes celou mezeru až k líci S25 a S26 (investor 27. 9. 2026, hlasový přepis: „je krátká a nedotýká se těch zdí v sousedních ... asi bych ji rozšířil“), napojení na S25/S26 je doplněk otázky projektantce 14 (E62). Původní čtení: jižní strana 2.NP mezi S25 a S26 (`otvory.md` nález 5 to četl jako hranici obdélníků): investor 21. 9. 2026 23:46 SELČ „o15 není okno, ale je to zeď“; v DWG bez šrafy, dvojice čar A2_POH-N v odstupu 200 (y 198 724 až 198 924) a A2_POH v odstupu 560, kóty 300 + 200 + 60 = 560, délka 6275, výšková kóta +4,240 s odkazovou čarou do pásu (terasa vedle +3,340, podlaha 2.NP +3,090); materiál a skladba NEZNÁMÉ, kreslí se vrstva 200 v délce čar 6275 (mezera v seznamu stěn je 6875, tj. o 300 na každé straně víc) od podlahy +3,090 do +4,240, sousední S25/S26 začínají na +2,920 (`zdivo/steny/o15.json`, E54)",
+   "zdroj": "investor 29. 9. 2026 (S0.25, textové zadání), doslovně: „o15 klidne muzeme rikat atika, to je jedno a mas pravdu, ze je to cihla 200“: VAPIS 200 v pásu 200 mm od líce S25/S26 (řez B-B: VAPIS 200 do +4,170; výkres tvaru 1.NP: „ATIKA HH +4,170“, E81 R5); horní hrana v modelu +4,240 (výšková kóta půdorysu) proti +4,170 (řez B-B, výkres tvaru): rozpor trvá, otázka projektantce 14. Dřívější stav: investor 27. 9. 2026 16:34 SELČ (S0.16, textové zadání session), doslovně: „2np-15 je ve skutecnosti stena vapis 240 - a k ni je dotaz na email, zda to bude vapis, protoze jde o tepelne mosty“ (otázka projektantce 14, E54); spodní hrana +2,920 jako sousední S25/S26 [odvození], horní hrana +4,240 (výšková kóta v DWG); v seznamu stěn zatím není (doplní se při přečíslování E36). Délka: v DWG je pás dlouhý 6275 a mezera mezi S25 a S26 je 6875, do S0.17 stěna končila 300 mm před každou sousední zdí; od S0.18 (27. 9. 2026) se kreslí přes celou mezeru až k líci S25 a S26 (investor 27. 9. 2026, hlasový přepis: „je krátká a nedotýká se těch zdí v sousedních ... asi bych ji rozšířil“), napojení na S25/S26 je doplněk otázky projektantce 14 (E62). Původní čtení: jižní strana 2.NP mezi S25 a S26 (`otvory.md` nález 5 to četl jako hranici obdélníků): investor 21. 9. 2026 23:46 SELČ „o15 není okno, ale je to zeď“; v DWG bez šrafy, dvojice čar A2_POH-N v odstupu 200 (y 198 724 až 198 924) a A2_POH v odstupu 560, kóty 300 + 200 + 60 = 560, délka 6275, výšková kóta +4,240 s odkazovou čarou do pásu (terasa vedle +3,340, podlaha 2.NP +3,090); materiál a skladba NEZNÁMÉ, kreslí se vrstva 200 v délce čar 6275 (mezera v seznamu stěn je 6875, tj. o 300 na každé straně víc) od podlahy +3,090 do +4,240, sousední S25/S26 začínají na +2,920 (`zdivo/steny/o15.json`, E54)",
    "jistota": "odvození",
    "steny": [
     "2NP-S25",
     "2NP-S26"
    ],
    "vyska": 1320,
-   "barva": "#f04fa0",
+   "barva": "#999999",
    "zdvih": 1
   },
   {
@@ -4944,6 +5128,28 @@
    "zdvih": 1
   },
   {
+   "id": "1NP-VGO08",
+   "kat": "ŽB věnec garáže",
+   "podlazi": "1NP",
+   "material": "ŽB věnec na stávajícím zdivu (nad oknem)",
+   "tl": 300,
+   "delka": 2100,
+   "box": [
+    -857448,
+    203190.0,
+    -855348,
+    203490.0
+   ],
+   "z0": 2650,
+   "z1": 3240,
+   "zdroj": "S0.24 (E79 d), S0.25 (29. 9. 2026, okna): nový ŽB věnec garáže pokračuje nad otvorem 1NP-O08 od 2650 do +3,240; horní hrana stávající zdi +2,650 = DH nového věnce (řez C-C) [odvození]; nový ŽB věnec na stávajícím zdivu garáže: DH +2,650 (řez C-C; nad vraty +2,800, výkres tvaru 1.NP č. 002 i +2,500), HH +3,240 = spodní hrana nadezdívky (E22, E38); kreslí se jednotně +2,650 až +3,240 [odvození]",
+   "jistota": "odvození",
+   "otvor": "1NP-O08",
+   "vyska": 590,
+   "barva": "#8a8a8a",
+   "zdvih": 1
+  },
+  {
    "id": "1NP-EXN06",
    "kat": "stávající zdivo",
    "podlazi": "1NP",
@@ -4981,9 +5187,31 @@
    ],
    "z0": 2650,
    "z1": 3240,
-   "zdroj": "S0.24 (E79 d): nový ŽB věnec garáže pokračuje nad dveřmi 1NP-D06 od 2650 do +3,240; horní hrana stávající zdi +2,650 = DH nového věnce (řez C-C) [odvození]; nový ŽB věnec na stávajícím zdivu garáže: DH +2,650 (řez C-C; nad vraty +2,800, výkres tvaru 1.NP č. 002 i +2,500), HH +3,240 = spodní hrana nadezdívky (E22, E38); kreslí se jednotně +2,650 až +3,240 [odvození]",
+   "zdroj": "S0.24 (E79 d), S0.25 (29. 9. 2026, okna): nový ŽB věnec garáže pokračuje nad otvorem 1NP-D06 od 2650 do +3,240; horní hrana stávající zdi +2,650 = DH nového věnce (řez C-C) [odvození]; nový ŽB věnec na stávajícím zdivu garáže: DH +2,650 (řez C-C; nad vraty +2,800, výkres tvaru 1.NP č. 002 i +2,500), HH +3,240 = spodní hrana nadezdívky (E22, E38); kreslí se jednotně +2,650 až +3,240 [odvození]",
    "jistota": "odvození",
    "otvor": "1NP-D06",
+   "vyska": 590,
+   "barva": "#8a8a8a",
+   "zdvih": 1
+  },
+  {
+   "id": "1NP-VGO09",
+   "kat": "ŽB věnec garáže",
+   "podlazi": "1NP",
+   "material": "ŽB věnec na stávajícím zdivu (nad oknem)",
+   "tl": 300,
+   "delka": 2100,
+   "box": [
+    -853248,
+    203172.0,
+    -851148,
+    203472.0
+   ],
+   "z0": 2650,
+   "z1": 3240,
+   "zdroj": "S0.24 (E79 d), S0.25 (29. 9. 2026, okna): nový ŽB věnec garáže pokračuje nad otvorem 1NP-O09 od 2650 do +3,240; horní hrana stávající zdi +2,650 = DH nového věnce (řez C-C) [odvození]; nový ŽB věnec na stávajícím zdivu garáže: DH +2,650 (řez C-C; nad vraty +2,800, výkres tvaru 1.NP č. 002 i +2,500), HH +3,240 = spodní hrana nadezdívky (E22, E38); kreslí se jednotně +2,650 až +3,240 [odvození]",
+   "jistota": "odvození",
+   "otvor": "1NP-O09",
    "vyska": 590,
    "barva": "#8a8a8a",
    "zdvih": 1
@@ -5003,7 +5231,7 @@
    ],
    "z0": 2800,
    "z1": 3240,
-   "zdroj": "S0.24 (E79 d): nový ŽB věnec garáže pokračuje nad dveřmi 1NP-D07 od 2800 do +3,240; řez C-C v DWG: nad vraty DH věnce +2,800 (`docs/podklad-S1_garaz-vyska-vence-atika.md`, E22); vrata 2800 podle popisky (R-46); nový ŽB věnec na stávajícím zdivu garáže: DH +2,650 (řez C-C; nad vraty +2,800, výkres tvaru 1.NP č. 002 i +2,500), HH +3,240 = spodní hrana nadezdívky (E22, E38); kreslí se jednotně +2,650 až +3,240 [odvození]",
+   "zdroj": "S0.24 (E79 d), S0.25 (29. 9. 2026, okna): nový ŽB věnec garáže pokračuje nad otvorem 1NP-D07 od 2800 do +3,240; řez C-C v DWG: nad vraty DH věnce +2,800 (`docs/podklad-S1_garaz-vyska-vence-atika.md`, E22); vrata 2800 podle popisky (R-46); nový ŽB věnec na stávajícím zdivu garáže: DH +2,650 (řez C-C; nad vraty +2,800, výkres tvaru 1.NP č. 002 i +2,500), HH +3,240 = spodní hrana nadezdívky (E22, E38); kreslí se jednotně +2,650 až +3,240 [odvození]",
    "jistota": "odvození",
    "otvor": "1NP-D07",
    "vyska": 440,
@@ -42746,8 +42974,8 @@
    "z1": 400,
    "tl": 300,
    "delka": 2780,
-   "material": "lehací zídka zděná (materiál rozhodne investor; VAPIS 200 nebo 300, E84)",
-   "zdroj": "půdorys 1.NP: čára A2_SCHODY x −830 171 (300 mm od vnitřního líce S06) od schodu (y 208 684) po severní zeď (y 211 464), popiska „v. 400 mm“; výška 400 = parapet portálu (400); tloušťka 300 podle DWG [odvození], investor 28. 9. 2026: „spíš ze dvou stovek to vychází“, „to je asi úplně jedno“; materiál rozhodne investor (E84, otázka projektantce 24)",
+   "material": "lehací zídka zděná, tl. 300 podle DWG (z jakých cihel se vyzdí, rozhodne investor s projektantkou, E84)",
+   "zdroj": "půdorys 1.NP: čára A2_SCHODY x −830 171 (300 mm od vnitřního líce S06) od schodu (y 208 684) po severní zeď (y 211 464), popiska „v. 400 mm“; výška 400 = parapet portálu (400); tloušťka 300 podle DWG. investor 29. 9. 2026 (S0.25, textové zadání): „Ta lehací zítka [= zídka], tak rozměr vezmeme z DWG nebo z PDF, ne z toho, co jsem říkal. Já jsem spíš zmínil z jakých cihl [= cihel] je to stavěno, jestli to je dvoustovka cihla a tak dále. Protože jestli ta zidka je 400, tak se to dá ze dvoustovek Cihel přece udělat“ (rozměry z výkresu, zmínka o 200 byla o typu cihly, ne o tloušťce); materiál a typ cihly otevřené (E84, otázka projektantce 24)",
    "jistota": "odvození",
    "kat": "zídka (pracovní)",
    "vyska": 400,
@@ -42782,7 +43010,7 @@
    "id": "1NP-PR01",
    "kat": "ŽB průvlak (pracovní)",
    "podlazi": "1NP",
-   "material": "ŽB průvlak (pracovní; nad dveřmi, průchodem nebo mezerou v nosném zdivu)",
+   "material": "ŽB průvlak (průřez a výšky z řezů statiky; nad dveřmi, průchodem nebo mezerou v nosném zdivu)",
    "tl": 240,
    "delka": 2200,
    "box": [
@@ -42793,8 +43021,8 @@
    ],
    "z0": 2400,
    "z1": 2700,
-   "zdroj": "PRACOVNÍ (S0.23, E72): železobeton nad 1NP-D01 od 2400 do DH desky 2700; délka jen přes otvor (uložení do zdiva nekótované, E70 b); 1NP-D01: výkres tvaru 1.NP: otvor vstupu „2510;DH=-0.110“ (od −0,110 do +2,400) v S08; DH železobetonu nad ním výkres tvaru zvlášť nekótuje, bere se +2,400 jako u sousedního portálu D02 [odvození]; investor 27. 9. 2026 21:07:38 SELČ (S0.20): „ověř si, že ti nechybí žádný průvlak, případně se doptáme statika ... a můžeš mu je očíslovat“",
-   "jistota": "odvození",
+   "zdroj": "S0.25 (29. 9. 2026, subagent Opus, `docs/revize/2026-09-29/S0.25_pruvlaky-vysky-opus.md`): výkres výztuže desky nad 1.NP č. 007, ŘEZ I-I M 1:25 (řezová čára DWG y 205 157): 240 × 300, úrovně „+2,400“ a „+2,700“; výkres tvaru 1.NP ŘEZ B-B (y 204 459) totéž; dřív: PRACOVNÍ (S0.23, E72): železobeton nad 1NP-D01 od 2400 do DH desky 2700; délka jen přes otvor (uložení do zdiva nekótované, E70 b); 1NP-D01: výkres tvaru 1.NP: otvor vstupu „2510;DH=-0.110“ (od −0,110 do +2,400) v S08; DH železobetonu nad ním výkres tvaru zvlášť nekótuje, bere se +2,400 jako u sousedního portálu D02 [odvození]; investor 27. 9. 2026 21:07:38 SELČ (S0.20): „ověř si, že ti nechybí žádný průvlak, případně se doptáme statika ... a můžeš mu je očíslovat“",
+   "jistota": "z výkresu",
    "steny": [
     "1NP-D01"
    ],
@@ -42806,7 +43034,7 @@
    "id": "1NP-PR02",
    "kat": "ŽB průvlak (pracovní)",
    "podlazi": "1NP",
-   "material": "ŽB průvlak (pracovní; nad dveřmi, průchodem nebo mezerou v nosném zdivu)",
+   "material": "ŽB průvlak (průřez a výšky z řezů statiky; nad dveřmi, průchodem nebo mezerou v nosném zdivu)",
    "tl": 300,
    "delka": 1630,
    "box": [
@@ -42815,15 +43043,15 @@
     -844096.0,
     200594
    ],
-   "z0": 2500,
+   "z0": 2565,
    "z1": 2700,
-   "zdroj": "PRACOVNÍ (S0.23, E72): železobeton nad 1NP-mezera-S14+S17 od 2500 do DH desky 2700; délka jen přes otvor (uložení do zdiva nekótované, E70 b); 1NP-mezera-S14+S17: řez A-A v DWG u x −844 396: železobeton od +2,500 do +2,920 (E71 e); výkres tvaru 1.NP má vedle popisku „135;DH=2.565“ (E71 f, otázka statikovi 13): 135 mm mezi +2,565 a deskou +2,700; do potvrzení statikem se kreslí od +2,500; investor 27. 9. 2026 21:07:38 SELČ (S0.20): „ověř si, že ti nechybí žádný průvlak, případně se doptáme statika ... a můžeš mu je očíslovat“",
-   "jistota": "odvození",
+   "zdroj": "S0.25 (29. 9. 2026, subagent Opus, `docs/revize/2026-09-29/S0.25_pruvlaky-vysky-opus.md`): výkres tvaru 1.NP popiska „135;DH=2.565“ u kóty „1625“ (DWG −844 861, 199 455); výkres výztuže č. 007 ŘEZ J-J M 1:25 (y 199 738): 300 × 135, úrovně +2,565 a +2,700 (ZMĚNA z +2,500; E71 e, f uzavřeny); dřív: PRACOVNÍ (S0.23, E72): železobeton nad 1NP-mezera-S14+S17 od 2565 do DH desky 2700; délka jen přes otvor (uložení do zdiva nekótované, E70 b); 1NP-mezera-S14+S17: S0.25 (29. 9. 2026, `docs/revize/2026-09-29/S0.25_pruvlaky-vysky-opus.md`): výkres tvaru 1.NP popiska „135;DH=2.565“ u kóty „1625“ (DWG −844 861, 199 455) a výkres výztuže desky nad 1.NP č. 007 ŘEZ J-J M 1:25 (řezová čára y 199 738): průřez 300 × 135 od +2,565 do +2,700, deska nad ním do +2,920; řez A-A architektury (ŽB od +2,500) je překonaný, E71 e a f uzavřeny ve prospěch statiky. Dřív: řez A-A v DWG u x −844 396: železobeton od +2,500 do +2,920 (E71 e); výkres tvaru 1.NP má vedle popisku „135;DH=2.565“ (E71 f, otázka statikovi 13): 135 mm mezi +2,565 a deskou +2,700; do potvrzení statikem se kreslí od +2,500; investor 27. 9. 2026 21:07:38 SELČ (S0.20): „ověř si, že ti nechybí žádný průvlak, případně se doptáme statika ... a můžeš mu je očíslovat“",
+   "jistota": "z výkresu",
    "steny": [
     "1NP-mezera-S14+S17"
    ],
    "zdvih": 1,
-   "vyska": 200,
+   "vyska": 135,
    "barva": "#4a4a4a"
   },
   {
@@ -42865,8 +43093,8 @@
    ],
    "z0": 2400,
    "z1": 2700,
-   "zdroj": "PRACOVNÍ (S0.23, E72): železobeton nad 1NP-D04 od 2400 do DH desky 2700; délka jen přes otvor (uložení do zdiva nekótované, E70 b); 1NP-D04: výkres tvaru 1.NP: dveře „2380;HH=2.020“ (od −0,360 do +2,020); v datech a modelu je hlava dveří +1,970 (popiska křídla 800/1970), statika +2,020 (E71 d, rozdíl 50 mm do potvrzení projektantkou, otázka 22); nad dveřmi překlad od hlavy do +2,400 (prvek „překlad“, typ neznámý, E57) a věnec od +2,400 (V10, V17 zdivo pod deskou vedle); investor 27. 9. 2026 21:07:38 SELČ (S0.20): „ověř si, že ti nechybí žádný průvlak, případně se doptáme statika ... a můžeš mu je očíslovat“",
-   "jistota": "pracovní",
+   "zdroj": "S0.25 (29. 9. 2026, subagent Opus, `docs/revize/2026-09-29/S0.25_pruvlaky-vysky-opus.md`): žádný řez statiky tudy nevede (10 řezů výztuže A-A až J-J a 5 řezů tvaru A-A až E-E prověřeno); věnec téže stěny 1NP-S14 je 300 × 300 od +2,400 do +2,700 v řezech A-A a B-B výkresu tvaru 1.NP; otázka statikovi 23; dřív: PRACOVNÍ (S0.23, E72): železobeton nad 1NP-D04 od 2400 do DH desky 2700; délka jen přes otvor (uložení do zdiva nekótované, E70 b); 1NP-D04: výkres tvaru 1.NP: dveře „2380;HH=2.020“ (od −0,360 do +2,020); v datech a modelu je hlava dveří +1,970 (popiska křídla 800/1970), statika +2,020 (E71 d, rozdíl 50 mm do potvrzení projektantkou, otázka 22); nad dveřmi překlad od hlavy do +2,400 (prvek „překlad“, typ neznámý, E57) a věnec od +2,400 (V10, V17 zdivo pod deskou vedle); investor 27. 9. 2026 21:07:38 SELČ (S0.20): „ověř si, že ti nechybí žádný průvlak, případně se doptáme statika ... a můžeš mu je očíslovat“",
+   "jistota": "odvození",
    "steny": [
     "1NP-D04"
    ],
@@ -42902,7 +43130,7 @@
    "id": "1NP-PR04",
    "kat": "ŽB průvlak (pracovní)",
    "podlazi": "1NP",
-   "material": "ŽB průvlak (pracovní; nad dveřmi, průchodem nebo mezerou v nosném zdivu)",
+   "material": "ŽB průvlak (průřez a výšky z řezů statiky; nad dveřmi, průchodem nebo mezerou v nosném zdivu)",
    "tl": 300,
    "delka": 2200,
    "box": [
@@ -42913,8 +43141,8 @@
    ],
    "z0": 2400,
    "z1": 2700,
-   "zdroj": "PRACOVNÍ (S0.23, E72): železobeton nad 1NP-D02 od 2400 do DH desky 2700; délka jen přes otvor (uložení do zdiva nekótované, E70 b); 1NP-D02: výkres tvaru 1.NP: popiska „DH +2,400“ u otvoru 2200 mezi S09 a S07 (portál 101/102), statika otvor „2510;DH=-0.110“ (od −0,110 do +2,400); investor 27. 9. 2026 21:07:38 SELČ (S0.20): „ověř si, že ti nechybí žádný průvlak, případně se doptáme statika ... a můžeš mu je očíslovat“",
-   "jistota": "pracovní",
+   "zdroj": "S0.25 (29. 9. 2026, subagent Opus, `docs/revize/2026-09-29/S0.25_pruvlaky-vysky-opus.md`): výkres tvaru 1.NP ŘEZ B-B (řezová čára DWG y 204 459): 300 × 300 na x −844 395 až −844 095, úrovně „+2,920“, „+2,700“, „+2,400“; dřív: PRACOVNÍ (S0.23, E72): železobeton nad 1NP-D02 od 2400 do DH desky 2700; délka jen přes otvor (uložení do zdiva nekótované, E70 b); 1NP-D02: výkres tvaru 1.NP: popiska „DH +2,400“ u otvoru 2200 mezi S09 a S07 (portál 101/102), statika otvor „2510;DH=-0.110“ (od −0,110 do +2,400); investor 27. 9. 2026 21:07:38 SELČ (S0.20): „ověř si, že ti nechybí žádný průvlak, případně se doptáme statika ... a můžeš mu je očíslovat“",
+   "jistota": "z výkresu",
    "steny": [
     "1NP-D02"
    ],
@@ -42950,19 +43178,19 @@
    "id": "1NP-PR05",
    "kat": "ŽB průvlak (pracovní)",
    "podlazi": "1NP",
-   "material": "ŽB průvlak (pracovní; nad dveřmi, průchodem nebo mezerou v nosném zdivu)",
-   "tl": 330,
+   "material": "ŽB průvlak (průřez a výšky z řezů statiky; nad dveřmi, průchodem nebo mezerou v nosném zdivu)",
+   "tl": 300,
    "delka": 4300,
    "box": [
-    -837071,
+    -837056,
     201314,
-    -836741.0,
+    -836756,
     205614
    ],
    "z0": 2400,
    "z1": 2700,
-   "zdroj": "PRACOVNÍ (S0.23, E72): železobeton nad 1NP-mezera-S15+S05, 1NP-D05 od 2400 do DH desky 2700; délka jen přes otvor (uložení do zdiva nekótované, E70 b); 1NP-mezera-S15+S05: výkres tvaru 1.NP: týž pás „DH +2,400“ C02 až S15 přes příčky VPC 75 S10/S11; 1NP-D05: výkres tvaru 1.NP: popiska „DH +2,400“ u pásu C02 až S15 (kóta 4300 = dveře 2150 + příčky 2150); investor 27. 9. 2026 21:07:38 SELČ (S0.20): „ověř si, že ti nechybí žádný průvlak, případně se doptáme statika ... a můžeš mu je očíslovat“",
-   "jistota": "pracovní",
+   "zdroj": "S0.25 (29. 9. 2026, subagent Opus, `docs/revize/2026-09-29/S0.25_pruvlaky-vysky-opus.md`): výkres výztuže č. 007 ŘEZ F-F M 1:25 (y 201 512): 298 × 300 na x −837 067 až −836 769, výztuž 5Ø16 horní a 3Ø16 dolní, třmínky TrØ10/100; výkres tvaru ŘEZ B-B totéž; šířka 300 (model měl 330 z tloušťky pásu zdí; otázka statikovi 25) [tl 330 → 300]; dřív: PRACOVNÍ (S0.23, E72): železobeton nad 1NP-mezera-S15+S05, 1NP-D05 od 2400 do DH desky 2700; délka jen přes otvor (uložení do zdiva nekótované, E70 b); 1NP-mezera-S15+S05: výkres tvaru 1.NP: týž pás „DH +2,400“ C02 až S15 přes příčky VPC 75 S10/S11; 1NP-D05: výkres tvaru 1.NP: popiska „DH +2,400“ u pásu C02 až S15 (kóta 4300 = dveře 2150 + příčky 2150); investor 27. 9. 2026 21:07:38 SELČ (S0.20): „ověř si, že ti nechybí žádný průvlak, případně se doptáme statika ... a můžeš mu je očíslovat“",
+   "jistota": "z výkresu",
    "steny": [
     "1NP-mezera-S15+S05",
     "1NP-D05"
@@ -43135,7 +43363,7 @@
    "id": "1NP-PR06",
    "kat": "ŽB průvlak (pracovní)",
    "podlazi": "1NP",
-   "material": "ŽB průvlak (pracovní; nad dveřmi, průchodem nebo mezerou v nosném zdivu)",
+   "material": "ŽB průvlak (průřez a výšky z řezů statiky; nad dveřmi, průchodem nebo mezerou v nosném zdivu)",
    "tl": 240,
    "delka": 2100,
    "box": [
@@ -43146,8 +43374,8 @@
    ],
    "z0": 2400,
    "z1": 2700,
-   "zdroj": "PRACOVNÍ (S0.23, E72): železobeton nad 1NP-D03 od 2400 do DH desky 2700; délka jen přes otvor (uložení do zdiva nekótované, E70 b); 1NP-D03: půdorys: dveře 2100 x 2400 (0), horní hrana +2,400 = spodní hrana věnce 1.NP; výkres tvaru 1.NP DH u tohoto otvoru nekótuje [odvození]; investor 27. 9. 2026 21:07:38 SELČ (S0.20): „ověř si, že ti nechybí žádný průvlak, případně se doptáme statika ... a můžeš mu je očíslovat“",
-   "jistota": "odvození",
+   "zdroj": "S0.25 (29. 9. 2026, subagent Opus, `docs/revize/2026-09-29/S0.25_pruvlaky-vysky-opus.md`): výkres výztuže č. 007 ŘEZ H-H M 1:25 (řezová čára DWG x −849 412): 241 × 300, úrovně „+2,920“, „+2,700“, „+2,400“; výkres tvaru ŘEZ D-D totéž 240 × 300; dřív: PRACOVNÍ (S0.23, E72): železobeton nad 1NP-D03 od 2400 do DH desky 2700; délka jen přes otvor (uložení do zdiva nekótované, E70 b); 1NP-D03: půdorys: dveře 2100 x 2400 (0), horní hrana +2,400 = spodní hrana věnce 1.NP; výkres tvaru 1.NP DH u tohoto otvoru nekótuje [odvození]; investor 27. 9. 2026 21:07:38 SELČ (S0.20): „ověř si, že ti nechybí žádný průvlak, případně se doptáme statika ... a můžeš mu je očíslovat“",
+   "jistota": "z výkresu",
    "steny": [
     "1NP-D03"
    ],
@@ -43423,7 +43651,7 @@
    ],
    "z0": 5740,
    "z1": 5940,
-   "zdroj": "PRACOVNÍ (S0.23, E72): železobeton nad 2NP-D01 od 5740 do DH desky 5940; délka jen přes otvor (uložení do zdiva nekótované, E70 b); 2NP-D01: výkres tvaru 2.NP: nad dveřmi nosných příček (2190;HH=5.110) zdivo pod deskou vedle otvoru, nad otvorem nic; překlad +5,110 až +5,740 neznámý (E57), věnec od +5,740; investor 27. 9. 2026 21:07:38 SELČ (S0.20): „ověř si, že ti nechybí žádný průvlak, případně se doptáme statika ... a můžeš mu je očíslovat“",
+   "zdroj": "S0.25 (29. 9. 2026, subagent Opus, `docs/revize/2026-09-29/S0.25_pruvlaky-vysky-opus.md`): NENALEZENO, doloženo: žádný z 12 řezů a-a až l-l výkresu výztuže desky nad 2.NP č. 009 ani ze 4 řezů A-A až D-D výkresu tvaru 2.NP tudy nevede, výkres tvaru nad otvorem „2190;HH=5.110“ nic nekreslí, TZ statiky o průvlacích v domě mlčí (E57, otázka statikovi 21); dřív: PRACOVNÍ (S0.23, E72): železobeton nad 2NP-D01 od 5740 do DH desky 5940; délka jen přes otvor (uložení do zdiva nekótované, E70 b); 2NP-D01: výkres tvaru 2.NP: nad dveřmi nosných příček (2190;HH=5.110) zdivo pod deskou vedle otvoru, nad otvorem nic; překlad +5,110 až +5,740 neznámý (E57), věnec od +5,740; investor 27. 9. 2026 21:07:38 SELČ (S0.20): „ověř si, že ti nechybí žádný průvlak, případně se doptáme statika ... a můžeš mu je očíslovat“",
    "jistota": "neznámá",
    "steny": [
     "2NP-D01"
@@ -43471,7 +43699,7 @@
    ],
    "z0": 5740,
    "z1": 5940,
-   "zdroj": "PRACOVNÍ (S0.23, E72): železobeton nad 2NP-D02 od 5740 do DH desky 5940; délka jen přes otvor (uložení do zdiva nekótované, E70 b); 2NP-D02: jako 2NP-D01 (E57); investor 27. 9. 2026 21:07:38 SELČ (S0.20): „ověř si, že ti nechybí žádný průvlak, případně se doptáme statika ... a můžeš mu je očíslovat“",
+   "zdroj": "S0.25 (29. 9. 2026, subagent Opus, `docs/revize/2026-09-29/S0.25_pruvlaky-vysky-opus.md`): NENALEZENO, jako 2NP-PR01; dřív: PRACOVNÍ (S0.23, E72): železobeton nad 2NP-D02 od 5740 do DH desky 5940; délka jen přes otvor (uložení do zdiva nekótované, E70 b); 2NP-D02: jako 2NP-D01 (E57); investor 27. 9. 2026 21:07:38 SELČ (S0.20): „ověř si, že ti nechybí žádný průvlak, případně se doptáme statika ... a můžeš mu je očíslovat“",
    "jistota": "neznámá",
    "steny": [
     "2NP-D02"
@@ -43543,7 +43771,7 @@
    ],
    "z0": 5740,
    "z1": 5940,
-   "zdroj": "PRACOVNÍ (S0.23, E72): železobeton nad 2NP-D03 od 5740 do DH desky 5940; délka jen přes otvor (uložení do zdiva nekótované, E70 b); 2NP-D03: jako 2NP-D01 (E57); investor 27. 9. 2026 21:07:38 SELČ (S0.20): „ověř si, že ti nechybí žádný průvlak, případně se doptáme statika ... a můžeš mu je očíslovat“",
+   "zdroj": "S0.25 (29. 9. 2026, subagent Opus, `docs/revize/2026-09-29/S0.25_pruvlaky-vysky-opus.md`): NENALEZENO, jako 2NP-PR01; dřív: PRACOVNÍ (S0.23, E72): železobeton nad 2NP-D03 od 5740 do DH desky 5940; délka jen přes otvor (uložení do zdiva nekótované, E70 b); 2NP-D03: jako 2NP-D01 (E57); investor 27. 9. 2026 21:07:38 SELČ (S0.20): „ověř si, že ti nechybí žádný průvlak, případně se doptáme statika ... a můžeš mu je očíslovat“",
    "jistota": "neznámá",
    "steny": [
     "2NP-D03"
@@ -43658,7 +43886,7 @@
    "id": "1NP-PR07",
    "kat": "ŽB průvlak (pracovní)",
    "podlazi": "1NP",
-   "material": "ŽB průvlak (pracovní; nad dveřmi ve stávající zdi garáže, výkres tvaru 1.NP DH +2,500 / HH +2,700)",
+   "material": "ŽB průvlak (průřez a výšky z řezů statiky; nad dveřmi ve stávající zdi garáže, výkres tvaru 1.NP DH +2,500 / HH +2,700)",
    "tl": 300,
    "delka": 3000,
    "box": [
@@ -43669,8 +43897,8 @@
    ],
    "z0": 2500,
    "z1": 2920,
-   "zdroj": "PRACOVNÍ (S0.24, E79 d): železobeton nad 1NP-D08 od 2500 do +2,920 jako nad sousední stávající zdí EX05/EX08 (řez A-A v DWG: ŽB +2,500 až +2,920 nad dělicí stěnou, VAPIS 300 od +2,920; výkres tvaru 1.NP „DH +2,500“, „HH +2,700“ u stěny garáž/103 při dilataci, rozpor HH 2,700 vs 2,920 = E71 a, otázka statikovi); délka jen přes otvor (uložení nekótované, E70 b); výkres tvaru 1.NP: „DH +2,500“ a „HH +2,700“ u stěny garáž/103 u dilatace; řez A-A v DWG: ŽB +2,500 až +2,920 nad dělicí stěnou (E71 a); leží ve vrstvě stávající zdi EX08/EX05, na straně 103 je při dilataci sloup SL01 (C03) a deska DS01 od x −850 266",
-   "jistota": "pracovní",
+   "zdroj": "S0.25 (29. 9. 2026, subagent Opus, `docs/revize/2026-09-29/S0.25_pruvlaky-vysky-opus.md`): výkres výztuže č. 007 ŘEZ F-F M 1:25: obdélník 298 × 419 na x −850 584 až −850 286, spodní hrana se značkou podpory a popiskou „+2,500“, horní hrana v úrovni horního líce desky +2,920, bez výztuže (kreslený jako podpora); výkres tvaru ŘEZ A-A totéž; E71 a uzavřeno (DH +2,500 a HH +2,700 jsou dva prvky přes dilataci: PR07 a PR08); dřív: PRACOVNÍ (S0.24, E79 d): železobeton nad 1NP-D08 od 2500 do +2,920 jako nad sousední stávající zdí EX05/EX08 (řez A-A v DWG: ŽB +2,500 až +2,920 nad dělicí stěnou, VAPIS 300 od +2,920; výkres tvaru 1.NP „DH +2,500“, „HH +2,700“ u stěny garáž/103 při dilataci, rozpor HH 2,700 vs 2,920 = E71 a, otázka statikovi); délka jen přes otvor (uložení nekótované, E70 b); výkres tvaru 1.NP: „DH +2,500“ a „HH +2,700“ u stěny garáž/103 u dilatace; řez A-A v DWG: ŽB +2,500 až +2,920 nad dělicí stěnou (E71 a); leží ve vrstvě stávající zdi EX08/EX05, na straně 103 je při dilataci sloup SL01 (C03) a deska DS01 od x −850 266",
+   "jistota": "z výkresu",
    "steny": [
     "1NP-D08"
    ],
@@ -43693,8 +43921,8 @@
    ],
    "z0": 2500,
    "z1": 2700,
-   "zdroj": "půdorys 1.NP (D11-01): dvě čerchované čáry A2_POH-H x −850 255 a −850 015 (kóta „240“), y 198 964 až 203 074; výkres tvaru 1.NP: dvě silné čáry bez šrafy, kóty „240“, „4110“, „HH +2,700“, vedle „DILATACE 30 mm“; jde od jižní obvodové zdi S17 k severní zdi u sloupu SL05 přes celou hloubku domu; DH nekótovaná, kreslí se +2,500 [odvození z popisky „DH +2,500“ u sousedního prvku nad D08]; materiál z legendy neurčen (bez šrafy); E83, `docs/revize/2026-09-28/S0.24_E83_pruvlaky-opus.md` (S0.24, subagent Opus); otázka statikovi 18 a)",
-   "jistota": "neznámá",
+   "zdroj": "S0.25 (29. 9. 2026, subagent Opus, `docs/revize/2026-09-29/S0.25_pruvlaky-vysky-opus.md`): výkres výztuže č. 007 ŘEZ F-F M 1:25: nosník 239 × 200 na x −850 254 až −850 015 za dilatací 32 mm, spodní hrana +2,500, nad ním deska 220 do +2,920; výztuž 4Ø12 horní, 2×2Ø16 dolní, třmínky TrØ10/200 (skutečný průvlak); výkres tvaru ŘEZ A-A a půdorysné kóty „240“, „4110“, „HH +2,700“; dřív: půdorys 1.NP (D11-01): dvě čerchované čáry A2_POH-H x −850 255 a −850 015 (kóta „240“), y 198 964 až 203 074; výkres tvaru 1.NP: dvě silné čáry bez šrafy, kóty „240“, „4110“, „HH +2,700“, vedle „DILATACE 30 mm“; jde od jižní obvodové zdi S17 k severní zdi u sloupu SL05 přes celou hloubku domu; DH nekótovaná, kreslí se +2,500 [odvození z popisky „DH +2,500“ u sousedního prvku nad D08]; materiál z legendy neurčen (bez šrafy); E83, `docs/revize/2026-09-28/S0.24_E83_pruvlaky-opus.md` (S0.24, subagent Opus); otázka statikovi 18 a)",
+   "jistota": "z výkresu",
    "steny": [
     "1NP-S17",
     "1NP-SL05"
@@ -43716,16 +43944,16 @@
     -837071,
     201734
    ],
-   "z0": 2400,
+   "z0": 2500,
    "z1": 2700,
-   "zdroj": "půdorys 1.NP (D11-01): čerchované čáry y 201 434 a 201 734 od líce S14 (x −844 096) po S15 (x −837 071); výkres tvaru 1.NP kreslí týž pás silnými čarami na y 201 534 a 201 834 (posun 100 mm, rozpor); bez šrafy, bez popisky, výšky NEZNÁMÉ, kreslí se +2,400 až +2,700 jako věnec 1.NP [odvození]; E83, `docs/revize/2026-09-28/S0.24_E83_pruvlaky-opus.md` (S0.24, subagent Opus); otázka statikovi 18 c)",
-   "jistota": "neznámá",
+   "zdroj": "S0.25 (29. 9. 2026, subagent Opus, `docs/revize/2026-09-29/S0.25_pruvlaky-vysky-opus.md`): výkres výztuže č. 007 ŘEZ G-G M 1:25 (řezová čára DWG x −842 681): žebro 298 × 199 pod lícem desky, úrovně „+2,920“, „+2,700“, „+2,500“, horní výztuž 3Ø16; výkres tvaru 1.NP ŘEZ E-E (x −842 643) totéž 300 × 200 od +2,500 do +2,700 (ZMĚNA z +2,400); poloha y: statika 201 534 až 201 834, architektura o 100 mm jinam (otázka statikovi 24) [výšky 2400..2700 → 2500..2700]; dřív: půdorys 1.NP (D11-01): čerchované čáry y 201 434 a 201 734 od líce S14 (x −844 096) po S15 (x −837 071); výkres tvaru 1.NP kreslí týž pás silnými čarami na y 201 534 a 201 834 (posun 100 mm, rozpor); bez šrafy, bez popisky, výšky NEZNÁMÉ, kreslí se +2,400 až +2,700 jako věnec 1.NP [odvození]; E83, `docs/revize/2026-09-28/S0.24_E83_pruvlaky-opus.md` (S0.24, subagent Opus); otázka statikovi 18 c)",
+   "jistota": "z výkresu",
    "steny": [
     "1NP-S14",
     "1NP-S15"
    ],
    "zdvih": 1,
-   "vyska": 300,
+   "vyska": 200,
    "barva": "#4a4a4a"
   },
   {
@@ -43742,14 +43970,14 @@
     202704
    ],
    "z0": 5490,
-   "z1": 5740,
-   "zdroj": "výkres tvaru 2.NP: popiska „PRŮVLAK DH +5,490“ s odkazem do pásu S16 a kóty „461, 3500, 490“; půdorys 2.NP: obrys A2_POH-HN 300 × 3500 (y 199 204 až 202 704) a popiska „připravený ŽB překlad +5,490“ (E70 b, E42); řez A-A v DWG: v tomto pásu tři kusy 75 na vrstvě zdiva + izolace +5,490 až +5,740 (S0.19); STĚNA 2NP-S16 SE V TOMTO PÁSU NEZDÍ, v modelu zůstává celá do potvrzení investorem (překryv s S16 se hlásí, rozdělení stěny při přečíslování E36); šířka 200 nebo 300 (kóty u jižního konce „300, 45, 240“, uprostřed „200, 200“, rozpor); E83, `docs/revize/2026-09-28/S0.24_E83_pruvlaky-opus.md` (S0.24, subagent Opus); otázka statikovi 18 b) a projektantce 10",
-   "jistota": "pracovní",
+   "z1": 5940,
+   "zdroj": "S0.25 (29. 9. 2026, subagent Opus, `docs/revize/2026-09-29/S0.25_pruvlaky-vysky-opus.md`): výkres výztuže stropní desky nad 2.NP č. 009, ŘEZ g-g (řezová čára DWG 2.NP y 201 303): žebro 301 široké od popisky „+5,490“ k líci desky „+5,940“, tedy 300 × 450 (ZMĚNA z +5,740; v tomto pásu nahrazuje i pracovní věnec 2NP-VP01, překryv se hlásí); výkres tvaru 2.NP „PRŮVLAK DH +5,490“ [výšky 5490..5740 → 5490..5940]; dřív: výkres tvaru 2.NP: popiska „PRŮVLAK DH +5,490“ s odkazem do pásu S16 a kóty „461, 3500, 490“; půdorys 2.NP: obrys A2_POH-HN 300 × 3500 (y 199 204 až 202 704) a popiska „připravený ŽB překlad +5,490“ (E70 b, E42); řez A-A v DWG: v tomto pásu tři kusy 75 na vrstvě zdiva + izolace +5,490 až +5,740 (S0.19); nad +5,490 je v tomto pásu překlad místo poslední řady zdiva; zda se zdivo POD +5,490 v pásu vyzdí (připravený překlad, otvor se vybourá později) nebo zůstane volné, žádný výkres neříká (S0.25); v modelu stěna zůstává celá (překryv s S16 se hlásí, rozdělení stěny při přečíslování E36); šířka 200 nebo 300 (kóty u jižního konce „300, 45, 240“, uprostřed „200, 200“, rozpor); E83, `docs/revize/2026-09-28/S0.24_E83_pruvlaky-opus.md` (S0.24, subagent Opus); otázka statikovi 18 b) a projektantce 10",
+   "jistota": "z výkresu",
    "steny": [
     "2NP-S16"
    ],
    "zdvih": 2,
-   "vyska": 250,
+   "vyska": 450,
    "barva": "#4a4a4a"
   },
   {
@@ -43767,8 +43995,8 @@
    ],
    "z0": 5740,
    "z1": 5940,
-   "zdroj": "půdorys 2.NP (D11-02): jediná čerchovaná čára A2_POH-H v podlaží x −849 981, y 198 964 až 203 119 (4150); výkres tvaru 2.NP: „PRŮVLAK DH +5,740“ za „DILATACE 30 mm“, kóta „4150“; šířka 200 nebo 240 (kóty „300, 45, 240“ u jižního konce vs „200, 200“ uprostřed, rozpor; pás 240 nesedí svisle nad průvlakem 240 v 1.NP, posun 34 mm); kreslí se 240 od dilatace, +5,740 až +5,940 = DH desky nad 2.NP [odvození]; E83, `docs/revize/2026-09-28/S0.24_E83_pruvlaky-opus.md` (S0.24, subagent Opus); otázka statikovi 18 b)",
-   "jistota": "neznámá",
+   "zdroj": "S0.25 (29. 9. 2026, subagent Opus, `docs/revize/2026-09-29/S0.25_pruvlaky-vysky-opus.md`): výkres výztuže č. 009 ŘEZ g-g: prvek 241 × 200 od +5,740 k líci desky +5,940 východně od dilatace (240 = průvlak pod deskou, 200 = atika nad deskou +6,160 až +6,410, E83 bod 4 uzavřen), výztuž 2Ø14 + 2Ø14, třmínky TrØ10/200; výkres tvaru 2.NP „PRŮVLAK DH +5,740“; dřív: půdorys 2.NP (D11-02): jediná čerchovaná čára A2_POH-H v podlaží x −849 981, y 198 964 až 203 119 (4150); výkres tvaru 2.NP: „PRŮVLAK DH +5,740“ za „DILATACE 30 mm“, kóta „4150“; šířka 200 nebo 240 (kóty „300, 45, 240“ u jižního konce vs „200, 200“ uprostřed, rozpor; pás 240 nesedí svisle nad průvlakem 240 v 1.NP, posun 34 mm); kreslí se 240 od dilatace, +5,740 až +5,940 = DH desky nad 2.NP [odvození]; E83, `docs/revize/2026-09-28/S0.24_E83_pruvlaky-opus.md` (S0.24, subagent Opus); otázka statikovi 18 b)",
+   "jistota": "z výkresu",
    "steny": [
     "2NP-S16"
    ],
