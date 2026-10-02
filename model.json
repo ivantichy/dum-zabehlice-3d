@@ -418,15 +418,8 @@
    }
   ],
   "zrusene_mezery": [
-   "1NP-sloup-S01+S02",
-   "1NP-sloup-S02+S03",
-   "1NP-sloup-S03+S04",
    "1NP-mezera-S14+S17",
-   "1NP-sloup-S15+S05",
-   "2NP-O09-překlad",
-   "1NP-SL05",
-   "2NP-SL01",
-   "2NP-SL02"
+   "2NP-O09-překlad"
   ],
   "preklady_vs_ifc": [
    "1NP-D04-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
