@@ -36,8 +36,10 @@
    "2NP-S15",
    "2NP-S16",
    "2NP-S19",
-   "2NP-S24",
-   "2NP-S27"
+   "2NP-S21",
+   "2NP-S25",
+   "2NP-S26",
+   "2NP-S30"
   ],
   "ifc": {
    "soubor": "rdza__3_001.ifc",
@@ -348,8 +350,10 @@
    "1NP-D04-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
    "2NP-D01-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
    "2NP-D02-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
+   "2NP-O05-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
    "2NP-D03-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
-   "2NP-O04-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
+   "2NP-D04-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
+   "2NP-O06-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
    "2NP-O07-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
    "2NP-O08-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
    "2NP-O09-překlad: nad otvorem je ŽB z IFC (2NP-V12), placeholder odebrán",
@@ -426,7 +430,7 @@
    {
     "ifc_id": 6281,
     "ifc": "1NP-IW06-IO2",
-    "nase": "1NP-O07",
+    "nase": "1NP-O05",
     "stav": "spárováno",
     "rozdil": {
      "zacatek": 0,
@@ -474,7 +478,7 @@
    {
     "ifc_id": 4956,
     "ifc": "1NP-IW13-IO1",
-    "nase": "1NP-O09",
+    "nase": "1NP-O07",
     "stav": "spárováno",
     "rozdil": {
      "zacatek": -2,
@@ -500,7 +504,7 @@
    {
     "ifc_id": 4919,
     "ifc": "1NP-IW13-IO3",
-    "nase": "1NP-O08",
+    "nase": "1NP-O06",
     "stav": "spárováno",
     "rozdil": {
      "zacatek": -2,
@@ -539,28 +543,15 @@
    {
     "ifc_id": 6355,
     "ifc": "1NP-IW06-IO4",
-    "nase": "1NP-O02a",
-    "stav": "spárováno",
-    "rozdil": {
-     "zacatek": 0,
-     "konec": 2780,
-     "spodek": 0,
-     "vrch": 0
-    },
-    "text": "ROZDÍL začátek +0, konec +2780, spodek +0, vrch +0 mm (IFC minus naše)"
-   },
-   {
-    "ifc_id": 6355,
-    "ifc": "1NP-IW06-IO4",
     "nase": "1NP-O02",
     "stav": "spárováno",
     "rozdil": {
-     "zacatek": -1090,
+     "zacatek": 0,
      "konec": 0,
      "spodek": 0,
      "vrch": 0
     },
-    "text": "ROZDÍL začátek -1090, konec +0, spodek +0, vrch +0 mm (IFC minus naše)"
+    "text": "shoda do 20 mm"
    },
    {
     "ifc_id": 5976,
@@ -577,7 +568,7 @@
     "nase": "2NP-PK01",
     "stav": "jen v IFC, převzato jako prostup",
     "hostitel": [
-     "2NP-S25"
+     "2NP-S27"
     ]
    },
    {
@@ -683,15 +674,15 @@
    {
     "ifc_id": 17257,
     "ifc": "2NP-IW13-IO2",
-    "nase": "2NP-O04",
+    "nase": "2NP-O06",
     "stav": "spárováno",
     "rozdil": {
      "zacatek": 0,
-     "konec": -2320,
+     "konec": 0,
      "spodek": 0,
      "vrch": 0
     },
-    "text": "ROZDÍL začátek +0, konec -2320, spodek +0, vrch +0 mm (IFC minus naše)"
+    "text": "shoda do 20 mm"
    },
    {
     "ifc_id": 16857,
@@ -709,15 +700,15 @@
    {
     "ifc_id": 17294,
     "ifc": "2NP-IW13-IO3",
-    "nase": "2NP-O04",
+    "nase": "2NP-O05",
     "stav": "spárováno",
     "rozdil": {
-     "zacatek": 1270,
+     "zacatek": 0,
      "konec": 0,
      "spodek": 0,
      "vrch": 0
     },
-    "text": "ROZDÍL začátek +1270, konec +0, spodek +0, vrch +0 mm (IFC minus naše)"
+    "text": "shoda do 20 mm"
    },
    {
     "ifc_id": 16704,
@@ -1157,9 +1148,10 @@
      ]
     },
     "strana_b": {
-     "popis": "2NP-SDK03 (SDK, 50 mm od ostění), 2NP-SDK04 (SDK, 50 mm od ostění) [v ose dveří žádný prvek, ostění tvoří kolmá stěna nebo příčka]",
-     "druh": "SDK",
+     "popis": "2NP-S10 (stěna), 2NP-SDK03 (SDK), 2NP-SDK04 (SDK) [v ose dveří žádný prvek, ostění tvoří kolmá stěna nebo příčka]",
+     "druh": "SDK + zdivo",
      "prvky": [
+      "2NP-S10",
       "2NP-SDK03",
       "2NP-SDK04"
      ]
@@ -1170,6 +1162,29 @@
    },
    {
     "id": "2NP-D04",
+    "podlazi": "2NP",
+    "sirka": 800,
+    "vyska": 1970,
+    "smer": "jih→sever",
+    "stena": "2NP-S10",
+    "strana_a": {
+     "popis": "v datech nic do 400 mm",
+     "druh": "nic",
+     "prvky": []
+    },
+    "strana_b": {
+     "popis": "2NP-S10 (stěna) [kolmo: 2NP-SDKP01 (SDK, 325 mm od ostění)]",
+     "druh": "zdivo",
+     "prvky": [
+      "2NP-S10"
+     ]
+    },
+    "nad": "2NP-D04-překlad (překlad, 5060 až 5740)",
+    "pozn": "2NP-D04-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
+    "verdikt": "NEURČENO (na jedné straně není v datech prvek)"
+   },
+   {
+    "id": "2NP-D05",
     "podlazi": "2NP",
     "sirka": 800,
     "vyska": 1970,
@@ -1194,7 +1209,7 @@
     "verdikt": "SDK oboustranně"
    },
    {
-    "id": "2NP-D05",
+    "id": "2NP-D06",
     "podlazi": "2NP",
     "sirka": 800,
     "vyska": 1970,
@@ -1219,7 +1234,7 @@
     "verdikt": "SDK oboustranně"
    },
    {
-    "id": "2NP-D06",
+    "id": "2NP-D07",
     "podlazi": "2NP",
     "sirka": 900,
     "vyska": 1970,
@@ -1244,7 +1259,7 @@
     "verdikt": "SDK oboustranně"
    },
    {
-    "id": "2NP-D07",
+    "id": "2NP-D08",
     "podlazi": "2NP",
     "sirka": 900,
     "vyska": 1970,
@@ -1269,6 +1284,7 @@
     "verdikt": "SDK oboustranně"
    }
   ],
+  "dilatace": "štěrbiny pod 60 mm na hranici stávající garáže 105 (nebo její nástavby) a domu se hlásí jako DILATACE, ne jako DÍRA: investor R-298 a R-303 (jistota) uvádí mezi garáží a domem dilatační spáru 30 mm",
   "pozn": "ŽB, základy a ocel jsou převzaté z IFC statika (S0.29, 2. 10. 2026), ne odvozené; typ trámu (věnec/průvlak/atika) je heuristika pro popis; výztuž desek z PDF výkresů výztuže; zdivo a otvory z IFC jen kontext; rozpočet ani nabídky nejsou zdroj (E45)",
   "chybi": [
    {
@@ -1291,45 +1307,35 @@
   "nalezy": [
    "OTVOR BEZ ŽB NAD SEBOU 1NP: nad 1NP-mezera-S15+S05 (horní hrana 2400) navazuje ŽB, překlad nebo zdivo jen na 90 % půdorysu otvoru",
    "OTVOR BEZ ŽB NAD SEBOU 1NP: nad 1NP-D05 (horní hrana 2400) navazuje ŽB, překlad nebo zdivo jen na 90 % půdorysu otvoru",
-   "PŘEKRYV 2NP-S06 x 2NP-P04b: 125 x 75 x 650 mm",
-   "PŘEKRYV 2NP-S07 x 2NP-P04b: 75 x 950 x 650 mm",
-   "PŘEKRYV 1NP-P02a x 1NP-PZ01: 90 x 50 x 400 mm",
-   "PŘEKRYV 1NP-P04 x 1NP-PZ03: 240 x 50 x 900 mm",
+   "PŘEKRYV 2NP-S06 x 2NP-P01: 125 x 75 x 650 mm; zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: K OVĚŘENÍ V KROKU 7 (R-309 zrušil rámeček ve zídce, ne zídku samu; jak zídka vychází proti parapetu, rozhodne investor)",
+   "PŘEKRYV 2NP-S07 x 2NP-P01: 75 x 950 x 650 mm; zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: K OVĚŘENÍ V KROKU 7 (R-309 zrušil rámeček ve zídce, ne zídku samu; jak zídka vychází proti parapetu, rozhodne investor)",
+   "PŘEKRYV 2NP-D04-překlad x 2NP-SDK04: 125 x 580 x 680 mm",
+   "PŘEKRYV 1NP-P01 x 1NP-PZ01: 90 x 50 x 400 mm",
+   "PŘEKRYV 1NP-P02 x 1NP-PZ03: 240 x 50 x 900 mm",
    "PŘEKRYV 1NP-SDK11 x 1NP-SDK12: 125 x 125 x 2700 mm",
-   "PŘEKRYV na čáře 2NP: 2NP-O04 a 2NP-S08 se překrývají 2320 mm",
-   "MEZERA 2NP: mezi 2NP-S08 a 2NP-S01 na téže čáře chybí 951 mm bez úseku a otvoru (z toho 1150 mm kryje 2NP-S07, 2NP-S05)",
    "PŮDORYS 1NP-mezera-S15+S05 x 1NP-S10: otvor a stěna se v půdorysu překrývají 45 x 2150 mm (jedno místo popsané dvakrát)",
    "PŮDORYS 1NP-mezera-S15+S05 x 1NP-S11: otvor a stěna se v půdorysu překrývají 75 x 2150 mm (jedno místo popsané dvakrát)",
-   "PŮDORYS 2NP-O04 x 2NP-S06: otvor a stěna se v půdorysu překrývají 125 x 75 mm (jedno místo popsané dvakrát)",
-   "PŮDORYS 2NP-O04 x 2NP-S07: otvor a stěna se v půdorysu překrývají 75 x 950 mm (jedno místo popsané dvakrát)",
-   "PŮDORYS 2NP-O04 x 2NP-S08: otvor a stěna se v půdorysu překrývají 200 x 420 mm (jedno místo popsané dvakrát)",
-   "KONEC 1NP: mezi začátkem 1NP-S17 a kolmou stěnou 1NP-EX08 chybí 29 mm zdiva",
-   "KONEC 2NP: začátek 2NP-S06 nenavazuje na nic (nejbližší kolmá stěna 2NP-SDK03 ve 2820 mm)",
+   "PŮDORYS 2NP-O05 x 2NP-S06: otvor a stěna se v půdorysu překrývají 125 x 75 mm (jedno místo popsané dvakrát); zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: K OVĚŘENÍ V KROKU 7 (R-309 zrušil rámeček ve zídce, ne zídku samu; jak zídka vychází proti parapetu, rozhodne investor)",
+   "PŮDORYS 2NP-O05 x 2NP-S07: otvor a stěna se v půdorysu překrývají 75 x 950 mm (jedno místo popsané dvakrát); zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: K OVĚŘENÍ V KROKU 7 (R-309 zrušil rámeček ve zídce, ne zídku samu; jak zídka vychází proti parapetu, rozhodne investor)",
+   "KONEC 2NP: mezi začátkem 2NP-D04 a kolmou stěnou 2NP-SDK06 chybí 580 mm zdiva",
+   "KONEC 2NP: začátek 2NP-S06 nenavazuje na nic (nejbližší kolmá stěna 2NP-SDK03 ve 2870 mm)",
    "KONEC 2NP: mezi začátkem 2NP-S12 a kolmou stěnou 2NP-SDK05 chybí 1400 mm zdiva",
-   "KONEC 2NP: mezi koncem 2NP-D03 a kolmou stěnou 2NP-SDK03 chybí 50 mm zdiva",
-   "KONEC 2NP: mezi začátkem 2NP-S25 a kolmou stěnou 2NP-S16 chybí 25 mm zdiva",
    "ŽB (IFC) BEZ PODPORY 1NP: 1NP-V07 (věnec, 4111 × 240, DH 2500.0) má pod sebou zdivo, otvor ve zdi nebo ŽB jen na 2 % půdorysu (v našich datech tam zeď není, nebo je jinak široká)",
    "ŽB (IFC) BEZ PODPORY 1NP: 1NP-V11 (věnec, 7025 × 300, DH 2500.0) má pod sebou zdivo, otvor ve zdi nebo ŽB jen na 17 % půdorysu (v našich datech tam zeď není, nebo je jinak široká)",
    "PŘEKRYV ŽB (IFC) × ZDIVO 1NP: 1NP-V03 (pilířek) × 1NP-EX09 (stávající zdivo): půdorys 301 × 300 mm, výška 150 mm (2500.0 až 2650)",
+   "PŘEKRYV ŽB (IFC) × ZDIVO 1NP: 1NP-V04 (průvlak / nadpraží) × 1NP-D08-nad (stávající zdivo): půdorys 298 × 3000 mm, výška 150 mm (2500.0 až 2650)",
    "ŽB (IFC) BEZ PODPORY 2NP: 2NP-V09 (věnec, 4150 × 240, DH 5740.0) má pod sebou zdivo, otvor ve zdi nebo ŽB jen na 0 % půdorysu (v našich datech tam zeď není, nebo je jinak široká)",
-   "PŘEKRYV ŽB (IFC) × ZDIVO 2NP: 2NP-V10 (věnec) × 2NP-S16 (stěna): půdorys 300 × 3500 mm, výška 250 mm (5490.0 až 5740.0)",
    "ATIKA: vnější obvod desek nad 2.NP bez atiky z IFC (ŽB ani Silka) v 2 úsecích, celkem 13.1 m: 7.5 m u x -858083..-850557, y 198414..198414; 5.5 m u x -850006..-844457, y 198724..198724 (investor 2. 10. 2026: „v ifc chybi casti atiky, to vyresime potom“)",
-   "DÍRA V OBÁLCE 1NP: průchod ~29 mm, délka 248 mm u (-850280, 198844), nejblíž 1NP-EX08 a 1NP-S17 (29 mm), sousedí 1NP-EX08 (stávající zdivo), 1NP-EX09 (stávající zdivo), 1NP-S17 (stěna); štěrbina pod 60 mm = nesouhlas líců prvků, ne chybějící úsek zdiva; dotčené místnosti 101, 102, 103, 104",
-   "DÍRA V OBÁLCE 1NP: průchod ~32 mm, délka 248 mm u (-850268, 203194), nejblíž 1NP-EX05 a 1NP-SL01 (32 mm), sousedí 1NP-EX05 (stávající zdivo), 1NP-SL01 (ŽB sloup, pilíř a stěna (IFC)); štěrbina pod 60 mm = nesouhlas líců prvků, ne chybějící úsek zdiva; dotčené místnosti 101, 102, 103, 104",
-   "DÍRA V MÍSTNOSTI 1NP: místnosti 108, 109 leží v jedné dutině 15.0 m² (mezi nimi není žádný prvek): průchod ~100 mm, délka 120 mm u (-833497, 200014), nejblíž 1NP-SDK15 a 1NP-SDK18 (100 mm), sousedí 1NP-SDK15 (SDK), 1NP-SDK18 (SDK)",
-   "DÍRA V OBÁLCE 2NP: průchod ~25 mm, délka 248 mm u (-850276, 198844), nejblíž 2NP-S16 a 2NP-S25 (25 mm), sousedí 2NP-S16 (stěna), 2NP-S25 (stěna), 2NP-S27 (stěna); nesahá od podlahy (3090) k hornímu líci zdiva (5740): 2NP-S27 jen 3240 až 5740; štěrbina pod 60 mm = nesouhlas líců prvků, ne chybějící úsek zdiva; dotčené místnosti 209",
-   "DÍRA V OBÁLCE 2NP: průchod ~37 mm, délka 208 mm u (-850270, 203214), nejblíž 2NP-S16 a 2NP-SL01 (37 mm), sousedí 2NP-S16 (stěna), 2NP-SL01 (ŽB sloup, pilíř a stěna (IFC)), 2NP-SL01-H (ŽB sloup, pilíř a stěna (IFC)); nesahá od podlahy (3090) k hornímu líci zdiva (5740): 2NP-SL01 jen 2920 až 5490, 2NP-SL01-H jen 5490 až 5940; štěrbina pod 60 mm = nesouhlas líců prvků, ne chybějící úsek zdiva; dotčené místnosti 209",
-   "DÍRA V MÍSTNOSTI 2NP: místnosti 201, 202, 203 leží v jedné dutině 33.7 m² (mezi nimi není žádný prvek): průchod ~18 mm, délka 40 mm u (-832566, 206234), nejblíž 2NP-D03 a 2NP-SDK03 (50 mm), sousedí 2NP-D03 (otvor), 2NP-SDK03 (SDK); nesahá od podlahy (3090) k hornímu líci zdiva (5740): 2NP-D03 jen 3090 až 5060; štěrbina pod 60 mm = nesouhlas líců prvků, ne chybějící úsek zdiva; průchod ~18 mm, délka 40 mm u (-832566, 206034), nejblíž 2NP-D03 a 2NP-SDK04 (50 mm), sousedí 2NP-D03 (otvor), 2NP-SDK04 (SDK); nesahá od podlahy (3090) k hornímu líci zdiva (5740): 2NP-D03 jen 3090 až 5060; štěrbina pod 60 mm = nesouhlas líců prvků, ne chybějící úsek zdiva",
-   "DVEŘE SDK/ZDIVO 2NP: 2NP-D03 (900 × 1970 mm) má po jedné straně SDK a po druhé zdivo nebo beton: 2NP-S09 (stěna) / 2NP-SDK03 (SDK, 50 mm od ostění), 2NP-SDK04 (SDK, 50 mm od ostění) [v ose dveří žádný prvek, ostění tvoří kolmá stěna nebo příčka]; nad otvorem 2NP-D03-překlad (překlad, 5060 až 5740) (otázka projektantce 23, čím se vyplní pás nad dveřmi, E80, R-47)",
+   "DILATACE: spára 29 mm mezi 1NP-EX08 a 1NP-S17 (investor R-298, R-303: dilatační spára 30 mm mezi stávající garáží a domem; v datech naměřeno 29 mm), u (-850280, 198844) 1NP",
+   "DILATACE: spára 32 mm mezi 1NP-EX05 a 1NP-SL01 (investor R-298, R-303: dilatační spára 30 mm mezi stávající garáží a domem; v datech naměřeno 32 mm), u (-850268, 203194) 1NP",
+   "DILATACE: spára 25 mm mezi 2NP-S26 a 2NP-S27 (investor R-298, R-303: dilatační spára 30 mm mezi stávající garáží a domem; v datech naměřeno 25 mm), u (-850276, 198844) 2NP",
+   "DILATACE: spára 37 mm mezi 2NP-S16 a 2NP-SL01 (investor R-298, R-303: dilatační spára 30 mm mezi stávající garáží a domem; v datech naměřeno 37 mm), u (-850270, 203214) 2NP",
+   "DVEŘE SDK/ZDIVO 2NP: 2NP-D03 (900 × 1970 mm) má po jedné straně SDK a po druhé zdivo nebo beton: 2NP-S09 (stěna) / 2NP-S10 (stěna), 2NP-SDK03 (SDK), 2NP-SDK04 (SDK) [v ose dveří žádný prvek, ostění tvoří kolmá stěna nebo příčka]; nad otvorem 2NP-D03-překlad (překlad, 5060 až 5740) (otázka projektantce 23, čím se vyplní pás nad dveřmi, E80, R-47)",
    "OTVOR vs IFC 1NP: 1NP-D04 a IFC #5303 (900 × 2380): ROZDÍL začátek +0, konec +0, spodek -360, vrch +50 mm (IFC minus naše) (E125)",
    "OTVOR vs IFC 1NP: 1NP-D03 a IFC #5771 (2100 × 2510): ROZDÍL začátek -1, konec -1, spodek -110, vrch +0 mm (IFC minus naše) (E125)",
    "OTVOR vs IFC 1NP: 1NP-D06 a IFC #4882 (1001 × 2500): ROZDÍL začátek -2, konec -1, spodek -100, vrch +0 mm (IFC minus naše) (E125)",
    "OTVOR vs IFC 1NP: 1NP-D01 a IFC #5382 (2200 × 2510): ROZDÍL začátek +0, konec +0, spodek -110, vrch +0 mm (IFC minus naše) (E125)",
-   "OTVOR vs IFC 1NP: 1NP-O02a a IFC #6355 (3870 × 2000): ROZDÍL začátek +0, konec +2780, spodek +0, vrch +0 mm (IFC minus naše) [O02 + O02a = jeden otvor IFC, sloučení při přečíslování, R-125] (E125)",
-   "OTVOR vs IFC 1NP: 1NP-O02 a IFC #6355 (3870 × 2000): ROZDÍL začátek -1090, konec +0, spodek +0, vrch +0 mm (IFC minus naše) [O02 + O02a = jeden otvor IFC, sloučení při přečíslování, R-125] (E125)",
-   "OTVOR vs IFC 2NP: 2NP-O04 a IFC #17257 (850 × 1500): ROZDÍL začátek +0, konec -2320, spodek +0, vrch +0 mm (IFC minus naše) (E125)",
    "OTVOR vs IFC 2NP: 2NP-D03 a IFC #16857 (900 × 2190): ROZDÍL začátek -1, konec -1, spodek -170, vrch +50 mm (IFC minus naše) (E125)",
-   "OTVOR vs IFC 2NP: 2NP-O04 a IFC #17294 (1900 × 1500): ROZDÍL začátek +1270, konec +0, spodek +0, vrch +0 mm (IFC minus naše) (E125)",
    "OTVOR vs IFC 2NP: 2NP-D01 a IFC #16704 (900 × 2190): ROZDÍL začátek -1, konec -1, spodek -170, vrch +50 mm (IFC minus naše) (E125)",
    "OTVOR vs IFC 2NP: 2NP-D02 a IFC #16741 (900 × 2190): ROZDÍL začátek +0, konec +0, spodek -170, vrch +50 mm (IFC minus naše) (E125)"
   ]
@@ -1356,6 +1362,9 @@
     "-",
     "106"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "1NP-S01",
    "vyska": 2750,
    "barva": "#f04fa0",
    "zdvih": 0
@@ -1381,6 +1390,9 @@
     "-",
     "106"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "1NP-S02",
    "vyska": 2750,
    "barva": "#f04fa0",
    "zdvih": 0
@@ -1406,6 +1418,9 @@
     "-",
     "106"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "1NP-S03",
    "vyska": 2750,
    "barva": "#f04fa0",
    "zdvih": 0
@@ -1431,6 +1446,9 @@
     "-",
     "106"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "1NP-S04",
    "vyska": 2750,
    "barva": "#f04fa0",
    "zdvih": 0
@@ -1456,6 +1474,9 @@
     "-",
     "106"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "1NP-S05",
    "vyska": 2750,
    "barva": "#f04fa0",
    "zdvih": 0
@@ -1481,6 +1502,9 @@
     "-",
     "-"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "1NP-S06",
    "vyska": 2750,
    "barva": "#f04fa0",
    "zdvih": 0
@@ -1506,6 +1530,9 @@
     "-",
     "101"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "1NP-S07",
    "vyska": 2750,
    "barva": "#f04fa0",
    "zdvih": 0
@@ -1531,6 +1558,9 @@
     "-",
     "101"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "1NP-S08",
    "vyska": 2750,
    "barva": "#f04fa0",
    "zdvih": 0
@@ -1556,6 +1586,9 @@
     "101/103",
     "102"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "1NP-S09",
    "vyska": 2750,
    "barva": "#7e3ff2",
    "zdvih": 0
@@ -1581,6 +1614,9 @@
     "102",
     "107"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "1NP-S10",
    "vyska": 2750,
    "barva": "#2ab04c",
    "zdvih": 0
@@ -1606,6 +1642,9 @@
     "102",
     "107"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "1NP-S11",
    "vyska": 2750,
    "barva": "#2ab04c",
    "zdvih": 0
@@ -1631,6 +1670,9 @@
     "110/106/108",
     "-"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "1NP-S12",
    "vyska": 2750,
    "barva": "#f04fa0",
    "zdvih": 0
@@ -1656,6 +1698,9 @@
     "-",
     "103"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "1NP-S13",
    "vyska": 2750,
    "barva": "#f04fa0",
    "zdvih": 0
@@ -1681,6 +1726,9 @@
     "103",
     "104/102"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "1NP-S14",
    "vyska": 2750,
    "barva": "#7e3ff2",
    "zdvih": 0
@@ -1706,6 +1754,9 @@
     "102",
     "107"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "1NP-S15",
    "vyska": 2750,
    "barva": "#7e3ff2",
    "zdvih": 0
@@ -1731,6 +1782,9 @@
     "108",
     "-"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "1NP-S16",
    "vyska": 2750,
    "barva": "#f04fa0",
    "zdvih": 0
@@ -1756,6 +1810,9 @@
     "103/102/108/107/104/109",
     "-"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "1NP-S17",
    "vyska": 2750,
    "barva": "#f04fa0",
    "zdvih": 0
@@ -1781,6 +1838,9 @@
     "205",
     "-"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S01",
    "vyska": 2820,
    "barva": "#2f7ff2",
    "zdvih": 1
@@ -1806,6 +1866,9 @@
     "-",
     "203/206/208"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S02",
    "vyska": 2820,
    "barva": "#2f7ff2",
    "zdvih": 1
@@ -1831,6 +1894,9 @@
     "208",
     "203"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S03",
    "vyska": 2820,
    "barva": "#2f7ff2",
    "zdvih": 1
@@ -1856,6 +1922,9 @@
     "205/208",
     "203"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S04",
    "vyska": 2820,
    "barva": "#2f7ff2",
    "zdvih": 1
@@ -1881,6 +1950,9 @@
     "205",
     "204/203"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S05",
    "vyska": 2820,
    "barva": "#2f7ff2",
    "zdvih": 1
@@ -1906,6 +1978,9 @@
     "204",
     "204"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S06",
    "vyska": 650,
    "barva": "#2ab04c",
    "zdvih": 1
@@ -1931,6 +2006,9 @@
     "204",
     "-"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S07",
    "vyska": 650,
    "barva": "#2ab04c",
    "zdvih": 1
@@ -1949,14 +2027,17 @@
     206754
    ],
    "z0": 2920,
-   "z1": 3990,
-   "zdroj": "jen do výšky parapetu: od horní hrany desky +2,920 do +3,990 = podlaha 2.NP +3,090 + parapet 900 (investor 27. 9. 2026 16:34 SELČ (S0.16, textové zadání session), doslovně: „zed 2np-s08 je jen do vysky parapetu“ a „vsechna okna v 2np ana [= na] vychodni strane maji vysku parapetu 900“); pilíř 420 mezi okny O04 a O06 nad parapetem není, otvor nad parapetem je tedy průběžný 2101 + 420 + 850",
+   "z1": 5740,
+   "zdroj": "pilíř 420 mezi okny u koupelen 202 a 204 na PLNOU výšku +2,920 až +5,740. investor 7. 10. 2026 (R-126) a 11. 10. 2026 (R-291, doslovně): „je to jeden otvor ve smyslu, ze okna maji predsazenou montaz, jsou tedy v izolaci, ale mas pravdu, ze pri pohledu na zdivo to jsou dva oddelene otvory prerusene S08“; IFC statika stěna #17184 (IfcWall Silka 24, x −829 522 až −829 322, y 198 724 až 210 464) jde v celé délce +2,920 až +5,740, tedy i v pilíři. Dřívější stav do S0.39: jen do výšky parapetu +3,990 (investor 27. 9. 2026 16:34 SELČ (S0.16, textové zadání session), doslovně: „zed 2np-s08 je jen do vysky parapetu“), z čehož plynulo sloučení otvorů O03, O04 a O06 do jednoho okna 3170 (R-52, R-59) a nálezy PŘEKRYV a PŮDORYS 2NP-O04 × 2NP-S08; obojí padlo s R-126 a R-291",
    "jistota": "pracovní",
    "strany": [
     "-",
     "-"
    ],
-   "vyska": 1070,
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S08",
+   "vyska": 2820,
    "barva": "#2f7ff2",
    "zdvih": 1
   },
@@ -1981,15 +2062,18 @@
     "203",
     "206/201"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S09",
    "vyska": 2820,
    "barva": "#2f7ff2",
    "zdvih": 1
   },
   {
    "id": "2NP-S10",
-   "kat": "vyřazeno",
+   "kat": "stěna",
    "podlazi": "2NP",
-   "material": "VAPIS 200",
+   "material": "VAPIS 200 (šrafa 170 mm, PDF Stěny modrá; 170 nejde vyzdít z bloků 200, otázka projektantce 29, E103)",
    "tl": 170,
    "delka": 200,
    "box": [
@@ -1998,16 +2082,19 @@
     -832421,
     206234
    ],
-   "z0": 3090,
+   "z0": 2920,
    "z1": 5740,
-   "zdroj": "vyřazeno po kontrole investora 20. 9. 2026: sádrokarton, není zdivo (`zdivo/steny/vyrazeno-po-kontrole.json`); výška jen orientační",
-   "jistota": "vyřazeno",
+   "zdroj": "zdivo 2.NP +2,920 až +5,740 = blok 70 + 11 řad (S0.19: řezy B-B, C-C, D-D výkresu tvaru 2.NP kreslí zdivo pod deskou do DH věnce +5,740 na všech proříznutých stěnách; řez A-A v DWG má nad 10 řadami VAPIS 200 prvek 200 × 250 s křížem na vrstvě zdiva +5,490 až +5,740, otázka projektantce), podlaha +3,090, ŽB věnec +5,740 až +5,940 (200), deska +5,940 až +6,160; okna mají horní hranu +5,490, nad nimi nadpraží +5,490 až +5,740 (ŽB nad O10 a nad severním oknem, výkres tvaru 2.NP DH +5,490; jinde typ neznámý) (řez A-A v DWG (výškové kóty a šrafy, `tools/steny/README.md`), tabulka úrovní v `zdivo/steny/otvory.md`; `zdivo/steny/rezy-vysky.md`, E41); materiál: investor 6. 10. 2026 (R-89, doslovně): „2n S10 je vapis modrou bavou. A urcite neni vyrazeny“; (R-99): „jestli to nejde vyzdit anebo to nedava smysl, dotaz projektantce, s10 nevyrazovat, byla by tam dira“. Úsek má v useky.json tl = tl_merena = 170 mm a délku 200 mm; legenda DWG mu dává VAPIS 200 (vzor ZDIVO-VYS_PEV), PDF Stěny modrou barvu = VAPIS 200. Rozpor 170 vs blok 200 je otázka projektantce 29 (E103); vyřazení odebráno z vyrazeno-po-kontrole.json ve stejném kroku.",
+   "jistota": "pracovní",
    "strany": [
     "-",
     "202"
    ],
-   "vyska": 2650,
-   "barva": "#b0b0b0",
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S10",
+   "vyska": 2820,
+   "barva": "#999999",
    "zdvih": 1
   },
   {
@@ -2031,6 +2118,9 @@
     "207/202",
     "-"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S11",
    "vyska": 2820,
    "barva": "#2f7ff2",
    "zdvih": 1
@@ -2056,6 +2146,9 @@
     "202",
     "207"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S12",
    "vyska": 2820,
    "barva": "#2f7ff2",
    "zdvih": 1
@@ -2064,7 +2157,7 @@
    "id": "2NP-S13",
    "kat": "stěna",
    "podlazi": "2NP",
-   "material": "VAPIS 300",
+   "material": "Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87)",
    "tl": 300,
    "delka": 894,
    "box": [
@@ -2075,21 +2168,24 @@
    ],
    "z0": 3240,
    "z1": 5740,
-   "zdroj": "nástavba nad stávající garáží 105: 10 řad VAPIS 300 od věnce +3,240 do +5,740 (E22, výška 2500 je pracovní číslo, potvrdí projektantka E38); otvory kótované od podlahy garáže ±0,000, horní hrana oken +5,490, nad nimi překlady +5,490 až +5,740 (výkres tvaru 2.NP: 3x/4x PŘEKLAD POROTHERM KP 7; řez A-A v DWG: tři kusy 75 na vrstvě zdiva + izolace, roletový box před nimi) a ŽB věnec +5,740 až +5,940 (S0.19)",
+   "zdroj": "nástavba nad stávající garáží 105: 10 řad VAPIS 300 od věnce +3,240 do +5,740 (E22, výška 2500 je pracovní číslo, potvrdí projektantka E38); otvory kótované od podlahy garáže ±0,000, horní hrana oken +5,490, nad nimi překlady +5,490 až +5,740 (výkres tvaru 2.NP: 3x/4x PŘEKLAD POROTHERM KP 7; řez A-A v DWG: tři kusy 75 na vrstvě zdiva + izolace, roletový box před nimi) a ŽB věnec +5,740 až +5,940 (S0.19); materiál: E136 (6), R-87 a R-130: nástavba nad stávající garáží 105 je z Porothermu 30, ne z VAPIS 300; legenda DWG u téhož vzoru uvádí VAPIS 300, proto zůstává v textu. Výkaz zdiva vede nástavbu dál jako VAPIS 300 pro porovnání s nabídkami (R-87).",
    "jistota": "pracovní",
    "strany": [
     "105",
     "105"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S13",
    "vyska": 2500,
-   "barva": "#7e3ff2",
+   "barva": "#999999",
    "zdvih": 1
   },
   {
    "id": "2NP-S14",
    "kat": "stěna",
    "podlazi": "2NP",
-   "material": "VAPIS 300",
+   "material": "Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87)",
    "tl": 300,
    "delka": 2100,
    "box": [
@@ -2100,21 +2196,24 @@
    ],
    "z0": 3240,
    "z1": 5740,
-   "zdroj": "nástavba nad stávající garáží 105: 10 řad VAPIS 300 od věnce +3,240 do +5,740 (E22, výška 2500 je pracovní číslo, potvrdí projektantka E38); otvory kótované od podlahy garáže ±0,000, horní hrana oken +5,490, nad nimi překlady +5,490 až +5,740 (výkres tvaru 2.NP: 3x/4x PŘEKLAD POROTHERM KP 7; řez A-A v DWG: tři kusy 75 na vrstvě zdiva + izolace, roletový box před nimi) a ŽB věnec +5,740 až +5,940 (S0.19)",
+   "zdroj": "nástavba nad stávající garáží 105: 10 řad VAPIS 300 od věnce +3,240 do +5,740 (E22, výška 2500 je pracovní číslo, potvrdí projektantka E38); otvory kótované od podlahy garáže ±0,000, horní hrana oken +5,490, nad nimi překlady +5,490 až +5,740 (výkres tvaru 2.NP: 3x/4x PŘEKLAD POROTHERM KP 7; řez A-A v DWG: tři kusy 75 na vrstvě zdiva + izolace, roletový box před nimi) a ŽB věnec +5,740 až +5,940 (S0.19); materiál: E136 (6), R-87, R-130: viz 2NP-S13.",
    "jistota": "pracovní",
    "strany": [
     "-",
     "105"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S14",
    "vyska": 2500,
-   "barva": "#7e3ff2",
+   "barva": "#999999",
    "zdvih": 1
   },
   {
    "id": "2NP-S15",
    "kat": "stěna",
    "podlazi": "2NP",
-   "material": "VAPIS 300",
+   "material": "Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87)",
    "tl": 300,
    "delka": 559,
    "box": [
@@ -2125,39 +2224,45 @@
    ],
    "z0": 3240,
    "z1": 5740,
-   "zdroj": "nástavba nad stávající garáží 105: 10 řad VAPIS 300 od věnce +3,240 do +5,740 (E22, výška 2500 je pracovní číslo, potvrdí projektantka E38); otvory kótované od podlahy garáže ±0,000, horní hrana oken +5,490, nad nimi překlady +5,490 až +5,740 (výkres tvaru 2.NP: 3x/4x PŘEKLAD POROTHERM KP 7; řez A-A v DWG: tři kusy 75 na vrstvě zdiva + izolace, roletový box před nimi) a ŽB věnec +5,740 až +5,940 (S0.19)",
+   "zdroj": "nástavba nad stávající garáží 105: 10 řad VAPIS 300 od věnce +3,240 do +5,740 (E22, výška 2500 je pracovní číslo, potvrdí projektantka E38); otvory kótované od podlahy garáže ±0,000, horní hrana oken +5,490, nad nimi překlady +5,490 až +5,740 (výkres tvaru 2.NP: 3x/4x PŘEKLAD POROTHERM KP 7; řez A-A v DWG: tři kusy 75 na vrstvě zdiva + izolace, roletový box před nimi) a ŽB věnec +5,740 až +5,940 (S0.19); materiál: E136 (6), R-87, R-130: viz 2NP-S13.",
    "jistota": "pracovní",
    "strany": [
     "105",
     "105"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S15",
    "vyska": 2500,
-   "barva": "#7e3ff2",
+   "barva": "#999999",
    "zdvih": 1
   },
   {
    "id": "2NP-S16",
    "kat": "stěna",
    "podlazi": "2NP",
-   "material": "VAPIS 300",
+   "material": "Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87)",
    "tl": 300,
-   "delka": 4737,
+   "delka": 747,
    "box": [
     -850589,
-    198714,
+    202704,
     -850289,
     203451
    ],
    "z0": 2920,
    "z1": 5740,
-   "zdroj": "součást nástavby garáže (R-64, investor 2. 10. 2026 17:03:27 SELČ: „s16 je soucast nastavby“): nadezdívka stávající východní zdi garáže (SOLID, s dveřmi D08) na ŽB věnci +2,500 až +2,920 (IFC #15051), nad dveřmi na překladu (`1NP-PR07` / IFC); spodní hrana +2,920 (investor 2. 10. 2026 16:47: „stoji na venci/prekladu“); dřívější „stojí na stropu 1.NP“ (E42, S0.10) je překonané (E92, S0.28); v pásu připraveného ŽB překladu 3,5 m se zdí naplno do +5,490 (R-67), snížení horní hrany S16 v tom pásu čeká na rozdělení úseku (S0.30); horní hrana +5,740 = blok 70 + 11 řad (řez A-A v DWG: VAPIS 300 do +5,490 a v pásu připraveného překladu dl. 3,5 m tři kusy 75 + izolace +5,490 až +5,740, ŽB věnec od +5,740; výkres tvaru 2.NP statiky u dilatace „PRŮVLAK DH +5,490“; S0.19, E22)",
+   "zdroj": "součást nástavby garáže (R-64, investor 2. 10. 2026 17:03:27 SELČ: „s16 je soucast nastavby“): nadezdívka stávající východní zdi garáže (SOLID, s dveřmi ve stávajícím zdivu) na ŽB věnci +2,500 až +2,920 (IFC #15051); spodní hrana +2,920 (investor 2. 10. 2026 16:47: „stoji na venci/prekladu“); SEVERNÍ konec úseku (y 202 704 až 203 451, délka 747) mimo pás překladu: horní hrana +5,740 (viz jižní konec); část rozděleného úseku 2NP-S16/sever (`zdivo/steny/deleni-useku.json`, E115), původní úsek 2NP-S16; materiál: E136 (6), R-87, R-130, E115: nadezdívka stávající východní zdi garáže je součást nástavby (R-64). Materiál platí pro všechny tři části úseku po rozdělení (viz sekce deleni).",
    "jistota": "odvození",
    "strany": [
     "105",
     "209"
    ],
+   "cast_useku": "2NP-S16/sever",
+   "deleno_z": "2NP-S16",
+   "id_stare": "2NP-S16",
    "vyska": 2820,
-   "barva": "#7e3ff2",
+   "barva": "#999999",
    "zdvih": 1
   },
   {
@@ -2181,6 +2286,9 @@
     "-",
     "209"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S17",
    "vyska": 2820,
    "barva": "#2f7ff2",
    "zdvih": 1
@@ -2206,6 +2314,9 @@
     "209",
     "-"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S18",
    "vyska": 2820,
    "barva": "#2f7ff2",
    "zdvih": 1
@@ -2214,7 +2325,7 @@
    "id": "2NP-S19",
    "kat": "stěna",
    "podlazi": "2NP",
-   "material": "VAPIS 300",
+   "material": "Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87)",
    "tl": 300,
    "delka": 840,
    "box": [
@@ -2225,14 +2336,17 @@
    ],
    "z0": 3240,
    "z1": 5740,
-   "zdroj": "nástavba nad stávající garáží 105: 10 řad VAPIS 300 od věnce +3,240 do +5,740 (E22, výška 2500 je pracovní číslo, potvrdí projektantka E38); otvory kótované od podlahy garáže ±0,000, horní hrana oken +5,490, nad nimi překlady +5,490 až +5,740 (výkres tvaru 2.NP: 3x/4x PŘEKLAD POROTHERM KP 7; řez A-A v DWG: tři kusy 75 na vrstvě zdiva + izolace, roletový box před nimi) a ŽB věnec +5,740 až +5,940 (S0.19)",
+   "zdroj": "nástavba nad stávající garáží 105: 10 řad VAPIS 300 od věnce +3,240 do +5,740 (E22, výška 2500 je pracovní číslo, potvrdí projektantka E38); otvory kótované od podlahy garáže ±0,000, horní hrana oken +5,490, nad nimi překlady +5,490 až +5,740 (výkres tvaru 2.NP: 3x/4x PŘEKLAD POROTHERM KP 7; řez A-A v DWG: tři kusy 75 na vrstvě zdiva + izolace, roletový box před nimi) a ŽB věnec +5,740 až +5,940 (S0.19); materiál: E136 (6), R-87, R-130: viz 2NP-S13.",
    "jistota": "pracovní",
    "strany": [
     "-",
     "105"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S19",
    "vyska": 2500,
-   "barva": "#7e3ff2",
+   "barva": "#999999",
    "zdvih": 1
   },
   {
@@ -2256,12 +2370,43 @@
     "-",
     "206/201"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S20",
    "vyska": 2820,
    "barva": "#2f7ff2",
    "zdvih": 1
   },
   {
    "id": "2NP-S21",
+   "kat": "stěna",
+   "podlazi": "2NP",
+   "material": "Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87)",
+   "tl": 300,
+   "delka": 3500,
+   "box": [
+    -850589,
+    199204,
+    -850289,
+    202704
+   ],
+   "z0": 2920,
+   "z1": 5490,
+   "zdroj": "součást nástavby garáže (R-64, investor 2. 10. 2026 17:03:27 SELČ: „s16 je soucast nastavby“): nadezdívka stávající východní zdi garáže (SOLID, s dveřmi ve stávajícím zdivu) na ŽB věnci +2,500 až +2,920 (IFC #15051); spodní hrana +2,920 (investor 2. 10. 2026 16:47: „stoji na venci/prekladu“); PÁS 3500 mm pod připraveným ŽB překladem IFC #20192 (IfcBeam C25/30, +5,490 až +5,740, y 199 204 až 202 704): zdivo jde jen do +5,490, nad ním je překlad. investor 8. 10. 2026 (R-129, doslovně): „proc se mam lisi vyska te steny, kdyz vime, ze je tam preklad?“; investor (R-67): „bude to tam pod tim prekladem vyzdeno“. V IFC končí zdivo v pásu na +5,490 (kusy 2NP-IW14 #16058 a IW16 #16142, 250 × 300, +2,920 až +5,490). Do S0.39 vedl celý S16 do +5,740 a kontrola hlásila PŘEKRYV ŽB (IFC) × ZDIVO 2NP-V10 × 2NP-S16 (300 × 3500 × 250 mm, 0,260 m³, E116); část rozděleného úseku 2NP-S16/pás (`zdivo/steny/deleni-useku.json`, E115), původní úsek 2NP-S16; materiál: E136 (6), R-87, R-130, E115: nadezdívka stávající východní zdi garáže je součást nástavby (R-64). Materiál platí pro všechny tři části úseku po rozdělení (viz sekce deleni).",
+   "jistota": "pracovní",
+   "strany": [
+    "105",
+    "209"
+   ],
+   "cast_useku": "2NP-S16/pás",
+   "deleno_z": "2NP-S16",
+   "id_stare": "2NP-S16",
+   "vyska": 2570,
+   "barva": "#999999",
+   "zdvih": 1
+  },
+  {
+   "id": "2NP-S22",
    "kat": "stěna",
    "podlazi": "2NP",
    "material": "VAPIS 200",
@@ -2281,12 +2426,15 @@
     "206",
     "201"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S21",
    "vyska": 2820,
    "barva": "#2f7ff2",
    "zdvih": 1
   },
   {
-   "id": "2NP-S22",
+   "id": "2NP-S23",
    "kat": "stěna",
    "podlazi": "2NP",
    "material": "VAPIS 200",
@@ -2306,12 +2454,15 @@
     "207",
     "-"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S22",
    "vyska": 2820,
    "barva": "#2f7ff2",
    "zdvih": 1
   },
   {
-   "id": "2NP-S23",
+   "id": "2NP-S24",
    "kat": "stěna",
    "podlazi": "2NP",
    "material": "VAPIS 200",
@@ -2331,15 +2482,18 @@
     "-",
     "201"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S23",
    "vyska": 2820,
    "barva": "#2f7ff2",
    "zdvih": 1
   },
   {
-   "id": "2NP-S24",
+   "id": "2NP-S25",
    "kat": "stěna",
    "podlazi": "2NP",
-   "material": "VAPIS 300",
+   "material": "Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87)",
    "tl": 300,
    "delka": 840,
    "box": [
@@ -2350,18 +2504,49 @@
    ],
    "z0": 3240,
    "z1": 5740,
-   "zdroj": "nástavba nad stávající garáží 105: 10 řad VAPIS 300 od věnce +3,240 do +5,740 (E22, výška 2500 je pracovní číslo, potvrdí projektantka E38); otvory kótované od podlahy garáže ±0,000, horní hrana oken +5,490, nad nimi překlady +5,490 až +5,740 (výkres tvaru 2.NP: 3x/4x PŘEKLAD POROTHERM KP 7; řez A-A v DWG: tři kusy 75 na vrstvě zdiva + izolace, roletový box před nimi) a ŽB věnec +5,740 až +5,940 (S0.19)",
+   "zdroj": "nástavba nad stávající garáží 105: 10 řad VAPIS 300 od věnce +3,240 do +5,740 (E22, výška 2500 je pracovní číslo, potvrdí projektantka E38); otvory kótované od podlahy garáže ±0,000, horní hrana oken +5,490, nad nimi překlady +5,490 až +5,740 (výkres tvaru 2.NP: 3x/4x PŘEKLAD POROTHERM KP 7; řez A-A v DWG: tři kusy 75 na vrstvě zdiva + izolace, roletový box před nimi) a ŽB věnec +5,740 až +5,940 (S0.19); materiál: E136 (6), R-87, R-130: viz 2NP-S13.",
    "jistota": "pracovní",
    "strany": [
     "-",
     "105"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S24",
    "vyska": 2500,
-   "barva": "#7e3ff2",
+   "barva": "#999999",
    "zdvih": 1
   },
   {
-   "id": "2NP-S25",
+   "id": "2NP-S26",
+   "kat": "stěna",
+   "podlazi": "2NP",
+   "material": "Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87)",
+   "tl": 300,
+   "delka": 490,
+   "box": [
+    -850589,
+    198714,
+    -850289,
+    199204
+   ],
+   "z0": 2920,
+   "z1": 5740,
+   "zdroj": "součást nástavby garáže (R-64, investor 2. 10. 2026 17:03:27 SELČ: „s16 je soucast nastavby“): nadezdívka stávající východní zdi garáže (SOLID, s dveřmi ve stávajícím zdivu) na ŽB věnci +2,500 až +2,920 (IFC #15051); spodní hrana +2,920 (investor 2. 10. 2026 16:47: „stoji na venci/prekladu“); JIŽNÍ konec úseku (y 198 714 až 199 204, délka 490) mimo pás překladu: horní hrana +5,740 = blok 70 + 11 řad (řez A-A v DWG; výkres tvaru 2.NP statiky u dilatace „PRŮVLAK DH +5,490“; S0.19, E22); část rozděleného úseku 2NP-S16/jih (`zdivo/steny/deleni-useku.json`, E115), původní úsek 2NP-S16; materiál: E136 (6), R-87, R-130, E115: nadezdívka stávající východní zdi garáže je součást nástavby (R-64). Materiál platí pro všechny tři části úseku po rozdělení (viz sekce deleni).",
+   "jistota": "odvození",
+   "strany": [
+    "105",
+    "209"
+   ],
+   "cast_useku": "2NP-S16/jih",
+   "deleno_z": "2NP-S16",
+   "id_stare": "2NP-S16",
+   "vyska": 2820,
+   "barva": "#999999",
+   "zdvih": 1
+  },
+  {
+   "id": "2NP-S27",
    "kat": "stěna",
    "podlazi": "2NP",
    "material": "VAPIS 240",
@@ -2375,18 +2560,21 @@
    ],
    "z0": 2920,
    "z1": 5740,
-   "zdroj": "zdivo 2.NP +2,920 až +5,740 = blok 70 + 11 řad (S0.19: řezy B-B, C-C, D-D výkresu tvaru 2.NP kreslí zdivo pod deskou do DH věnce +5,740 na všech proříznutých stěnách; řez A-A v DWG má nad 10 řadami VAPIS 200 prvek 200 × 250 s křížem na vrstvě zdiva +5,490 až +5,740, otázka projektantce), podlaha +3,090, ŽB věnec +5,740 až +5,940 (200), deska +5,940 až +6,160; okna mají horní hranu +5,490, nad nimi nadpraží +5,490 až +5,740 (ŽB nad O10 a nad severním oknem, výkres tvaru 2.NP DH +5,490; jinde typ neznámý) (řez A-A v DWG (výškové kóty a šrafy, `tools/steny/README.md`), tabulka úrovní v `zdivo/steny/otvory.md`; `zdivo/steny/rezy-vysky.md`, E41)",
-   "jistota": "pracovní",
+   "zdroj": "zdivo 2.NP +2,920 až +5,740 = blok 70 + 11 řad (S0.19: řezy B-B, C-C, D-D výkresu tvaru 2.NP kreslí zdivo pod deskou do DH věnce +5,740 na všech proříznutých stěnách; řez A-A v DWG má nad 10 řadami VAPIS 200 prvek 200 × 250 s křížem na vrstvě zdiva +5,490 až +5,740, otázka projektantce), podlaha +3,090, ŽB věnec +5,740 až +5,940 (200), deska +5,940 až +6,160; okna mají horní hranu +5,490, nad nimi nadpraží +5,490 až +5,740 (ŽB nad O10 a nad severním oknem, výkres tvaru 2.NP DH +5,490; jinde typ neznámý) (řez A-A v DWG (výškové kóty a šrafy, `tools/steny/README.md`), tabulka úrovní v `zdivo/steny/otvory.md`; `zdivo/steny/rezy-vysky.md`, E41); jižní stěna garáže: spodní hrana +3,240 je jen přenesená z ostatních stěn nástavby, pás věnce ve výkresu tvaru 1.NP je u ní bez DH a řez A-A ani C-C ji nekryje (S0.8f, E38), proto odvození",
+   "jistota": "odvození",
    "strany": [
     "209",
     "-"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S25",
    "vyska": 2820,
    "barva": "#f04fa0",
    "zdvih": 1
   },
   {
-   "id": "2NP-S26",
+   "id": "2NP-S28",
    "kat": "stěna",
    "podlazi": "2NP",
    "material": "VAPIS 240",
@@ -2406,15 +2594,45 @@
     "201/207",
     "-"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S26",
    "vyska": 2820,
    "barva": "#f04fa0",
    "zdvih": 1
   },
   {
-   "id": "2NP-S27",
+   "id": "2NP-S29",
    "kat": "stěna",
    "podlazi": "2NP",
-   "material": "VAPIS 300",
+   "material": "VAPIS 200 (zídka/atika nad 209, tl. 200)",
+   "tl": 200,
+   "delka": 6875,
+   "box": [
+    -844196,
+    198724,
+    -837321,
+    198924
+   ],
+   "z0": 2920,
+   "z1": 4170,
+   "zdroj": "HORNÍ HRANA +4,170 (R-103): řez B-B kreslí VAPIS 200 do +4,170 a výkres tvaru 1.NP má „ATIKA HH +4,170“; výšková kóta půdorysu +4,240 se nepoužívá, rozpor E81 R5 je tím rozhodnut ve prospěch řezu a výkresu tvaru (do S0.39 model kreslil +4,240). Spodní hrana +2,920 jako sousední úseky na téže přímce [odvození: na čem pás stojí, půdorys neříká].; PŘESUNUTO DO ŘADY S 11. 10. 2026 (S0.40, krok 6; investor 11. 10. 2026 20:18 SELČ, volba „13 ii“): do S0.39 byl tento prvek veden jako OTVOR typu mezera `2NP-O15` v `zdivo/steny/otvory.json` (šířka 6875 mezi úseky, dřívější `2NP-S25` a `2NP-S26`) a model ho kreslil zvláštní větví jako zeď. Je to zeď, ne otvor, proto je od teď úsek v řadě S a z `otvory.json` zmizel (mezera ve šrafě je jím vyplněná). Podklad: investor 21. 9. 2026 23:46 SELČ, doslovně: „Vidim na prvni pohled chybu, o15 neni okno, ale je to zed.“ V DWG v pásu žádná šrafa zdiva není (ověřeno, `zdivo/steny/o15.json` bod 1: pás je nakreslený jen pohledovými čarami A2_POH a A2_POH-N, prvek je nižší než rovina řezu půdorysu). DÉLKA 6875 = celá mezera k líci sousedních úseků: čáry pásu jsou v DWG dlouhé 6275, tedy o 300 mm kratší na každé straně, a investor 27. 9. 2026 (S0.18, hlasový přepis) řekl: „Zed v druhem patre O15, tak doleva a doprava, tzn. na zapad a na vychod, je kratka a nedotyka se tech zdi v sousednich, to je takova mala, drobna chyba, asi bych ji rozsiril.“ Napojení na sousední úseky je doplněk otázky projektantce 14 (E62).; materiál: investor 29. 9. 2026 (S0.25, textové zadání), doslovně: „o15 klidne muzeme rikat atika, to je jedno a mas pravdu, ze je to cihla 200“; dřívější čtení „VAPIS 240“ (investor 27. 9. 2026: „2np-15 je ve skutecnosti stena vapis 240“) je tím překonané. Tloušťka 200 = vrstva mezi dvojicí čar A2_POH-N (y 198 724 až 198 924), kóty napříč pásem dávají skladbu 300 + 200 + 60 (`zdivo/steny/o15.json`, bod 3). Přiřazení materiálu k vrstvám 300 a 60 z půdorysu neplyne, je to doplněk otázky projektantce 14 (E54, E62).",
+   "jistota": "odvození",
+   "strany": [
+    "-",
+    "-"
+   ],
+   "id_stare": "2NP-O15",
+   "doplneny": true,
+   "vyska": 1250,
+   "barva": "#999999",
+   "zdvih": 1
+  },
+  {
+   "id": "2NP-S30",
+   "kat": "stěna",
+   "podlazi": "2NP",
+   "material": "Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87)",
    "tl": 300,
    "delka": 8034,
    "box": [
@@ -2425,14 +2643,17 @@
    ],
    "z0": 3240,
    "z1": 5740,
-   "zdroj": "nástavba nad stávající garáží 105: 10 řad VAPIS 300 od věnce +3,240 do +5,740 (E22, výška 2500 je pracovní číslo, potvrdí projektantka E38); otvory kótované od podlahy garáže ±0,000, horní hrana oken +5,490, nad nimi překlady +5,490 až +5,740 (výkres tvaru 2.NP: 3x/4x PŘEKLAD POROTHERM KP 7; řez A-A v DWG: tři kusy 75 na vrstvě zdiva + izolace, roletový box před nimi) a ŽB věnec +5,740 až +5,940 (S0.19); jižní stěna garáže: spodní hrana +3,240 je jen přenesená z ostatních stěn nástavby, pás věnce ve výkresu tvaru 1.NP je u ní bez DH a řez A-A ani C-C ji nekryje (S0.8f, E38), proto odvození",
-   "jistota": "odvození",
+   "zdroj": "nástavba nad stávající garáží 105: 10 řad VAPIS 300 od věnce +3,240 do +5,740 (E22, výška 2500 je pracovní číslo, potvrdí projektantka E38); otvory kótované od podlahy garáže ±0,000, horní hrana oken +5,490, nad nimi překlady +5,490 až +5,740 (výkres tvaru 2.NP: 3x/4x PŘEKLAD POROTHERM KP 7; řez A-A v DWG: tři kusy 75 na vrstvě zdiva + izolace, roletový box před nimi) a ŽB věnec +5,740 až +5,940 (S0.19); materiál: E136 (6), R-87, R-130: jižní stěna nástavby nad stávající garáží 105. Doplněno 11. 10. 2026 20:18 SELČ na pokyn investora („15 ano“), v původním seznamu bodu 6 kroku 6 chybělo, přitom úsek do nástavby patří (sada GARAZ v `tools/model/model3d.py` a `tools/steny/kusy.py`). investor téhož dne znovu potvrdil i zacházení s výkazem, doslovně: „porovnani s nabidkami chceme prece docasne jako vapis“, takže výkaz vede nástavbu dál jako VAPIS 300 (R-87). Dnešní ID úseku je 2NP-S29.",
+   "jistota": "pracovní",
    "strany": [
     "105",
     "-"
    ],
+   "cast_useku": null,
+   "deleno_z": null,
+   "id_stare": "2NP-S27",
    "vyska": 2500,
-   "barva": "#7e3ff2",
+   "barva": "#999999",
    "zdvih": 1
   },
   {
@@ -2462,52 +2683,9 @@
    "puvodni_cislo": null,
    "sever": null,
    "delene": null,
+   "id_stare": "1NP-O01",
+   "ram": null,
    "vyska": 2400,
-   "barva": "#7fd3ff",
-   "zdvih": 0
-  },
-  {
-   "id": "1NP-O02a",
-   "kat": "otvor",
-   "typ": "okno",
-   "podlazi": "1NP",
-   "material": "otvor ve zdi: VAPIS 240 (balkonové dveře, řada O podle R-48)",
-   "tl": 240,
-   "delka": 1090,
-   "box": [
-    -829871.0,
-    207594,
-    -829631.0,
-    208684
-   ],
-   "z0": 400,
-   "z1": 2400,
-   "parapet": 400,
-   "vyska_otvoru": 2000,
-   "kridlo": "balkonové dveře v HS portálu (posuvné; text „HS PORTÁL“ na A4_OKNA)",
-   "zdroj": "S0.24 (28. 9. 2026, E84): dělení podle schodu na vrstvě A2_SCHODY (obdélník 270 × 1090 se šipkou ven u jižního konce otvoru, y 207 594 až 208 684); šířka balkonových dveří = délka schodu 1090 [odvození, investor: „přibližně v šířce toho schodu“]; parapet balkonových dveří podle výkresů 400 jako u celého portálu (půdorys „2000 (400)“, výkres tvaru „2000;DH=0.400“, pohled východní obě pole se spodní hranou ≈ +430, E81 R2), investor čekal nižší (otázka projektantce 24); horní hrana obou částí +2,400 = 400 + 2000; hranice dělení podle schodu y 208 684, pohled východní má sloupek ≈ 208 500 ± 60 (E81 R3); parapet 400 podle výkresů: půdorys „2000 (400)“ pro celý portál, výkres tvaru 1.NP „2000;DH=0.400“, pohled východní obě pole se stejnou spodní hranou ≈ +430 (E81 R2); investor 28. 9. 2026 čekal nižší parapet, žádný výkres ho nekreslí, otázka projektantce 24; jižní část portálu 3870 (kóta „2000 (400)“ platí pro celý portál); IFC statika: otvor #6355 3870 × 2000 mm od 400 do 2400, ROZDÍL začátek +0, konec +2780, spodek +0, vrch +0 mm (IFC minus naše) (E124, S0.37; IO se nekreslí, párování podle polohy)",
-   "jistota": "pracovní",
-   "steny": [
-    "1NP-S06"
-   ],
-   "balkonove_dvere": true,
-   "ifc_otvory": [
-    {
-     "ifc_id": 6355,
-     "guid": "2ONglu1yL2qxa4UPfhFVz4",
-     "rozmer": "3870 × 2000",
-     "z0": 400.0,
-     "z1": 2400.0,
-     "rozdil": {
-      "zacatek": 0,
-      "konec": 2780,
-      "spodek": 0,
-      "vrch": 0
-     },
-     "text": "ROZDÍL začátek +0, konec +2780, spodek +0, vrch +0 mm (IFC minus naše)"
-    }
-   ],
-   "vyska": 2000,
    "barva": "#7fd3ff",
    "zdvih": 0
   },
@@ -2518,10 +2696,10 @@
    "podlazi": "1NP",
    "material": "otvor ve zdi: VAPIS 240",
    "tl": 240,
-   "delka": 2780,
+   "delka": 3870,
    "box": [
     -829871.0,
-    208684,
+    207594,
     -829631.0,
     211464
    ],
@@ -2530,14 +2708,16 @@
    "parapet": 400,
    "vyska_otvoru": 2000,
    "kridlo": null,
-   "zdroj": "kóta ve výkrese: šířka 2780, výška 2000, parapet (400) od podlahy 1NP (`tools/steny/otvory.py`); severní část portálu 3870 (okno nad lehací zídkou v. 400; kóta „2000 (400)“ platí pro celý portál); S0.24 (28. 9. 2026, E84): dělení podle schodu na vrstvě A2_SCHODY (obdélník 270 × 1090 se šipkou ven u jižního konce otvoru, y 207 594 až 208 684); šířka balkonových dveří = délka schodu 1090 [odvození, investor: „přibližně v šířce toho schodu“]; parapet balkonových dveří podle výkresů 400 jako u celého portálu (půdorys „2000 (400)“, výkres tvaru „2000;DH=0.400“, pohled východní obě pole se spodní hranou ≈ +430, E81 R2), investor čekal nižší (otázka projektantce 24); horní hrana obou částí +2,400 = 400 + 2000; hranice dělení podle schodu y 208 684, pohled východní má sloupek ≈ 208 500 ± 60 (E81 R3) (E84); IFC statika: otvor #6355 3870 × 2000 mm od 400 do 2400, ROZDÍL začátek -1090, konec +0, spodek +0, vrch +0 mm (IFC minus naše) (E124, S0.37; IO se nekreslí, párování podle polohy)",
+   "zdroj": "kóta ve výkrese: šířka 3870, výška 2000, parapet (400) od podlahy 1NP (`tools/steny/otvory.py`); IFC statika: otvor #6355 3870 × 2000 mm od 400 do 2400, shoda do 20 mm (E124, S0.37; IO se nekreslí, párování podle polohy)",
    "jistota": "jistá",
    "steny": [
     "1NP-S06"
    ],
    "puvodni_cislo": null,
    "sever": null,
-   "delene": true,
+   "delene": null,
+   "id_stare": "1NP-O02",
+   "ram": null,
    "ifc_otvory": [
     {
      "ifc_id": 6355,
@@ -2546,12 +2726,12 @@
      "z0": 400.0,
      "z1": 2400.0,
      "rozdil": {
-      "zacatek": -1090,
+      "zacatek": 0,
       "konec": 0,
       "spodek": 0,
       "vrch": 0
      },
-     "text": "ROZDÍL začátek -1090, konec +0, spodek +0, vrch +0 mm (IFC minus naše)"
+     "text": "shoda do 20 mm"
     }
    ],
    "vyska": 2000,
@@ -2585,6 +2765,8 @@
    "puvodni_cislo": null,
    "sever": null,
    "delene": null,
+   "id_stare": "1NP-O03",
+   "ram": null,
    "vyska": 2400,
    "barva": "#7fd3ff",
    "zdvih": 0
@@ -2607,15 +2789,17 @@
    "z1": 2400,
    "parapet": 0,
    "vyska_otvoru": 2400,
-   "kridlo": "bez oblouku křídla (portál s pevnými díly, nebo posuvné), symbol dveří na vrstvě A4_DVERE (10 entit, 0 oblouky křídel)",
-   "zdroj": "kóta ve výkrese: šířka 2200, výška 2400, parapet (0) od podlahy 1NP (`tools/steny/otvory.py`); bez oblouku křídla (portál s pevnými díly, nebo posuvné), symbol dveří na vrstvě A4_DVERE (10 entit, 0 oblouky křídel); S0.23 (28. 9. 2026): mezera ve šrafě zdiva se symbolem dveří A4_DVERE; kóty z půdorysu (pdfwords); parapet: (0) v kótě; IFC statika: otvor #5382 2200 × 2510 mm od -110 do 2400, ROZDÍL začátek +0, konec +0, spodek -110, vrch +0 mm (IFC minus naše) (E124, S0.37; IO se nekreslí, párování podle polohy)",
+   "kridlo": "vstupni dvere s pevnymi bocnimi dily, otvira se stred (R-271)",
+   "zdroj": "kóta ve výkrese: šířka 2200, výška 2400, parapet (0) od podlahy 1NP (`tools/steny/otvory.py`); vstupni dvere s pevnymi bocnimi dily, otvira se stred (R-271); S0.23 (28. 9. 2026): mezera ve šrafě zdiva se symbolem dveří A4_DVERE; kóty z půdorysu (pdfwords); parapet: (0) v kótě; do S0.22 vedeno jako 1NP-D01 (dveře); IFC statika: otvor #5382 2200 × 2510 mm od -110 do 2400, ROZDÍL začátek +0, konec +0, spodek -110, vrch +0 mm (IFC minus naše) (E124, S0.37; IO se nekreslí, párování podle polohy)",
    "jistota": "jistá",
    "steny": [
     "1NP-S08"
    ],
-   "puvodni_cislo": null,
+   "puvodni_cislo": "1NP-D01",
    "sever": null,
    "delene": null,
+   "id_stare": "1NP-D01",
+   "ram": null,
    "ifc_otvory": [
     {
      "ifc_id": 5382,
@@ -2654,15 +2838,17 @@
    "z1": 2400,
    "parapet": 0,
    "vyska_otvoru": 2400,
-   "kridlo": "bez oblouku křídla (portál s pevnými díly, nebo posuvné), symbol dveří na vrstvě A4_DVERE (10 entit, 0 oblouky křídel)",
-   "zdroj": "kóta ve výkrese: šířka 2200, výška 2400, parapet (0) od podlahy 1NP (`tools/steny/otvory.py`); bez oblouku křídla (portál s pevnými díly, nebo posuvné), symbol dveří na vrstvě A4_DVERE (10 entit, 0 oblouky křídel); S0.23 (28. 9. 2026): mezera ve šrafě zdiva se symbolem dveří A4_DVERE; kóty z půdorysu (pdfwords); parapet: (0) v kótě",
+   "kridlo": "vstupni dvere s pevnymi bocnimi dily, otvira se stred (R-271)",
+   "zdroj": "kóta ve výkrese: šířka 2200, výška 2400, parapet (0) od podlahy 1NP (`tools/steny/otvory.py`); vstupni dvere s pevnymi bocnimi dily, otvira se stred (R-271); S0.23 (28. 9. 2026): mezera ve šrafě zdiva se symbolem dveří A4_DVERE; kóty z půdorysu (pdfwords); parapet: (0) v kótě; do S0.22 vedeno jako 1NP-D02 (dveře)",
    "jistota": "jistá",
    "steny": [
     "1NP-S09"
    ],
-   "puvodni_cislo": null,
+   "puvodni_cislo": "1NP-D02",
    "sever": null,
    "delene": null,
+   "id_stare": "1NP-D02",
+   "ram": null,
    "vyska": 2400,
    "barva": "#ffb347",
    "zdvih": 0
@@ -2695,6 +2881,8 @@
    "puvodni_cislo": null,
    "sever": null,
    "delene": null,
+   "id_stare": "1NP-O04",
+   "ram": null,
    "ifc_otvory": [
     {
      "ifc_id": 6318,
@@ -2733,15 +2921,17 @@
    "z1": 2400,
    "parapet": 0,
    "vyska_otvoru": 2400,
-   "kridlo": "dvoukřídlé prosklené dveře (rám na A4_OKNA + symbol dveří na vrstvě A4_DVERE (10 entit, 2 oblouky křídel))",
-   "zdroj": "kóta ve výkrese: šířka 2100, výška 2400, parapet (0) od podlahy 1NP (`tools/steny/otvory.py`); dvoukřídlé prosklené dveře (rám na A4_OKNA + symbol dveří na vrstvě A4_DVERE (10 entit, 2 oblouky křídel)); S0.23 (28. 9. 2026): symbol dveří A4_DVERE leží na tomto otvoru, kóty (šířka, výška, parapet) zůstávají z A4_OKNA; do S0.22 vedeno jako 1NP-O05 (okno); IFC statika: otvor #5771 2100 × 2510 mm od -110 do 2400, ROZDÍL začátek -1, konec -1, spodek -110, vrch +0 mm (IFC minus naše) (E124, S0.37; IO se nekreslí, párování podle polohy)",
+   "kridlo": "balkonove dvere dvoukridlove (R-272)",
+   "zdroj": "kóta ve výkrese: šířka 2100, výška 2400, parapet (0) od podlahy 1NP (`tools/steny/otvory.py`); balkonove dvere dvoukridlove (R-272); S0.23 (28. 9. 2026): symbol dveří A4_DVERE leží na tomto otvoru, kóty (šířka, výška, parapet) zůstávají z A4_OKNA; do S0.22 vedeno jako 1NP-D03 (okno); IFC statika: otvor #5771 2100 × 2510 mm od -110 do 2400, ROZDÍL začátek -1, konec -1, spodek -110, vrch +0 mm (IFC minus naše) (E124, S0.37; IO se nekreslí, párování podle polohy)",
    "jistota": "jistá",
    "steny": [
     "1NP-S13"
    ],
-   "puvodni_cislo": "1NP-O05",
+   "puvodni_cislo": "1NP-D03",
    "sever": null,
    "delene": null,
+   "id_stare": "1NP-D03",
+   "ram": null,
    "ifc_otvory": [
     {
      "ifc_id": 5771,
@@ -2787,9 +2977,11 @@
     "1NP-S14",
     "1NP-S09"
    ],
-   "puvodni_cislo": "1NP-O06",
+   "puvodni_cislo": "1NP-D04",
    "sever": null,
    "delene": null,
+   "id_stare": "1NP-D04",
+   "ram": null,
    "ifc_otvory": [
     {
      "ifc_id": 5303,
@@ -2825,7 +3017,7 @@
    ],
    "z0": 1970,
    "z1": 2400,
-   "zdroj": "nad dveřmi 1NP-D04 (popiska 800/1970, horní hrana 1970) je do horní hrany zdiva 2400 pás 430 mm; investor 27. 9. 2026 21:07:38 SELČ (S0.20, hlasový přepis, doslovně: „Obecně platí, že na to tvorem [= nad otvorem] nemůže být volně zdivo. Tam je buď to hotový příklad [= překlad] jako výrobek nebo je tam železobeton.“); do S0.19 kreslen jako kus zdiva; typ překladu a co je nad ním je otázka staviteli 4 (E57); zdvih s deskou potvrdil investor 28. 9. 2026 (R-53); ve 2.NP má výkres tvaru otvory dveří „2190;HH=5.110“ (od +2,920), tedy o 50 mm výš než popiska 800/1970 od podlahy (E71)",
+   "zdroj": "nad dveřmi 1NP-D04 (popiska 800/1970, horní hrana 1970) je do horní hrany zdiva 2400 pás 430 mm; investor 27. 9. 2026 21:07:38 SELČ (S0.20, hlasový přepis, doslovně: „Obecně platí, že na to tvorem [= nad otvorem] nemůže být volně zdivo. Tam je buď to hotový příklad [= překlad] jako výrobek nebo je tam železobeton.“); do S0.19 kreslen jako kus zdiva; typ překladu a co je nad ním je otázka staviteli 4 (E57); zdvih s deskou potvrdil investor 28. 9. 2026 (R-53); ve 2.NP má výkres tvaru otvory dveří „2190;HH=5.110“ (od +2,920), tedy o 50 mm výš než popiska 800/1970 od podlahy (E71) KUS ZDIVA NAD OTVOREM: E132 (R-276, R-281, R-287): kolik z tohoto pásu je překlad a kolik zdivo nad ním, určí varianta (hotový překlad + zdivo / ŽB překlad + zdivo / ŽB ke stropu) podle odpovědi stavitele; do té doby je kus nad otvorem v datech „neurčeno“ s maximem = celá výška pásu, ne 0 (R-38 z 27. 9. 2026 tím padá).",
    "jistota": "neznámá",
    "otvor": "1NP-D04",
    "zdvih": 1,
@@ -2883,22 +3075,24 @@
    "z1": 2400,
    "parapet": 0,
    "vyska_otvoru": 2400,
-   "kridlo": "bez oblouku křídla (portál s pevnými díly, nebo posuvné), symbol dveří na vrstvě A4_DVERE (2 entit, 0 oblouky křídel)",
-   "zdroj": "kóta ve výkrese: šířka 2150, výška 2400, parapet (0) od podlahy 1NP (`tools/steny/otvory.py`); bez oblouku křídla (portál s pevnými díly, nebo posuvné), symbol dveří na vrstvě A4_DVERE (2 entit, 0 oblouky křídel); S0.23 (28. 9. 2026): mezera ve šrafě zdiva se symbolem dveří A4_DVERE; kóty z půdorysu (pdfwords); parapet: dveře: parapet 0 [odvození, kóta (0) chybí]",
+   "kridlo": "typ kridla neurcen z vykresu (R-279: jen jiste udaje), symbol dveří na vrstvě A4_DVERE (2 entit, 0 oblouky křídel)",
+   "zdroj": "kóta ve výkrese: šířka 2150, výška 2400, parapet (0) od podlahy 1NP (`tools/steny/otvory.py`); typ kridla neurcen z vykresu (R-279: jen jiste udaje), symbol dveří na vrstvě A4_DVERE (2 entit, 0 oblouky křídel); S0.23 (28. 9. 2026): mezera ve šrafě zdiva se symbolem dveří A4_DVERE; kóty z půdorysu (pdfwords); parapet: dveře: parapet 0 [odvození, kóta (0) chybí]; do S0.22 vedeno jako 1NP-D05 (dveře)",
    "jistota": "jistá",
    "steny": [
     "1NP-S15",
     "1NP-S05"
    ],
-   "puvodni_cislo": null,
+   "puvodni_cislo": "1NP-D05",
    "sever": null,
    "delene": null,
+   "id_stare": "1NP-D05",
+   "ram": null,
    "vyska": 2400,
    "barva": "#ffb347",
    "zdvih": 0
   },
   {
-   "id": "1NP-O07",
+   "id": "1NP-O05",
    "kat": "otvor",
    "typ": "okno",
    "podlazi": "1NP",
@@ -2925,6 +3119,8 @@
    "puvodni_cislo": null,
    "sever": null,
    "delene": null,
+   "id_stare": "1NP-O07",
+   "ram": null,
    "ifc_otvory": [
     {
      "ifc_id": 6281,
@@ -2946,7 +3142,7 @@
    "zdvih": 0
   },
   {
-   "id": "1NP-O08",
+   "id": "1NP-O06",
    "kat": "otvor",
    "typ": "okno",
    "podlazi": "1NP",
@@ -3008,8 +3204,8 @@
    "z1": 2400,
    "parapet": 0,
    "vyska_otvoru": 2400,
-   "kridlo": "symbol dveří na vrstvě A4_DVERE (5 entit, 1 oblouk křídel)",
-   "zdroj": "dveře ve stávajícím zdivu garáže 105 mezi 1NP-EX02 a 1NP-EX03: šířka 1000, výška 2400 (kóta v půdorysu); symbol dveří na vrstvě A4_DVERE (5 entit, 1 oblouk křídel); S0.23 (28. 9. 2026): mezera ve stávajícím zdivu garáže (`stavajici.json`, šrafa SOLID) se symbolem dveří A4_DVERE; kóty z půdorysu; mimo výkaz nového zdiva (E72, S0.23); IFC statika: otvor #4882 1001 × 2500 mm od -100 do 2400, ROZDÍL začátek -2, konec -1, spodek -100, vrch +0 mm (IFC minus naše) (E124, S0.37; IO se nekreslí, párování podle polohy)",
+   "kridlo": "typ kridla neurcen z vykresu (R-279: jen jiste udaje), symbol dveří na vrstvě A4_DVERE (5 entit, 1 oblouk křídel)",
+   "zdroj": "dveře ve stávajícím zdivu garáže 105 mezi 1NP-EX02 a 1NP-EX03: šířka 1000, výška 2400 (kóta v půdorysu); typ kridla neurcen z vykresu (R-279: jen jiste udaje), symbol dveří na vrstvě A4_DVERE (5 entit, 1 oblouk křídel); S0.23 (28. 9. 2026): mezera ve stávajícím zdivu garáže (`stavajici.json`, šrafa SOLID) se symbolem dveří A4_DVERE; kóty z půdorysu; mimo výkaz nového zdiva (E72, S0.23); IFC statika: otvor #4882 1001 × 2500 mm od -100 do 2400, ROZDÍL začátek -2, konec -1, spodek -100, vrch +0 mm (IFC minus naše) (E124, S0.37; IO se nekreslí, párování podle polohy)",
    "jistota": "stávající",
    "steny": [
     "1NP-EX02",
@@ -3038,7 +3234,7 @@
    "zdvih": 0
   },
   {
-   "id": "1NP-O09",
+   "id": "1NP-O07",
    "kat": "otvor",
    "typ": "okno",
    "podlazi": "1NP",
@@ -3100,8 +3296,8 @@
    "z1": 2800,
    "parapet": 0,
    "vyska_otvoru": 2800,
-   "kridlo": "bez oblouku (posuvné/skládací/vrata), symbol dveří na vrstvě A4_DVERE (4 entit, 0 oblouky křídel)",
-   "zdroj": "dveře ve stávajícím zdivu garáže 105 mezi 1NP-EX07 a 1NP-EX06: šířka 2800, výška 2800 (popiska v půdorysu 1.NP u vrat garáže: „zachovat původní velikost otvoru (2,8x2,8m) posunout na střed fasády, pravděpodobně bude nutná výměna překladu“ (výřez D11-01, S0.23); stávající vrata, mimo objednávku); bez oblouku (posuvné/skládací/vrata), symbol dveří na vrstvě A4_DVERE (4 entit, 0 oblouky křídel); S0.23 (28. 9. 2026): mezera ve stávajícím zdivu garáže (`stavajici.json`, šrafa SOLID) se symbolem dveří A4_DVERE; kóty z půdorysu; mimo výkaz nového zdiva (E72, S0.23)",
+   "kridlo": "typ kridla neurcen z vykresu (R-279: jen jiste udaje), symbol dveří na vrstvě A4_DVERE (4 entit, 0 oblouky křídel)",
+   "zdroj": "dveře ve stávajícím zdivu garáže 105 mezi 1NP-EX07 a 1NP-EX06: šířka 2800, výška 2800 (popiska v půdorysu 1.NP u vrat garáže: „zachovat původní velikost otvoru (2,8x2,8m) posunout na střed fasády, pravděpodobně bude nutná výměna překladu“ (výřez D11-01, S0.23); stávající vrata, mimo objednávku); typ kridla neurcen z vykresu (R-279: jen jiste udaje), symbol dveří na vrstvě A4_DVERE (4 entit, 0 oblouky křídel); S0.23 (28. 9. 2026): mezera ve stávajícím zdivu garáže (`stavajici.json`, šrafa SOLID) se symbolem dveří A4_DVERE; kóty z půdorysu; mimo výkaz nového zdiva (E72, S0.23)",
    "jistota": "stávající",
    "steny": [
     "1NP-EX07",
@@ -3131,8 +3327,8 @@
    "z1": 2500,
    "parapet": 0,
    "vyska_otvoru": 2500,
-   "kridlo": "bez oblouku (posuvné/skládací/vrata), symbol dveří na vrstvě A4_DVERE (7 entit, 0 oblouky křídel)",
-   "zdroj": "dveře ve stávajícím zdivu garáže 105 mezi 1NP-EX08 a 1NP-EX05: šířka 3000, výška 2500 (kóta v půdorysu); bez oblouku (posuvné/skládací/vrata), symbol dveří na vrstvě A4_DVERE (7 entit, 0 oblouky křídel); S0.23 (28. 9. 2026): mezera ve stávajícím zdivu garáže (`stavajici.json`, šrafa SOLID) se symbolem dveří A4_DVERE; kóty z půdorysu; mimo výkaz nového zdiva (E72, S0.23)",
+   "kridlo": "typ kridla neurcen z vykresu (R-279: jen jiste udaje), symbol dveří na vrstvě A4_DVERE (7 entit, 0 oblouky křídel)",
+   "zdroj": "dveře ve stávajícím zdivu garáže 105 mezi 1NP-EX08 a 1NP-EX05: šířka 3000, výška 2500 (kóta v půdorysu); typ kridla neurcen z vykresu (R-279: jen jiste udaje), symbol dveří na vrstvě A4_DVERE (7 entit, 0 oblouky křídel); S0.23 (28. 9. 2026): mezera ve stávajícím zdivu garáže (`stavajici.json`, šrafa SOLID) se symbolem dveří A4_DVERE; kóty z půdorysu; mimo výkaz nového zdiva (E72, S0.23)",
    "jistota": "stávající",
    "steny": [
     "1NP-EX08",
@@ -3300,7 +3496,7 @@
    "zdvih": 0
   },
   {
-   "id": "2NP-O17",
+   "id": "2NP-O01",
    "kat": "otvor",
    "typ": "okno",
    "podlazi": "2NP",
@@ -3326,12 +3522,14 @@
    "puvodni_cislo": null,
    "sever": true,
    "delene": null,
+   "id_stare": "2NP-O17",
+   "ram": null,
    "vyska": 1500,
    "barva": "#7fd3ff",
    "zdvih": 1
   },
   {
-   "id": "2NP-O19",
+   "id": "2NP-O02",
    "kat": "otvor",
    "typ": "okno",
    "podlazi": "2NP",
@@ -3357,12 +3555,14 @@
    "puvodni_cislo": null,
    "sever": true,
    "delene": null,
+   "id_stare": "2NP-O19",
+   "ram": null,
    "vyska": 1500,
    "barva": "#7fd3ff",
    "zdvih": 1
   },
   {
-   "id": "2NP-O16",
+   "id": "2NP-O03",
    "kat": "otvor",
    "typ": "okno",
    "podlazi": "2NP",
@@ -3388,12 +3588,14 @@
    "puvodni_cislo": null,
    "sever": true,
    "delene": null,
+   "id_stare": "2NP-O16",
+   "ram": null,
    "vyska": 1500,
    "barva": "#7fd3ff",
    "zdvih": 1
   },
   {
-   "id": "2NP-O18",
+   "id": "2NP-O04",
    "kat": "otvor",
    "typ": "okno",
    "podlazi": "2NP",
@@ -3419,6 +3621,8 @@
    "puvodni_cislo": null,
    "sever": true,
    "delene": null,
+   "id_stare": "2NP-O18",
+   "ram": null,
    "vyska": 1500,
    "barva": "#7fd3ff",
    "zdvih": 1
@@ -3448,9 +3652,11 @@
     "2NP-S03",
     "2NP-S04"
    ],
-   "puvodni_cislo": "2NP-O01",
+   "puvodni_cislo": "2NP-D01",
    "sever": null,
    "delene": null,
+   "id_stare": "2NP-D01",
+   "ram": null,
    "ifc_otvory": [
     {
      "ifc_id": 16704,
@@ -3486,7 +3692,7 @@
    ],
    "z0": 5060,
    "z1": 5740,
-   "zdroj": "nad dveřmi 2NP-D01 (popiska 800/1970, horní hrana 5060) je do horní hrany zdiva 5740 pás 680 mm; investor 27. 9. 2026 21:07:38 SELČ (S0.20, hlasový přepis, doslovně: „Obecně platí, že na to tvorem [= nad otvorem] nemůže být volně zdivo. Tam je buď to hotový příklad [= překlad] jako výrobek nebo je tam železobeton.“); do S0.19 kreslen jako kus zdiva; typ překladu a co je nad ním je otázka staviteli 4 (E57); zdvih s deskou potvrdil investor 28. 9. 2026 (R-53); ve 2.NP má výkres tvaru otvory dveří „2190;HH=5.110“ (od +2,920), tedy o 50 mm výš než popiska 800/1970 od podlahy (E71)",
+   "zdroj": "nad dveřmi 2NP-D01 (popiska 800/1970, horní hrana 5060) je do horní hrany zdiva 5740 pás 680 mm; investor 27. 9. 2026 21:07:38 SELČ (S0.20, hlasový přepis, doslovně: „Obecně platí, že na to tvorem [= nad otvorem] nemůže být volně zdivo. Tam je buď to hotový příklad [= překlad] jako výrobek nebo je tam železobeton.“); do S0.19 kreslen jako kus zdiva; typ překladu a co je nad ním je otázka staviteli 4 (E57); zdvih s deskou potvrdil investor 28. 9. 2026 (R-53); ve 2.NP má výkres tvaru otvory dveří „2190;HH=5.110“ (od +2,920), tedy o 50 mm výš než popiska 800/1970 od podlahy (E71) KUS ZDIVA NAD OTVOREM: E132 (R-276, R-281, R-287): kolik z tohoto pásu je překlad a kolik zdivo nad ním, určí varianta (hotový překlad + zdivo / ŽB překlad + zdivo / ŽB ke stropu) podle odpovědi stavitele; do té doby je kus nad otvorem v datech „neurčeno“ s maximem = celá výška pásu, ne 0 (R-38 z 27. 9. 2026 tím padá).",
    "jistota": "neznámá",
    "otvor": "2NP-D01",
    "zdvih": 2,
@@ -3518,9 +3724,11 @@
     "2NP-S04",
     "2NP-S05"
    ],
-   "puvodni_cislo": "2NP-O02",
+   "puvodni_cislo": "2NP-D02",
    "sever": null,
    "delene": null,
+   "id_stare": "2NP-D02",
+   "ram": null,
    "ifc_otvory": [
     {
      "ifc_id": 16741,
@@ -3556,11 +3764,83 @@
    ],
    "z0": 5060,
    "z1": 5740,
-   "zdroj": "nad dveřmi 2NP-D02 (popiska 800/1970, horní hrana 5060) je do horní hrany zdiva 5740 pás 680 mm; investor 27. 9. 2026 21:07:38 SELČ (S0.20, hlasový přepis, doslovně: „Obecně platí, že na to tvorem [= nad otvorem] nemůže být volně zdivo. Tam je buď to hotový příklad [= překlad] jako výrobek nebo je tam železobeton.“); do S0.19 kreslen jako kus zdiva; typ překladu a co je nad ním je otázka staviteli 4 (E57); zdvih s deskou potvrdil investor 28. 9. 2026 (R-53); ve 2.NP má výkres tvaru otvory dveří „2190;HH=5.110“ (od +2,920), tedy o 50 mm výš než popiska 800/1970 od podlahy (E71)",
+   "zdroj": "nad dveřmi 2NP-D02 (popiska 800/1970, horní hrana 5060) je do horní hrany zdiva 5740 pás 680 mm; investor 27. 9. 2026 21:07:38 SELČ (S0.20, hlasový přepis, doslovně: „Obecně platí, že na to tvorem [= nad otvorem] nemůže být volně zdivo. Tam je buď to hotový příklad [= překlad] jako výrobek nebo je tam železobeton.“); do S0.19 kreslen jako kus zdiva; typ překladu a co je nad ním je otázka staviteli 4 (E57); zdvih s deskou potvrdil investor 28. 9. 2026 (R-53); ve 2.NP má výkres tvaru otvory dveří „2190;HH=5.110“ (od +2,920), tedy o 50 mm výš než popiska 800/1970 od podlahy (E71) KUS ZDIVA NAD OTVOREM: E132 (R-276, R-281, R-287): kolik z tohoto pásu je překlad a kolik zdivo nad ním, určí varianta (hotový překlad + zdivo / ŽB překlad + zdivo / ŽB ke stropu) podle odpovědi stavitele; do té doby je kus nad otvorem v datech „neurčeno“ s maximem = celá výška pásu, ne 0 (R-38 z 27. 9. 2026 tím padá).",
    "jistota": "neznámá",
    "otvor": "2NP-D02",
    "zdvih": 2,
    "vyska": 680,
+   "barva": "#5c5c5c"
+  },
+  {
+   "id": "2NP-O05",
+   "kat": "otvor",
+   "typ": "okno",
+   "podlazi": "2NP",
+   "material": "otvor ve zdi: VAPIS 200",
+   "tl": 200,
+   "delka": 1900,
+   "box": [
+    -829521.0,
+    206754,
+    -829321.0,
+    208654
+   ],
+   "z0": 3990,
+   "z1": 5490,
+   "parapet": 900,
+   "vyska_otvoru": 1500,
+   "kridlo": null,
+   "zdroj": "kóta ve výkrese: šířka 1900, výška 1500, parapet (900) od podlahy 2NP (`tools/steny/otvory.py`); VÝROBEK: jeden ram 3170 x 1500, predsazena montaz v izolaci (R-291); E113 (S0.40, 11. 10. 2026, krok 6, R-126, R-291): stavebni otvor 1900 x 1500 ve zdivu, parapet 900 od podlahy 2.NP +3,090 (spodni hrana +3,990), hlava +5,490; jeden ram 3170 x 1500, predsazena montaz v izolaci (R-291); rozsah podle IFC statika #17294 (IfcOpeningElement, z +3,990 az +5,490), koty pudorysu 2.NP „3170“ a „1500 (900)“; pilir 2NP-S08 (420) mezi otvory jde na plnou vysku +2,920 az +5,740 (IFC stena #17184). Do S0.39 byly oba otvory slouceny do 2NP-O04 3170 x 1500 (R-52, R-59), slouceni zruseno R-126 a R-291.; IFC statika: otvor #17294 1900 × 1500 mm od 3990 do 5490, shoda do 20 mm (E124, S0.37; IO se nekreslí, párování podle polohy)",
+   "jistota": "jistá",
+   "steny": [
+    "2NP-S08",
+    "2NP-S01"
+   ],
+   "puvodni_cislo": null,
+   "sever": null,
+   "delene": null,
+   "id_stare": null,
+   "ram": "jeden ram 3170 x 1500, predsazena montaz v izolaci (R-291)",
+   "ifc_otvory": [
+    {
+     "ifc_id": 17294,
+     "guid": "3thWawgEjDpjorcwrWLcNw",
+     "rozmer": "1900 × 1500",
+     "z0": 3990.0,
+     "z1": 5490.0,
+     "rozdil": {
+      "zacatek": 0,
+      "konec": 0,
+      "spodek": 0,
+      "vrch": 0
+     },
+     "text": "shoda do 20 mm"
+    }
+   ],
+   "vyska": 1500,
+   "barva": "#7fd3ff",
+   "zdvih": 1
+  },
+  {
+   "id": "2NP-O05-překlad",
+   "kat": "překlad",
+   "podlazi": "2NP",
+   "material": "nadpraží +5,490 až +5,740, typ NEZNÁMÝ (ŽB, nebo překlad); V IFC STATIKA NAD OTVOREM ŽÁDNÝ ŽB NENÍ (kryto 0 %), tedy překlad jako výrobek, nebo v IFC chybí (otázka statikovi / staviteli)",
+   "tl": 200,
+   "delka": 1900,
+   "box": [
+    -829521.0,
+    206754,
+    -829321.0,
+    208654
+   ],
+   "z0": 5490,
+   "z1": 5740,
+   "zdroj": "okno s horní hranou +5,490 pod horní hranou zdiva +5,740: žádný řez tudy nevede; řez A-A kreslí nad O10 ŽB od +5,490 a nad plnými zdmi 2.NP prvek 200 × 250 s křížem na vrstvě zdiva; výkres tvaru 2.NP statiky má u tohoto okna jen mezeru ve zdivu pod deskou bez popisky (ŽB DH +5,490 jen u severního okna a u O09); TZ 5.4.1: věnce nad okny slouží jako překlady (S0.19, otázka statikovi 9 a projektantce); délka jen přes otvor KUS ZDIVA NAD OTVOREM: E132 (R-276, R-281, R-287): kolik z tohoto pásu je překlad a kolik zdivo nad ním, určí varianta (hotový překlad + zdivo / ŽB překlad + zdivo / ŽB ke stropu) podle odpovědi stavitele; do té doby je kus nad otvorem v datech „neurčeno“ s maximem = celá výška pásu, ne 0 (R-38 z 27. 9. 2026 tím padá).",
+   "jistota": "neznámá",
+   "otvor": "2NP-O05",
+   "zdvih": 2,
+   "vyska": 250,
    "barva": "#5c5c5c"
   },
   {
@@ -3587,9 +3867,11 @@
    "steny": [
     "2NP-S09"
    ],
-   "puvodni_cislo": "2NP-O05",
+   "puvodni_cislo": "2NP-D03",
    "sever": null,
    "delene": null,
+   "id_stare": "2NP-D03",
+   "ram": null,
    "ifc_otvory": [
     {
      "ifc_id": 16857,
@@ -3625,7 +3907,7 @@
    ],
    "z0": 5060,
    "z1": 5740,
-   "zdroj": "nad dveřmi 2NP-D03 (popiska 800/1970, horní hrana 5060) je do horní hrany zdiva 5740 pás 680 mm; investor 27. 9. 2026 21:07:38 SELČ (S0.20, hlasový přepis, doslovně: „Obecně platí, že na to tvorem [= nad otvorem] nemůže být volně zdivo. Tam je buď to hotový příklad [= překlad] jako výrobek nebo je tam železobeton.“); do S0.19 kreslen jako kus zdiva; typ překladu a co je nad ním je otázka staviteli 4 (E57); zdvih s deskou potvrdil investor 28. 9. 2026 (R-53); ve 2.NP má výkres tvaru otvory dveří „2190;HH=5.110“ (od +2,920), tedy o 50 mm výš než popiska 800/1970 od podlahy (E71)",
+   "zdroj": "nad dveřmi 2NP-D03 (popiska 800/1970, horní hrana 5060) je do horní hrany zdiva 5740 pás 680 mm; investor 27. 9. 2026 21:07:38 SELČ (S0.20, hlasový přepis, doslovně: „Obecně platí, že na to tvorem [= nad otvorem] nemůže být volně zdivo. Tam je buď to hotový příklad [= překlad] jako výrobek nebo je tam železobeton.“); do S0.19 kreslen jako kus zdiva; typ překladu a co je nad ním je otázka staviteli 4 (E57); zdvih s deskou potvrdil investor 28. 9. 2026 (R-53); ve 2.NP má výkres tvaru otvory dveří „2190;HH=5.110“ (od +2,920), tedy o 50 mm výš než popiska 800/1970 od podlahy (E71) KUS ZDIVA NAD OTVOREM: E132 (R-276, R-281, R-287): kolik z tohoto pásu je překlad a kolik zdivo nad ním, určí varianta (hotový překlad + zdivo / ŽB překlad + zdivo / ŽB ke stropu) podle odpovědi stavitele; do té doby je kus nad otvorem v datech „neurčeno“ s maximem = celá výška pásu, ne 0 (R-38 z 27. 9. 2026 tím padá).",
    "jistota": "neznámá",
    "otvor": "2NP-D03",
    "zdvih": 2,
@@ -3633,34 +3915,90 @@
    "barva": "#5c5c5c"
   },
   {
-   "id": "2NP-O04",
+   "id": "2NP-D04",
+   "kat": "otvor",
+   "typ": "dveře",
+   "podlazi": "2NP",
+   "material": "otvor ve zdi: VAPIS 200 (šrafa 170 mm, PDF Stěny modrá; 170 nejde vyzdít z bloků 200, otázka projektantce 29, E103)",
+   "tl": 170,
+   "delka": 800,
+   "box": [
+    -832591.0,
+    205234,
+    -832421.0,
+    206034
+   ],
+   "z0": 3090,
+   "z1": 5060,
+   "parapet": 0,
+   "vyska_otvoru": 1970,
+   "kridlo": "700/1970",
+   "zdroj": "kóta ve výkrese: šířka 800, výška 1970, parapet (0) od podlahy 2NP (`tools/steny/otvory.py`)",
+   "jistota": "jistá",
+   "steny": [
+    "2NP-S10"
+   ],
+   "puvodni_cislo": null,
+   "sever": null,
+   "delene": null,
+   "id_stare": null,
+   "ram": null,
+   "vyska": 1970,
+   "barva": "#ffb347",
+   "zdvih": 1
+  },
+  {
+   "id": "2NP-D04-překlad",
+   "kat": "překlad",
+   "podlazi": "2NP",
+   "material": "překlad nad dveřmi + dorovnání: typ NEZNÁMÝ (prefabrikát, nebo ŽB), zvedá se jako ŽB, materiál určí stavitel 4 / statik (E57); V IFC STATIKA NAD OTVOREM ŽÁDNÝ ŽB NENÍ (kryto 0 %), tedy překlad jako výrobek, nebo v IFC chybí (otázka statikovi / staviteli)",
+   "tl": 170,
+   "delka": 800,
+   "box": [
+    -832591.0,
+    205234,
+    -832421.0,
+    206034
+   ],
+   "z0": 5060,
+   "z1": 5740,
+   "zdroj": "nad dveřmi 2NP-D04 (popiska 700/1970, horní hrana 5060) je do horní hrany zdiva 5740 pás 680 mm; investor 27. 9. 2026 21:07:38 SELČ (S0.20, hlasový přepis, doslovně: „Obecně platí, že na to tvorem [= nad otvorem] nemůže být volně zdivo. Tam je buď to hotový příklad [= překlad] jako výrobek nebo je tam železobeton.“); do S0.19 kreslen jako kus zdiva; typ překladu a co je nad ním je otázka staviteli 4 (E57); zdvih s deskou potvrdil investor 28. 9. 2026 (R-53); ve 2.NP má výkres tvaru otvory dveří „2190;HH=5.110“ (od +2,920), tedy o 50 mm výš než popiska 800/1970 od podlahy (E71) KUS ZDIVA NAD OTVOREM: E132 (R-276, R-281, R-287): kolik z tohoto pásu je překlad a kolik zdivo nad ním, určí varianta (hotový překlad + zdivo / ŽB překlad + zdivo / ŽB ke stropu) podle odpovědi stavitele; do té doby je kus nad otvorem v datech „neurčeno“ s maximem = celá výška pásu, ne 0 (R-38 z 27. 9. 2026 tím padá).",
+   "jistota": "neznámá",
+   "otvor": "2NP-D04",
+   "zdvih": 2,
+   "vyska": 680,
+   "barva": "#5c5c5c"
+  },
+  {
+   "id": "2NP-O06",
    "kat": "otvor",
    "typ": "okno",
    "podlazi": "2NP",
    "material": "otvor ve zdi: VAPIS 200",
    "tl": 200,
-   "delka": 3170,
+   "delka": 850,
    "box": [
     -829521.0,
     205484,
     -829321.0,
-    208654
+    206334
    ],
    "z0": 3990,
    "z1": 5490,
    "parapet": 900,
    "vyska_otvoru": 1500,
    "kridlo": null,
-   "zdroj": "kóta ve výkrese: šířka 3170, výška 1500, parapet (900) od podlahy 2NP (`tools/steny/otvory.py`); IFC statika: otvor #17257 850 × 1500 mm od 3990 do 5490, ROZDÍL začátek +0, konec -2320, spodek +0, vrch +0 mm (IFC minus naše) (E124, S0.37; IO se nekreslí, párování podle polohy); IFC statika: otvor #17294 1900 × 1500 mm od 3990 do 5490, ROZDÍL začátek +1270, konec +0, spodek +0, vrch +0 mm (IFC minus naše) (E124, S0.37; IO se nekreslí, párování podle polohy)",
+   "zdroj": "kóta ve výkrese: šířka 850, výška 1500, parapet (900) od podlahy 2NP (`tools/steny/otvory.py`); VÝROBEK: jeden ram 3170 x 1500, predsazena montaz v izolaci (R-291); E113 (S0.40, 11. 10. 2026, krok 6, R-126, R-291): stavebni otvor 850 x 1500 ve zdivu, parapet 900 od podlahy 2.NP +3,090 (spodni hrana +3,990), hlava +5,490; jeden ram 3170 x 1500, predsazena montaz v izolaci (R-291); rozsah podle IFC statika #17257 (IfcOpeningElement, z +3,990 az +5,490), koty pudorysu 2.NP „3170“ a „1500 (900)“; pilir 2NP-S08 (420) mezi otvory jde na plnou vysku +2,920 az +5,740 (IFC stena #17184). Do S0.39 byly oba otvory slouceny do 2NP-O04 3170 x 1500 (R-52, R-59), slouceni zruseno R-126 a R-291.; IFC statika: otvor #17257 850 × 1500 mm od 3990 do 5490, shoda do 20 mm (E124, S0.37; IO se nekreslí, párování podle polohy)",
    "jistota": "jistá",
    "steny": [
     "2NP-S11",
-    "2NP-S08",
-    "2NP-S01"
+    "2NP-S08"
    ],
    "puvodni_cislo": null,
    "sever": null,
    "delene": null,
+   "id_stare": null,
+   "ram": "jeden ram 3170 x 1500, predsazena montaz v izolaci (R-291)",
    "ifc_otvory": [
     {
      "ifc_id": 17257,
@@ -3670,25 +4008,11 @@
      "z1": 5490.0,
      "rozdil": {
       "zacatek": 0,
-      "konec": -2320,
-      "spodek": 0,
-      "vrch": 0
-     },
-     "text": "ROZDÍL začátek +0, konec -2320, spodek +0, vrch +0 mm (IFC minus naše)"
-    },
-    {
-     "ifc_id": 17294,
-     "guid": "3thWawgEjDpjorcwrWLcNw",
-     "rozmer": "1900 × 1500",
-     "z0": 3990.0,
-     "z1": 5490.0,
-     "rozdil": {
-      "zacatek": 1270,
       "konec": 0,
       "spodek": 0,
       "vrch": 0
      },
-     "text": "ROZDÍL začátek +1270, konec +0, spodek +0, vrch +0 mm (IFC minus naše)"
+     "text": "shoda do 20 mm"
     }
    ],
    "vyska": 1500,
@@ -3696,23 +4020,23 @@
    "zdvih": 1
   },
   {
-   "id": "2NP-O04-překlad",
+   "id": "2NP-O06-překlad",
    "kat": "překlad",
    "podlazi": "2NP",
    "material": "nadpraží +5,490 až +5,740, typ NEZNÁMÝ (ŽB, nebo překlad); V IFC STATIKA NAD OTVOREM ŽÁDNÝ ŽB NENÍ (kryto 0 %), tedy překlad jako výrobek, nebo v IFC chybí (otázka statikovi / staviteli)",
    "tl": 200,
-   "delka": 3170,
+   "delka": 850,
    "box": [
     -829521.0,
     205484,
     -829321.0,
-    208654
+    206334
    ],
    "z0": 5490,
    "z1": 5740,
-   "zdroj": "okno s horní hranou +5,490 pod horní hranou zdiva +5,740: žádný řez tudy nevede; řez A-A kreslí nad O10 ŽB od +5,490 a nad plnými zdmi 2.NP prvek 200 × 250 s křížem na vrstvě zdiva; výkres tvaru 2.NP statiky má u tohoto okna jen mezeru ve zdivu pod deskou bez popisky (ŽB DH +5,490 jen u severního okna a u O09); TZ 5.4.1: věnce nad okny slouží jako překlady (S0.19, otázka statikovi 9 a projektantce); délka jen přes otvor",
+   "zdroj": "okno s horní hranou +5,490 pod horní hranou zdiva +5,740: žádný řez tudy nevede; řez A-A kreslí nad O10 ŽB od +5,490 a nad plnými zdmi 2.NP prvek 200 × 250 s křížem na vrstvě zdiva; výkres tvaru 2.NP statiky má u tohoto okna jen mezeru ve zdivu pod deskou bez popisky (ŽB DH +5,490 jen u severního okna a u O09); TZ 5.4.1: věnce nad okny slouží jako překlady (S0.19, otázka statikovi 9 a projektantce); délka jen přes otvor KUS ZDIVA NAD OTVOREM: E132 (R-276, R-281, R-287): kolik z tohoto pásu je překlad a kolik zdivo nad ním, určí varianta (hotový překlad + zdivo / ŽB překlad + zdivo / ŽB ke stropu) podle odpovědi stavitele; do té doby je kus nad otvorem v datech „neurčeno“ s maximem = celá výška pásu, ne 0 (R-38 z 27. 9. 2026 tím padá).",
    "jistota": "neznámá",
-   "otvor": "2NP-O04",
+   "otvor": "2NP-O06",
    "zdvih": 2,
    "vyska": 250,
    "barva": "#5c5c5c"
@@ -3722,7 +4046,7 @@
    "kat": "otvor",
    "typ": "okno",
    "podlazi": "2NP",
-   "material": "otvor ve zdi: VAPIS 300",
+   "material": "otvor ve zdi: Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87)",
    "tl": 300,
    "delka": 2101,
    "box": [
@@ -3745,6 +4069,8 @@
    "puvodni_cislo": null,
    "sever": null,
    "delene": null,
+   "id_stare": "2NP-O07",
+   "ram": null,
    "ifc_otvory": [
     {
      "ifc_id": 16383,
@@ -3780,7 +4106,7 @@
    ],
    "z0": 5490,
    "z1": 5740,
-   "zdroj": "nad okny nástavby garáže: výkres tvaru 2.NP statiky „4x PŘEKLAD POROTHERM KP 7 (nad novým oknem)“ a „3x PŘEKLAD POROTHERM KP 7 (pro budoucí okno)“, výšková pozice podle architektury; řez A-A v DWG kreslí nad oknem západní stěny tři kusy 75 mm na vrstvě A2_ZDIVO + izolace 40 mm, +5,490 až +5,740, roletový box (ANSI37) před nimi v izolaci, ŽB věnec až od +5,740 (`zdivo/steny/rezy-vysky.md`, S0.19); zda mají být ŽB je otázka staviteli 3 (E68); délka jen přes otvor, uložení neznámé",
+   "zdroj": "nad okny nástavby garáže: výkres tvaru 2.NP statiky „4x PŘEKLAD POROTHERM KP 7 (nad novým oknem)“ a „3x PŘEKLAD POROTHERM KP 7 (pro budoucí okno)“, výšková pozice podle architektury; řez A-A v DWG kreslí nad oknem západní stěny tři kusy 75 mm na vrstvě A2_ZDIVO + izolace 40 mm, +5,490 až +5,740, roletový box (ANSI37) před nimi v izolaci, ŽB věnec až od +5,740 (`zdivo/steny/rezy-vysky.md`, S0.19); zda mají být ŽB je otázka staviteli 3 (E68); délka jen přes otvor, uložení neznámé KUS ZDIVA NAD OTVOREM: E132 (R-276, R-281, R-287): kolik z tohoto pásu je překlad a kolik zdivo nad ním, určí varianta (hotový překlad + zdivo / ŽB překlad + zdivo / ŽB ke stropu) podle odpovědi stavitele; do té doby je kus nad otvorem v datech „neurčeno“ s maximem = celá výška pásu, ne 0 (R-38 z 27. 9. 2026 tím padá).",
    "jistota": "neznámá",
    "otvor": "2NP-O07",
    "zdvih": 2,
@@ -3792,7 +4118,7 @@
    "kat": "otvor",
    "typ": "okno",
    "podlazi": "2NP",
-   "material": "otvor ve zdi: VAPIS 300",
+   "material": "otvor ve zdi: Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87)",
    "tl": 300,
    "delka": 2101,
    "box": [
@@ -3815,6 +4141,8 @@
    "puvodni_cislo": null,
    "sever": null,
    "delene": null,
+   "id_stare": "2NP-O08",
+   "ram": null,
    "ifc_otvory": [
     {
      "ifc_id": 16420,
@@ -3850,7 +4178,7 @@
    ],
    "z0": 5490,
    "z1": 5740,
-   "zdroj": "nad okny nástavby garáže: výkres tvaru 2.NP statiky „4x PŘEKLAD POROTHERM KP 7 (nad novým oknem)“ a „3x PŘEKLAD POROTHERM KP 7 (pro budoucí okno)“, výšková pozice podle architektury; řez A-A v DWG kreslí nad oknem západní stěny tři kusy 75 mm na vrstvě A2_ZDIVO + izolace 40 mm, +5,490 až +5,740, roletový box (ANSI37) před nimi v izolaci, ŽB věnec až od +5,740 (`zdivo/steny/rezy-vysky.md`, S0.19); zda mají být ŽB je otázka staviteli 3 (E68); délka jen přes otvor, uložení neznámé",
+   "zdroj": "nad okny nástavby garáže: výkres tvaru 2.NP statiky „4x PŘEKLAD POROTHERM KP 7 (nad novým oknem)“ a „3x PŘEKLAD POROTHERM KP 7 (pro budoucí okno)“, výšková pozice podle architektury; řez A-A v DWG kreslí nad oknem západní stěny tři kusy 75 mm na vrstvě A2_ZDIVO + izolace 40 mm, +5,490 až +5,740, roletový box (ANSI37) před nimi v izolaci, ŽB věnec až od +5,740 (`zdivo/steny/rezy-vysky.md`, S0.19); zda mají být ŽB je otázka staviteli 3 (E68); délka jen přes otvor, uložení neznámé KUS ZDIVA NAD OTVOREM: E132 (R-276, R-281, R-287): kolik z tohoto pásu je překlad a kolik zdivo nad ním, určí varianta (hotový překlad + zdivo / ŽB překlad + zdivo / ŽB ke stropu) podle odpovědi stavitele; do té doby je kus nad otvorem v datech „neurčeno“ s maximem = celá výška pásu, ne 0 (R-38 z 27. 9. 2026 tím padá).",
    "jistota": "neznámá",
    "otvor": "2NP-O08",
    "zdvih": 2,
@@ -3884,6 +4212,8 @@
    "puvodni_cislo": null,
    "sever": null,
    "delene": null,
+   "id_stare": "2NP-O09",
+   "ram": null,
    "vyska": 1500,
    "barva": "#7fd3ff",
    "zdvih": 1
@@ -3915,6 +4245,8 @@
    "puvodni_cislo": null,
    "sever": null,
    "delene": null,
+   "id_stare": "2NP-O10",
+   "ram": null,
    "ifc_otvory": [
     {
      "ifc_id": 17457,
@@ -3950,7 +4282,7 @@
    ],
    "z0": 5490,
    "z1": 5740,
-   "zdroj": "řez A-A v DWG prochází oknem O10 (stěna S18): nad oknem železobeton ANSI35 od +5,490 do +5,940 v jednom polygonu s deskou (nadpraží 250 + věnec 200), obrys na vrstvě A2_ZB; PDF řezu potvrzuje (kóta 450 = 150 podhled + 300) (`zdivo/steny/rezy-vysky.md`, S0.19); výkres tvaru 2.NP statiky u tohoto okna popisku nemá; délka jen přes otvor, uložení neznámé",
+   "zdroj": "řez A-A v DWG prochází oknem O10 (stěna S18): nad oknem železobeton ANSI35 od +5,490 do +5,940 v jednom polygonu s deskou (nadpraží 250 + věnec 200), obrys na vrstvě A2_ZB; PDF řezu potvrzuje (kóta 450 = 150 podhled + 300) (`zdivo/steny/rezy-vysky.md`, S0.19); výkres tvaru 2.NP statiky u tohoto okna popisku nemá; délka jen přes otvor, uložení neznámé KUS ZDIVA NAD OTVOREM: E132 (R-276, R-281, R-287): kolik z tohoto pásu je překlad a kolik zdivo nad ním, určí varianta (hotový překlad + zdivo / ŽB překlad + zdivo / ŽB ke stropu) podle odpovědi stavitele; do té doby je kus nad otvorem v datech „neurčeno“ s maximem = celá výška pásu, ne 0 (R-38 z 27. 9. 2026 tím padá).",
    "jistota": "neznámá",
    "otvor": "2NP-O10",
    "zdvih": 2,
@@ -3985,6 +4317,8 @@
    "puvodni_cislo": null,
    "sever": null,
    "delene": null,
+   "id_stare": "2NP-O11",
+   "ram": null,
    "ifc_otvory": [
     {
      "ifc_id": 17104,
@@ -4020,7 +4354,7 @@
    ],
    "z0": 5490,
    "z1": 5740,
-   "zdroj": "okno s horní hranou +5,490 pod horní hranou zdiva +5,740: žádný řez tudy nevede; řez A-A kreslí nad O10 ŽB od +5,490 a nad plnými zdmi 2.NP prvek 200 × 250 s křížem na vrstvě zdiva; výkres tvaru 2.NP statiky má u tohoto okna jen mezeru ve zdivu pod deskou bez popisky (ŽB DH +5,490 jen u severního okna a u O09); TZ 5.4.1: věnce nad okny slouží jako překlady (S0.19, otázka statikovi 9 a projektantce); délka jen přes otvor",
+   "zdroj": "okno s horní hranou +5,490 pod horní hranou zdiva +5,740: žádný řez tudy nevede; řez A-A kreslí nad O10 ŽB od +5,490 a nad plnými zdmi 2.NP prvek 200 × 250 s křížem na vrstvě zdiva; výkres tvaru 2.NP statiky má u tohoto okna jen mezeru ve zdivu pod deskou bez popisky (ŽB DH +5,490 jen u severního okna a u O09); TZ 5.4.1: věnce nad okny slouží jako překlady (S0.19, otázka statikovi 9 a projektantce); délka jen přes otvor KUS ZDIVA NAD OTVOREM: E132 (R-276, R-281, R-287): kolik z tohoto pásu je překlad a kolik zdivo nad ním, určí varianta (hotový překlad + zdivo / ŽB překlad + zdivo / ŽB ke stropu) podle odpovědi stavitele; do té doby je kus nad otvorem v datech „neurčeno“ s maximem = celá výška pásu, ne 0 (R-38 z 27. 9. 2026 tím padá).",
    "jistota": "neznámá",
    "otvor": "2NP-O11",
    "zdvih": 2,
@@ -4049,12 +4383,14 @@
    "zdroj": "kóta ve výkrese: šířka 2150, výška 1500, parapet (900) od podlahy 2NP (`tools/steny/otvory.py`); IFC statika: otvor #17220 2150 × 1500 mm od 3990 do 5490, shoda do 20 mm (E124, S0.37; IO se nekreslí, párování podle polohy)",
    "jistota": "jistá",
    "steny": [
-    "2NP-S22",
+    "2NP-S23",
     "2NP-S11"
    ],
    "puvodni_cislo": null,
    "sever": null,
    "delene": null,
+   "id_stare": "2NP-O12",
+   "ram": null,
    "ifc_otvory": [
     {
      "ifc_id": 17220,
@@ -4090,7 +4426,7 @@
    ],
    "z0": 5490,
    "z1": 5740,
-   "zdroj": "okno s horní hranou +5,490 pod horní hranou zdiva +5,740: žádný řez tudy nevede; řez A-A kreslí nad O10 ŽB od +5,490 a nad plnými zdmi 2.NP prvek 200 × 250 s křížem na vrstvě zdiva; výkres tvaru 2.NP statiky má u tohoto okna jen mezeru ve zdivu pod deskou bez popisky (ŽB DH +5,490 jen u severního okna a u O09); TZ 5.4.1: věnce nad okny slouží jako překlady (S0.19, otázka statikovi 9 a projektantce); délka jen přes otvor",
+   "zdroj": "okno s horní hranou +5,490 pod horní hranou zdiva +5,740: žádný řez tudy nevede; řez A-A kreslí nad O10 ŽB od +5,490 a nad plnými zdmi 2.NP prvek 200 × 250 s křížem na vrstvě zdiva; výkres tvaru 2.NP statiky má u tohoto okna jen mezeru ve zdivu pod deskou bez popisky (ŽB DH +5,490 jen u severního okna a u O09); TZ 5.4.1: věnce nad okny slouží jako překlady (S0.19, otázka statikovi 9 a projektantce); délka jen přes otvor KUS ZDIVA NAD OTVOREM: E132 (R-276, R-281, R-287): kolik z tohoto pásu je překlad a kolik zdivo nad ním, určí varianta (hotový překlad + zdivo / ŽB překlad + zdivo / ŽB ke stropu) podle odpovědi stavitele; do té doby je kus nad otvorem v datech „neurčeno“ s maximem = celá výška pásu, ne 0 (R-38 z 27. 9. 2026 tím padá).",
    "jistota": "neznámá",
    "otvor": "2NP-O12",
    "zdvih": 2,
@@ -4119,12 +4455,14 @@
    "zdroj": "kóta ve výkrese: šířka 1000, výška 2150, parapet (250) od podlahy 2NP (`tools/steny/otvory.py`); IFC statika: otvor #17141 1000 × 2150 mm od 3340 do 5490, shoda do 20 mm (E124, S0.37; IO se nekreslí, párování podle polohy)",
    "jistota": "jistá",
    "steny": [
-    "2NP-S23",
+    "2NP-S24",
     "2NP-S20"
    ],
    "puvodni_cislo": null,
    "sever": null,
    "delene": null,
+   "id_stare": "2NP-O13",
+   "ram": null,
    "ifc_otvory": [
     {
      "ifc_id": 17141,
@@ -4160,7 +4498,7 @@
    ],
    "z0": 5490,
    "z1": 5740,
-   "zdroj": "okno s horní hranou +5,490 pod horní hranou zdiva +5,740: žádný řez tudy nevede; řez A-A kreslí nad O10 ŽB od +5,490 a nad plnými zdmi 2.NP prvek 200 × 250 s křížem na vrstvě zdiva; výkres tvaru 2.NP statiky má u tohoto okna jen mezeru ve zdivu pod deskou bez popisky (ŽB DH +5,490 jen u severního okna a u O09); TZ 5.4.1: věnce nad okny slouží jako překlady (S0.19, otázka statikovi 9 a projektantce); délka jen přes otvor",
+   "zdroj": "okno s horní hranou +5,490 pod horní hranou zdiva +5,740: žádný řez tudy nevede; řez A-A kreslí nad O10 ŽB od +5,490 a nad plnými zdmi 2.NP prvek 200 × 250 s křížem na vrstvě zdiva; výkres tvaru 2.NP statiky má u tohoto okna jen mezeru ve zdivu pod deskou bez popisky (ŽB DH +5,490 jen u severního okna a u O09); TZ 5.4.1: věnce nad okny slouží jako překlady (S0.19, otázka statikovi 9 a projektantce); délka jen přes otvor KUS ZDIVA NAD OTVOREM: E132 (R-276, R-281, R-287): kolik z tohoto pásu je překlad a kolik zdivo nad ním, určí varianta (hotový překlad + zdivo / ŽB překlad + zdivo / ŽB ke stropu) podle odpovědi stavitele; do té doby je kus nad otvorem v datech „neurčeno“ s maximem = celá výška pásu, ne 0 (R-38 z 27. 9. 2026 tím padá).",
    "jistota": "neznámá",
    "otvor": "2NP-O13",
    "zdvih": 2,
@@ -4172,7 +4510,7 @@
    "kat": "otvor",
    "typ": "okno",
    "podlazi": "2NP",
-   "material": "otvor ve zdi: VAPIS 300",
+   "material": "otvor ve zdi: Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87)",
    "tl": 300,
    "delka": 2800,
    "box": [
@@ -4189,12 +4527,14 @@
    "zdroj": "kóta ve výkrese: šířka 2800, výška 1500, parapet (3990) od podlahy garaz (`tools/steny/otvory.py`); IFC statika: otvor #16304 2800 × 1500 mm od 3990 do 5490, shoda do 20 mm (E124, S0.37; IO se nekreslí, párování podle polohy)",
    "jistota": "jistá",
    "steny": [
-    "2NP-S24",
+    "2NP-S25",
     "2NP-S19"
    ],
    "puvodni_cislo": null,
    "sever": null,
    "delene": null,
+   "id_stare": "2NP-O14",
+   "ram": null,
    "ifc_otvory": [
     {
      "ifc_id": 16304,
@@ -4230,7 +4570,7 @@
    ],
    "z0": 5490,
    "z1": 5740,
-   "zdroj": "nad okny nástavby garáže: výkres tvaru 2.NP statiky „4x PŘEKLAD POROTHERM KP 7 (nad novým oknem)“ a „3x PŘEKLAD POROTHERM KP 7 (pro budoucí okno)“, výšková pozice podle architektury; řez A-A v DWG kreslí nad oknem západní stěny tři kusy 75 mm na vrstvě A2_ZDIVO + izolace 40 mm, +5,490 až +5,740, roletový box (ANSI37) před nimi v izolaci, ŽB věnec až od +5,740 (`zdivo/steny/rezy-vysky.md`, S0.19); zda mají být ŽB je otázka staviteli 3 (E68); délka jen přes otvor, uložení neznámé",
+   "zdroj": "nad okny nástavby garáže: výkres tvaru 2.NP statiky „4x PŘEKLAD POROTHERM KP 7 (nad novým oknem)“ a „3x PŘEKLAD POROTHERM KP 7 (pro budoucí okno)“, výšková pozice podle architektury; řez A-A v DWG kreslí nad oknem západní stěny tři kusy 75 mm na vrstvě A2_ZDIVO + izolace 40 mm, +5,490 až +5,740, roletový box (ANSI37) před nimi v izolaci, ŽB věnec až od +5,740 (`zdivo/steny/rezy-vysky.md`, S0.19); zda mají být ŽB je otázka staviteli 3 (E68); délka jen přes otvor, uložení neznámé KUS ZDIVA NAD OTVOREM: E132 (R-276, R-281, R-287): kolik z tohoto pásu je překlad a kolik zdivo nad ním, určí varianta (hotový překlad + zdivo / ŽB překlad + zdivo / ŽB ke stropu) podle odpovědi stavitele; do té doby je kus nad otvorem v datech „neurčeno“ s maximem = celá výška pásu, ne 0 (R-38 z 27. 9. 2026 tím padá).",
    "jistota": "neznámá",
    "otvor": "2NP-O14",
    "zdvih": 2,
@@ -4238,32 +4578,7 @@
    "barva": "#5c5c5c"
   },
   {
-   "id": "2NP-O15",
-   "kat": "stěna",
-   "podlazi": "2NP",
-   "material": "VAPIS 200 (atika nad 209, tl. 200)",
-   "tl": 200,
-   "delka": 6875,
-   "box": [
-    -844196,
-    198724.0,
-    -837321,
-    198924.0
-   ],
-   "z0": 2920,
-   "z1": 4240,
-   "zdroj": "investor 29. 9. 2026 (S0.25, textové zadání), doslovně: „o15 klidne muzeme rikat atika, to je jedno a mas pravdu, ze je to cihla 200“: VAPIS 200 v pásu 200 mm od líce S25/S26 (řez B-B: VAPIS 200 do +4,170; výkres tvaru 1.NP: „ATIKA HH +4,170“, E81 R5); horní hrana v modelu +4,240 (výšková kóta půdorysu) proti +4,170 (řez B-B, výkres tvaru): rozpor trvá, otázka projektantce 14. Dřívější stav: investor 27. 9. 2026 16:34 SELČ (S0.16, textové zadání session), doslovně: „2np-15 je ve skutecnosti stena vapis 240 - a k ni je dotaz na email, zda to bude vapis, protoze jde o tepelne mosty“ (otázka projektantce 14, E54); spodní hrana +2,920 jako sousední S25/S26 [odvození], horní hrana +4,240 (výšková kóta v DWG); v seznamu stěn zatím není (doplní se při přečíslování E36). Délka: v DWG je pás dlouhý 6275 a mezera mezi S25 a S26 je 6875, do S0.17 stěna končila 300 mm před každou sousední zdí; od S0.18 (27. 9. 2026) se kreslí přes celou mezeru až k líci S25 a S26 (investor 27. 9. 2026, hlasový přepis: „je krátká a nedotýká se těch zdí v sousedních ... asi bych ji rozšířil“), napojení na S25/S26 je doplněk otázky projektantce 14 (E62). Původní čtení: jižní strana 2.NP mezi S25 a S26 (`otvory.md` nález 5 to četl jako hranici obdélníků): investor 21. 9. 2026 23:46 SELČ „o15 není okno, ale je to zeď“; v DWG bez šrafy, dvojice čar A2_POH-N v odstupu 200 (y 198 724 až 198 924) a A2_POH v odstupu 560, kóty 300 + 200 + 60 = 560, délka 6275, výšková kóta +4,240 s odkazovou čarou do pásu (terasa vedle +3,340, podlaha 2.NP +3,090); materiál a skladba NEZNÁMÉ, kreslí se vrstva 200 v délce čar 6275 (mezera v seznamu stěn je 6875, tj. o 300 na každé straně víc) od podlahy +3,090 do +4,240, sousední S25/S26 začínají na +2,920 (`zdivo/steny/o15.json`, E54)",
-   "jistota": "odvození",
-   "steny": [
-    "2NP-S25",
-    "2NP-S26"
-   ],
-   "vyska": 1320,
-   "barva": "#999999",
-   "zdvih": 1
-  },
-  {
-   "id": "2NP-D04",
+   "id": "2NP-D05",
    "kat": "otvor",
    "typ": "dveře",
    "podlazi": "2NP",
@@ -4294,7 +4609,7 @@
    "zdvih": 1
   },
   {
-   "id": "2NP-D05",
+   "id": "2NP-D06",
    "kat": "otvor",
    "typ": "dveře",
    "podlazi": "2NP",
@@ -4324,7 +4639,7 @@
    "zdvih": 1
   },
   {
-   "id": "2NP-D06",
+   "id": "2NP-D07",
    "kat": "otvor",
    "typ": "dveře",
    "podlazi": "2NP",
@@ -4355,7 +4670,7 @@
    "zdvih": 1
   },
   {
-   "id": "2NP-D07",
+   "id": "2NP-D08",
    "kat": "otvor",
    "typ": "dveře",
    "podlazi": "2NP",
@@ -4386,40 +4701,15 @@
    "zdvih": 1
   },
   {
-   "id": "1NP-P02a",
+   "id": "1NP-P01",
    "kat": "kus parapet",
    "podlazi": "1NP",
    "material": "VAPIS 240",
    "tl": 240,
-   "delka": 1090,
+   "delka": 3870,
    "box": [
     -829871.0,
     207594,
-    -829631.0,
-    208684
-   ],
-   "z0": -350,
-   "z1": 400,
-   "zdroj": "balkonové dveře v portálu O02: parapet 400 podle výkresů (půdorys „2000 (400)“, výkres tvaru „2000;DH=0.400“, pohled východní; E81 R2), investor čekal nižší, otázka projektantce 24; zdivo pod = parapet + 350 (zdivo 1.NP od −0,350)",
-   "jistota": "pracovní",
-   "otvor": "1NP-O02a",
-   "steny": [
-    "1NP-S06"
-   ],
-   "vyska": 750,
-   "barva": "#f04fa0",
-   "zdvih": 0
-  },
-  {
-   "id": "1NP-P02",
-   "kat": "kus parapet",
-   "podlazi": "1NP",
-   "material": "VAPIS 240",
-   "tl": 240,
-   "delka": 2780,
-   "box": [
-    -829871.0,
-    208684,
     -829631.0,
     211464
    ],
@@ -4436,7 +4726,7 @@
    "zdvih": 0
   },
   {
-   "id": "1NP-P04",
+   "id": "1NP-P02",
    "kat": "kus parapet",
    "podlazi": "1NP",
    "material": "VAPIS 240",
@@ -4462,7 +4752,7 @@
    "zdvih": 0
   },
   {
-   "id": "1NP-P07",
+   "id": "1NP-P03",
    "kat": "kus parapet",
    "podlazi": "1NP",
    "material": "VAPIS 240",
@@ -4478,7 +4768,7 @@
    "z1": 1700,
    "zdroj": "parapet (1700) od ±0,000 + zdivo 1.NP začíná na −0,350 (řez A-A v DWG (výškové kóty a šrafy, `tools/steny/README.md`))",
    "jistota": "pracovní",
-   "otvor": "1NP-O07",
+   "otvor": "1NP-O05",
    "steny": [
     "1NP-S16",
     "1NP-S12"
@@ -4488,7 +4778,7 @@
    "zdvih": 0
   },
   {
-   "id": "1NP-EXP08",
+   "id": "1NP-EXP01",
    "kat": "stávající zdivo",
    "podlazi": "1NP",
    "material": "stávající smíšené zdivo (garáž 105), pod/nad oknem podle projektu (R-44)",
@@ -4504,7 +4794,7 @@
    "z1": 900,
    "zdroj": "stávající zdivo garáže 105 pod oknem od podlahy garáže ±0,000 do parapetu (kóta „1500 (900)“); NENÍ nové zdivo, mimo výkaz; S0.24 (28. 9. 2026, R-44, E76): mezera ve stávající zdi garáže (`stavajici.json`, SOLID) přesně v místě rámečku A4_OKNA, kóta půdorysu 1.NP „2100“, „1500 (900)“ (parapet od podlahy garáže ±0,000); v realitě se použijí stávající otvory bez nových překladů, rozměry původních otvorů neznáme, kresba je podle projektu, přibližně odpovídá (investor 28. 9. 2026, R-44); mimo výkaz nového zdiva",
    "jistota": "odvození",
-   "otvor": "1NP-O08",
+   "otvor": "1NP-O06",
    "steny": [
     "1NP-EX01",
     "1NP-EX02"
@@ -4515,7 +4805,7 @@
    "zdvih": 0
   },
   {
-   "id": "1NP-EXN08",
+   "id": "1NP-EXN01",
    "kat": "stávající zdivo",
    "podlazi": "1NP",
    "material": "stávající smíšené zdivo (garáž 105), pod/nad oknem podle projektu (R-44)",
@@ -4531,7 +4821,7 @@
    "z1": 2650,
    "zdroj": "stávající zdivo garáže nad oknem od horní hrany okna +2,400 do horní hrany stávající zdi +2,650 (DH nového věnce, řez C-C); v realitě stávající otvor a stávající překlad (R-44), NENÍ nové zdivo, mimo výkaz",
    "jistota": "odvození",
-   "otvor": "1NP-O08",
+   "otvor": "1NP-O06",
    "steny": [
     "1NP-EX01",
     "1NP-EX02"
@@ -4542,7 +4832,7 @@
    "zdvih": 0
   },
   {
-   "id": "1NP-EXP09",
+   "id": "1NP-EXP02",
    "kat": "stávající zdivo",
    "podlazi": "1NP",
    "material": "stávající smíšené zdivo (garáž 105), pod/nad oknem podle projektu (R-44)",
@@ -4558,7 +4848,7 @@
    "z1": 900,
    "zdroj": "stávající zdivo garáže 105 pod oknem od podlahy garáže ±0,000 do parapetu (kóta „1500 (900)“); NENÍ nové zdivo, mimo výkaz; S0.24 (28. 9. 2026, R-44, E76): mezera ve stávající zdi garáže (`stavajici.json`, SOLID) přesně v místě rámečku A4_OKNA, kóta půdorysu 1.NP „2100“, „1500 (900)“ (parapet od podlahy garáže ±0,000); v realitě se použijí stávající otvory bez nových překladů, rozměry původních otvorů neznáme, kresba je podle projektu, přibližně odpovídá (investor 28. 9. 2026, R-44); mimo výkaz nového zdiva",
    "jistota": "odvození",
-   "otvor": "1NP-O09",
+   "otvor": "1NP-O07",
    "steny": [
     "1NP-EX03",
     "1NP-EX04"
@@ -4569,7 +4859,7 @@
    "zdvih": 0
   },
   {
-   "id": "1NP-EXN09",
+   "id": "1NP-EXN02",
    "kat": "stávající zdivo",
    "podlazi": "1NP",
    "material": "stávající smíšené zdivo (garáž 105), pod/nad oknem podle projektu (R-44)",
@@ -4585,7 +4875,7 @@
    "z1": 2650,
    "zdroj": "stávající zdivo garáže nad oknem od horní hrany okna +2,400 do horní hrany stávající zdi +2,650 (DH nového věnce, řez C-C); v realitě stávající otvor a stávající překlad (R-44), NENÍ nové zdivo, mimo výkaz",
    "jistota": "odvození",
-   "otvor": "1NP-O09",
+   "otvor": "1NP-O07",
    "steny": [
     "1NP-EX03",
     "1NP-EX04"
@@ -4596,34 +4886,7 @@
    "zdvih": 0
   },
   {
-   "id": "2NP-P04a",
-   "kat": "kus parapet",
-   "podlazi": "2NP",
-   "material": "VAPIS 200",
-   "tl": 200,
-   "delka": 850,
-   "box": [
-    -829521.0,
-    205484,
-    -829321.0,
-    206334
-   ],
-   "z0": 2920,
-   "z1": 3990,
-   "zdroj": "parapet (900) od podlahy 2.NP +3,090, zdivo od horní hrany desky +2,920 (řez A-A v DWG (výškové kóty a šrafy, `tools/steny/README.md`)); část 1 z 2 parapetního zdiva pod oknem 2NP-O04 (mezi částmi pilíř 2NP-S08)",
-   "jistota": "pracovní",
-   "otvor": "2NP-O04",
-   "steny": [
-    "2NP-S11",
-    "2NP-S08",
-    "2NP-S01"
-   ],
-   "vyska": 1070,
-   "barva": "#2f7ff2",
-   "zdvih": 1
-  },
-  {
-   "id": "2NP-P04b",
+   "id": "2NP-P01",
    "kat": "kus parapet",
    "podlazi": "2NP",
    "material": "VAPIS 200",
@@ -4637,11 +4900,10 @@
    ],
    "z0": 2920,
    "z1": 3990,
-   "zdroj": "parapet (900) od podlahy 2.NP +3,090, zdivo od horní hrany desky +2,920 (řez A-A v DWG (výškové kóty a šrafy, `tools/steny/README.md`)); část 2 z 2 parapetního zdiva pod oknem 2NP-O04 (mezi částmi pilíř 2NP-S08)",
+   "zdroj": "parapet (900) od podlahy 2.NP +3,090, zdivo od horní hrany desky +2,920 (řez A-A v DWG (výškové kóty a šrafy, `tools/steny/README.md`))",
    "jistota": "pracovní",
-   "otvor": "2NP-O04",
+   "otvor": "2NP-O05",
    "steny": [
-    "2NP-S11",
     "2NP-S08",
     "2NP-S01"
    ],
@@ -4650,10 +4912,36 @@
    "zdvih": 1
   },
   {
-   "id": "2NP-P07",
+   "id": "2NP-P02",
    "kat": "kus parapet",
    "podlazi": "2NP",
-   "material": "VAPIS 300",
+   "material": "VAPIS 200",
+   "tl": 200,
+   "delka": 850,
+   "box": [
+    -829521.0,
+    205484,
+    -829321.0,
+    206334
+   ],
+   "z0": 2920,
+   "z1": 3990,
+   "zdroj": "parapet (900) od podlahy 2.NP +3,090, zdivo od horní hrany desky +2,920 (řez A-A v DWG (výškové kóty a šrafy, `tools/steny/README.md`))",
+   "jistota": "pracovní",
+   "otvor": "2NP-O06",
+   "steny": [
+    "2NP-S11",
+    "2NP-S08"
+   ],
+   "vyska": 1070,
+   "barva": "#2f7ff2",
+   "zdvih": 1
+  },
+  {
+   "id": "2NP-P03",
+   "kat": "kus parapet",
+   "podlazi": "2NP",
+   "material": "Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87)",
    "tl": 300,
    "delka": 2101,
    "box": [
@@ -4672,14 +4960,14 @@
     "2NP-S14"
    ],
    "vyska": 750,
-   "barva": "#7e3ff2",
+   "barva": "#999999",
    "zdvih": 1
   },
   {
-   "id": "2NP-P08",
+   "id": "2NP-P04",
    "kat": "kus parapet",
    "podlazi": "2NP",
-   "material": "VAPIS 300",
+   "material": "Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87)",
    "tl": 300,
    "delka": 2101,
    "box": [
@@ -4698,11 +4986,11 @@
     "2NP-S15"
    ],
    "vyska": 750,
-   "barva": "#7e3ff2",
+   "barva": "#999999",
    "zdvih": 1
   },
   {
-   "id": "2NP-P09",
+   "id": "2NP-P05",
    "kat": "kus parapet",
    "podlazi": "2NP",
    "material": "VAPIS 200",
@@ -4727,7 +5015,7 @@
    "zdvih": 1
   },
   {
-   "id": "2NP-P10",
+   "id": "2NP-P06",
    "kat": "kus parapet",
    "podlazi": "2NP",
    "material": "VAPIS 200",
@@ -4752,7 +5040,7 @@
    "zdvih": 1
   },
   {
-   "id": "2NP-P11",
+   "id": "2NP-P07",
    "kat": "kus parapet",
    "podlazi": "2NP",
    "material": "VAPIS 200",
@@ -4778,7 +5066,7 @@
    "zdvih": 1
   },
   {
-   "id": "2NP-P12",
+   "id": "2NP-P08",
    "kat": "kus parapet",
    "podlazi": "2NP",
    "material": "VAPIS 200",
@@ -4796,7 +5084,7 @@
    "jistota": "pracovní",
    "otvor": "2NP-O12",
    "steny": [
-    "2NP-S22",
+    "2NP-S23",
     "2NP-S11"
    ],
    "vyska": 1070,
@@ -4804,7 +5092,7 @@
    "zdvih": 1
   },
   {
-   "id": "2NP-P13",
+   "id": "2NP-P09",
    "kat": "kus parapet",
    "podlazi": "2NP",
    "material": "VAPIS 200",
@@ -4822,7 +5110,7 @@
    "jistota": "pracovní",
    "otvor": "2NP-O13",
    "steny": [
-    "2NP-S23",
+    "2NP-S24",
     "2NP-S20"
    ],
    "vyska": 420,
@@ -4830,10 +5118,10 @@
    "zdvih": 1
   },
   {
-   "id": "2NP-P14",
+   "id": "2NP-P10",
    "kat": "kus parapet",
    "podlazi": "2NP",
-   "material": "VAPIS 300",
+   "material": "Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87)",
    "tl": 300,
    "delka": 2800,
    "box": [
@@ -4848,11 +5136,11 @@
    "jistota": "pracovní",
    "otvor": "2NP-O14",
    "steny": [
-    "2NP-S24",
+    "2NP-S25",
     "2NP-S19"
    ],
    "vyska": 750,
-   "barva": "#7e3ff2",
+   "barva": "#999999",
    "zdvih": 1
   },
   {
@@ -5211,10 +5499,10 @@
    "podlazi": "1NP",
    "material": "SDK příčka, jednoduché opláštění (ANSI33)",
    "tl": 125,
-   "delka": 875,
+   "delka": 1975,
    "box": [
     -833553,
-    200064,
+    198964,
     -833441,
     200939
    ],
@@ -5275,31 +5563,6 @@
    "strany": [
     "107",
     "109"
-   ],
-   "vyska": 2700,
-   "barva": "#f2f2f2",
-   "zdvih": 0
-  },
-  {
-   "id": "1NP-SDK18",
-   "kat": "SDK",
-   "podlazi": "1NP",
-   "material": "SDK příčka, jednoduché opláštění (ANSI33)",
-   "tl": 125,
-   "delka": 1000,
-   "box": [
-    -833553,
-    198964,
-    -833441,
-    199964
-   ],
-   "z0": 0,
-   "z1": 2700,
-   "zdroj": "SDK příčka 1.NP od podlahy ±0,000 ke spodní hraně stropní desky +2,700 [odvození: výška SDK není v půdorysu kótovaná, ke stropu je předpoklad]; půdorys 1.NP, šrafa ANSI31/ANSI33 podle legendy konstrukcí (`zdivo/steny/sdk.json`)",
-   "jistota": "odvození",
-   "strany": [
-    "109",
-    "108"
    ],
    "vyska": 2700,
    "barva": "#f2f2f2",
@@ -5538,9 +5801,9 @@
    "tl": 125,
    "delka": 1470,
    "box": [
-    -832541,
+    -832591,
     206234,
-    -832416,
+    -832466,
     207704
    ],
    "z0": 3090,
@@ -5563,9 +5826,9 @@
    "tl": 125,
    "delka": 580,
    "box": [
-    -832541,
+    -832591,
     205454,
-    -832416,
+    -832466,
     206034
    ],
    "z0": 3090,
@@ -5711,9 +5974,9 @@
    "podlazi": "2NP",
    "material": "SDK předstěna",
    "tl": 370,
-   "delka": 2895,
+   "delka": 2945,
    "box": [
-    -832416,
+    -832466,
     206359,
     -829521,
     206729
@@ -5956,7 +6219,7 @@
    "zdvih": 0
   },
   {
-   "id": "1NP-EXN06",
+   "id": "1NP-D06-nad",
    "kat": "stávající zdivo",
    "podlazi": "1NP",
    "material": "stávající smíšené zdivo nad dveřmi (stávající překlad, garáž 105)",
@@ -5975,6 +6238,29 @@
    "otvor": "1NP-D06",
    "stavajici": true,
    "vyska": 250,
+   "barva": "#a67c52",
+   "zdvih": 0
+  },
+  {
+   "id": "1NP-D08-nad",
+   "kat": "stávající zdivo",
+   "podlazi": "1NP",
+   "material": "stávající smíšené zdivo nad dveřmi (stávající překlad, garáž 105)",
+   "tl": 300,
+   "delka": 3000,
+   "box": [
+    -850584.0,
+    199454,
+    -850284.0,
+    202454
+   ],
+   "z0": 2500,
+   "z1": 2650,
+   "zdroj": "S0.24: pás stávající zdi nad dveřmi 1NP-D08 od horní hrany dveří 2500 do 2650; horní hrana stávající zdi +2,650 = DH nového věnce (řez C-C) [odvození]; stávající překlad (u vrat popiska „pravděpodobně bude nutná výměna překladu“), mimo výkaz nového zdiva",
+   "jistota": "odvození",
+   "otvor": "1NP-D08",
+   "stavajici": true,
+   "vyska": 150,
    "barva": "#a67c52",
    "zdvih": 0
   },
@@ -6154,6 +6440,28 @@
    "zdvih": 0
   },
   {
+   "id": "2NP-K01",
+   "kat": "komín",
+   "podlazi": "2NP",
+   "material": "komín 400 × 400 mm (materiál NEZNÁMÝ, výkres ho nepíše); MIMO VÝKAZ cihel a objednávek (R-88)",
+   "tl": 400,
+   "delka": 400,
+   "box": [
+    -840311,
+    201209,
+    -839911,
+    201609
+   ],
+   "z0": 2920,
+   "z1": 5740,
+   "zdroj": "půdorys 2.NP: plocha šrafy ANSI31 na vrstvě A3_SRA_SOLSS [−790 311, 201 209, −789 911, 201 609] (400 × 400 mm) s textem „KOMÍN“ vedle (x −790 107, y 201 094); vrstva A3_SRA_SOLSS nese zpevněné plochy a terén, ne konstrukce (`zdivo/steny/sdk.json` meta.vyrazeno). investor 6. 10. 2026 (R-88, doslovně): „komin muzes oznacit ID a muzes ho mit v modelu, ale nepocita se do cihel a objednavek, tak jsem to myslel“ (E102). Výška NENÍ ve výkresech: žádný řez ani kóta komín nekótuje (ověřeno v textech DWG a v `zdivo/steny/rezy-vysky.json`), kreslí se od +2,920 (horní hrana desky nad 1.NP) do +5,740 (horní hrana zdiva 2.NP) jen jako zástupný rozsah",
+   "jistota": "neznámá",
+   "mimo_vykaz": true,
+   "vyska": 2820,
+   "barva": "#999999",
+   "zdvih": 1
+  },
+  {
    "id": "1NP-PK01",
    "kat": "otvor",
    "geom": "poly",
@@ -6222,36 +6530,36 @@
    "rings": [
     [
      [
-      -852483.2,
+      -852434.2,
       198414.0
      ],
      [
-      -852206.3,
+      -852434.2,
+      198714.0
+     ],
+     [
+      -852252.2,
+      198714.0
+     ],
+     [
+      -852252.2,
       198414.0
-     ],
-     [
-      -852206.3,
-      198714.0
-     ],
-     [
-      -852483.2,
-      198714.0
      ]
     ]
    ],
    "podlazi": "1NP",
-   "material": "prostup ve zdi jen v IFC statika, v architektuře není: otvor ve zdi, kruhový prostup Ø 280 mm, vodorovný válec s osou y, délka 300 mm (E134: tvar z geometrie IFC, kreslí se jako válec); hostitel 1NP-EX09",
+   "material": "prostup ve zdi jen v IFC statika, v architektuře není: otvor ve zdi, kruhový prostup Ø 182 mm, vodorovný válec s osou y, délka 300 mm (E134: tvar z geometrie IFC, kreslí se jako válec); hostitel 1NP-EX09",
    "tl": 300,
-   "delka": 277,
+   "delka": 182,
    "box": [
-    -852483.2,
+    -852434.2,
     198414.0,
-    -852206.3,
+    -852252.2,
     198714.0
    ],
-   "z0": 1860.8,
-   "z1": 2139.2,
-   "zdroj": "IFC #5132 GUID 3iqI4RwV543H0HkhE7AmLw (IfcOpeningElement, IfcRelVoidsElement → #5041), výška 278 mm od 1860.8 do 2139.2; IFC statika `Projekt/STATIKA/MODEL/rdza__3_001.ifc` (REBIM 3D, export 2026-10-01T23:01:27; investor 2. 10. 2026: IFC je zdroj, autoritativní pro ŽB), převod `tools/model/ifc_statika.py` (posun -839122, +198764 z kontrolní desky #9235); E114 (investor 7. 10. 2026, R-127: „dopln je do naseho modelu, IFC je autoritativni“; R-163: žádný otvor z IFC nevynechat), převzato jako náš prvek S0.37 10. 10. 2026",
+   "z0": 1909.0,
+   "z1": 2091.0,
+   "zdroj": "IFC #5132 GUID 3iqI4RwV543H0HkhE7AmLw (IfcOpeningElement, IfcRelVoidsElement → #5041), výška 182 mm od 1909.0 do 2091.0; IFC statika `Projekt/STATIKA/MODEL/rdza__3_001.ifc` (REBIM 3D, export 2026-10-01T23:01:27; investor 2. 10. 2026: IFC je zdroj, autoritativní pro ŽB), převod `tools/model/ifc_statika.py` (posun -839122, +198764 z kontrolní desky #9235); PŘEPIS GEOMETRIE: skutečný Ø 182 mm podle investora (návod rekuperace, R-293, R-302); v IFC #5132 Ø 280, geometrie IFC přepsána na pokyn investora; statikovi na vědomí s E117 (`tools/model/ifc_do_modelu.PREPIS_PRUMERU`, prázdný slovník přepis vypne); E114 (investor 7. 10. 2026, R-127: „dopln je do naseho modelu, IFC je autoritativni“; R-163: žádný otvor z IFC nevynechat), převzato jako náš prvek S0.37 10. 10. 2026",
    "jistota": "z IFC",
    "ifc_id": 5132,
    "ifc_guid": "3iqI4RwV543H0HkhE7AmLw",
@@ -6266,7 +6574,7 @@
      198564.0,
      2000.0
     ],
-    "prumer": 280.0,
+    "prumer": 182.0,
     "delka": 300.0
    },
    "steny": [
@@ -6274,7 +6582,7 @@
    ],
    "typ": "prostup",
    "prostup": true,
-   "vyska": 278.39999999999986,
+   "vyska": 182.0,
    "barva": "#e65100"
   },
   {
@@ -6718,7 +7026,7 @@
     ]
    ],
    "podlazi": "2NP",
-   "material": "prostup ve zdi jen v IFC statika, v architektuře není: otvor ve zdi, 565 × 110 mm; hostitel 2NP-S25",
+   "material": "prostup ve zdi jen v IFC statika, v architektuře není: otvor ve zdi, 565 × 110 mm; hostitel 2NP-S27",
    "tl": 110,
    "delka": 565,
    "box": [
@@ -6739,7 +7047,7 @@
    "opacity": 0.6,
    "valec": null,
    "steny": [
-    "2NP-S25"
+    "2NP-S27"
    ],
    "typ": "prostup",
    "prostup": true,
@@ -6855,21 +7163,21 @@
   {
    "podlazi": "1NP",
    "box": [
-    -856734.5,
+    -856685.5,
     198414.0,
-    -856454.5,
+    -856503.5,
     198714.0
    ],
-   "z0": 1860.0,
-   "z1": 2140.0,
-   "material": "druhý velký kruhový otvor Ø 280 mm v jižní zdi stávající garáže (západní část), symetricky k otvoru IFC #5132 podle osy zdi #5041; CHYBÍ V PROJEKTU (IFC i architektura); hostitel 1NP-EX09",
-   "tl": 280,
-   "delka": 300,
+   "z0": 1909.0,
+   "z1": 2091.0,
+   "material": "druhý velký kruhový otvor Ø 182 mm v jižní zdi stávající garáže (západní část), symetricky k otvoru IFC #5132 podle osy zdi #5041; CHYBÍ V PROJEKTU (IFC i architektura); hostitel 1NP-EX09",
+   "tl": 300.0,
+   "delka": 182.0,
    "steny": [
     "1NP-EX09"
    ],
    "jistota": "doplněno investorem (chybí v projektu)",
-   "zdroj": "investor 9. 10. 2026 14:59 SELČ (S0.34, R-176, doslovně): „je tam jeden velky kulaty a maly kulaty v 1np. maji tam byt dva velke kulate dej ho symetricky, k zapadni casti garaze, poznamka, ze chybi v projektu“; průměr a výška převzaty z IFC #5132 (Ø 280 z vrcholů 15-úhelníku IFC, střed +2,000; do S0.38 zapsáno Ø 277 a +1,861 až +2,139 = rozměry obalu 15-úhelníku, opraveno S0.39 11. 10. 2026 při E134, [NÁVRH AGENTA: hodnota z geometrie IFC, investor potvrdí v kroku 7]); poloha [odvození agenta, E117]: osa zdi #5041 x −854 470, otvor #5132 střed x −852 345 (+2 125), symetricky x −856 595; investor potvrdí polohu při závěrečné kontrole modelu (krok 7)",
+   "zdroj": "investor 9. 10. 2026 14:59 SELČ (S0.34, R-176, doslovně): „je tam jeden velky kulaty a maly kulaty v 1np. maji tam byt dva velke kulate dej ho symetricky, k zapadni casti garaze, poznamka, ze chybi v projektu“. PRŮMĚR: investor 11. 10. 2026 19:03:41 SELČ (S0.40, R-293), doslovně: „2 182 oba, to mam z navodu na rekuperaci“, tedy Ø 182 mm a svislý rozsah +1,909 až +2,091 (střed +2,000). POLOHA potvrzena investorem 11. 10. 2026 (R-294, doslovně: „3 je ok“): osa zdi #5041 x −854 470, otvor #5132 střed x −852 345 (+2 125), symetricky x −856 594,5. HISTORIE: do S0.39 vedeno Ø 277 (rozměry obalu 15-úhelníku IFC), v S0.39 přepsáno na Ø 280 z obalu a vrcholů IFC #5132 jako [NÁVRH AGENTA]; od S0.40 platí Ø 182 podle investora.",
    "zdvih": 0,
    "opacity": 0.6,
    "doplneno": true,
@@ -6880,14 +7188,14 @@
      198564.0,
      2000.0
     ],
-    "prumer": 280.0,
+    "prumer": 182.0,
     "delka": 300.0
    },
    "id": "1NP-PK10",
    "kat": "otvor",
    "typ": "prostup",
    "prostup": true,
-   "vyska": 280.0,
+   "vyska": 182.0,
    "barva": "#e65100"
   },
   {
