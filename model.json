@@ -113,6 +113,7 @@
    "ocelová konstrukce (IFC)": "ocelová konstrukce z IFC (S235: sloupky jäkl u garáže a pod nadpražím severního okna, IPE nosníky přístřešku pro parkování)",
    "zdivo z IFC (kontext)": "zdivo z IFC jen jako kontext (IfcWall PTH 30 a Silka 24, IfcBeam Silka = zděné atiky); porovnání s našimi stěnami je krok 3 plánu",
    "otvor ve zdivu z IFC (kontext)": "otvory ve zdivu z IFC jen jako kontext (okna, dveře, prostupy); porovnání s našimi otvory je krok 2 plánu",
+   "zděná atika z IFC (Silka 24)": "zděné atiky Silka 24 z IFC (IfcBeam nad horní hranou desky, HH +6,390): nástavba garáže a 209; v našich datech protějšek nemají (R-312, E139)",
    "zídka dřevěná": "lehací zídka u okna O02 (v. 400): dřevěná skřínka, ne zdivo, mimo výkaz cihel (R-66, R-183, E84)"
   },
   "legenda": [
@@ -151,6 +152,10 @@
    [
     "otvor ve zdivu z IFC (kontext)",
     "#ffcc80"
+   ],
+   [
+    "zděná atika z IFC (Silka 24)",
+    "#bcaaa4"
    ],
    [
     "zídka dřevěná",
@@ -352,7 +357,6 @@
    "2NP-D02-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
    "2NP-O05-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
    "2NP-D03-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
-   "2NP-D04-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
    "2NP-O06-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
    "2NP-O07-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
    "2NP-O08-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
@@ -1161,29 +1165,6 @@
     "verdikt": "SMÍŠENÉ (kandidát E80)"
    },
    {
-    "id": "2NP-D04",
-    "podlazi": "2NP",
-    "sirka": 800,
-    "vyska": 1970,
-    "smer": "jih→sever",
-    "stena": "2NP-S10",
-    "strana_a": {
-     "popis": "v datech nic do 400 mm",
-     "druh": "nic",
-     "prvky": []
-    },
-    "strana_b": {
-     "popis": "2NP-S10 (stěna) [kolmo: 2NP-SDKP01 (SDK, 325 mm od ostění)]",
-     "druh": "zdivo",
-     "prvky": [
-      "2NP-S10"
-     ]
-    },
-    "nad": "2NP-D04-překlad (překlad, 5060 až 5740)",
-    "pozn": "2NP-D04-překlad: IFC bez ŽB nad otvorem (kryto 0 %), placeholder zůstává jako neznámý typ",
-    "verdikt": "NEURČENO (na jedné straně není v datech prvek)"
-   },
-   {
     "id": "2NP-D05",
     "podlazi": "2NP",
     "sirka": 800,
@@ -1307,9 +1288,8 @@
   "nalezy": [
    "OTVOR BEZ ŽB NAD SEBOU 1NP: nad 1NP-mezera-S15+S05 (horní hrana 2400) navazuje ŽB, překlad nebo zdivo jen na 90 % půdorysu otvoru",
    "OTVOR BEZ ŽB NAD SEBOU 1NP: nad 1NP-D05 (horní hrana 2400) navazuje ŽB, překlad nebo zdivo jen na 90 % půdorysu otvoru",
-   "PŘEKRYV 2NP-S06 x 2NP-P01: 125 x 75 x 650 mm; zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: K OVĚŘENÍ V KROKU 7 (R-309 zrušil rámeček ve zídce, ne zídku samu; jak zídka vychází proti parapetu, rozhodne investor)",
-   "PŘEKRYV 2NP-S07 x 2NP-P01: 75 x 950 x 650 mm; zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: K OVĚŘENÍ V KROKU 7 (R-309 zrušil rámeček ve zídce, ne zídku samu; jak zídka vychází proti parapetu, rozhodne investor)",
-   "PŘEKRYV 2NP-D04-překlad x 2NP-SDK04: 125 x 580 x 680 mm",
+   "PŘEKRYV 2NP-S06 x 2NP-P01: 125 x 75 x 820 mm; zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: K OVĚŘENÍ V KROKU 7 (R-309 zrušil rámeček ve zídce, ne zídku samu; jak zídka vychází proti parapetu, rozhodne investor)",
+   "PŘEKRYV 2NP-S07 x 2NP-P01: 75 x 950 x 820 mm; zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: K OVĚŘENÍ V KROKU 7 (R-309 zrušil rámeček ve zídce, ne zídku samu; jak zídka vychází proti parapetu, rozhodne investor)",
    "PŘEKRYV 1NP-P01 x 1NP-PZ01: 90 x 50 x 400 mm",
    "PŘEKRYV 1NP-P02 x 1NP-PZ03: 240 x 50 x 900 mm",
    "PŘEKRYV 1NP-SDK11 x 1NP-SDK12: 125 x 125 x 2700 mm",
@@ -1317,7 +1297,6 @@
    "PŮDORYS 1NP-mezera-S15+S05 x 1NP-S11: otvor a stěna se v půdorysu překrývají 75 x 2150 mm (jedno místo popsané dvakrát)",
    "PŮDORYS 2NP-O05 x 2NP-S06: otvor a stěna se v půdorysu překrývají 125 x 75 mm (jedno místo popsané dvakrát); zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: K OVĚŘENÍ V KROKU 7 (R-309 zrušil rámeček ve zídce, ne zídku samu; jak zídka vychází proti parapetu, rozhodne investor)",
    "PŮDORYS 2NP-O05 x 2NP-S07: otvor a stěna se v půdorysu překrývají 75 x 950 mm (jedno místo popsané dvakrát); zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: K OVĚŘENÍ V KROKU 7 (R-309 zrušil rámeček ve zídce, ne zídku samu; jak zídka vychází proti parapetu, rozhodne investor)",
-   "KONEC 2NP: mezi začátkem 2NP-D04 a kolmou stěnou 2NP-SDK06 chybí 580 mm zdiva",
    "KONEC 2NP: začátek 2NP-S06 nenavazuje na nic (nejbližší kolmá stěna 2NP-SDK03 ve 2870 mm)",
    "KONEC 2NP: mezi začátkem 2NP-S12 a kolmou stěnou 2NP-SDK05 chybí 1400 mm zdiva",
    "ŽB (IFC) BEZ PODPORY 1NP: 1NP-V07 (věnec, 4111 × 240, DH 2500.0) má pod sebou zdivo, otvor ve zdi nebo ŽB jen na 2 % půdorysu (v našich datech tam zeď není, nebo je jinak široká)",
@@ -1970,10 +1949,10 @@
     -829396,
     207704
    ],
-   "z0": 3090,
+   "z0": 2920,
    "z1": 3740,
-   "zdroj": "půdorys 2.NP „v. 650 mm“ (jistá); od podlahy +3,090 [odvození: na čem stojí, výkres neříká]",
-   "jistota": "jistá",
+   "zdroj": "půdorys 2.NP „v. 650 mm“; stojí na desce +2,920 (investor 12. 10. 2026, R-318); horní hrana +3,740 = 650 nad podlahou +3,090 [pracovní: zda 650 je od podlahy, nebo výška zdiva, je otázka projektantce 32, R-320]",
+   "jistota": "pracovní",
    "strany": [
     "204",
     "204"
@@ -1981,7 +1960,7 @@
    "cast_useku": null,
    "deleno_z": null,
    "id_stare": "2NP-S06",
-   "vyska": 650,
+   "vyska": 820,
    "barva": "#2ab04c",
    "zdvih": 1
   },
@@ -1998,10 +1977,10 @@
     -829321,
     207704
    ],
-   "z0": 3090,
+   "z0": 2920,
    "z1": 3740,
-   "zdroj": "půdorys 2.NP „v. 650 mm“ (jistá); od podlahy +3,090 [odvození]; E33: investor mluvil o plechové výplni okna, v seznamu je jako příčka VPC 75",
-   "jistota": "jistá",
+   "zdroj": "půdorys 2.NP „v. 650 mm“; stojí na desce +2,920 (investor 12. 10. 2026, R-318); horní hrana +3,740 = 650 nad podlahou +3,090 [pracovní: otázka projektantce 32, R-320]; E33: investor mluvil o plechové výplni okna, v seznamu je jako příčka VPC 75",
+   "jistota": "pracovní",
    "strany": [
     "204",
     "-"
@@ -2009,7 +1988,7 @@
    "cast_useku": null,
    "deleno_z": null,
    "id_stare": "2NP-S07",
-   "vyska": 650,
+   "vyska": 820,
    "barva": "#2ab04c",
    "zdvih": 1
   },
@@ -2094,7 +2073,7 @@
    "deleno_z": null,
    "id_stare": "2NP-S10",
    "vyska": 2820,
-   "barva": "#999999",
+   "barva": "#2f7ff2",
    "zdvih": 1
   },
   {
@@ -2178,7 +2157,7 @@
    "deleno_z": null,
    "id_stare": "2NP-S13",
    "vyska": 2500,
-   "barva": "#999999",
+   "barva": "#f57c00",
    "zdvih": 1
   },
   {
@@ -2206,7 +2185,7 @@
    "deleno_z": null,
    "id_stare": "2NP-S14",
    "vyska": 2500,
-   "barva": "#999999",
+   "barva": "#f57c00",
    "zdvih": 1
   },
   {
@@ -2234,7 +2213,7 @@
    "deleno_z": null,
    "id_stare": "2NP-S15",
    "vyska": 2500,
-   "barva": "#999999",
+   "barva": "#f57c00",
    "zdvih": 1
   },
   {
@@ -2262,7 +2241,7 @@
    "deleno_z": "2NP-S16",
    "id_stare": "2NP-S16",
    "vyska": 2820,
-   "barva": "#999999",
+   "barva": "#f57c00",
    "zdvih": 1
   },
   {
@@ -2346,7 +2325,7 @@
    "deleno_z": null,
    "id_stare": "2NP-S19",
    "vyska": 2500,
-   "barva": "#999999",
+   "barva": "#f57c00",
    "zdvih": 1
   },
   {
@@ -2402,7 +2381,7 @@
    "deleno_z": "2NP-S16",
    "id_stare": "2NP-S16",
    "vyska": 2570,
-   "barva": "#999999",
+   "barva": "#f57c00",
    "zdvih": 1
   },
   {
@@ -2514,7 +2493,7 @@
    "deleno_z": null,
    "id_stare": "2NP-S24",
    "vyska": 2500,
-   "barva": "#999999",
+   "barva": "#f57c00",
    "zdvih": 1
   },
   {
@@ -2542,7 +2521,7 @@
    "deleno_z": "2NP-S16",
    "id_stare": "2NP-S16",
    "vyska": 2820,
-   "barva": "#999999",
+   "barva": "#f57c00",
    "zdvih": 1
   },
   {
@@ -2625,7 +2604,7 @@
    "id_stare": "2NP-O15",
    "doplneny": true,
    "vyska": 1250,
-   "barva": "#999999",
+   "barva": "#2f7ff2",
    "zdvih": 1
   },
   {
@@ -2653,7 +2632,7 @@
    "deleno_z": null,
    "id_stare": "2NP-S27",
    "vyska": 2500,
-   "barva": "#999999",
+   "barva": "#f57c00",
    "zdvih": 1
   },
   {
@@ -3915,61 +3894,6 @@
    "barva": "#5c5c5c"
   },
   {
-   "id": "2NP-D04",
-   "kat": "otvor",
-   "typ": "dveře",
-   "podlazi": "2NP",
-   "material": "otvor ve zdi: VAPIS 200 (šrafa 170 mm, PDF Stěny modrá; 170 nejde vyzdít z bloků 200, otázka projektantce 29, E103)",
-   "tl": 170,
-   "delka": 800,
-   "box": [
-    -832591.0,
-    205234,
-    -832421.0,
-    206034
-   ],
-   "z0": 3090,
-   "z1": 5060,
-   "parapet": 0,
-   "vyska_otvoru": 1970,
-   "kridlo": "700/1970",
-   "zdroj": "kóta ve výkrese: šířka 800, výška 1970, parapet (0) od podlahy 2NP (`tools/steny/otvory.py`)",
-   "jistota": "jistá",
-   "steny": [
-    "2NP-S10"
-   ],
-   "puvodni_cislo": null,
-   "sever": null,
-   "delene": null,
-   "id_stare": null,
-   "ram": null,
-   "vyska": 1970,
-   "barva": "#ffb347",
-   "zdvih": 1
-  },
-  {
-   "id": "2NP-D04-překlad",
-   "kat": "překlad",
-   "podlazi": "2NP",
-   "material": "překlad nad dveřmi + dorovnání: typ NEZNÁMÝ (prefabrikát, nebo ŽB), zvedá se jako ŽB, materiál určí stavitel 4 / statik (E57); V IFC STATIKA NAD OTVOREM ŽÁDNÝ ŽB NENÍ (kryto 0 %), tedy překlad jako výrobek, nebo v IFC chybí (otázka statikovi / staviteli)",
-   "tl": 170,
-   "delka": 800,
-   "box": [
-    -832591.0,
-    205234,
-    -832421.0,
-    206034
-   ],
-   "z0": 5060,
-   "z1": 5740,
-   "zdroj": "nad dveřmi 2NP-D04 (popiska 700/1970, horní hrana 5060) je do horní hrany zdiva 5740 pás 680 mm; investor 27. 9. 2026 21:07:38 SELČ (S0.20, hlasový přepis, doslovně: „Obecně platí, že na to tvorem [= nad otvorem] nemůže být volně zdivo. Tam je buď to hotový příklad [= překlad] jako výrobek nebo je tam železobeton.“); do S0.19 kreslen jako kus zdiva; typ překladu a co je nad ním je otázka staviteli 4 (E57); zdvih s deskou potvrdil investor 28. 9. 2026 (R-53); ve 2.NP má výkres tvaru otvory dveří „2190;HH=5.110“ (od +2,920), tedy o 50 mm výš než popiska 800/1970 od podlahy (E71) KUS ZDIVA NAD OTVOREM: E132 (R-276, R-281, R-287): kolik z tohoto pásu je překlad a kolik zdivo nad ním, určí varianta (hotový překlad + zdivo / ŽB překlad + zdivo / ŽB ke stropu) podle odpovědi stavitele; do té doby je kus nad otvorem v datech „neurčeno“ s maximem = celá výška pásu, ne 0 (R-38 z 27. 9. 2026 tím padá).",
-   "jistota": "neznámá",
-   "otvor": "2NP-D04",
-   "zdvih": 2,
-   "vyska": 680,
-   "barva": "#5c5c5c"
-  },
-  {
    "id": "2NP-O06",
    "kat": "otvor",
    "typ": "okno",
@@ -4960,7 +4884,7 @@
     "2NP-S14"
    ],
    "vyska": 750,
-   "barva": "#999999",
+   "barva": "#f57c00",
    "zdvih": 1
   },
   {
@@ -4986,7 +4910,7 @@
     "2NP-S15"
    ],
    "vyska": 750,
-   "barva": "#999999",
+   "barva": "#f57c00",
    "zdvih": 1
   },
   {
@@ -5140,7 +5064,7 @@
     "2NP-S19"
    ],
    "vyska": 750,
-   "barva": "#999999",
+   "barva": "#f57c00",
    "zdvih": 1
   },
   {
@@ -6458,7 +6382,7 @@
    "jistota": "neznámá",
    "mimo_vykaz": true,
    "vyska": 2820,
-   "barva": "#999999",
+   "barva": "#546e7a",
    "zdvih": 1
   },
   {
@@ -14393,7 +14317,7 @@
   },
   {
    "id": "2NP-IW01",
-   "kat": "zdivo z IFC (kontext)",
+   "kat": "zděná atika z IFC (Silka 24)",
    "geom": "poly",
    "rings": [
     [
@@ -14435,7 +14359,7 @@
    "zdvih": 2,
    "opacity": 0.9,
    "vyska": 250.0,
-   "barva": "#d7ccc8"
+   "barva": "#bcaaa4"
   },
   {
    "id": "2NP-V01",
@@ -14577,7 +14501,7 @@
   },
   {
    "id": "2NP-IW02",
-   "kat": "zdivo z IFC (kontext)",
+   "kat": "zděná atika z IFC (Silka 24)",
    "geom": "poly",
    "rings": [
     [
@@ -14619,7 +14543,7 @@
    "zdvih": 2,
    "opacity": 0.9,
    "vyska": 250.0,
-   "barva": "#d7ccc8"
+   "barva": "#bcaaa4"
   },
   {
    "id": "2NP-V04",
@@ -14669,7 +14593,7 @@
   },
   {
    "id": "2NP-IW03",
-   "kat": "zdivo z IFC (kontext)",
+   "kat": "zděná atika z IFC (Silka 24)",
    "geom": "poly",
    "rings": [
     [
@@ -14711,11 +14635,11 @@
    "zdvih": 2,
    "opacity": 0.9,
    "vyska": 250.0,
-   "barva": "#d7ccc8"
+   "barva": "#bcaaa4"
   },
   {
    "id": "2NP-IW04",
-   "kat": "zdivo z IFC (kontext)",
+   "kat": "zděná atika z IFC (Silka 24)",
    "geom": "poly",
    "rings": [
     [
@@ -14757,7 +14681,7 @@
    "zdvih": 2,
    "opacity": 0.9,
    "vyska": 250.0,
-   "barva": "#d7ccc8"
+   "barva": "#bcaaa4"
   },
   {
    "id": "2NP-V05",
@@ -15405,7 +15329,7 @@
   },
   {
    "id": "2NP-IW05",
-   "kat": "zdivo z IFC (kontext)",
+   "kat": "zděná atika z IFC (Silka 24)",
    "geom": "poly",
    "rings": [
     [
@@ -15447,7 +15371,7 @@
    "zdvih": 2,
    "opacity": 0.9,
    "vyska": 250.0,
-   "barva": "#d7ccc8"
+   "barva": "#bcaaa4"
   },
   {
    "id": "2NP-V15",
