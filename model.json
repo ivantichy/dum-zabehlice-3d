@@ -1,6 +1,6 @@
 {
  "meta": {
-  "stav_k": "16. 10. 2026 (S0.45)",
+  "stav_k": "16. 10. 2026 (S0.46)",
   "vznik": "krok S0.11, 21. 9. 2026 (E49); S0.12 (nulová spodní hrana, šrafy, SDK, stávající garáž, značky chybějících); S0.14 (ŽB z PDF statiky, E51); S0.16 až S0.26 (viz session logy); S0.29, 2. 10. 2026: ŽB, základy, ocel a kontext zdiva z IFC statika (investor: IFC autoritativní pro ŽB), odvozené ŽB prvky, ŽB z PDF statiky, věnec garáže, ŽB parapety, pracovní atika, ocelové sloupky a nadpraží z modelu odebrány",
   "jednotky": "mm, souřadnice modelu DWG (2.NP posunuté o −50 000 v x, E42), z absolutně od ±0,000",
   "urovne": {
@@ -8092,8 +8092,8 @@
    }
   },
   "dotazy": {
-   "co": "Dotazy protistranam (projektantka, statik, stavitel) a otevrene body u prvku modelu (E63, R-178, R-248; krok 8). Otazky jsou rucne opsane z kanonu v repu, otevrene body ctene z tabulky; uzavrene body tu nejsou. Generuje `tools/model/dotazy_prvku.py`, do modelu prenasi `tools/model/model3d.py`.",
-   "pozn": "Seznam otázek je RUČNĚ opsaný z prózy kanonu v repu; stav je jen to, co kanon výslovně říká („překonána“, „AKTIVNÍ“, „zúžená“ = platí poslední zapsaný stav). Nic se nedovozuje. Při změně kanonu se mění tabulka otázek ve skriptu, který tenhle seznam generuje.",
+   "co": "Dotazy protistranam (projektantka, statik, stavitel) a otevrene body u prvku modelu (E63, R-178, R-248; krok 8). Otazky se ctou z tabulky kanonu v repu (od 16. 10. 2026, E152, ADR 0028; do te doby rucne opsane), otevrene body ctene z tabulky; uzavrene body tu nejsou. Generuje `tools/model/dotazy_prvku.py`, do modelu prenasi `tools/model/model3d.py`.",
+   "pozn": "Seznam otázek se čte z tabulky kanonu v repu (jedno místo znění, stavu a prvků); stav je jen to, co bylo výslovně rozhodnuto (platí poslední zapsaný). Nic se nedovozuje. Otázku mění jen zápis do tabulky; přehled v repu i tento seznam se z ní generují.",
    "cislovani": "Číslo otázky nese ROLI, ne jméno osoby (kanon čísluje jménem projektantky, statika a stavitele, tady je z toho „projektantce 32“, „statikovi N11“, „staviteli 4“): veřejná stránka jména osob nenese (R-33) a guard jmen by jinak běh zastavil.",
    "prvky_rucne": "Prvky označené jako doplněné agentem nejsou ID z textu otázky: kanon na tom místě mluví obecně („přizdívky 106“, „atika“, „dveře D01 až D05“) a prvky k nim přiřadil agent.",
    "hlavni_vs_zminene": "U každé otázky se rozlišuje, kterých prvků se otázka VĚCNĚ týká (hlavní) a které jen zmiňuje jako hranici nebo kontext (zmíněné). Podnět: investor 12. 10. 2026 se u otázky projektantce 25 zeptal, zda zeď `2NP-S05` s otázkou souvisí; rozlišení je návrh agenta (S0.42b), rozdělení je ruční úsudek nad textem otázky; v detailu prvku se v plném znění ukazují jen hlavní otázky, zmíněné jsou jednou větou s odkazem do panelu.",
@@ -10007,7 +10007,7 @@
     {
      "id": "E148",
      "nazev": "Sloučení a zkrácení otázek protistranám před e-maily",
-     "stav": "otevřeno 13. 10. 2026 (S0.43, R-357); DOPLNĚNO 14. 10. 2026 (S0.44, R-371, investor: „k5 nech oboje, uloz navrh“): sloučit … pořadí E152 → E148 je i v tomto bodě), investor 16. 10. 2026 16:40 SELČ se ptal …, odpověď agenta: nová session po E152",
+     "stav": "otevřeno 13. 10. 2026 (S0.43, R-357); DOPLNĚNO 14. 10. 2026 (S0.44, R-371, investor: „k5 nech oboje, uloz navrh“): sloučit bod E149 (potvrzení výšky zdiva 2.NP +5,490 vs +5,740 z e-mailu) do E69 (prvek s křížem v řezu A-A, otázka projektantce 17) …",
      "vlastnik": "investor (rozhodne odpočatý), agent (provede v kanonu a `dotazy_prvku.py`)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
