@@ -8098,7 +8098,7 @@
    "prvky_rucne": "Prvky označené jako doplněné agentem nejsou ID z textu otázky: kanon na tom místě mluví obecně („přizdívky 106“, „atika“, „dveře D01 až D05“) a prvky k nim přiřadil agent.",
    "hlavni_vs_zminene": "U každé otázky se rozlišuje, kterých prvků se otázka VĚCNĚ týká (hlavní) a které jen zmiňuje jako hranici nebo kontext (zmíněné). Podnět: investor 12. 10. 2026 se u otázky projektantce 25 zeptal, zda zeď `2NP-S05` s otázkou souvisí; rozlišení je návrh agenta (S0.42b), rozdělení je ruční úsudek nad textem otázky; v detailu prvku se v plném znění ukazují jen hlavní otázky, zmíněné jsou jednou větou s odkazem do panelu.",
    "neparovatelne": "Otázka bez prvku se v detailu prvku neukáže, je jen v panelu. Kusy zdiva nad otvorem (řada N, 19 kusů se stavem „neurčeno“, E132) se v modelu nekreslí, takže otázky staviteli 1 a 2 se k nim připojit nedají; stejně tak otázky na skladby, termíny a fakturaci žádný prvek nemají.",
-   "uzavrene_body": "Uzavřené body tu nejsou (přeskočeno 100 řádků s odkazem do archivu); veřejně jen body s vazbou na projektantku, statika nebo stavitele, bez jednání s dodavateli (vynecháno 46, S0.42 revize, otázka 48); investor 27. 9. 2026: „Uzavřené body asi veřejně dávat nemusíme, ty si budeme držet pouze lokálně, a ani uzavřené body nemusí být v tom 3D modelu.“",
+   "uzavrene_body": "Uzavřené body tu nejsou (přeskočeno 101 řádků s odkazem do archivu); veřejně jen body s vazbou na projektantku, statika nebo stavitele, bez jednání s dodavateli (vynecháno 46, S0.42 revize, otázka 48); investor 27. 9. 2026: „Uzavřené body asi veřejně dávat nemusíme, ty si budeme držet pouze lokálně, a ani uzavřené body nemusí být v tom 3D modelu.“",
    "otazky": [
     {
      "adresat": "projektantka",
@@ -9664,8 +9664,6 @@
      "vlastnik": "investor (položí dotaz projektantce)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
-      "1NP-S10",
-      "1NP-S11",
       "2NP-S06",
       "2NP-S07"
      ],
@@ -9957,17 +9955,6 @@
      "dotazy": []
     },
     {
-     "id": "E118",
-     "nazev": "Překrytí jména projektantky a adresy domu v PDF výkresech pro GitHub Pages",
-     "stav": "nový 9. 10. 2026 (S0.35, dávka 6). Krok 8 v docs/plan.md.; PROVEDENO 12. 10. 2026 (S0.42, subagent Opus, ověřeno hlavním vláknem): tools/model/redakce_pdf.py → … ZBÝVÁ jedno slovo investora k rozpisce, pak uzavřít (ADR 0024)",
-     "vlastnik": "agent (samostatná session), investor (kontrola výsledku před publikací)",
-     "sekce": "E. Znalostní báze a nástroje",
-     "prvky": [],
-     "dotazy": [
-      "projektantka 33"
-     ]
-    },
-    {
      "id": "E131",
      "nazev": "Sloupy při zvednutém stropu",
      "stav": "nový 10. 10. 2026 (S0.37) PROVEDENO 10. 10. 2026 (S0.37, commit ff53be3, ifc_do_modelu.deleni_sloupu): sloup, který prochází úrovní DH věnce podlaží (1.NP +2,400, 2.NP +5,740) nebo spodní hranou trámu nad sebou, se dělí: dolní část drží ID …",
@@ -10020,7 +10007,7 @@
     {
      "id": "E148",
      "nazev": "Sloučení a zkrácení otázek protistranám před e-maily",
-     "stav": "otevřeno 13. 10. 2026 (S0.43, R-357); DOPLNĚNO 14. 10. 2026 (S0.44, R-371, investor: „k5 nech oboje, uloz navrh“): sloučit bod E149 … (I) projektantce 4 zmiňuje přílohu vpc75_*.pdf, která už neexistuje (R-383), náhradou půdorysy s ID stěn",
+     "stav": "otevřeno 13. 10. 2026 (S0.43, R-357); DOPLNĚNO 14. 10. 2026 (S0.44, R-371, investor: „k5 nech oboje, uloz navrh“): sloučit … pořadí E152 → E148 je i v tomto bodě), investor 16. 10. 2026 16:40 SELČ se ptal …, odpověď agenta: nová session po E152",
      "vlastnik": "investor (rozhodne odpočatý), agent (provede v kanonu a `dotazy_prvku.py`)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -10075,7 +10062,7 @@
     "otazek_aktivnich_s_prvkem": 29,
     "otazek_bez_prvku": 22,
     "otazek_bez_hlavniho_prvku": 22,
-    "bodu": 33,
+    "bodu": 32,
     "bodu_s_prvkem": 29,
     "prvku_s_dotazem": 138,
     "prvku_s_hlavni_otazkou": 108,
@@ -10822,9 +10809,7 @@
      "projektantka 4"
     ],
     "otazky_zminene": [],
-    "body": [
-     "E37"
-    ]
+    "body": []
    },
    "dotaz_srafa": [
     "projektantka 4"
@@ -10889,9 +10874,7 @@
      "projektantka 4"
     ],
     "otazky_zminene": [],
-    "body": [
-     "E37"
-    ]
+    "body": []
    },
    "dotaz_srafa": [
     "projektantka 4"
