@@ -1,6 +1,6 @@
 {
  "meta": {
-  "stav_k": "16. 10. 2026 (S0.46)",
+  "stav_k": "16. 10. 2026 (S0.47)",
   "vznik": "krok S0.11, 21. 9. 2026 (E49); S0.12 (nulová spodní hrana, šrafy, SDK, stávající garáž, značky chybějících); S0.14 (ŽB z PDF statiky, E51); S0.16 až S0.26 (viz session logy); S0.29, 2. 10. 2026: ŽB, základy, ocel a kontext zdiva z IFC statika (investor: IFC autoritativní pro ŽB), odvozené ŽB prvky, ŽB z PDF statiky, věnec garáže, ŽB parapety, pracovní atika, ocelové sloupky a nadpraží z modelu odebrány",
   "jednotky": "mm, souřadnice modelu DWG (2.NP posunuté o −50 000 v x, E42), z absolutně od ±0,000",
   "urovne": {
@@ -8934,7 +8934,7 @@
       "E120"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 11 (B6), sekce 38 (D6.8)",
-     "pozn": "odloženo: až po hledání E120 (R-206)",
+     "pozn": "hledání E120 provedeno 16. 10. 2026: projektantka 26. 6. 2025 e-mailem potvrdila, že technickou zprávu k DPS nezpracovávala, a jiný autor DPS 06/2025 není; návrh agenta: otázku uzavřít jako zodpovězenou, rozhodne investor",
      "druh": "otázka"
     },
     {
@@ -9896,7 +9896,7 @@
     {
      "id": "E110",
      "nazev": "Seznam všech „nejasných“ otvorů (investor 7. 10. 2026, R-117: „Do vyreseni drz seznam vsech \"nejasnych\" otvoru.“): otvory, kde se IFC a naše data liší v poloze spodní hrany, hlavy nebo rozměru, nebo kde IFC prvek otvoru nemá: dveře 1NP D01, D03, D04, D06 a 2NP …",
-     "stav": "otevřeno 7. 10. 2026 (S0.32) R-148: na tento seznam čeká i e-mail staviteli (překlady nad dveřmi a okny, varianty a/b/c) a volba nad okny 2.NP (R-155). 8. 10. 2026 (S0.33c, R-170): investor v IFC vidí na … do té doby platí naše data (R-70)",
+     "stav": "otevřeno 7. 10. 2026 (S0.32) R-148: na tento seznam čeká i e-mail staviteli (překlady nad dveřmi a okny, varianty a/b/c) a volba nad okny 2.NP (R-155). 8 … dřívější odkaz na porovnani-ifc-zdivo_2026-10-02.md v tomto řádku je historický",
      "vlastnik": "agent (navazující session: seznam skriptem z `ifc_vs_zdivo.py` po opravě D5.1), investor (otázka v e-mailu S1)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
