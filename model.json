@@ -9072,6 +9072,23 @@
     },
     {
      "adresat": "statik",
+     "cislo": "N14",
+     "oznaceni": "statik N14",
+     "stav": "aktivní",
+     "text": "V našem modelu je uložení (přesah) železobetonových překladů a nadpraží do zdiva vedle otvoru zatím 0. Jaké uložení máme u ŽB překladů počítat na každé straně otvoru, a liší se podle světlosti otvoru nebo tloušťky zdi? Podle odpovědi zkrátíme zdivo vedle otvorů a upravíme výkaz.",
+     "prvky": [],
+     "prvky_hlavni": [],
+     "prvky_zminene": [],
+     "prvky_rucne": [],
+     "body": [
+      "E132",
+      "A8"
+     ],
+     "zdroj_kratky": "log rozhodnutí v repu R-433 a R-435 (investor 18. 10. 2026 večer, S0.49d: „presahy prekladu (ZB) jsou v modelu 0, nechame je 0, zeptame se statika, kolik ty presahy mame udelat“; „text N14 ok, zapis ho do kanonu hned“)",
+     "druh": "otázka"
+    },
+    {
+     "adresat": "statik",
      "cislo": "soupis překladů",
      "oznaceni": "statik soupis překladů",
      "stav": "aktivní",
@@ -9384,6 +9401,7 @@
       "1NP-D04"
      ],
      "dotazy": [
+      "statik N14",
       "stavitel 1",
       "stavitel 2"
      ]
@@ -9822,19 +9840,19 @@
     "stavitel 1"
    ],
    "pocty": {
-    "otazek": 40,
+    "otazek": 41,
     "otazek_podle_adresata": {
      "projektantka": 23,
-     "statik": 11,
+     "statik": 12,
      "stavitel": 6
     },
     "otazek_podle_stavu": {
-     "aktivní": 39,
+     "aktivní": 40,
      "zodpovězená": 1
     },
     "otazek_aktivnich_s_prvkem": 23,
-    "otazek_bez_prvku": 17,
-    "otazek_bez_hlavniho_prvku": 17,
+    "otazek_bez_prvku": 18,
+    "otazek_bez_hlavniho_prvku": 18,
     "bodu": 29,
     "bodu_s_prvkem": 28,
     "prvku_s_dotazem": 152,
