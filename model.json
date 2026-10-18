@@ -1,6 +1,6 @@
 {
  "meta": {
-  "stav_k": "16. 10. 2026 (S0.47)",
+  "stav_k": "16. 10. 2026 (S0.48b)",
   "vznik": "krok S0.11, 21. 9. 2026 (E49); S0.12 (nulová spodní hrana, šrafy, SDK, stávající garáž, značky chybějících); S0.14 (ŽB z PDF statiky, E51); S0.16 až S0.26 (viz session logy); S0.29, 2. 10. 2026: ŽB, základy, ocel a kontext zdiva z IFC statika (investor: IFC autoritativní pro ŽB), odvozené ŽB prvky, ŽB z PDF statiky, věnec garáže, ŽB parapety, pracovní atika, ocelové sloupky a nadpraží z modelu odebrány",
   "jednotky": "mm, souřadnice modelu DWG (2.NP posunuté o −50 000 v x, E42), z absolutně od ±0,000",
   "urovne": {
@@ -8098,7 +8098,7 @@
    "prvky_rucne": "Prvky označené jako doplněné agentem nejsou ID z textu otázky: kanon na tom místě mluví obecně („přizdívky 106“, „atika“, „dveře D01 až D05“) a prvky k nim přiřadil agent.",
    "hlavni_vs_zminene": "U každé otázky se rozlišuje, kterých prvků se otázka VĚCNĚ týká (hlavní) a které jen zmiňuje jako hranici nebo kontext (zmíněné). Podnět: investor 12. 10. 2026 se u otázky projektantce 25 zeptal, zda zeď `2NP-S05` s otázkou souvisí; rozlišení je návrh agenta (S0.42b), rozdělení je ruční úsudek nad textem otázky; v detailu prvku se v plném znění ukazují jen hlavní otázky, zmíněné jsou jednou větou s odkazem do panelu.",
    "neparovatelne": "Otázka bez prvku se v detailu prvku neukáže, je jen v panelu. Kusy zdiva nad otvorem (řada N, 19 kusů se stavem „neurčeno“, E132) se v modelu nekreslí, takže otázky staviteli 1 a 2 se k nim připojit nedají; stejně tak otázky na skladby, termíny a fakturaci žádný prvek nemají.",
-   "uzavrene_body": "Uzavřené body tu nejsou (přeskočeno 101 řádků s odkazem do archivu); veřejně jen body s vazbou na projektantku, statika nebo stavitele, bez jednání s dodavateli (vynecháno 46, S0.42 revize, otázka 48); investor 27. 9. 2026: „Uzavřené body asi veřejně dávat nemusíme, ty si budeme držet pouze lokálně, a ani uzavřené body nemusí být v tom 3D modelu.“",
+   "uzavrene_body": "Uzavřené body tu nejsou (přeskočeno 103 řádků s odkazem do archivu); veřejně jen body s vazbou na projektantku, statika nebo stavitele, bez jednání s dodavateli (vynecháno 45, S0.42 revize, otázka 48); investor 27. 9. 2026: „Uzavřené body asi veřejně dávat nemusíme, ty si budeme držet pouze lokálně, a ani uzavřené body nemusí být v tom 3D modelu.“",
    "otazky": [
     {
      "adresat": "projektantka",
@@ -8423,15 +8423,22 @@
      "cislo": "17",
      "oznaceni": "projektantka 17",
      "stav": "aktivní",
-     "text": "Co je prvek 200 × 250 s křížem nad zdivem 2.NP v řezu A-A (+5,490 až +5,740, vrstva zdiva, v legendě řezu není)? Je horní hrana zdiva 2.NP +5,740 (11 řad, jak kreslí statika), nebo 10 řad a tento prvek?",
-     "prvky": [],
+     "text": "Horní hrana zdiva 2.NP a prvek s křížem v řezu A-A. V řezu A-A (výkres D11-04) je zdivo 2.NP u obou obvodových stěn hlavní části kresleno od +2,920 do +5,490, tedy vyrovnávací blok 70 mm a 10 řad bloků VAPIS 200 po 250 mm. Nad ním, mezi +5,490 a +5,740, je ještě jeden prvek 200 × 250 mm na vrstvě zdiva: bez šrafy bloku, přeškrtnutý dvěma diagonálami (kříž), bez popisky a v legendě řezu není. Je kreslený i v místech, kde pod ním není žádný otvor (v našem modelu stěny `2NP-S20` a `2NP-S11`), takže překlad nad otvorem to být nemůže; v dělicí stěně k nástavbě nad garáží a nad oknem západní stěny garáže je ve stejné výšce místo něj sestava tří dílů po 75 mm s vloženou izolací (k té je samostatný dotaz 18). Statika kreslí v témže místě zdivo až do spodní hrany věnce +5,740: řezy B-B, C-C a D-D výkresu tvaru stropu nad 2.NP mají u každé proříznuté stěny kótu DH +5,740 a stejně to má 3D model statika (IFC); věnec je +5,740 až +5,940 a deska nad ním. Na výšce +5,740 se tedy oba výkresy shodují, liší se v tom, co je horních 250 mm pod věncem: 11. řada bloků (jak čteme statiku), nebo jiný prvek. Pro objednávku zdiva je to rozdíl jedné řady bloků na všech stěnách 2.NP (po odečtení oken přibližně 32 m zdiva, z toho hlavní část s přístavkem asi 26 m), nebo místo ní jiná položka. V příloze posíláme výřezy řezu A-A, aby bylo jasné, o který prvek jde. Prosíme o odpověď: (a) co ten prvek 200 × 250 s křížem je (systémový překlad nebo věncovka VAPIS, jiný výrobek, nebo jen grafika řezu bez vlivu na skladbu zdiva); (b) potvrzení horní hrany zdiva 2.NP +5,740 a počtu řad, se kterým počítáme: hlavní část a přístavek nad 1.NP vyrovnávací blok 70 + 11 řad po 250 od +2,920, nástavba nad garáží 10 řad po 250 od +3,240 (bez bloku), dělicí stěna k nástavbě blok 70 + 11 řad; (c) pokud je to jiný prvek než blok zdiva: na kterých stěnách 2.NP má být (jen obvodové stěny hlavní části, nebo všechny nosné stěny včetně vnitřních a nástavby) a jaký výrobek, abychom ho započítali místo řady bloků. Souvisí s dotazem k oknu `2NP-O10` (samostatně níže), kde řez A-A kreslí nad oknem železobeton od +5,490 a statika zdivo a věnec od +5,740.",
+     "prvky": [
+      "2NP-S11",
+      "2NP-S20"
+     ],
      "prvky_hlavni": [],
-     "prvky_zminene": [],
+     "prvky_zminene": [
+      "2NP-S11",
+      "2NP-S20"
+     ],
      "prvky_rucne": [],
      "body": [
       "E69"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 11 (doplňky S0.19), stav sekce 38 (D6.7 (17))",
+     "zdroj_kratky": "kanon otázek v repu sekce 11 (doplňky S0.19), stav sekce 38 (D6.7 (17)); znění E148 R-395 (16. 10. 2026, S0.48b), report docs/revize/2026-10-16/S0.48b_T6-e149-e69-fable.md",
+     "pozn": "před e-mailem: přiložit výřezy řezu A-A z `docs/revize/2026-09-27/ikona-E69/` (R-154 „k otazce 17 udelame pak screenshot“) a zkontrolovat, že nenesou jména ani adresu; hlavní prvky zatím žádné (ČEKÁ na investora, S0.49: 26 stěn 2.NP do +5,740, nebo jen `2NP-S20` a `2NP-S11`)",
      "druh": "otázka"
     },
     {
@@ -8792,7 +8799,7 @@
      "cislo": "E111",
      "oznaceni": "projektantka E111",
      "stav": "aktivní",
-     "text": "Horní hrana základové desky a IPA (R-152, R-164): jaká je vztažná rovina a kde přesně je horní hrana desky proti ±0,000?",
+     "text": "Spodní hrana zdiva 1.NP, tedy horní hrana podkladní desky: řez A-A architektury má −0,350, výkres tvaru základů statiky i IFC model mají −0,360 (spodní hrana desky −0,560 je v obou shodně). Která hodnota platí a kde přesně má podle projektu být horní hrana desky proti ±0,000? Nemůže být těch 10 mm dvojitě položená hydroizolace (asfaltový pás IPA) pod zdivem?",
      "prvky": [],
      "prvky_hlavni": [],
      "prvky_zminene": [],
@@ -8800,7 +8807,7 @@
      "body": [
       "E111"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce E111)",
+     "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce E111); R-133, R-152, R-164, R-326; revize S0.46b D2; R-396 (16. 10. 2026, S0.48b, položka 14 „ano“), report docs/revize/2026-10-16/S0.48b_T7-e111-deska-fable.md",
      "druh": "otázka"
     },
     {
@@ -9403,7 +9410,7 @@
      "cislo": "na vědomí (E111)",
      "oznaceni": "statik na vědomí (E111)",
      "stav": "aktivní",
-     "text": "Na vědomí: horní hrana desky a IPA (E111, R-152); otázka jde projektantce.",
+     "text": "Na vědomí (e-mail projektantce dostáváte v kopii): spodní hrana zdiva 1.NP je v řezu A-A architektury −0,350, ve výkresu tvaru základů a v IFC −0,360; projektantku se ptáme, která hodnota platí.",
      "prvky": [],
      "prvky_hlavni": [],
      "prvky_zminene": [],
@@ -9411,8 +9418,8 @@
      "body": [
       "E111"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 36 (na vědomí, R-152)",
-     "pozn": "jen na vědomí, ne otázka",
+     "zdroj_kratky": "kanon otázek v repu sekce 36 (na vědomí, R-152); R-200, R-326; R-396 (S0.48b T7, varianta B1)",
+     "pozn": "jen na vědomí, ne otázka; kopie e-mailu projektantce (R-393)",
      "druh": "na vědomí"
     },
     {
@@ -9713,10 +9720,15 @@
     {
      "id": "E69",
      "nazev": "Prvek 200 × 250 s křížem nad zdivem 2.NP v řezu A-A architektury",
-     "stav": "nový 27. 9. 2026 (S0.19) DOPLNĚNO 27. 9. 2026 (S0.21): investor si téhož prvku všiml v PDF řezu (investor 27. 9. 2026 22:44:29 SELČ … u ostatních výkresy mlčí (hlavní část EPS 300 podle skladby W3, box se vejde )",
+     "stav": "nový 27. 9. 2026 (S0.19) DOPLNĚNO 27. 9. 2026 (S0.21): investor si téhož prvku všiml v PDF řezu (investor 27. 9. 2026 22:44:29 SELČ (S0.21, hlasový přepis, doslovně) …). Odhad agenta: obdélník … SLOUČENO 16. 10. 2026 (S0.48b, R-395): E149 do E69",
      "vlastnik": "investor (odešle), projektantka",
      "sekce": "E. Znalostní báze a nástroje",
-     "prvky": [],
+     "prvky": [
+      "2NP-O10",
+      "2NP-S11",
+      "2NP-S20",
+      "2NP-S21"
+     ],
      "dotazy": [
       "projektantka 17",
       "projektantka 18",
@@ -10017,17 +10029,6 @@
      "dotazy": []
     },
     {
-     "id": "E149",
-     "nazev": "Výška zdiva 2.NP: řez A-A architektury (DWG) kreslí zdivo 2.NP jen do +5,490 ve třech sloupcích (x −850 393, −837 221, −829 421) a nad ním ŽB, statika (výkres tvaru, IFC) má zdivo do +5,740 (11 řad) a věnec +5,740 až +5,940",
-     "stav": "otevřeno 14. 10. 2026 (S0.44, R-362)",
-     "vlastnik": "projektantka (otázka 17), agent (po odpovědi upraví data)",
-     "sekce": "E. Znalostní báze a nástroje",
-     "prvky": [
-      "2NP-O10"
-     ],
-     "dotazy": []
-    },
-    {
      "id": "E150",
      "nazev": "Skladby a kóta +2,380 v řezu B-B: průběžná revize 2 S0.43",
      "stav": "otevřeno 14. 10. 2026 (S0.44, R-364)",
@@ -10059,14 +10060,14 @@
     "otazek_podle_stavu": {
      "aktivní": 51
     },
-    "otazek_aktivnich_s_prvkem": 29,
-    "otazek_bez_prvku": 22,
+    "otazek_aktivnich_s_prvkem": 30,
+    "otazek_bez_prvku": 21,
     "otazek_bez_hlavniho_prvku": 22,
-    "bodu": 32,
+    "bodu": 31,
     "bodu_s_prvkem": 29,
-    "prvku_s_dotazem": 138,
+    "prvku_s_dotazem": 140,
     "prvku_s_hlavni_otazkou": 108,
-    "prvku_jen_zminenych": 7,
+    "prvku_jen_zminenych": 9,
     "prvku_se_srafou_dotazu": 48
    }
   },
@@ -12032,10 +12033,16 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
+    "otazky": [
+     "projektantka 17"
+    ],
     "otazky_hlavni": [],
-    "otazky_zminene": [],
-    "body": []
+    "otazky_zminene": [
+     "projektantka 17"
+    ],
+    "body": [
+     "E69"
+    ]
    },
    "dotaz_srafa": []
   },
@@ -12627,10 +12634,16 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
+    "otazky": [
+     "projektantka 17"
+    ],
     "otazky_hlavni": [],
-    "otazky_zminene": [],
-    "body": []
+    "otazky_zminene": [
+     "projektantka 17"
+    ],
+    "body": [
+     "E69"
+    ]
    },
    "dotaz_srafa": []
   },
@@ -12708,6 +12721,7 @@
     "otazky_zminene": [],
     "body": [
      "E148",
+     "E69",
      "E70",
      "E92"
     ]
@@ -16445,7 +16459,7 @@
     ],
     "otazky_zminene": [],
     "body": [
-     "E149"
+     "E69"
     ]
    },
    "dotaz_srafa": [
