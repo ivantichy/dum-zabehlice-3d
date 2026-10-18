@@ -1,6 +1,6 @@
 {
  "meta": {
-  "stav_k": "18. 10. 2026 (S0.48c)",
+  "stav_k": "18. 10. 2026 (S0.49)",
   "vznik": "krok S0.11, 21. 9. 2026 (E49); S0.12 (nulová spodní hrana, šrafy, SDK, stávající garáž, značky chybějících); S0.14 (ŽB z PDF statiky, E51); S0.16 až S0.26 (viz session logy); S0.29, 2. 10. 2026: ŽB, základy, ocel a kontext zdiva z IFC statika (investor: IFC autoritativní pro ŽB), odvozené ŽB prvky, ŽB z PDF statiky, věnec garáže, ŽB parapety, pracovní atika, ocelové sloupky a nadpraží z modelu odebrány",
   "jednotky": "mm, souřadnice modelu DWG (2.NP posunuté o −50 000 v x, E42), z absolutně od ±0,000",
   "urovne": {
@@ -1272,8 +1272,8 @@
    "tol_mm": 20,
    "prekryv": 0.2,
    "pocty": {
-    "jistá (IFC)": 68,
-    "upřesnil investor": 2,
+    "jistá (IFC)": 67,
+    "upřesnil investor": 3,
     "zůstává": 5,
     "jistá (IFC), typ překladu neznámý": 13
    },
@@ -1750,7 +1750,7 @@
     {
      "id": "2NP-P01",
      "kat": "kus parapet",
-     "verdikt": "jistá (IFC)",
+     "verdikt": "upřesnil investor",
      "horni": "NIC",
      "spodni": "SHODA"
     },
@@ -1924,13 +1924,11 @@
    }
   ],
   "nalezy": [
-   "PŘEKRYV 2NP-S06 x 2NP-P01: 125 x 75 x 820 mm; zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: K OVĚŘENÍ V KROKU 7 (R-309 zrušil rámeček ve zídce, ne zídku samu; jak zídka vychází proti parapetu, rozhodne investor)",
-   "PŘEKRYV 2NP-S07 x 2NP-P01: 75 x 950 x 820 mm; zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: K OVĚŘENÍ V KROKU 7 (R-309 zrušil rámeček ve zídce, ne zídku samu; jak zídka vychází proti parapetu, rozhodne investor)",
-   "PŘEKRYV 1NP-P01 x 1NP-PZ01: 90 x 50 x 400 mm",
-   "PŘEKRYV 1NP-P02 x 1NP-PZ03: 240 x 50 x 900 mm",
+   "PŘEKRYV 1NP-P01 x 1NP-PZ01: 90 x 50 x 750 mm",
+   "PŘEKRYV 1NP-P02 x 1NP-PZ03: 240 x 50 x 1250 mm",
    "PŘEKRYV 1NP-SDK11 x 1NP-SDK12: 125 x 125 x 2700 mm",
-   "PŮDORYS 2NP-O05 x 2NP-S06: otvor a stěna se v půdorysu překrývají 125 x 75 mm (jedno místo popsané dvakrát); zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: K OVĚŘENÍ V KROKU 7 (R-309 zrušil rámeček ve zídce, ne zídku samu; jak zídka vychází proti parapetu, rozhodne investor)",
-   "PŮDORYS 2NP-O05 x 2NP-S07: otvor a stěna se v půdorysu překrývají 75 x 950 mm (jedno místo popsané dvakrát); zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: K OVĚŘENÍ V KROKU 7 (R-309 zrušil rámeček ve zídce, ne zídku samu; jak zídka vychází proti parapetu, rozhodne investor)",
+   "PŮDORYS 2NP-O05 x 2NP-S06: otvor a stěna se v půdorysu překrývají 125 x 75 mm (jedno místo popsané dvakrát); zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: v délce 950 mm je NIKA V PARAPETU, ROZHODL INVESTOR 18. 10. 2026 (R-431: parapetní zdivo VAPIS 200 tam není vůbec, zídka stojí u vnějšího líce pod rámem okna a jde do výšky parapetu +3,990; výřez na kusu `2NP-P01`), projektantka potvrdí (otázka projektantce 32); tenhle nález rozhodnutím nezanikl a patří k téže otázce (R-309 zrušil rámeček ve zídce, ne zídku samu)",
+   "PŮDORYS 2NP-O05 x 2NP-S07: otvor a stěna se v půdorysu překrývají 75 x 950 mm (jedno místo popsané dvakrát); zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: v délce 950 mm je NIKA V PARAPETU, ROZHODL INVESTOR 18. 10. 2026 (R-431: parapetní zdivo VAPIS 200 tam není vůbec, zídka stojí u vnějšího líce pod rámem okna a jde do výšky parapetu +3,990; výřez na kusu `2NP-P01`), projektantka potvrdí (otázka projektantce 32); tenhle nález rozhodnutím nezanikl a patří k téže otázce (R-309 zrušil rámeček ve zídce, ne zídku samu)",
    "KONEC 2NP: začátek 2NP-S06 nenavazuje na nic (nejbližší kolmá stěna 2NP-SDK03 ve 2870 mm)",
    "KONEC 2NP: mezi začátkem 2NP-S12 a kolmou stěnou 2NP-SDK05 chybí 1400 mm zdiva",
    "VERTIKÁLNÍ MEZERA 1NP: 20 prvků (1NP-S01, 1NP-S02, 1NP-S03, 1NP-S04, …) má pod sebou ŽB z IFC (podkladní deska) až 10 mm od hrany (spodní hrana zdiva −0,350, ŽB −0,360); E111: podkladní deska IFC −0,360 vs zdivo −0,350, otázka projektantce",
@@ -8098,80 +8096,14 @@
    "prvky_rucne": "Prvky označené jako doplněné agentem nejsou ID z textu otázky: kanon na tom místě mluví obecně („přizdívky 106“, „atika“, „dveře D01 až D05“) a prvky k nim přiřadil agent.",
    "hlavni_vs_zminene": "U každé otázky se rozlišuje, kterých prvků se otázka VĚCNĚ týká (hlavní) a které jen zmiňuje jako hranici nebo kontext (zmíněné). Podnět: investor 12. 10. 2026 se u otázky projektantce 25 zeptal, zda zeď `2NP-S05` s otázkou souvisí; rozlišení je návrh agenta (S0.42b), rozdělení je ruční úsudek nad textem otázky; v detailu prvku se v plném znění ukazují jen hlavní otázky, zmíněné jsou jednou větou s odkazem do panelu.",
    "neparovatelne": "Otázka bez prvku se v detailu prvku neukáže, je jen v panelu. Kusy zdiva nad otvorem (řada N, 19 kusů se stavem „neurčeno“, E132) se v modelu nekreslí, takže otázky staviteli 1 a 2 se k nim připojit nedají; stejně tak otázky na skladby, termíny a fakturaci žádný prvek nemají.",
-   "uzavrene_body": "Uzavřené body tu nejsou (přeskočeno 103 řádků s odkazem do archivu); veřejně jen body s vazbou na projektantku, statika nebo stavitele, bez jednání s dodavateli (vynecháno 45, S0.42 revize, otázka 48); investor 27. 9. 2026: „Uzavřené body asi veřejně dávat nemusíme, ty si budeme držet pouze lokálně, a ani uzavřené body nemusí být v tom 3D modelu.“",
+   "uzavrene_body": "Uzavřené body tu nejsou (přeskočeno 107 řádků s odkazem do archivu); veřejně jen body s vazbou na projektantku, statika nebo stavitele, bez jednání s dodavateli (vynecháno 45, S0.42 revize, otázka 48); investor 27. 9. 2026: „Uzavřené body asi veřejně dávat nemusíme, ty si budeme držet pouze lokálně, a ani uzavřené body nemusí být v tom 3D modelu.“",
    "otazky": [
-    {
-     "adresat": "projektantka",
-     "cislo": "doplněk 4",
-     "oznaceni": "projektantka doplněk 4",
-     "stav": "aktivní",
-     "text": "Zděná přizdívka v obýváku 106: dřevěná, nebo zděná, a proč? Výkres u ní uvádí „zděná přizdívka končící na spodní hraně nadpraží oken sloužící pro usazení LED osvětlení“, jinde je „dřevěná předstěna“.",
-     "prvky": [
-      "1NP-PZ01",
-      "1NP-PZ02",
-      "1NP-PZ03",
-      "1NP-PZ04",
-      "1NP-PZ05",
-      "1NP-PZ06",
-      "1NP-PZ07"
-     ],
-     "prvky_hlavni": [
-      "1NP-PZ01",
-      "1NP-PZ02",
-      "1NP-PZ03",
-      "1NP-PZ04",
-      "1NP-PZ05",
-      "1NP-PZ06",
-      "1NP-PZ07"
-     ],
-     "prvky_zminene": [],
-     "prvky_rucne": [
-      "1NP-PZ01",
-      "1NP-PZ02",
-      "1NP-PZ03",
-      "1NP-PZ04",
-      "1NP-PZ05",
-      "1NP-PZ06",
-      "1NP-PZ07"
-     ],
-     "body": [
-      "E27"
-     ],
-     "zdroj_kratky": "kanon otázek v repu sekce 11 (prompt S1), stav sekce 38 (D6.7 (10))",
-     "druh": "otázka"
-    },
-    {
-     "adresat": "projektantka",
-     "cislo": "4",
-     "oznaceni": "projektantka 4",
-     "stav": "aktivní",
-     "text": "Proč jsou příčky 75 mm (`1NP-S10`, `1NP-S11`, `2NP-S06`, `2NP-S07`) zděné z VPC a ne ze sádrokartonu, když navazují na SDK? Přílohou výřezy `vpc75_1NP.pdf` a `vpc75_2NP.pdf`.",
-     "prvky": [
-      "1NP-S10",
-      "1NP-S11",
-      "2NP-S06",
-      "2NP-S07"
-     ],
-     "prvky_hlavni": [
-      "1NP-S10",
-      "1NP-S11",
-      "2NP-S06",
-      "2NP-S07"
-     ],
-     "prvky_zminene": [],
-     "prvky_rucne": [],
-     "body": [
-      "E37"
-     ],
-     "zdroj_kratky": "kanon otázek v repu sekce 11, stav sekce 38 (D6.7 (4))",
-     "druh": "otázka"
-    },
     {
      "adresat": "projektantka",
      "cislo": "5",
      "oznaceni": "projektantka 5",
      "stav": "aktivní",
-     "text": "Přesná výška nadezdívky nad garáží (má projekt stávající garáže) a skutečná výška stávajícího zdiva (řez +2,650, investor si pamatuje 3,0 m); spodní ŽB věnec +2,650 až +3,240; pracovní číslo 10 řad = 2500 od +3,240 do +5,740. AKTIVOVÁNA 12. 10. 2026 (R-319, I1; do té doby škrtnutá R-209, zúžená R-100 „jen při výrazném rozdílu po měření“): měření 10. 10. 2026 dalo horní hranu stávajícího zdiva +3,250 proti IFC +2,650 (sever, jih) a +2,500 (východ), rozdíl 600 až 750 mm; co to znamená pro nástavbu a architekturu 2.NP?",
+     "text": "Stávající garáž: změřili jsme horní hranu stávajícího zdiva zhruba na +3,250 (jedno místo, ±3 cm, podlaha garáže je v úrovni ±0,000 domu), štít zhruba +4,390. Projekt i statika (IFC) počítají se stávajícím zdivem do +2,650 (sever, jih, západ) a +2,500 u východní zdi k místnosti 209, nad ním s novým ŽB věncem +2,650 až +3,240 a nástavbou od +3,240. Původní projekt garáže z roku 2006 (máme sken) kreslí zdivo do +2,65, nad ním věnec +2,65 až +2,85, dřevěné stropní trámy do +3,05 a dozdívku k pozednici do +3,42; naše měření +3,25 s ním nesedí o 17 cm. Rozumíme tomu tak, že se bourá všechno nad +2,650 (starý věnec, trámy, dozdívka) a lije nový věnec do +3,240, takže výška nástavby ani architektura 2.NP se měnit nemusí; detaily řešíme se statikem (jeho otázka, e-mail máte v kopii). Prosíme o potvrzení: Počítá projekt s bouráním stávající garáže nad +2,650 po celém obvodu včetně starého věnce?",
      "prvky": [
       "1NP-D06-nad",
       "1NP-EX01",
@@ -8192,7 +8124,16 @@
       "1NP-V02",
       "1NP-V10",
       "1NP-V12",
-      "1NP-V15"
+      "1NP-V15",
+      "2NP-S13",
+      "2NP-S14",
+      "2NP-S15",
+      "2NP-S16",
+      "2NP-S19",
+      "2NP-S21",
+      "2NP-S25",
+      "2NP-S26",
+      "2NP-S30"
      ],
      "prvky_hlavni": [
       "1NP-D06-nad",
@@ -8216,7 +8157,16 @@
       "1NP-V02",
       "1NP-V10",
       "1NP-V12",
-      "1NP-V15"
+      "1NP-V15",
+      "2NP-S13",
+      "2NP-S14",
+      "2NP-S15",
+      "2NP-S16",
+      "2NP-S19",
+      "2NP-S21",
+      "2NP-S25",
+      "2NP-S26",
+      "2NP-S30"
      ],
      "prvky_rucne": [
       "1NP-D06-nad",
@@ -8238,59 +8188,22 @@
       "1NP-V02",
       "1NP-V10",
       "1NP-V12",
-      "1NP-V15"
+      "1NP-V15",
+      "2NP-S13",
+      "2NP-S14",
+      "2NP-S15",
+      "2NP-S16",
+      "2NP-S19",
+      "2NP-S21",
+      "2NP-S25",
+      "2NP-S26",
+      "2NP-S30"
      ],
      "body": [
       "E38",
       "E22"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 11 a 38, aktivace sekce 44.3 (I1) a 45.9",
-     "druh": "otázka"
-    },
-    {
-     "adresat": "projektantka",
-     "cislo": "6",
-     "oznaceni": "projektantka 6",
-     "stav": "aktivní",
-     "text": "Výšky příček a přizdívek, které nejdou ke stropu: potvrdit 650 mm u ramen L v 204 a číslo u přizdívek 100 mm v obýváku (LED); u `1NP-S10` a `1NP-S11` už ne (jdou ke stropu), nejvýš číslo hrany stropu.",
-     "prvky": [
-      "1NP-PZ01",
-      "1NP-PZ02",
-      "1NP-PZ03",
-      "1NP-PZ04",
-      "1NP-PZ05",
-      "1NP-PZ06",
-      "1NP-PZ07",
-      "2NP-S06",
-      "2NP-S07"
-     ],
-     "prvky_hlavni": [
-      "1NP-PZ01",
-      "1NP-PZ02",
-      "1NP-PZ03",
-      "1NP-PZ04",
-      "1NP-PZ05",
-      "1NP-PZ06",
-      "1NP-PZ07",
-      "2NP-S06",
-      "2NP-S07"
-     ],
-     "prvky_zminene": [],
-     "prvky_rucne": [
-      "1NP-PZ01",
-      "1NP-PZ02",
-      "1NP-PZ03",
-      "1NP-PZ04",
-      "1NP-PZ05",
-      "1NP-PZ06",
-      "1NP-PZ07",
-      "2NP-S06",
-      "2NP-S07"
-     ],
-     "body": [
-      "E40"
-     ],
-     "zdroj_kratky": "kanon otázek v repu sekce 11, stav sekce 38 (D6.7 (6 a 15)), sekce 45.3",
+     "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 11 a 38, aktivace sekce 44.3 (I1) a 45.9",
      "druh": "otázka"
     },
     {
@@ -8357,7 +8270,7 @@
      "cislo": "10",
      "oznaceni": "projektantka 10",
      "stav": "aktivní",
-     "text": "Přizdívky 106: šrafa 100 mm v legendě chybí (konstatování), proč jsou zděné a ne SDK, jaká je tloušťka a materiál a na čem stojí (podlaha, nebo deska: 2400, nebo 2750); patří sem i pátá plocha (U na východní fasádě). ZÚŽENO 11. 10. 2026 (R-296): výška přizdívek je rozhodnutá (do +2,400, záměr), ptát se jen na tloušťku, materiál a od čeho se měří.",
+     "text": "Zděné přizdívky v obývacím pokoji 106 (v našem 3D modelu kategorie „přizdívka 106“, prvky `1NP-PZ01` až `1NP-PZ07`). Půdorys 1.NP je kreslí šrafou, která v legendě konstrukcí není (legenda zná u příček a přizdívek jen VPC tl. 75 mm), kótuje je 100 mm a popisuje „zděná přizdívka končící na spodní hraně nadpraží oken sloužící pro usazení LED osvětlení“. Prosíme o upřesnění:\n(a) Proč jsou zděné a ne ze sádrokartonu, když nejdou ke stropu a nesou jen LED osvětlení?\n(b) Z čeho a jak tlusté: výkres kótuje 100 mm (u plochy tvaru U na východní stěně ramena 50 mm), my je zatím počítáme jako VPC tl. 75 mm, stejně jako ostatní nenosné příčky.\n(c) Výšky počítáme takto a prosíme o potvrzení nebo opravu číslem: u všech sedmi kusů horní hrana +2,400 (spodní hrana nadpraží oken 1.NP), spodní hrana na podkladní desce −0,350 jako ostatní zdivo 1.NP, tedy 2750 mm; pokud mají stát až na podlaze ±0,000, je to 2400 mm. Pokud přizdívka jde od desky a navazuje na sádrokartonovou stěnu, je to zbytečné přerušení izolace podlahy; proto se ptáme, na čem má stát; předpokládáme, že izolace podlahy by přizdívku neunesla.\n(d) Délky z půdorysu: `1NP-PZ04` 580 a `1NP-PZ05` 700 (mezi 106 a 107), `1NP-PZ06` 134 a `1NP-PZ07` 735 (u spíže 110), `1NP-PZ02` 2080 s rameny `1NP-PZ01` 390 a `1NP-PZ03` 540 (plocha tvaru U u východní stěny 106): je plocha U také zděná přizdívka, a jsou ramena tl. 50 její součást (ostění okna), nebo kresba obkladu?\nPřizdívky jsou vyznačené v přiloženém půdorysu 1.NP s ID stěn a v 3D modelu https://ivantichy.github.io/dum-zabehlice-3d/.",
      "prvky": [
       "1NP-PZ01",
       "1NP-PZ02",
@@ -8387,9 +8300,11 @@
       "1NP-PZ07"
      ],
      "body": [
-      "E27"
+      "E27",
+      "E40"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 11 a 38 (zúžení R-296)",
+     "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 11 a 38 (zúžení R-296)",
+     "pozn": "před e-mailem: subagent dohledá v Gmailu (vlákna s projektantkou, slova přizdívka, předstěna, LED, nadpraží), jak byla přizdívka myšlena (R-414, krok 10); příloha půdorys 1.NP s ID stěn a PZ",
      "druh": "otázka"
     },
     {
@@ -8413,7 +8328,8 @@
      "prvky_rucne": [],
      "body": [
       "E54",
-      "E62"
+      "E62",
+      "E77"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 11 (doplňky S0.18, S0.22, S0.25), stav sekce 38 (D6.8 (14)), R-103",
      "druh": "otázka"
@@ -8423,22 +8339,22 @@
      "cislo": "17",
      "oznaceni": "projektantka 17",
      "stav": "aktivní",
-     "text": "Horní hrana zdiva 2.NP a prvek s křížem v řezu A-A. V řezu A-A (výkres D11-04) je zdivo 2.NP u obou obvodových stěn hlavní části kresleno od +2,920 do +5,490, tedy vyrovnávací blok 70 mm a 10 řad bloků VAPIS 200 po 250 mm. Nad ním, mezi +5,490 a +5,740, je ještě jeden prvek 200 × 250 mm na vrstvě zdiva: bez šrafy bloku, přeškrtnutý dvěma diagonálami (kříž), bez popisky a v legendě řezu není. Je kreslený i v místech, kde pod ním není žádný otvor (v našem modelu stěny `2NP-S20` a `2NP-S11`), takže překlad nad otvorem to být nemůže; v dělicí stěně k nástavbě nad garáží a nad oknem západní stěny garáže je ve stejné výšce místo něj sestava tří dílů po 75 mm s vloženou izolací (k té je samostatný dotaz 18). Statika kreslí v témže místě zdivo až do spodní hrany věnce +5,740: řezy B-B, C-C a D-D výkresu tvaru stropu nad 2.NP mají u každé proříznuté stěny kótu DH +5,740 a stejně to má 3D model statika (IFC); věnec je +5,740 až +5,940 a deska nad ním. Na výšce +5,740 se tedy oba výkresy shodují, liší se v tom, co je horních 250 mm pod věncem: 11. řada bloků (jak čteme statiku), nebo jiný prvek. Pro objednávku zdiva je to rozdíl jedné řady bloků na všech stěnách 2.NP (po odečtení oken přibližně 32 m zdiva, z toho hlavní část s přístavkem asi 26 m), nebo místo ní jiná položka. V příloze posíláme výřezy řezu A-A, aby bylo jasné, o který prvek jde. Prosíme o odpověď: (a) co ten prvek 200 × 250 s křížem je (systémový překlad nebo věncovka VAPIS, jiný výrobek, nebo jen grafika řezu bez vlivu na skladbu zdiva); (b) potvrzení horní hrany zdiva 2.NP +5,740 a počtu řad, se kterým počítáme: hlavní část a přístavek nad 1.NP vyrovnávací blok 70 + 11 řad po 250 od +2,920, nástavba nad garáží 10 řad po 250 od +3,240 (bez bloku), dělicí stěna k nástavbě blok 70 + 11 řad; (c) pokud je to jiný prvek než blok zdiva: na kterých stěnách 2.NP má být (jen obvodové stěny hlavní části, nebo všechny nosné stěny včetně vnitřních a nástavby) a jaký výrobek, abychom ho započítali místo řady bloků. Souvisí s dotazem k oknu `2NP-O10` (samostatně níže), kde řez A-A kreslí nad oknem železobeton od +5,490 a statika zdivo a věnec od +5,740.",
+     "text": "Horní hrana zdiva 2.NP a prvek s křížem v řezu A-A. V řezu A-A (výkres D11-04) je zdivo 2.NP u obou obvodových stěn hlavní části kresleno od +2,920 do +5,490, tedy vyrovnávací blok 70 mm a 10 řad bloků VAPIS 200 po 250 mm. Nad ním, mezi +5,490 a +5,740, je ještě jeden prvek 200 × 250 mm na vrstvě zdiva: bez šrafy bloku, přeškrtnutý dvěma diagonálami (kříž), bez popisky a v legendě řezu není. Je kreslený i v místech, kde pod ním není žádný otvor (v našem modelu stěny `2NP-S20` a `2NP-S11`), takže překlad nad otvorem to být nemůže; v dělicí stěně k nástavbě nad garáží a nad oknem západní stěny garáže je ve stejné výšce místo něj sestava tří dílů po 75 mm s vloženou izolací (k té je samostatný dotaz 18). Statika kreslí v témže místě zdivo až do spodní hrany věnce +5,740: řezy B-B, C-C a D-D výkresu tvaru stropu nad 2.NP mají u každé proříznuté stěny kótu DH +5,740 a stejně to má 3D model statika (IFC); věnec je +5,740 až +5,940 a deska nad ním. Na výšce +5,740 se tedy oba výkresy shodují, liší se v tom, co je horních 250 mm pod věncem: 11. řada bloků (jak čteme statiku), nebo jiný prvek. Pro objednávku zdiva je to rozdíl jedné řady bloků na všech stěnách 2.NP (po odečtení oken přibližně 32 m zdiva, z toho hlavní část s přístavkem asi 26 m), nebo místo ní jiná položka. V příloze posíláme výřezy řezu A-A, aby bylo jasné, o který prvek jde. Prosíme o odpověď: (a) co ten prvek 200 × 250 s křížem je (systémový překlad nebo věncovka VAPIS, jiný výrobek, nebo jen grafika řezu bez vlivu na skladbu zdiva); pokud je to překlad nebo věncovka, proč je v řezu i tam, kde pod ním žádný otvor není?; (b) potvrzení horní hrany zdiva 2.NP +5,740 a počtu řad, se kterým počítáme: hlavní část a přístavek nad 1.NP vyrovnávací blok 70 + 11 řad po 250 od +2,920, nástavba nad garáží 10 řad po 250 od +3,240 (bez bloku), dělicí stěna k nástavbě blok 70 + 11 řad; (c) pokud je to jiný prvek než blok zdiva: na kterých stěnách 2.NP má být (jen obvodové stěny hlavní části, nebo všechny nosné stěny včetně vnitřních a nástavby) a jaký výrobek, abychom ho započítali místo řady bloků. Souvisí s dotazem k oknu `2NP-O10` (samostatně níže), kde řez A-A kreslí nad oknem železobeton od +5,490 a statika zdivo a věnec od +5,740.",
      "prvky": [
       "2NP-S11",
       "2NP-S20"
      ],
-     "prvky_hlavni": [],
-     "prvky_zminene": [
+     "prvky_hlavni": [
       "2NP-S11",
       "2NP-S20"
      ],
+     "prvky_zminene": [],
      "prvky_rucne": [],
      "body": [
       "E69"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 11 (doplňky S0.19), stav sekce 38 (D6.7 (17)); znění E148 R-395 (16. 10. 2026, S0.48b), report docs/revize/2026-10-16/S0.48b_T6-e149-e69-fable.md",
-     "pozn": "před e-mailem: přiložit výřezy řezu A-A z `docs/revize/2026-09-27/ikona-E69/` (R-154 „k otazce 17 udelame pak screenshot“) a zkontrolovat, že nenesou jména ani adresu; hlavní prvky zatím žádné (ČEKÁ na investora, S0.49: 26 stěn 2.NP do +5,740, nebo jen `2NP-S20` a `2NP-S11`)",
+     "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 11 (doplňky S0.19), stav sekce 38 (D6.7 (17)); znění E148 R-395 (16. 10. 2026, S0.48b), report docs/revize/2026-10-16/S0.48b_T6-e149-e69-fable.md",
+     "pozn": "před e-mailem: přiložit JEDEN výřez řezu A-A (`docs/revize/2026-09-27/ikona-E69/ikona_A-A_obvodova-zed-2NP-hlavni-cast.png`, prvek bez otvoru pod sebou; R-418), zkontrolovat, že nenese jména ani adresu; výřez dělicí stěny patří k otázce 18",
      "druh": "otázka"
     },
     {
@@ -8493,26 +8409,10 @@
     },
     {
      "adresat": "projektantka",
-     "cislo": "20",
-     "oznaceni": "projektantka 20",
-     "stav": "aktivní",
-     "text": "Tepelné oddělení nevytápěné garáže 105 (vrata, mrazy) od místnosti 209 nad ní: jak je řešena izolace ve skladbě stropu, nebo v podlaze 209, doplnit?",
-     "prvky": [],
-     "prvky_hlavni": [],
-     "prvky_zminene": [],
-     "prvky_rucne": [],
-     "body": [
-      "E77"
-     ],
-     "zdroj_kratky": "kanon otázek v repu sekce 11 (doplňky S0.22), stav sekce 38 (D6.8 (20))",
-     "druh": "otázka"
-    },
-    {
-     "adresat": "projektantka",
      "cislo": "22",
      "oznaceni": "projektantka 22",
      "stav": "aktivní",
-     "text": "Stavební otvory dveří: přesné velikosti a výškové určení stavebního otvoru (dveře bez prvku otvoru v IFC, horní hrana +5,110 vs +5,060, skladba pod dveřmi). ROZŠÍŘENÍ (R-273, investor 11. 10. 2026: „u vsech dveri ale stale cekam na potvrzeni presnych velikosti a vyskove urceni stav. otvoru“): přiložit tabulku VŠECH dveří a portálů (nosné zdivo `1NP-D01` až `1NP-D05` a `2NP-D01` až `2NP-D03`, SDK `1NP-D09` až `1NP-D13` a `2NP-D05` až `2NP-D08`, stávající garáž `1NP-D06` až `1NP-D08`) se šířkou, výškou a spodní hranou stavebního otvoru; projektantka potvrdí nebo opraví. DOPLNĚNO 12. 10. 2026 (R-319 I5, R-320): i `2NP-O10` a `2NP-O13` jako balkonové dveře 1000 × 2150 s prahem 250 mm nad podlahou 2.NP, potvrdit stavební otvor a práh. Na vědomí (I4): počet překladů nad oknem u 202 a 204 (jeden rám 3170, ve zdivu dva otvory 850 a 1900 s pilířem `2NP-S08`).",
+     "text": "Stavební otvory dveří: v přiložené tabulce jsou všechny dveře a portály domu (nosné zdivo `1NP-D01` až `1NP-D05` a `2NP-D01` až `2NP-D03`, SDK příčky `1NP-D09` až `1NP-D13` a `2NP-D05` až `2NP-D08`, stávající garáž `1NP-D06` až `1NP-D08`), balkonové dveře na terasu `2NP-O10` a `2NP-O13` (1000 × 2150, pod nimi parapetní zdivo 250 mm nad podlahou 2.NP) a balkonové dveře v portálu `1NP-O02` v obývacím pokoji 106. U každého otvoru je šířka a výška stavebního otvoru, spodní hrana a hlava (od podlahy podlaží i absolutně), co předpokládáme mezi deskou a prahem a u otvorů, které má statika v IFC, i její rozměr; prosíme potvrdit nebo opravit řádek po řádku. Tři věci zvlášť: (a) U dveří s popiskou 800/1970 (`1NP-D04`, `2NP-D01` až `2NP-D03`, dveře v SDK) bereme 1970 jako výšku křídla (tak je v tabulce) a stavební otvor předpokládáme 900 × 2020; výkres tvaru statiky kótuje tyto otvory od desky s hlavou +2,020 v 1.NP a +5,110 ve 2.NP, platí to? (b) Pod venkovními dveřmi `1NP-D01`, `1NP-D02`, `1NP-D03` a `1NP-D06` počítáme mezi deskou a prahem jen skladbu podlahy bez zdiva, statika má pod `1NP-D01` a `1NP-D03` zdivo do −0,110; co tam má být? (c) Balkonové dveře v portálu `1NP-O02` mají spodní hranu 400 nad podlahou (schod na terén, terén +0,200 proti podlaze ±0,000): co je mezi zdivem a prahem, je pod spodní hranou 400 jen zdivo bez izolace, jaká je skladba v těch 750 mm pod prahem (400 nad podlahou a 350 pod ní) a jak je schod řešený výškově, podloží se cihlou, nebo je to celé na izolaci? U dveří z haly 201 na terasu 210 (`2NP-O13`) se proti verzi 06/2025 změnila kóta 1000/2230 (170) na 1000/2150 (250), práh +3,340; prosíme potvrdit záměr. Na vědomí: nad oknem u koupelen 202 a 204 je jeden rám 3170, ve zdivu dva otvory 850 a 1900 s pilířem `2NP-S08`; překlady nad nimi řeší stavitel (dva kratší, s přesahem se spojí v jeden).",
      "prvky": [
       "1NP-D01",
       "1NP-D02",
@@ -8527,6 +8427,8 @@
       "1NP-D11",
       "1NP-D12",
       "1NP-D13",
+      "1NP-O02",
+      "1NP-P01",
       "2NP-D01",
       "2NP-D02",
       "2NP-D03",
@@ -8552,6 +8454,7 @@
       "1NP-D11",
       "1NP-D12",
       "1NP-D13",
+      "1NP-O02",
       "2NP-D01",
       "2NP-D02",
       "2NP-D03",
@@ -8563,6 +8466,7 @@
       "2NP-O13"
      ],
      "prvky_zminene": [
+      "1NP-P01",
       "2NP-S08"
      ],
      "prvky_rucne": [
@@ -8579,6 +8483,8 @@
       "1NP-D11",
       "1NP-D12",
       "1NP-D13",
+      "1NP-O02",
+      "1NP-P01",
       "2NP-D01",
       "2NP-D02",
       "2NP-D03",
@@ -8587,8 +8493,15 @@
       "2NP-D07",
       "2NP-D08"
      ],
-     "body": [],
-     "zdroj_kratky": "kanon otázek v repu sekce 38 (řádky projektantce 22 a tabulka dveří), doplňky sekce 44.3 (I4, I5) a 45.11",
+     "body": [
+      "E100",
+      "E108",
+      "B5",
+      "E84",
+      "B1"
+     ],
+     "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 38 (řádky projektantce 22 a tabulka dveří), doplňky sekce 44.3 (I4, I5) a 45.11",
+     "pozn": "před e-mailem: tabulku dveří vygenerovat skriptem `tools/model/tabulka_dveri.py` z `otvory.json` a `model.json` (krok 10 g; ne opsat ze sekce 38), po kontrole investora i na veřejnou stránku (R-33); odpověď projektantky je vstup pro stavitele 1 a 2 (R-155, R-281)",
      "druh": "otázka"
     },
     {
@@ -8616,56 +8529,6 @@
       "E80"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce 23), sekce 44.2 (N3)",
-     "druh": "otázka"
-    },
-    {
-     "adresat": "projektantka",
-     "cislo": "25",
-     "oznaceni": "projektantka 25",
-     "stav": "aktivní",
-     "text": "Instalační stěna v. 650 mm v koupelně 204 (sedátko u okna): je plocha uvnitř písmene L (mezi `2NP-S07` 950 × 75, návratem `2NP-S06` 200 × 75 a zdí `2NP-S05`) vyzděná až do +3,740, nebo je to jen deska nebo polička nesená tenkou příčkou VPC 75? Z čeho se zdí a jak vysoko (do výkazu VPC 75 vs jiné zdivo)?",
-     "prvky": [
-      "2NP-S05",
-      "2NP-S06",
-      "2NP-S07"
-     ],
-     "prvky_hlavni": [
-      "2NP-S06",
-      "2NP-S07"
-     ],
-     "prvky_zminene": [
-      "2NP-S05"
-     ],
-     "prvky_rucne": [],
-     "body": [
-      "E88"
-     ],
-     "zdroj_kratky": "kanon otázek v repu sekce 11 (doplňky S0.25), stav sekce 38 (D6.7 (25))",
-     "druh": "otázka"
-    },
-    {
-     "adresat": "projektantka",
-     "cislo": "27",
-     "oznaceni": "projektantka 27",
-     "stav": "aktivní",
-     "text": "Skladba a podložení pod prahem balkonových dveří `1NP-O02` (balkonové dveře jsou součást okna 3870 v obývacím pokoji 106, R-125) (spodní hrana otvoru 400, mimo modul 250): co je mezi zdivem a prahem? Včetně 27b (R-89): je pod spodní hranou 400 okna ve 106 jen zdivo bez izolace? A R-114: 750 = 400 + 350 pod podlahou, jaká je tam skladba? ZÚŽENO 2. 10. 2026 (R-66): zídka nebude zděná, část o tloušťce a skladbě zídky se neposílá.",
-     "prvky": [
-      "1NP-O02",
-      "1NP-P01"
-     ],
-     "prvky_hlavni": [
-      "1NP-O02",
-      "1NP-P01"
-     ],
-     "prvky_zminene": [],
-     "prvky_rucne": [
-      "1NP-O02",
-      "1NP-P01"
-     ],
-     "body": [
-      "E84"
-     ],
-     "zdroj_kratky": "kanon otázek v repu sekce 11 (doplňky S0.28), stav sekce 38 (D6.6)",
      "druh": "otázka"
     },
     {
@@ -8709,15 +8572,31 @@
      "cislo": "30",
      "oznaceni": "projektantka 30",
      "stav": "aktivní",
-     "text": "Stavební otvory přesně z IFC (R-117): potvrdit rozměry a výškové určení otvorů, u kterých se naše data a IFC rozcházejí, a otvorů, které v IFC prvek otvoru vůbec nemají. Podklad je seznam nejasných otvorů `docs/nejasne-otvory-E110_2026-10-11.md` (7 otvorů s rozdílem proti IFC, 11 bez prvku otvoru v IFC).",
-     "prvky": [],
-     "prvky_hlavni": [],
+     "text": "Stavební otvory oken, u kterých se naše data a IFC statiky rozcházejí nebo které v IFC prvek otvoru nemají (`1NP-O01`, `1NP-O03`, `2NP-O01`, `2NP-O02`, `2NP-O03`, `2NP-O04`, `2NP-O09`; podklad je seznam nejasných otvorů E110): potvrdit rozměry a výškové určení stavebního otvoru. Dveře jsou v tabulce k otázce 22, tady se neopakují.",
+     "prvky": [
+      "1NP-O01",
+      "1NP-O03",
+      "2NP-O01",
+      "2NP-O02",
+      "2NP-O03",
+      "2NP-O04",
+      "2NP-O09"
+     ],
+     "prvky_hlavni": [
+      "1NP-O01",
+      "1NP-O03",
+      "2NP-O01",
+      "2NP-O02",
+      "2NP-O03",
+      "2NP-O04",
+      "2NP-O09"
+     ],
      "prvky_zminene": [],
      "prvky_rucne": [],
      "body": [
       "E110"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 38 (D6.7 (30)), sekce 45.9 (I9)",
+     "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 38 (D6.7 (30)), sekce 45.9 (I9)",
      "druh": "otázka"
     },
     {
@@ -8739,7 +8618,7 @@
      "cislo": "32",
      "oznaceni": "projektantka 32",
      "stav": "aktivní",
-     "text": "Ve 2.NP u sedacího prostoru v místnosti 204 kreslí půdorys zídku v. 650 mm z VPC 75 (v našem modelu `2NP-S07`, 950 mm dlouhá, a kolmý kus `2NP-S06`, 200 mm) v místě parapetu okna 1900 (náš parapetní kus `2NP-P01`, VAPIS 200, parapet 900). Zídka leží celá v tloušťce parapetu (vnitřních 75 mm z 200). Jak to má být provedeno: nahrazuje zídka v těch 950 mm vnitřní část parapetního zdiva (parapet je tam tedy jen 125 mm VAPIS a 75 mm VPC), nebo je parapet pod oknem plných 200 mm a zídka stojí před ním (pak by půdorys měl zídku kreslit o 75 mm dál do místnosti)? Podívejte se prosím do našeho 3D modelu (2.NP, prvky `2NP-S06`, `2NP-S07`, `2NP-P01`, `2NP-O05`). Doplněk (R-320): zídky stojí na desce +2,920; je „v. 650 mm“ v půdorysu výška nad podlahou +3,090 (horní hrana +3,740), nebo výška zdiva od desky (horní hrana +3,570)?",
+     "text": "Zídka u sedacího prostoru v koupelně 204 (2.NP, pod oknem 1900 ve východní stěně). Půdorys 2.NP tam kreslí zídku z VPC tl. 75 mm s popiskou „v. 650 mm“: 950 mm (kóty 875 + 75) u vnějšího líce obvodové zdi pod jižní polovinou okna, přímo pod rámem okna, a kolmý návrat 200 mm, který prochází tloušťkou parapetu a vyčnívá 75 mm do místnosti (v našem 3D modelu prvky `2NP-S07` a `2NP-S06`); jižně od ní je sádrokartonová předstěna instalační šachty mezi 202 a 204. Investor to chápe jako sedací prostor ve sprchovém koutě zapuštěný do parapetu: parapet okna je 900 mm nad podlahou 2.NP (+3,090) a parapetní zdivo je VAPIS 200 (prvek `2NP-P01`), v délce zídky (950 mm) ale podle půdorysu VAPIS není a parapet tam tvoří jen zídka VPC 75 u vnějšího líce; uvnitř písmene L vzniká nika hloubky 200 mm (125 mm v tloušťce zdi a 75 mm v místnosti) se sedací plochou ve výšce 650 mm. Tak to kreslí i náš 3D model (zídka i návrat do výšky parapetu 900, tedy +3,990). Prosíme o potvrzení nebo opravu:\n1. Je to tak? Tvoří parapet pod oknem v délce 950 jen zídka VPC 75 u vnějšího líce, nebo je i tam parapet VAPIS 200 a zídka stojí před ním v místnosti?\n2. Na čem zídka stojí: na železobetonové desce (+2,920), nebo na skladbě podlahy (na izolaci, podlaha +3,090)?\n3. Výšky: jde zídka u okna i návrat do výšky parapetu 900 (+3,990) a „650 mm“ je sedací plocha uvnitř (650 nad podlahou, +3,740, nebo 650 od desky, +3,570)? Nebo má návrat jen 650 mm (900 by byl vysoký roh ve sprchovém koutě)? Co je u vnějšího líce mezi sedací plochou a oknem, jen zídka VPC 75?\n4. Sedací plocha uvnitř písmene L (zhruba 875 × 200 mm mezi zídkou, návratem a předstěnou šachty): vyzděná plně (plný kvádr) do výšky 650, nebo deska s prostorem pod ní? Z čeho (kvůli výkazu zdiva: VPC 75, nebo jiné zdivo)?\n5. Jak je řešený parapet v severní polovině okna (950 mm od návratu `2NP-S06` po zeď `2NP-S05`), kde zídka není: plných 200 mm VAPIS do 900 nad podlahou? A jak vypadá přechod mezi nikou a tímto parapetem na líci do místnosti?\nPokud je to jinak, model upravíme podle Vaší odpovědi. 3D model: https://ivantichy.github.io/dum-zabehlice-3d/ (2.NP, prvky `2NP-S06`, `2NP-S07`, `2NP-P01`, okno `2NP-O05`).",
      "prvky": [
       "2NP-O05",
       "2NP-P01",
@@ -8747,17 +8626,20 @@
       "2NP-S07"
      ],
      "prvky_hlavni": [
-      "2NP-O05",
       "2NP-P01",
       "2NP-S06",
       "2NP-S07"
      ],
-     "prvky_zminene": [],
+     "prvky_zminene": [
+      "2NP-O05"
+     ],
      "prvky_rucne": [],
      "body": [
-      "E141"
+      "E88",
+      "E40"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 45.3 (R-311, R-312, R-318, R-320)",
+     "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 45.3 (R-311, R-312, R-318, R-320)",
+     "pozn": "před e-mailem: zkontrolovat, že veřejná stránka už nese model po R-409 (publikace po merge S0.49); kopie statikovi a staviteli jen v rámci e-mailu (R-393)",
      "druh": "otázka"
     },
     {
@@ -8799,7 +8681,7 @@
      "cislo": "E111",
      "oznaceni": "projektantka E111",
      "stav": "aktivní",
-     "text": "Spodní hrana zdiva 1.NP, tedy horní hrana podkladní desky: řez A-A architektury má −0,350, výkres tvaru základů statiky i IFC model mají −0,360 (spodní hrana desky −0,560 je v obou shodně). Která hodnota platí a kde přesně má podle projektu být horní hrana desky proti ±0,000? Nemůže být těch 10 mm dvojitě položená hydroizolace (asfaltový pás IPA) pod zdivem?",
+     "text": "Spodní hrana zdiva 1.NP, tedy horní hrana podkladní desky: řez A-A architektury má −0,350, výkres tvaru základů statiky i IFC model mají −0,360 (spodní hrana desky −0,560 je v obou shodně). Která hodnota platí a kde přesně má podle projektu být horní hrana desky proti ±0,000? Nemůže být těch 10 mm dvojitě položená hydroizolace (asfaltový pás IPA) pod zdivem? Pro nás je to rozdíl ve výšce zdiva 1.NP (2750 vs 2760 mm, tedy vyrovnávací vrstva nebo spára) a ve všech kótách otvorů měřených od desky.",
      "prvky": [],
      "prvky_hlavni": [],
      "prvky_zminene": [],
@@ -8807,27 +8689,7 @@
      "body": [
       "E111"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce E111); R-133, R-152, R-164, R-326; revize S0.46b D2; R-396 (16. 10. 2026, S0.48b, položka 14 „ano“), report docs/revize/2026-10-16/S0.48b_T7-e111-deska-fable.md",
-     "druh": "otázka"
-    },
-    {
-     "adresat": "projektantka",
-     "cislo": "E112",
-     "oznaceni": "projektantka E112",
-     "stav": "aktivní",
-     "text": "Pás nad dveřmi v nástavbě garáže `2NP-S21` (v textech před 11. 10. 2026 pás S16) jako SDK varianta (R-150): je pás nad připraveným překladem zděný, nebo sádrokartonový?",
-     "prvky": [
-      "2NP-S21"
-     ],
-     "prvky_hlavni": [
-      "2NP-S21"
-     ],
-     "prvky_zminene": [],
-     "prvky_rucne": [],
-     "body": [
-      "E112"
-     ],
-     "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce E112)",
+     "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 38 (řádek projektantce E111); R-133, R-152, R-164, R-326; revize S0.46b D2; R-396 (16. 10. 2026, S0.48b, položka 14 „ano“), report docs/revize/2026-10-16/S0.48b_T7-e111-deska-fable.md",
      "druh": "otázka"
     },
     {
@@ -8896,38 +8758,6 @@
     },
     {
      "adresat": "projektantka",
-     "cislo": "B1",
-     "oznaceni": "projektantka B1",
-     "stav": "aktivní",
-     "text": "Detail místa se schodem (změna výšky) na východní stěně 1.NP u balkonových dveří z obýváku 106 (terén +0,200 vs podlaha ±0,000): jak to vychází výškově, podloží se cihlou, nebo je to celé na izolaci? Investor přiloží obrázek.",
-     "prvky": [],
-     "prvky_hlavni": [],
-     "prvky_zminene": [],
-     "prvky_rucne": [],
-     "body": [
-      "B1"
-     ],
-     "zdroj_kratky": "kanon otázek v repu sekce 11 (B1), bod B1",
-     "druh": "otázka"
-    },
-    {
-     "adresat": "projektantka",
-     "cislo": "B5",
-     "oznaceni": "projektantka B5",
-     "stav": "aktivní",
-     "text": "Nový půdorys 2.NP má u dveří z haly 201 na terasu 210 změnu 1000/2230 (170) na 1000/2150 (250), práh +3,340, a změna nebyla ohlášena: potvrdit záměr.",
-     "prvky": [],
-     "prvky_hlavni": [],
-     "prvky_zminene": [],
-     "prvky_rucne": [],
-     "body": [
-      "B5"
-     ],
-     "zdroj_kratky": "kanon otázek v repu sekce 11 (B5), bod B5",
-     "druh": "otázka"
-    },
-    {
-     "adresat": "projektantka",
      "cislo": "B6",
      "oznaceni": "projektantka B6",
      "stav": "zodpovězená",
@@ -8966,16 +8796,22 @@
      "cislo": "29",
      "oznaceni": "statik 29",
      "stav": "aktivní",
-     "text": "Unese věnec `1NP-V04` (IFC #15051) nad dveřmi `1NP-D08` (3000) ve stávající zdi garáže pás `2NP-S21` z Porothermu 30 (v textech před 11. 10. 2026 pás S16), tedy asi 3,0 × 2,57 m zdiva navíc proti IFC? V nástavbě je podle architektury „připravený ŽB překlad dl. 3,5 m, S.H. +5,490“ a podle IFC překlad `2NP-V10` (#20192) +5,490 až +5,740, pod ním ale IFC v šířce dveří 3000 žádné zdivo nemá; investor tam zeď zdít bude (R-67, pás naplno od +2,920 do +5,490, otvor se vybourá až v budoucnu). Pokud to neunese, co se musí změnit (výztuž věnce, nebo zeď nezdít)?",
+     "text": "Stěna mezi garáží 105 a místností 209 ve 2.NP, pás `2NP-S21` pod připraveným překladem `2NP-V10` (300 × 3 500, +5,490 až +5,740) s boky `2NP-S16` (463 mm) a `2NP-S26` (490 mm): v IFC pod překladem v šířce 3 000 žádné zdivo není (jen dva kusy po 250 mm), chápeme to jako přípravu na budoucí probourání; stejně tak se bude bourat otvor `1NP-D08` (3 000 × 2 500) ve stávající zdi garáže pod průvlakem `1NP-V04` (+2,500 až +2,920). Do probourání ale bude tato stěna ve 2.NP (pás `2NP-S21` od +2,920 do +5,490) plná, i když ji IFC v tomto poli nemá. (1) Počítá statika s touto zdí? Pokud by se pás vyzdil naplno z Porothermu 30 (+2,920 až +5,490, asi 3,0 × 2,57 m zdiva navíc proti IFC), unese to průvlak `1NP-V04` nad otvorem 3 000? Pokud ne, co se musí změnit (výztuž průvlaku, nebo zeď nezdít)? (2) S projektantkou řešíme variantu udělat celou stěnu v tomto poli ze sádrokartonu s izolací (její otázka, e-mail v kopii). Šlo by přitom vynechat zděné boky `2NP-S16` a `2NP-S26` a udělat překlad přes celou délku stěny (asi 4,45 m) místo 3,5 m? Co by to znamenalo pro uložení překladu a pro věnec `2NP-V03` (+5,740 až +5,940) nad ním? Prvky jsou v našem 3D modelu pod uvedenými ID.",
      "prvky": [
       "1NP-D08",
       "1NP-V04",
+      "2NP-S16",
       "2NP-S21",
+      "2NP-S26",
+      "2NP-V03",
       "2NP-V10"
      ],
      "prvky_hlavni": [
       "1NP-V04",
+      "2NP-S16",
       "2NP-S21",
+      "2NP-S26",
+      "2NP-V03",
       "2NP-V10"
      ],
      "prvky_zminene": [
@@ -8983,9 +8819,10 @@
      ],
      "prvky_rucne": [],
      "body": [
-      "E92"
+      "E92",
+      "E112"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 11 (statikovi 29) a sekce 36 (zbývající otázky, R-151)",
+     "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 11 (statikovi 29) a sekce 36 (zbývající otázky, R-151)",
      "druh": "otázka"
     },
     {
@@ -8993,7 +8830,7 @@
      "cislo": "1 + N6",
      "oznaceni": "statik 1 + N6",
      "stav": "aktivní",
-     "text": "Spodní ŽB věnec na stávající garáži (+2,650 až +3,240): navrhl ho, s jakou výztuží a výškou? Musí tam nový věnec být, když garáž vlastní nemá (N6)? Měření 10. 10. 2026: horní hrana stávajícího zdiva garáže naměřena 3 350 mm nad IPA pod betonem podlahy, tedy zhruba +3,250 proti IFC +2,650 (sever, jih) a +2,500 (východ); štít 4 490 nad IPA; vrata +2,710 (IFC +2,800); věnec podle investora spíš není (sonda neudělána). Otázka zní: co s rozdílem 600 až 750 mm (bourat na +2,650, nebo nástavbu posadit výš a o kolik řad), musí být nový věnec, když garáž vlastní nemá, a řeší se to až při stavbě 2.NP. DOPLNĚNO 13. 10. 2026 (S0.43, R-348, investor): když je reálná výška garáže větší, musí se věnec v 1.NP dělat vůbec, a pokud ano, nešel by udělat výš? Překlad `1NP-V04` nad vraty by pak byl přes celou šířku garáže a zdi nástavby `2NP-S16` a `2NP-S26` (boky pásu `2NP-S21`) by měly normální spodní hranu ve stejné výšce (dnes stojí na průvlaku `1NP-V04` od +2,920 a rohy nad pilířky `1NP-V16` a `1NP-V03` začínají až na +3,240).",
+     "text": "Stávající garáž: změřili jsme horní hranu stávajícího zdiva zhruba na +3,250 (jedno místo, ±3 cm, podlaha garáže = ±0,000 domu, IPA pod betonem podlahy asi −0,100), štít asi +4,390, vrata 2 890 × 2 710 od podlahy; sondu na věnec jsme nedělali. IFC má stávající zdivo do +2,650 (sever, jih, západ) a +2,500 (východ k 209), nad ním nový věnec +2,650 až +3,240 (`1NP-V01`, `1NP-V02`, `1NP-V12`, `1NP-V15`; nad vraty `1NP-V10` od +2,800; východ `1NP-V04` +2,500 až +2,920) a nástavbu od +3,240. Původní projekt garáže z roku 2006 kreslí zdivo do +2,65, ŽB věnec 4 E 12 s třmínky E6 po 250 mm v +2,65 až +2,85, dřevěné stropní trámy do +3,05, prkna +3,07 a dozdívku mezi trámy a nad nimi do pozednice +3,42. Spodní hrana věnce tedy sedí s IFC, liší se výška věnce (200 mm v projektu 2006, 590 mm v IFC); provedení starého věnce (zda tam je a jak silný) ověřené nemáme, sonda se nedělala, a měření +3,25 s projektem nesedí o 17 cm, ten rozdíl tedy nemusí být skutečný. Chápeme to tak, že statika počítá s vybouráním všeho nad +2,650 (starý věnec, trámy, dozdívka) a s novým věncem do +3,240. Otázky: (1) Musí být nový věnec? Pokud ano, bourá se starý, nebo se dá nový věnec vylít na starý a dorovnat výšku do +3,240? Co bys chtěl před rozhodnutím ověřit sondou (poloha, výška, výztuž starého věnce)? (2) Průvlak `1NP-V04` nad východní zdí garáže je výškově uskočený (+2,500 až +2,920) proti věncům garáže (+2,650 až +3,240). Je důvodem dorovnání na desku domu (+2,920), nebo jiný důvod? Pro stavbu je to komplikace, proto si důvod ověřujeme. (3) Výztuž nového věnce na garáži jsme v IFC ani ve výkresech výztuže nenašli; jaká má být, nebo ji ještě dodáš? Nástavba se zdí až po 1.NP, takže odpověď nespěchá, ale potřebujeme vědět, zda a kde bourat. Projektantku prosíme o potvrzení bourání nad +2,650 po celém obvodu (její otázka 5); rozdílné výšky věnců na hranici garáž/dům jsou v otázce N10.",
      "prvky": [
       "1NP-D06-nad",
       "1NP-EX01",
@@ -9081,9 +8918,11 @@
      ],
      "body": [
       "E22",
-      "E60"
+      "E60",
+      "E120",
+      "E92"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 36 (doplnění S0.37, R-235, R-241, R-245, R-257)",
+     "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 36 (doplnění S0.37, R-235, R-241, R-245, R-257)",
      "druh": "otázka"
     },
     {
@@ -9293,12 +9132,13 @@
      "cislo": "34",
      "oznaceni": "projektantka 34",
      "stav": "aktivní",
-     "text": "Pás nad dveřmi v nástavbě garáže `2NP-S21` (3,5 m pod připraveným ŽB překladem IFC #20192, +2,920 až +5,490) má po stranách krátké zděné boky `2NP-S16` (sever, 747 mm) a `2NP-S26` (jih, 490 mm), oba Porotherm 30 do +5,740. Nemá smysl boky nezdít, udělat překlady přes celou šířku a celý pás včetně boků provést ze SDK? (Investor 12. 10. 2026, R-323.)",
+     "text": "Stěna mezi garáží 105 a místností 209 (sklad a pracovna) ve 2.NP: prostřední pás `2NP-S21` (3,5 m, +2,920 až +5,490) leží pod připraveným ŽB překladem `2NP-V10` (+5,490 až +5,740) a po stranách má krátké zděné boky `2NP-S16` (sever, 463 mm) a `2NP-S26` (jih, 490 mm) do +5,740; podle projektu Porotherm 30. Rozumíme tomu tak, že překlad je příprava na budoucí probourání otvoru a do té doby je stěna plná (pod ní je ve stávající zdi garáže otvor `1NP-D08`, který se vybourá). Trápí nás u této stěny zateplení: garáž 105 se bude vytápět jen na nižší teplotu (vrata, mrazy), místnost 209 normálně. Prosíme o Váš názor: (a) Má smysl zdít úzké boky 463 a 490 mm, nebo je lepší boky nezdít a udělat překlad přes celou délku stěny? (b) Má smysl místo zdiva udělat celou tuto stěnu, tedy pás i oba boky, jako sádrokartonovou příčku s izolací z minerální vaty, nebo zdít a zateplit jinak? Únosnost průvlaku pod stěnou a uložení delšího překladu řešíme se statikem (jeho otázka, e-mail máte v kopii). Prvky si můžete zobrazit v našem 3D modelu (`2NP-S21`, `2NP-S16`, `2NP-S26`, `2NP-V10`, `1NP-V04`).",
      "prvky": [
+      "1NP-D08",
+      "1NP-V04",
       "2NP-S16",
       "2NP-S21",
       "2NP-S26",
-      "2NP-V03",
       "2NP-V10"
      ],
      "prvky_hlavni": [
@@ -9308,77 +9148,16 @@
       "2NP-V10"
      ],
      "prvky_zminene": [
-      "2NP-V03"
+      "1NP-D08",
+      "1NP-V04"
      ],
-     "prvky_rucne": [
-      "2NP-S16",
-      "2NP-S21",
-      "2NP-S26",
-      "2NP-V03",
-      "2NP-V10"
-     ],
-     "body": [
-      "E112",
-      "E115"
-     ],
-     "zdroj_kratky": "kanon otázek v repu sekce 46.10 (projektantce 34, R-323)",
-     "druh": "otázka"
-    },
-    {
-     "adresat": "statik",
-     "cislo": "N12",
-     "oznaceni": "statik N12",
-     "stav": "aktivní",
-     "text": "Lze v místě pásu `2NP-S21` vynechat zděné boky `2NP-S16` a `2NP-S26` a udělat překlady přes celou šířku, s výplní ze SDK? (Investor 12. 10. 2026, R-323.) [NÁVRH AGENTA k doplnění: co to znamená pro uložení překladu a věnec `2NP-V03` (+5,740 až +5,940) nad ním.]",
-     "prvky": [
-      "2NP-S16",
-      "2NP-S21",
-      "2NP-S26",
-      "2NP-V03",
-      "2NP-V10"
-     ],
-     "prvky_hlavni": [
-      "2NP-S16",
-      "2NP-S21",
-      "2NP-S26",
-      "2NP-V03",
-      "2NP-V10"
-     ],
-     "prvky_zminene": [],
-     "prvky_rucne": [
-      "2NP-S16",
-      "2NP-S21",
-      "2NP-S26",
-      "2NP-V03",
-      "2NP-V10"
-     ],
-     "body": [
-      "E112",
-      "E115"
-     ],
-     "zdroj_kratky": "kanon otázek v repu sekce 46.10 (N12, R-323)",
-     "druh": "otázka"
-    },
-    {
-     "adresat": "statik",
-     "cislo": "na vědomí (pás 2NP-S21 jako SDK)",
-     "oznaceni": "statik na vědomí (pás 2NP-S21 jako SDK)",
-     "stav": "aktivní",
-     "text": "Na vědomí: pás nad dveřmi v nástavbě garáže `2NP-S21` (v textech před 11. 10. 2026 pás S16) může být i SDK varianta (R-150); otázka jde projektantce.",
-     "prvky": [
-      "2NP-S21"
-     ],
-     "prvky_hlavni": [
-      "2NP-S21"
-     ],
-     "prvky_zminene": [],
      "prvky_rucne": [],
      "body": [
-      "E112"
+      "E112",
+      "E77"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 36 (na vědomí, R-150)",
-     "pozn": "jen na vědomí, ne otázka",
-     "druh": "na vědomí"
+     "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 46.10 (projektantce 34, R-323)",
+     "druh": "otázka"
     },
     {
      "adresat": "statik",
@@ -9410,7 +9189,7 @@
      "cislo": "na vědomí (E111)",
      "oznaceni": "statik na vědomí (E111)",
      "stav": "aktivní",
-     "text": "Na vědomí (e-mail projektantce dostáváte v kopii): spodní hrana zdiva 1.NP je v řezu A-A architektury −0,350, ve výkresu tvaru základů a v IFC −0,360; projektantku se ptáme, která hodnota platí.",
+     "text": "Na vědomí (e-mail projektantce dostáváš v kopii): spodní hrana zdiva 1.NP je v řezu A-A architektury −0,350, ve výkresu tvaru základů a v IFC −0,360; projektantku se ptáme, která hodnota platí. Pokud k tomu máš poznámku (kde přesně má být horní hrana desky podle statiky), napiš ji prosím.",
      "prvky": [],
      "prvky_hlavni": [],
      "prvky_zminene": [],
@@ -9418,7 +9197,7 @@
      "body": [
       "E111"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 36 (na vědomí, R-152); R-200, R-326; R-396 (S0.48b T7, varianta B1)",
+     "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 36 (na vědomí, R-152); R-200, R-326; R-396 (S0.48b T7, varianta B1)",
      "pozn": "jen na vědomí, ne otázka; kopie e-mailu projektantce (R-393)",
      "druh": "na vědomí"
     },
@@ -9652,39 +9431,30 @@
     {
      "id": "E27",
      "nazev": "Zděné přizdívky tl. 100 mm (šrafa HEXAGONS, pět ploch v 1.NP kolem obývacího pokoje 106). Výkres je popisuje",
-     "stav": "odloženo 20. 9. 2026, řeší se v S1 ZMĚNA 21. 9. 2026 (S0.8): investor 21. 9. 2026 (zadání session S0.8, doslovně) … Odpověď: výkres je kreslí šrafou HEXAGONS a kótuje 100 mm (ne 75), šrafa HEXAGONS v legendě … zůstává jen odpověď projektantky 10",
+     "stav": "odloženo 20. 9. 2026, řeší se v S1 ZMĚNA 21. 9. 2026 (S0.8): investor 21. 9. 2026 (zadání session S0.8, doslovně) … Odpověď: výkres je kreslí šrafou HEXAGONS a kótuje 100 mm (ne 75), šrafa HEXAGONS v legendě konstrukcí není …",
      "vlastnik": "investor (dotaz projektantce v S1), agent (hledání v Gmailu v S1)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
+      "1NP-P01",
+      "1NP-P02",
       "1NP-PZ01",
-      "1NP-PZ04"
+      "1NP-PZ03",
+      "1NP-PZ04",
+      "1NP-PZ07"
      ],
      "dotazy": [
-      "projektantka 10",
-      "projektantka doplněk 4"
-     ]
-    },
-    {
-     "id": "E37",
-     "nazev": "Proč jsou nenosné příčky tl. 75 mm zděné z VPC a ne ze sádrokartonu, když často navazují na sádrokartonovou stěnu. investor 20. 9. 2026 17:04:34 SELČ",
-     "stav": "nový 20. 9. 2026 POTVRZENO 6. 10. 2026 (R-104): položka VPC 75 jde do výkazu i před odpovědí projektantky 4",
-     "vlastnik": "investor (položí dotaz projektantce)",
-     "sekce": "E. Znalostní báze a nástroje",
-     "prvky": [
-      "2NP-S06",
-      "2NP-S07"
-     ],
-     "dotazy": [
-      "projektantka 4"
+      "projektantka 10"
      ]
     },
     {
      "id": "E38",
      "nazev": "Přesnou výšku nadezdívky nad garáží potvrdí projektantka",
-     "stav": "nový 20. 9. 2026 ZJIŠTĚNO 21. 9. 2026 večer (S0.8e, subagent Opus po tools/dokumentace.py sync): spodní ŽB věnec stávající … zapsáno v docs/znalosti/zdivo-a-zalozeni.md, otázky projektantce 5 a statikovi 1 + N6 se přeformulují v S0.49 (R-405)",
+     "stav": "nový 20. 9. 2026 ZJIŠTĚNO 21. 9. 2026 večer (S0.8e, subagent Opus po tools/dokumentace.py sync): spodní ŽB věnec stávající garáže je v půdorysu výkresu tvaru … stěny nástavby 2NP-S13, S14, S15, S19, S25, S30, S16, S26 v prvcích otázky",
      "vlastnik": "investor (dotaz projektantce v S1), agent (zapsáno)",
      "sekce": "E. Znalostní báze a nástroje",
-     "prvky": [],
+     "prvky": [
+      "2NP-S13"
+     ],
      "dotazy": [
       "projektantka 5"
      ]
@@ -9692,15 +9462,23 @@
     {
      "id": "E40",
      "nazev": "Výšky zděných příček a přizdívek, které nejdou až ke stropu",
-     "stav": "nový 20. 9. 2026; doplněno 27. 9. 2026 (S0.16) ROZHODNUTO 6. 10. 2026 (R-105, investor) … Přizdívky 106 a příčky 75: výška od desky −0,350 do +2,400 (2750), agent ověří v řezech; projektantce 6.; S0.44 … zbývá jen přizdívky (projektantce 10)",
+     "stav": "nový 20. 9. 2026; doplněno 27. 9. 2026 (S0.16) ROZHODNUTO 6. 10. 2026 (R-105, investor) … Přizdívky 106 a příčky 75: výška od desky −0,350 do +2,400 (2750), agent ověří v řezech; projektantce 6.; S0.44 … projektantce 6 PŘEKONÁNA (zaniká bez ztráty)",
      "vlastnik": "investor (dotaz projektantce v S1), agent (zapsáno)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
+      "1NP-PZ01",
+      "1NP-PZ02",
+      "1NP-PZ03",
+      "1NP-PZ04",
+      "1NP-PZ05",
+      "1NP-PZ06",
+      "1NP-PZ07",
       "2NP-S06",
       "2NP-S07"
      ],
      "dotazy": [
-      "projektantka 6"
+      "projektantka 10",
+      "projektantka 32"
      ]
     },
     {
@@ -9720,7 +9498,7 @@
     {
      "id": "E69",
      "nazev": "Prvek 200 × 250 s křížem nad zdivem 2.NP v řezu A-A architektury",
-     "stav": "nový 27. 9. 2026 (S0.19) DOPLNĚNO 27. 9. 2026 (S0.21): investor si téhož prvku všiml v PDF řezu (investor 27. 9. 2026 22:44:29 SELČ (S0.21, hlasový přepis, doslovně) …). Odhad agenta: obdélník … SLOUČENO 16. 10. 2026 (S0.48b, R-395): E149 do E69",
+     "stav": "nový 27. 9. 2026 (S0.19) DOPLNĚNO 27. 9. 2026 (S0.21): investor si téhož prvku všiml v PDF řezu (investor 27. 9. 2026 22:44:29 SELČ … příloha JEDEN výřez (obvodová zeď 2.NP hlavní část), výřez dělicí stěny patří k otázce 18",
      "vlastnik": "investor (odešle), projektantka",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -9760,14 +9538,13 @@
     {
      "id": "E77",
      "nazev": "Tepelné oddělení stávající garáže 105 od místnosti 209 nad ní",
-     "stav": "nový 27. 9. 2026 (S0.22). Krok 10 (e) v docs/plan.md",
+     "stav": "nový 27. 9. 2026 (S0.22). Krok 10 (e) v docs/plan.md.; DOPLNĚNO 18. 10. 2026 (S0.49): R-411, R-412: strop a podlaha 105/209 se NEŘEŠÍ (investor …; 209 je vedle garáže, nad 103), projektantce … krok 10 (e) plánu (skladba stropu nad garáží) tím odpadá",
      "vlastnik": "investor (odešle ve fázi S1), agent (skladby)",
      "sekce": "E. Znalostní báze a nástroje",
-     "prvky": [
-      "2NP-S29"
-     ],
+     "prvky": [],
      "dotazy": [
-      "projektantka 20"
+      "projektantka 14",
+      "projektantka 34"
      ]
     },
     {
@@ -9791,15 +9568,17 @@
     {
      "id": "E88",
      "nazev": "Instalační stěna (sedátko) 204: co je pod sedací plochou (investor 29. 9. 2026 20:40:07 SELČ (18:40:07 UTC, S0.25, textové zadání session, doslovně))",
-     "stav": "nový 29. 9. 2026 (S0.25) DOPLNĚNO 6. 10. 2026 (R-99, investor) …, v aktuálním 3D špatně, vrátit se po průchodu; ruší čtení popisky z E81 R29; D2.7 s touto premisou. PŘEFORMULOVÁNO 6. 10. 2026 (R-106, investor) … … výkaz zatím 0,75 m² do 650",
+     "stav": "nový 29. 9. 2026 (S0.25) DOPLNĚNO 6. 10. 2026 (R-99, investor) …, v aktuálním 3D špatně, vrátit se po průchodu; ruší čtení popisky z E81 R29; D2.7 s touto … model přepracován (P01 jen severní 950, S06 a S07 do +3,990), text projektantce 32 přepsán",
      "vlastnik": "projektantka (odpověď), investor (zařadí do mailu)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
+      "2NP-O05",
+      "2NP-P01",
       "2NP-S06",
       "2NP-S07"
      ],
      "dotazy": [
-      "projektantka 25"
+      "projektantka 32"
      ]
     },
     {
@@ -9809,6 +9588,7 @@
      "vlastnik": "investor (R-64), projektantka (otázka 26), agent (další session)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
+      "1NP-D08",
       "1NP-DS01",
       "1NP-IW04",
       "1NP-V04",
@@ -9818,12 +9598,11 @@
       "2NP-IW08",
       "2NP-IW14",
       "2NP-S16",
-      "2NP-S21",
-      "2NP-S26",
       "2NP-V03",
       "2NP-V10"
      ],
      "dotazy": [
+      "statik 1 + N6",
       "statik 29"
      ]
     },
@@ -9883,14 +9662,16 @@
     {
      "id": "E100",
      "nazev": "Zdivo pod vstupními dveřmi 1NP-D01 a 1NP-D03: IFC statika má otvory #5382 a #5771 od −0,110",
-     "stav": "nový 5. 10. 2026 (S0.30c) ROZHODNUTO 6. 10. 2026 (R-111, investor) … Pod všemi dveřmi ve výkazu 0 zdiva … kreslení zdiva pod dveřmi v modelu je E108",
+     "stav": "nový 5. 10. 2026 (S0.30c) ROZHODNUTO 6. 10. 2026 (R-111, investor) … Pod všemi dveřmi ve výkazu 0 zdiva (skladba podlahy s izolací; IFC D04 od −0,360 souhlasí, D01/D03 od −0,110 a D06 od −0,100 ne); pod portálem … bod E100 je v body řádku 22",
      "vlastnik": "investor (v průchodu bodů, prompt S0.31 položka D2.12)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
       "1NP-D01",
       "1NP-D03"
      ],
-     "dotazy": []
+     "dotazy": [
+      "projektantka 22"
+     ]
     },
     {
      "id": "E108",
@@ -9903,7 +9684,9 @@
       "1NP-S09",
       "1NP-SDK01"
      ],
-     "dotazy": []
+     "dotazy": [
+      "projektantka 22"
+     ]
     },
     {
      "id": "E110",
@@ -9924,10 +9707,12 @@
     {
      "id": "E111",
      "nazev": "Horní hrana podkladní desky 1.NP: IFC statika −0,360",
-     "stav": "otevřeno 7. 10. 2026 (S0.32) DOPLNĚNO 8. 10. 2026 (S0.33, R-133): −0,360 má statika v IFC i v PDF výkresu tvaru základů (text „-0,360“), −0,350 je jen z DWG řezu A-A architektury (výškové kóty PDF řezů jsou bloky bez textu); otázka jde …",
+     "stav": "otevřeno 7. 10. 2026 (S0.32) DOPLNĚNO 8. 10. 2026 (S0.33, R-133): −0,360 má statika v IFC i v PDF výkresu tvaru základů (text „-0,360“), −0,350 je jen z DWG řezu A-A architektury … statik na vědomí (E111) s měkkou výzvou",
      "vlastnik": "investor (koho se zeptat), agent",
      "sekce": "E. Znalostní báze a nástroje",
-     "prvky": [],
+     "prvky": [
+      "ZAKL-ZK43"
+     ],
      "dotazy": [
       "projektantka E111",
       "statik na vědomí (E111)"
@@ -9946,9 +9731,7 @@
      ],
      "dotazy": [
       "projektantka 34",
-      "projektantka E112",
-      "statik N12",
-      "statik na vědomí (pás 2NP-S21 jako SDK)"
+      "statik 29"
      ]
     },
     {
@@ -9996,7 +9779,7 @@
     {
      "id": "E145",
      "nazev": "Zaměření oken stávající garáže a přepínání",
-     "stav": "otevřeno 13. 10. 2026 (S0.43, R-340); S0.44 (14. 10. 2026, R-375, investor …): jistota kusů garáže …, model dál kreslí projekt … zapsáno v docs/znalosti/zdivo-a-zalozeni.md, otázky projektantce 5 a statikovi 1 + N6 se přeformulují v S0.49 (R-405)",
+     "stav": "otevřeno 13. 10. 2026 (S0.43, R-340); S0.44 (14. 10. 2026, R-375, investor …): jistota kusů garáže …, model dál kreslí projekt [výklad překonán týž den]; R-379 (19:16 SELČ, investor …): kusy garáže „jistá (IFC)“ … z body projektantce 5 odebrán",
      "vlastnik": "investor (zaměření), agent (model)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -10013,18 +9796,6 @@
      "prvky": [
       "1NP-O02",
       "1NP-Z01"
-     ],
-     "dotazy": []
-    },
-    {
-     "id": "E148",
-     "nazev": "Sloučení a zkrácení otázek protistranám před e-maily",
-     "stav": "otevřeno 13. 10. 2026 (S0.43, R-357); DOPLNĚNO 14. 10. 2026 (S0.44, R-371, investor: „k5 nech oboje, uloz navrh“): sloučit bod E149 (potvrzení výšky zdiva 2.NP +5,490 vs +5,740 z e-mailu) do E69 (prvek s křížem v řezu A-A, otázka projektantce 17) …",
-     "vlastnik": "investor (rozhodne odpočatý), agent (provede v kanonu a `dotazy_prvku.py`)",
-     "sekce": "E. Znalostní báze a nástroje",
-     "prvky": [
-      "2NP-S06",
-      "2NP-S21"
      ],
      "dotazy": []
     },
@@ -10051,25 +9822,25 @@
     "stavitel 1"
    ],
    "pocty": {
-    "otazek": 51,
+    "otazek": 40,
     "otazek_podle_adresata": {
-     "projektantka": 32,
-     "statik": 13,
+     "projektantka": 23,
+     "statik": 11,
      "stavitel": 6
     },
     "otazek_podle_stavu": {
-     "aktivní": 50,
+     "aktivní": 39,
      "zodpovězená": 1
     },
-    "otazek_aktivnich_s_prvkem": 30,
-    "otazek_bez_prvku": 21,
-    "otazek_bez_hlavniho_prvku": 22,
-    "bodu": 31,
-    "bodu_s_prvkem": 29,
-    "prvku_s_dotazem": 140,
-    "prvku_s_hlavni_otazkou": 108,
-    "prvku_jen_zminenych": 9,
-    "prvku_se_srafou_dotazu": 48
+    "otazek_aktivnich_s_prvkem": 23,
+    "otazek_bez_prvku": 17,
+    "otazek_bez_hlavniho_prvku": 17,
+    "bodu": 29,
+    "bodu_s_prvkem": 28,
+    "prvku_s_dotazem": 152,
+    "prvku_s_hlavni_otazkou": 112,
+    "prvku_jen_zminenych": 14,
+    "prvku_se_srafou_dotazu": 51
    }
   },
   "lidsky": {
@@ -10086,9 +9857,11 @@
     "stávající (podle projektu, R-44)": "„stávající (podle projektu, R-44)“: Prvek už stojí. Rozměry jsou podle projektu, ne podle nového zaměření.",
     "upřesnil investor (dřevo, R-66, R-183, R-367)": "„upřesnil investor (dřevo, R-66, R-183, R-367)“: Zídku u okna kreslí půdorys (poloha, délka 2 780 mm, tloušťka 300 mm, popiska „v. 400 mm“); investor rozhodl jen MATERIÁL: je dřevěná, ne zděná, proto je mimo objednávku cihel. Bez šrafy.",
     "upřesnil investor (hranol do +5,740, nad ním trubka; R-335, R-360)": "„upřesnil investor (hranol do +5,740, nad ním trubka; R-335, R-360)“: Výšku hranolu komína doplnil investor podle pohledů fasád: hranol 400 × 400 končí na horní hraně zdiva 2.NP a nad ním pokračuje trubka. Bez šrafy.",
+    "upřesnil investor (nika v parapetu, R-431; výška 900 nebo 650 k potvrzení projektantkou)": "„upřesnil investor (nika v parapetu, R-431; výška 900 nebo 650 k potvrzení projektantkou)“: Krátký návratek, který niku pod oknem uzavírá ze severu a vyčnívá 75 mm do místnosti. Investor rozhodl modelovat ho do výšky parapetu (900 mm nad podlahou), ale sám si není jistý, zda je 900, nebo 650 mm, jak říká popiska půdorysu; potvrdí to projektantka (proto modrá šrafa „má dotaz“).",
+    "upřesnil investor (nika v parapetu, zídka u vnějšího líce do výšky parapetu, R-431; projektantka potvrdí)": "„upřesnil investor (nika v parapetu, zídka u vnějšího líce do výšky parapetu, R-431; projektantka potvrdí)“: Polohu obou prvků kreslí půdorys (u zídky s popiskou „v. 650 mm“); investor rozhodl, JAK na sebe navazují a kam zídka sahá: pod oknem u koupelny je v délce 950 mm nika, zdivo pod oknem tam není vůbec a parapet tvoří jen zídka tl. 75 mm u vnějšího líce pod rámem okna, až do výšky parapetu (900 mm nad podlahou). Nika je hluboká 200 mm, z toho 125 mm v tloušťce zdi a 75 mm v místnosti. Sedací plochu uvnitř niky model nekreslí, žádný výkres ji nemá. Projektantka to potvrdí (proto modrá šrafa „má dotaz“).",
+    "upřesnil investor (od desky −0,350 do +2,400, R-105, R-408; projektantka potvrdí)": "„upřesnil investor (od desky −0,350 do +2,400, R-105, R-408; projektantka potvrdí)“: Výšku přizdívky doplnil a upřesnil investor: stojí na podkladní desce (−0,350) jako ostatní zdivo přízemí a končí na spodní hraně nadpraží oken (+2,400), záměrně nejde ke stropu. Nejistá zůstává tloušťka a materiál; obojí i spodní hranu potvrdí projektantka. Bez šrafy.",
     "upřesnil investor (prostup v projektu chybí, doplněn podle návodu rekuperace; R-293, R-380)": "„upřesnil investor (prostup v projektu chybí, doplněn podle návodu rekuperace; R-293, R-380)“: Kruhový prostup, který v projektu (IFC ani architektura) není; investor ho doplnil symetricky k prostupu z IFC podle návodu rekuperace. Bez šrafy.",
     "upřesnil investor (trubka do +7,570, Ø 200 z pohledu; R-335, R-352, R-360)": "„upřesnil investor (trubka do +7,570, Ø 200 z pohledu; R-335, R-352, R-360)“: Trubku komína nad střechou doplnil investor podle pohledů fasád: do +7,570, průměr zhruba 200 mm odměřený z pohledu. Materiál neznámý, bez šrafy, mimo objednávku cihel.",
-    "upřesnil investor (výška do +2,400, R-296, R-367)": "„upřesnil investor (výška do +2,400, R-296, R-367)“: Výšku přizdívky doplnil a upřesnil investor: končí na spodní hraně nadpraží oken (+2,400), záměrně nejde ke stropu. Nejistá zůstává tloušťka a materiál, o tom je otázka projektantce. Bez šrafy.",
     "upřesnil investor (výška do spodní hrany průvlaku `1NP-V09`, stojí na desce; R-359, R-372)": "„upřesnil investor (výška do spodní hrany průvlaku `1NP-V09`, stojí na desce; R-359, R-372)“: Příčka VPC 75 mezi místnostmi 102 a 107 není v 3D modelu statika (IFC) a žádný řez ji neprotíná; investor upřesnil: stojí na podkladní desce a jde do spodní hrany průvlaku nad ní (+2,400); mezera mezi oběma příčkami je pouzdro posuvných dveří. Bez šrafy, bez otázky.",
     "z IFC": "„z IFC“: Těleso je převzaté z 3D modelu statika (IFC), nic se nedopočítávalo ani nedomýšlelo."
    },
@@ -10804,18 +10577,12 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [
-     "projektantka 4"
-    ],
-    "otazky_hlavni": [
-     "projektantka 4"
-    ],
+    "otazky": [],
+    "otazky_hlavni": [],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": [
-    "projektantka 4"
-   ]
+   "dotaz_srafa": []
   },
   {
    "id": "1NP-S11",
@@ -10869,18 +10636,12 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [
-     "projektantka 4"
-    ],
-    "otazky_hlavni": [
-     "projektantka 4"
-    ],
+    "otazky": [],
+    "otazky_hlavni": [],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": [
-    "projektantka 4"
-   ]
+   "dotaz_srafa": []
   },
   {
    "id": "1NP-S12",
@@ -11592,13 +11353,9 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [
-     "projektantka 25"
-    ],
+    "otazky": [],
     "otazky_hlavni": [],
-    "otazky_zminene": [
-     "projektantka 25"
-    ],
+    "otazky_zminene": [],
     "body": [
      "E63"
     ]
@@ -11619,9 +11376,9 @@
     207704
    ],
    "z0": 2920,
-   "z1": 3740,
-   "zdroj": "půdorys 2.NP „v. 650 mm“; stojí na desce +2,920 (investor 12. 10. 2026, R-318); horní hrana +3,740 = 650 nad podlahou +3,090 [pracovní: zda 650 je od podlahy, nebo výška zdiva, je otázka projektantce 32, R-320]",
-   "jistota": "pracovní",
+   "z1": 3990,
+   "zdroj": "půdorys 2.NP „v. 650 mm“; stojí na desce +2,920 (investor 12. 10. 2026, R-318); NIKA V PARAPETU (18. 10. 2026, R-431, investor doslovně: „Ono to asi bude tak, ze ta zed s06 a s07 bude do vysky parapetu 900 a ta sedaci plocha uvnitr bude 650. takto bych to popsal jako dotaz pro overeni u projektantky a takto to i namodeloval“): návratek jde do výšky parapetu +3,990 (900 nad podlahou +3,090) a uzavírá niku pod oknem `2NP-O05` ze severu; prochází 125 mm tloušťky parapetu a vyčnívá 75 mm do místnosti 204. Zda je 900, nebo 650 mm (popiska půdorysu „v. 650 mm“), potvrdí projektantka (otázka projektantce 32); sedací plochu 650 mm uvnitř niky model nekreslí (žádný výkres ji nemá, R-60, R-61). Dřívější čtení do 18. 10. 2026: horní hrana +3,740 = 650 nad podlahou (pracovní, otázka projektantce 32, R-320)",
+   "jistota": "upřesnil investor (nika v parapetu, R-431; výška 900 nebo 650 k potvrzení projektantkou)",
    "strany": [
     "204",
     "204"
@@ -11629,17 +11386,18 @@
    "cast_useku": null,
    "deleno_z": null,
    "id_stare": "2NP-S06",
-   "vyska": 820,
+   "vyska": 1070,
    "barva": "#2ab04c",
    "jistota_srafa": null,
    "zdvih": 1,
    "lidsky": {
     "co": "Zděná stěna ve 2.NP, materiál vápenopískové příčkovky VPC tl. 75 mm. U místnosti 204 Koupelna, WC.",
-    "rozmer": "délka 200 mm, tloušťka 75 mm, výška 820 mm; stojí od +2,920 m do +3,740 m nad podlahou 1.NP (±0,000)",
+    "rozmer": "délka 200 mm, tloušťka 75 mm, výška 1070 mm; stojí od +2,920 m do +3,990 m nad podlahou 1.NP (±0,000)",
     "odkud": [
-     "pudorys"
+     "pudorys",
+     "kota"
     ],
-    "jistota": "pracovní",
+    "jistota": "upřesnil investor (nika v parapetu, R-431; výška 900 nebo 650 k potvrzení projektantkou)",
     "zdroje": [
      "pudorys_2np",
      "dwg"
@@ -11658,30 +11416,19 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 25",
-     "projektantka 32",
-     "projektantka 4",
-     "projektantka 6"
+     "projektantka 32"
     ],
     "otazky_hlavni": [
-     "projektantka 25",
-     "projektantka 32",
-     "projektantka 4",
-     "projektantka 6"
+     "projektantka 32"
     ],
     "otazky_zminene": [],
     "body": [
-     "E148",
-     "E37",
      "E40",
      "E88"
     ]
    },
    "dotaz_srafa": [
-    "projektantka 25",
-    "projektantka 32",
-    "projektantka 4",
-    "projektantka 6"
+    "projektantka 32"
    ]
   },
   {
@@ -11698,9 +11445,9 @@
     207704
    ],
    "z0": 2920,
-   "z1": 3740,
-   "zdroj": "půdorys 2.NP „v. 650 mm“; stojí na desce +2,920 (investor 12. 10. 2026, R-318); horní hrana +3,740 = 650 nad podlahou +3,090 [pracovní: otázka projektantce 32, R-320]; E33: investor mluvil o plechové výplni okna, v seznamu je jako příčka VPC 75",
-   "jistota": "pracovní",
+   "z1": 3990,
+   "zdroj": "půdorys 2.NP „v. 650 mm“; stojí na desce +2,920 (investor 12. 10. 2026, R-318); NIKA V PARAPETU ROZHODL INVESTOR 18. 10. 2026 (R-431, doslovně: „mas pravdu, je to nika, oprav slova, oprav i model … ta zed s06 a s07 bude do vysky parapetu 900 a ta sedaci plocha uvnitr bude 650“; ruší čtení R-409, podle kterého zídka nahrazovala vnitřních 75 mm parapetu): zídka VPC 75 stojí u VNĚJŠÍHO líce parapetu pod rámem okna `2NP-O05` a jde do výšky parapetu +3,990; parapetní zdivo VAPIS 200 tam v délce 950 není vůbec, je to nika hloubky 200 mm (125 mm v tloušťce zdi + 75 mm v místnosti u návratku `2NP-S06`). Sedací plochu 650 mm uvnitř niky model nekreslí (žádný výkres ji nemá, R-60, R-61); projektantka potvrdí (otázka projektantce 32, E148/T2). E33: investor mluvil o plechové výplni okna, v seznamu je jako příčka VPC 75. Dřívější čtení do 18. 10. 2026: horní hrana +3,740 (650 nad podlahou) a zídka jako vnitřních 75 mm parapetu (R-409)",
+   "jistota": "upřesnil investor (nika v parapetu, zídka u vnějšího líce do výšky parapetu, R-431; projektantka potvrdí)",
    "strany": [
     "204",
     "-"
@@ -11708,17 +11455,17 @@
    "cast_useku": null,
    "deleno_z": null,
    "id_stare": "2NP-S07",
-   "vyska": 820,
+   "vyska": 1070,
    "barva": "#2ab04c",
    "jistota_srafa": null,
    "zdvih": 1,
    "lidsky": {
     "co": "Zděná stěna ve 2.NP, materiál vápenopískové příčkovky VPC tl. 75 mm. Obvodová (na jedné straně exteriér), uvnitř místnosti 204 Koupelna, WC.",
-    "rozmer": "délka 950 mm, tloušťka 75 mm, výška 820 mm; stojí od +2,920 m do +3,740 m nad podlahou 1.NP (±0,000)",
+    "rozmer": "délka 950 mm, tloušťka 75 mm, výška 1070 mm; stojí od +2,920 m do +3,990 m nad podlahou 1.NP (±0,000)",
     "odkud": [
      "pudorys"
     ],
-    "jistota": "pracovní",
+    "jistota": "upřesnil investor (nika v parapetu, zídka u vnějšího líce do výšky parapetu, R-431; projektantka potvrdí)",
     "zdroje": [
      "pudorys_2np",
      "dwg"
@@ -11737,29 +11484,19 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 25",
-     "projektantka 32",
-     "projektantka 4",
-     "projektantka 6"
+     "projektantka 32"
     ],
     "otazky_hlavni": [
-     "projektantka 25",
-     "projektantka 32",
-     "projektantka 4",
-     "projektantka 6"
+     "projektantka 32"
     ],
     "otazky_zminene": [],
     "body": [
-     "E37",
      "E40",
      "E88"
     ]
    },
    "dotaz_srafa": [
-    "projektantka 25",
-    "projektantka 32",
-    "projektantka 4",
-    "projektantka 6"
+    "projektantka 32"
    ]
   },
   {
@@ -12037,15 +11774,17 @@
     "otazky": [
      "projektantka 17"
     ],
-    "otazky_hlavni": [],
-    "otazky_zminene": [
+    "otazky_hlavni": [
      "projektantka 17"
     ],
+    "otazky_zminene": [],
     "body": [
      "E69"
     ]
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "projektantka 17"
+   ]
   },
   {
    "id": "2NP-S12",
@@ -12170,10 +11909,16 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
+    "otazky": [
+     "projektantka 5"
+    ],
     "otazky_hlavni": [],
-    "otazky_zminene": [],
-    "body": []
+    "otazky_zminene": [
+     "projektantka 5"
+    ],
+    "body": [
+     "E38"
+    ]
    },
    "dotaz_srafa": []
   },
@@ -12234,9 +11979,13 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
+    "otazky": [
+     "projektantka 5"
+    ],
     "otazky_hlavni": [],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "projektantka 5"
+    ],
     "body": []
    },
    "dotaz_srafa": []
@@ -12298,9 +12047,13 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
+    "otazky": [
+     "projektantka 5"
+    ],
     "otazky_hlavni": [],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "projektantka 5"
+    ],
     "body": []
    },
    "dotaz_srafa": []
@@ -12492,9 +12245,13 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
+    "otazky": [
+     "projektantka 5"
+    ],
     "otazky_hlavni": [],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "projektantka 5"
+    ],
     "body": []
    },
    "dotaz_srafa": []
@@ -12556,15 +12313,18 @@
    "dotazy": {
     "otazky": [
      "projektantka 34",
+     "projektantka 5",
      "statik 1 + N6",
-     "statik N12"
+     "statik 29"
     ],
     "otazky_hlavni": [
      "projektantka 34",
      "statik 1 + N6",
-     "statik N12"
+     "statik 29"
     ],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "projektantka 5"
+    ],
     "body": [
      "E112",
      "E70",
@@ -12574,7 +12334,7 @@
    },
    "dotaz_srafa": [
     "projektantka 34",
-    "statik N12"
+    "statik 29"
    ]
   },
   {
@@ -12638,15 +12398,17 @@
     "otazky": [
      "projektantka 17"
     ],
-    "otazky_hlavni": [],
-    "otazky_zminene": [
+    "otazky_hlavni": [
      "projektantka 17"
     ],
+    "otazky_zminene": [],
     "body": [
      "E69"
     ]
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "projektantka 17"
+   ]
   },
   {
    "id": "2NP-S21",
@@ -12705,33 +12467,26 @@
    "dotazy": {
     "otazky": [
      "projektantka 34",
-     "projektantka E112",
+     "projektantka 5",
      "statik 1 + N6",
-     "statik 29",
-     "statik N12",
-     "statik na vědomí (pás 2NP-S21 jako SDK)"
+     "statik 29"
     ],
     "otazky_hlavni": [
      "projektantka 34",
-     "projektantka E112",
      "statik 1 + N6",
-     "statik 29",
-     "statik N12",
-     "statik na vědomí (pás 2NP-S21 jako SDK)"
+     "statik 29"
     ],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "projektantka 5"
+    ],
     "body": [
-     "E148",
      "E69",
-     "E70",
-     "E92"
+     "E70"
     ]
    },
    "dotaz_srafa": [
     "projektantka 34",
-    "projektantka E112",
-    "statik 29",
-    "statik N12"
+    "statik 29"
    ]
   },
   {
@@ -12986,9 +12741,13 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
+    "otazky": [
+     "projektantka 5"
+    ],
     "otazky_hlavni": [],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "projektantka 5"
+    ],
     "body": []
    },
    "dotaz_srafa": []
@@ -13052,23 +12811,25 @@
    "dotazy": {
     "otazky": [
      "projektantka 34",
+     "projektantka 5",
      "statik 1 + N6",
-     "statik N12"
+     "statik 29"
     ],
     "otazky_hlavni": [
      "projektantka 34",
      "statik 1 + N6",
-     "statik N12"
+     "statik 29"
     ],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "projektantka 5"
+    ],
     "body": [
-     "E70",
-     "E92"
+     "E70"
     ]
    },
    "dotaz_srafa": [
     "projektantka 34",
-    "statik N12"
+    "statik 29"
    ]
   },
   {
@@ -13276,8 +13037,7 @@
     ],
     "otazky_zminene": [],
     "body": [
-     "E139",
-     "E77"
+     "E139"
     ]
    },
    "dotaz_srafa": [
@@ -13341,9 +13101,13 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
+    "otazky": [
+     "projektantka 5"
+    ],
     "otazky_hlavni": [],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "projektantka 5"
+    ],
     "body": []
    },
    "dotaz_srafa": []
@@ -13405,12 +13169,18 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "projektantka 30"
+    ],
+    "otazky_hlavni": [
+     "projektantka 30"
+    ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "projektantka 30"
+   ]
   },
   {
    "id": "1NP-O02",
@@ -13488,10 +13258,10 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 27"
+     "projektantka 22"
     ],
     "otazky_hlavni": [
-     "projektantka 27"
+     "projektantka 22"
     ],
     "otazky_zminene": [],
     "body": [
@@ -13499,9 +13269,7 @@
      "E63"
     ]
    },
-   "dotaz_srafa": [
-    "projektantka 27"
-   ]
+   "dotaz_srafa": []
   },
   {
    "id": "1NP-O03",
@@ -13560,12 +13328,18 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "projektantka 30"
+    ],
+    "otazky_hlavni": [
+     "projektantka 30"
+    ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "projektantka 30"
+   ]
   },
   {
    "id": "1NP-D01",
@@ -14592,15 +14366,19 @@
    "dotazy": {
     "otazky": [
      "projektantka 22",
+     "projektantka 34",
      "statik 29"
     ],
     "otazky_hlavni": [
      "projektantka 22"
     ],
     "otazky_zminene": [
+     "projektantka 34",
      "statik 29"
     ],
-    "body": []
+    "body": [
+     "E92"
+    ]
    },
    "dotaz_srafa": []
   },
@@ -14994,12 +14772,18 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "projektantka 30"
+    ],
+    "otazky_hlavni": [
+     "projektantka 30"
+    ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "projektantka 30"
+   ]
   },
   {
    "id": "2NP-O02",
@@ -15062,12 +14846,18 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "projektantka 30"
+    ],
+    "otazky_hlavni": [
+     "projektantka 30"
+    ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "projektantka 30"
+   ]
   },
   {
    "id": "2NP-O03",
@@ -15130,12 +14920,18 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "projektantka 30"
+    ],
+    "otazky_hlavni": [
+     "projektantka 30"
+    ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "projektantka 30"
+   ]
   },
   {
    "id": "2NP-O04",
@@ -15197,12 +14993,18 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "projektantka 30"
+    ],
+    "otazky_hlavni": [
+     "projektantka 30"
+    ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "projektantka 30"
+   ]
   },
   {
    "id": "2NP-D01",
@@ -15598,15 +15400,15 @@
     "otazky": [
      "projektantka 32"
     ],
-    "otazky_hlavni": [
+    "otazky_hlavni": [],
+    "otazky_zminene": [
      "projektantka 32"
     ],
-    "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E88"
+    ]
    },
-   "dotaz_srafa": [
-    "projektantka 32"
-   ]
+   "dotaz_srafa": []
   },
   {
    "id": "2NP-O05-překlad",
@@ -16361,15 +16163,18 @@
    "historie": [],
    "dotazy": {
     "otazky": [
+     "projektantka 30",
      "statik N13"
     ],
     "otazky_hlavni": [
+     "projektantka 30",
      "statik N13"
     ],
     "otazky_zminene": [],
     "body": []
    },
    "dotaz_srafa": [
+    "projektantka 30",
     "statik N13"
    ]
   },
@@ -17464,17 +17269,17 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 27"
+     "projektantka 22"
     ],
-    "otazky_hlavni": [
-     "projektantka 27"
+    "otazky_hlavni": [],
+    "otazky_zminene": [
+     "projektantka 22"
     ],
-    "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E27"
+    ]
    },
-   "dotaz_srafa": [
-    "projektantka 27"
-   ]
+   "dotaz_srafa": []
   },
   {
    "id": "1NP-P02",
@@ -17533,7 +17338,9 @@
     "otazky": [],
     "otazky_hlavni": [],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E27"
+    ]
    },
    "dotaz_srafa": []
   },
@@ -17885,12 +17692,31 @@
    ],
    "z0": 2920,
    "z1": 3990,
-   "zdroj": "JISTOTA VÝŠKY (E141, R-328): spodní hrana +2,920 = HH ŽB deska IFC `1NP-DS01` #9235 (rozdíl +0 mm); horní hrana = parapet z kóty okna. parapet (900) od podlahy 2.NP +3,090, zdivo od horní hrany desky +2,920 (řez A-A v DWG (výškové kóty a šrafy, `tools/steny/README.md`); deska IFC HH +2,920)",
-   "jistota": "jistá (IFC)",
+   "zdroj": "JISTOTA VÝŠKY (E141, R-328): spodní hrana +2,920 = HH ŽB deska IFC `1NP-DS01` #9235 (rozdíl +0 mm); horní hrana = parapet z kóty okna; jistotu prvku ale určuje nika v parapetu (R-431). NIKA V PARAPETU (R-431): v délce 950 mm (u zídky `2NP-S07`) parapetní zdivo VAPIS 200 NENÍ VŮBEC: je tam NIKA hloubky 200 mm (125 mm v tloušťce zdi + 75 mm v místnosti, kde vyčnívá návratek `2NP-S06`) a parapet tvoří jen zídka VPC 75 u vnějšího líce pod rámem okna, do výšky parapetu +3,990. ROZHODL INVESTOR 18. 10. 2026 (R-431, doslovně: „mas pravdu, je to nika, oprav slova, oprav i model … Ono to asi bude tak, ze ta zed s06 a s07 bude do vysky parapetu 900 a ta sedaci plocha uvnitr bude 650. takto bych to popsal jako dotaz pro overeni u projektantky a takto to i namodeloval“; ruší čtení R-409, podle kterého zídka nahrazovala vnitřních 75 mm parapetu), projektantka potvrdí (otázka projektantce 32, E148/T2). Sedací plocha 650 mm uvnitř niky v modelu není (žádný výkres ji nekreslí) a u návratku `2NP-S06` není jisté, zda je 900, nebo 650 mm. parapet (900) od podlahy 2.NP +3,090, zdivo od horní hrany desky +2,920 (řez A-A v DWG (výškové kóty a šrafy, `tools/steny/README.md`); deska IFC HH +2,920)",
+   "jistota": "upřesnil investor (nika v parapetu, zídka u vnějšího líce do výšky parapetu, R-431; projektantka potvrdí)",
    "otvor": "2NP-O05",
    "steny": [
     "2NP-S08",
     "2NP-S01"
+   ],
+   "vyrez": {
+    "prvek": "2NP-S07",
+    "tl": 200,
+    "delka": 950,
+    "zdroj": "v délce 950 mm (u zídky `2NP-S07`) parapetní zdivo VAPIS 200 NENÍ VŮBEC: je tam NIKA hloubky 200 mm (125 mm v tloušťce zdi + 75 mm v místnosti, kde vyčnívá návratek `2NP-S06`) a parapet tvoří jen zídka VPC 75 u vnějšího líce pod rámem okna, do výšky parapetu +3,990. ROZHODL INVESTOR 18. 10. 2026 (R-431, doslovně: „mas pravdu, je to nika, oprav slova, oprav i model … Ono to asi bude tak, ze ta zed s06 a s07 bude do vysky parapetu 900 a ta sedaci plocha uvnitr bude 650. takto bych to popsal jako dotaz pro overeni u projektantky a takto to i namodeloval“; ruší čtení R-409, podle kterého zídka nahrazovala vnitřních 75 mm parapetu), projektantka potvrdí (otázka projektantce 32, E148/T2). Sedací plocha 650 mm uvnitř niky v modelu není (žádný výkres ji nekreslí) a u návratku `2NP-S06` není jisté, zda je 900, nebo 650 mm.",
+    "vyska": 1070
+   },
+   "kvadry": [
+    {
+     "box": [
+      -829521.0,
+      207704,
+      -829321.0,
+      208654
+     ],
+     "z0": 2920,
+     "z1": 3990
+    }
    ],
    "vyska": 1070,
    "barva": "#2f7ff2",
@@ -17898,13 +17724,13 @@
    "zdvih": 1,
    "lidsky": {
     "co": "Parapetní zdivo pod oknem ve 2.NP, materiál vápenopískové bloky VAPIS tl. 200 mm. Ve stěně 2NP-S08 + 2NP-S01; patří k otvoru 2NP-O05.",
-    "rozmer": "délka 1900 mm, tloušťka 200 mm, výška 1070 mm; stojí od +2,920 m do +3,990 m nad podlahou 1.NP (±0,000)",
+    "rozmer": "délka 1900 mm, tloušťka 200 mm, výška 1070 mm; stojí od +2,920 m do +3,990 m nad podlahou 1.NP (±0,000); v délce 950 mm zdivo vůbec není (nika v parapetu, rozhodl investor, R-431), takže zdiva je o 0,20 m³ méně",
     "odkud": [
      "ifc",
      "rez",
      "kota"
     ],
-    "jistota": "jistá (IFC)",
+    "jistota": "upřesnil investor (nika v parapetu, zídka u vnějšího líce do výšky parapetu, R-431; projektantka potvrdí)",
     "zdroje": [
      "ifc",
      "pudorys_2np",
@@ -17931,7 +17757,9 @@
      "projektantka 32"
     ],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E88"
+    ]
    },
    "dotaz_srafa": [
     "projektantka 32"
@@ -21228,26 +21056,26 @@
     -829781,
     207644
    ],
-   "z0": 0,
+   "z0": -350,
    "z1": 2400,
-   "zdroj": "zděná přizdívka tl. 100 u 106 (šrafa HEXAGONS, `otvory.md` nález 1, E27); od podlahy ±0,000 do +2,400 = horní hrana zdiva 1.NP (výška není kótovaná, rozhodl investor 11. 10. 2026, R-296: „je to cil a zamer, ze nejdou ke stropu“); vznikl rozkladem JEDNÉ plochy HEXAGONS ve tvaru U [-830271,205564,-829631,207644]: svislá část tl. 100 (kóta 100) a dvě ramena tl. 50 (kóty 50 nahoře i dole), světlá délka 1980 (kóta 1980)",
-   "jistota": "upřesnil investor (výška do +2,400, R-296, R-367)",
+   "zdroj": "zděná přizdívka tl. 100 u 106 (šrafa HEXAGONS, `otvory.md` nález 1, E27); od podkladní desky −0,350 do +2,400 = horní hrana zdiva 1.NP (výška není kótovaná, rozhodl investor 11. 10. 2026, R-296: „je to cil a zamer, ze nejdou ke stropu“; spodní hrana od podkladní desky −0,350 jako ostatní zdivo 1.NP, investor 18. 10. 2026, R-408, doslovně: „prizdivky 106, pocical [= počítal] bych je od desky, ale muzeme si to overit s projektantkou, podobne jako S06 a S07“, potvrzuje R-105 6. 10. 2026 „pricky se zdi od ZB desky“); vznikl rozkladem JEDNÉ plochy HEXAGONS ve tvaru U [-830271,205564,-829631,207644]: svislá část tl. 100 (kóta 100) a dvě ramena tl. 50 (kóty 50 nahoře i dole), světlá délka 1980 (kóta 1980)",
+   "jistota": "upřesnil investor (od desky −0,350 do +2,400, R-105, R-408; projektantka potvrdí)",
    "strany": [
     "106",
     "-"
    ],
-   "vyska": 2400,
+   "vyska": 2750,
    "barva": "#c9a227",
    "jistota_srafa": null,
    "zdvih": 0,
    "lidsky": {
     "co": "Zděná přizdívka v 1.NP (přízemí), materiál zdivo (druh bloku výkres neuvádí). U místnosti 106 Obývací pokoj, kuchyně.",
-    "rozmer": "délka 390 mm, tloušťka 50 mm, výška 2400 mm; stojí od +0,000 m do +2,400 m nad podlahou 1.NP (±0,000)",
+    "rozmer": "délka 390 mm, tloušťka 50 mm, výška 2750 mm; stojí od −0,350 m do +2,400 m nad podlahou 1.NP (±0,000)",
     "odkud": [
      "srafa",
      "investor"
     ],
-    "jistota": "upřesnil investor (výška do +2,400, R-296, R-367)",
+    "jistota": "upřesnil investor (od desky −0,350 do +2,400, R-105, R-408; projektantka potvrdí)",
     "zdroje": [
      "pudorys_1np",
      "dwg"
@@ -21266,24 +21094,19 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 10",
-     "projektantka 6",
-     "projektantka doplněk 4"
+     "projektantka 10"
     ],
     "otazky_hlavni": [
-     "projektantka 10",
-     "projektantka 6",
-     "projektantka doplněk 4"
+     "projektantka 10"
     ],
     "otazky_zminene": [],
     "body": [
-     "E27"
+     "E27",
+     "E40"
     ]
    },
    "dotaz_srafa": [
-    "projektantka 10",
-    "projektantka 6",
-    "projektantka doplněk 4"
+    "projektantka 10"
    ]
   },
   {
@@ -21299,26 +21122,26 @@
     -830171,
     207644
    ],
-   "z0": 0,
+   "z0": -350,
    "z1": 2400,
-   "zdroj": "zděná přizdívka tl. 100 u 106 (šrafa HEXAGONS, `otvory.md` nález 1, E27); od podlahy ±0,000 do +2,400 = horní hrana zdiva 1.NP (výška není kótovaná, rozhodl investor 11. 10. 2026, R-296: „je to cil a zamer, ze nejdou ke stropu“); vznikl rozkladem JEDNÉ plochy HEXAGONS ve tvaru U [-830271,205564,-829631,207644]: svislá část tl. 100 (kóta 100) a dvě ramena tl. 50 (kóty 50 nahoře i dole), světlá délka 1980 (kóta 1980)",
-   "jistota": "upřesnil investor (výška do +2,400, R-296, R-367)",
+   "zdroj": "zděná přizdívka tl. 100 u 106 (šrafa HEXAGONS, `otvory.md` nález 1, E27); od podkladní desky −0,350 do +2,400 = horní hrana zdiva 1.NP (výška není kótovaná, rozhodl investor 11. 10. 2026, R-296: „je to cil a zamer, ze nejdou ke stropu“; spodní hrana od podkladní desky −0,350 jako ostatní zdivo 1.NP, investor 18. 10. 2026, R-408, doslovně: „prizdivky 106, pocical [= počítal] bych je od desky, ale muzeme si to overit s projektantkou, podobne jako S06 a S07“, potvrzuje R-105 6. 10. 2026 „pricky se zdi od ZB desky“); vznikl rozkladem JEDNÉ plochy HEXAGONS ve tvaru U [-830271,205564,-829631,207644]: svislá část tl. 100 (kóta 100) a dvě ramena tl. 50 (kóty 50 nahoře i dole), světlá délka 1980 (kóta 1980)",
+   "jistota": "upřesnil investor (od desky −0,350 do +2,400, R-105, R-408; projektantka potvrdí)",
    "strany": [
     "106",
     "-"
    ],
-   "vyska": 2400,
+   "vyska": 2750,
    "barva": "#c9a227",
    "jistota_srafa": null,
    "zdvih": 0,
    "lidsky": {
     "co": "Zděná přizdívka v 1.NP (přízemí), materiál zdivo (druh bloku výkres neuvádí). U místnosti 106 Obývací pokoj, kuchyně.",
-    "rozmer": "délka 2080 mm, tloušťka 100 mm, výška 2400 mm; stojí od +0,000 m do +2,400 m nad podlahou 1.NP (±0,000)",
+    "rozmer": "délka 2080 mm, tloušťka 100 mm, výška 2750 mm; stojí od −0,350 m do +2,400 m nad podlahou 1.NP (±0,000)",
     "odkud": [
      "srafa",
      "investor"
     ],
-    "jistota": "upřesnil investor (výška do +2,400, R-296, R-367)",
+    "jistota": "upřesnil investor (od desky −0,350 do +2,400, R-105, R-408; projektantka potvrdí)",
     "zdroje": [
      "pudorys_1np",
      "dwg"
@@ -21337,22 +21160,18 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 10",
-     "projektantka 6",
-     "projektantka doplněk 4"
+     "projektantka 10"
     ],
     "otazky_hlavni": [
-     "projektantka 10",
-     "projektantka 6",
-     "projektantka doplněk 4"
+     "projektantka 10"
     ],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E40"
+    ]
    },
    "dotaz_srafa": [
-    "projektantka 10",
-    "projektantka 6",
-    "projektantka doplněk 4"
+    "projektantka 10"
    ]
   },
   {
@@ -21368,26 +21187,26 @@
     -829631,
     205614
    ],
-   "z0": 0,
+   "z0": -350,
    "z1": 2400,
-   "zdroj": "zděná přizdívka tl. 100 u 106 (šrafa HEXAGONS, `otvory.md` nález 1, E27); od podlahy ±0,000 do +2,400 = horní hrana zdiva 1.NP (výška není kótovaná, rozhodl investor 11. 10. 2026, R-296: „je to cil a zamer, ze nejdou ke stropu“); vznikl rozkladem JEDNÉ plochy HEXAGONS ve tvaru U [-830271,205564,-829631,207644]: svislá část tl. 100 (kóta 100) a dvě ramena tl. 50 (kóty 50 nahoře i dole), světlá délka 1980 (kóta 1980)",
-   "jistota": "upřesnil investor (výška do +2,400, R-296, R-367)",
+   "zdroj": "zděná přizdívka tl. 100 u 106 (šrafa HEXAGONS, `otvory.md` nález 1, E27); od podkladní desky −0,350 do +2,400 = horní hrana zdiva 1.NP (výška není kótovaná, rozhodl investor 11. 10. 2026, R-296: „je to cil a zamer, ze nejdou ke stropu“; spodní hrana od podkladní desky −0,350 jako ostatní zdivo 1.NP, investor 18. 10. 2026, R-408, doslovně: „prizdivky 106, pocical [= počítal] bych je od desky, ale muzeme si to overit s projektantkou, podobne jako S06 a S07“, potvrzuje R-105 6. 10. 2026 „pricky se zdi od ZB desky“); vznikl rozkladem JEDNÉ plochy HEXAGONS ve tvaru U [-830271,205564,-829631,207644]: svislá část tl. 100 (kóta 100) a dvě ramena tl. 50 (kóty 50 nahoře i dole), světlá délka 1980 (kóta 1980)",
+   "jistota": "upřesnil investor (od desky −0,350 do +2,400, R-105, R-408; projektantka potvrdí)",
    "strany": [
     "-",
     "106"
    ],
-   "vyska": 2400,
+   "vyska": 2750,
    "barva": "#c9a227",
    "jistota_srafa": null,
    "zdvih": 0,
    "lidsky": {
     "co": "Zděná přizdívka v 1.NP (přízemí), materiál zdivo (druh bloku výkres neuvádí). U místnosti 106 Obývací pokoj, kuchyně.",
-    "rozmer": "délka 540 mm, tloušťka 50 mm, výška 2400 mm; stojí od +0,000 m do +2,400 m nad podlahou 1.NP (±0,000)",
+    "rozmer": "délka 540 mm, tloušťka 50 mm, výška 2750 mm; stojí od −0,350 m do +2,400 m nad podlahou 1.NP (±0,000)",
     "odkud": [
      "srafa",
      "investor"
     ],
-    "jistota": "upřesnil investor (výška do +2,400, R-296, R-367)",
+    "jistota": "upřesnil investor (od desky −0,350 do +2,400, R-105, R-408; projektantka potvrdí)",
     "zdroje": [
      "pudorys_1np",
      "dwg"
@@ -21406,22 +21225,19 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 10",
-     "projektantka 6",
-     "projektantka doplněk 4"
+     "projektantka 10"
     ],
     "otazky_hlavni": [
-     "projektantka 10",
-     "projektantka 6",
-     "projektantka doplněk 4"
+     "projektantka 10"
     ],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E27",
+     "E40"
+    ]
    },
    "dotaz_srafa": [
-    "projektantka 10",
-    "projektantka 6",
-    "projektantka doplněk 4"
+    "projektantka 10"
    ]
   },
   {
@@ -21437,26 +21253,26 @@
     -836191,
     203464
    ],
-   "z0": 0,
+   "z0": -350,
    "z1": 2400,
-   "zdroj": "zděná přizdívka tl. 100 u 106 (šrafa HEXAGONS, `otvory.md` nález 1, E27); od podlahy ±0,000 do +2,400 = horní hrana zdiva 1.NP (výška není kótovaná, rozhodl investor 11. 10. 2026, R-296: „je to cil a zamer, ze nejdou ke stropu“)",
-   "jistota": "upřesnil investor (výška do +2,400, R-296, R-367)",
+   "zdroj": "zděná přizdívka tl. 100 u 106 (šrafa HEXAGONS, `otvory.md` nález 1, E27); od podkladní desky −0,350 do +2,400 = horní hrana zdiva 1.NP (výška není kótovaná, rozhodl investor 11. 10. 2026, R-296: „je to cil a zamer, ze nejdou ke stropu“; spodní hrana od podkladní desky −0,350 jako ostatní zdivo 1.NP, investor 18. 10. 2026, R-408, doslovně: „prizdivky 106, pocical [= počítal] bych je od desky, ale muzeme si to overit s projektantkou, podobne jako S06 a S07“, potvrzuje R-105 6. 10. 2026 „pricky se zdi od ZB desky“)",
+   "jistota": "upřesnil investor (od desky −0,350 do +2,400, R-105, R-408; projektantka potvrdí)",
    "strany": [
     "106",
     "107"
    ],
-   "vyska": 2400,
+   "vyska": 2750,
    "barva": "#c9a227",
    "jistota_srafa": null,
    "zdvih": 0,
    "lidsky": {
     "co": "Zděná přizdívka v 1.NP (přízemí), materiál zdivo (druh bloku výkres neuvádí). Mezi místnostmi 106 Obývací pokoj, kuchyně a 107 Hala - schodiště.",
-    "rozmer": "délka 580 mm, tloušťka 100 mm, výška 2400 mm; stojí od +0,000 m do +2,400 m nad podlahou 1.NP (±0,000)",
+    "rozmer": "délka 580 mm, tloušťka 100 mm, výška 2750 mm; stojí od −0,350 m do +2,400 m nad podlahou 1.NP (±0,000)",
     "odkud": [
      "srafa",
      "investor"
     ],
-    "jistota": "upřesnil investor (výška do +2,400, R-296, R-367)",
+    "jistota": "upřesnil investor (od desky −0,350 do +2,400, R-105, R-408; projektantka potvrdí)",
     "zdroje": [
      "pudorys_1np",
      "dwg"
@@ -21475,24 +21291,19 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 10",
-     "projektantka 6",
-     "projektantka doplněk 4"
+     "projektantka 10"
     ],
     "otazky_hlavni": [
-     "projektantka 10",
-     "projektantka 6",
-     "projektantka doplněk 4"
+     "projektantka 10"
     ],
     "otazky_zminene": [],
     "body": [
-     "E27"
+     "E27",
+     "E40"
     ]
    },
    "dotaz_srafa": [
-    "projektantka 10",
-    "projektantka 6",
-    "projektantka doplněk 4"
+    "projektantka 10"
    ]
   },
   {
@@ -21508,26 +21319,26 @@
     -834591,
     203464
    ],
-   "z0": 0,
+   "z0": -350,
    "z1": 2400,
-   "zdroj": "zděná přizdívka tl. 100 u 106 (šrafa HEXAGONS, `otvory.md` nález 1, E27); od podlahy ±0,000 do +2,400 = horní hrana zdiva 1.NP (výška není kótovaná, rozhodl investor 11. 10. 2026, R-296: „je to cil a zamer, ze nejdou ke stropu“)",
-   "jistota": "upřesnil investor (výška do +2,400, R-296, R-367)",
+   "zdroj": "zděná přizdívka tl. 100 u 106 (šrafa HEXAGONS, `otvory.md` nález 1, E27); od podkladní desky −0,350 do +2,400 = horní hrana zdiva 1.NP (výška není kótovaná, rozhodl investor 11. 10. 2026, R-296: „je to cil a zamer, ze nejdou ke stropu“; spodní hrana od podkladní desky −0,350 jako ostatní zdivo 1.NP, investor 18. 10. 2026, R-408, doslovně: „prizdivky 106, pocical [= počítal] bych je od desky, ale muzeme si to overit s projektantkou, podobne jako S06 a S07“, potvrzuje R-105 6. 10. 2026 „pricky se zdi od ZB desky“)",
+   "jistota": "upřesnil investor (od desky −0,350 do +2,400, R-105, R-408; projektantka potvrdí)",
    "strany": [
     "106",
     "107"
    ],
-   "vyska": 2400,
+   "vyska": 2750,
    "barva": "#c9a227",
    "jistota_srafa": null,
    "zdvih": 0,
    "lidsky": {
     "co": "Zděná přizdívka v 1.NP (přízemí), materiál zdivo (druh bloku výkres neuvádí). Mezi místnostmi 106 Obývací pokoj, kuchyně a 107 Hala - schodiště.",
-    "rozmer": "délka 700 mm, tloušťka 100 mm, výška 2400 mm; stojí od +0,000 m do +2,400 m nad podlahou 1.NP (±0,000)",
+    "rozmer": "délka 700 mm, tloušťka 100 mm, výška 2750 mm; stojí od −0,350 m do +2,400 m nad podlahou 1.NP (±0,000)",
     "odkud": [
      "srafa",
      "investor"
     ],
-    "jistota": "upřesnil investor (výška do +2,400, R-296, R-367)",
+    "jistota": "upřesnil investor (od desky −0,350 do +2,400, R-105, R-408; projektantka potvrdí)",
     "zdroje": [
      "pudorys_1np",
      "dwg"
@@ -21546,22 +21357,18 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 10",
-     "projektantka 6",
-     "projektantka doplněk 4"
+     "projektantka 10"
     ],
     "otazky_hlavni": [
-     "projektantka 10",
-     "projektantka 6",
-     "projektantka doplněk 4"
+     "projektantka 10"
     ],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E40"
+    ]
    },
    "dotaz_srafa": [
-    "projektantka 10",
-    "projektantka 6",
-    "projektantka doplněk 4"
+    "projektantka 10"
    ]
   },
   {
@@ -21577,26 +21384,26 @@
     -831406,
     202914
    ],
-   "z0": 0,
+   "z0": -350,
    "z1": 2400,
-   "zdroj": "zděná přizdívka tl. 100 u 106 (šrafa HEXAGONS, `otvory.md` nález 1, E27); od podlahy ±0,000 do +2,400 = horní hrana zdiva 1.NP (výška není kótovaná, rozhodl investor 11. 10. 2026, R-296: „je to cil a zamer, ze nejdou ke stropu“)",
-   "jistota": "upřesnil investor (výška do +2,400, R-296, R-367)",
+   "zdroj": "zděná přizdívka tl. 100 u 106 (šrafa HEXAGONS, `otvory.md` nález 1, E27); od podkladní desky −0,350 do +2,400 = horní hrana zdiva 1.NP (výška není kótovaná, rozhodl investor 11. 10. 2026, R-296: „je to cil a zamer, ze nejdou ke stropu“; spodní hrana od podkladní desky −0,350 jako ostatní zdivo 1.NP, investor 18. 10. 2026, R-408, doslovně: „prizdivky 106, pocical [= počítal] bych je od desky, ale muzeme si to overit s projektantkou, podobne jako S06 a S07“, potvrzuje R-105 6. 10. 2026 „pricky se zdi od ZB desky“)",
+   "jistota": "upřesnil investor (od desky −0,350 do +2,400, R-105, R-408; projektantka potvrdí)",
    "strany": [
     "106",
     "110"
    ],
-   "vyska": 2400,
+   "vyska": 2750,
    "barva": "#c9a227",
    "jistota_srafa": null,
    "zdvih": 0,
    "lidsky": {
     "co": "Zděná přizdívka v 1.NP (přízemí), materiál zdivo (druh bloku výkres neuvádí). Mezi místnostmi 106 Obývací pokoj, kuchyně a 110 Spíž.",
-    "rozmer": "délka 134 mm, tloušťka 100 mm, výška 2400 mm; stojí od +0,000 m do +2,400 m nad podlahou 1.NP (±0,000)",
+    "rozmer": "délka 134 mm, tloušťka 100 mm, výška 2750 mm; stojí od −0,350 m do +2,400 m nad podlahou 1.NP (±0,000)",
     "odkud": [
      "srafa",
      "investor"
     ],
-    "jistota": "upřesnil investor (výška do +2,400, R-296, R-367)",
+    "jistota": "upřesnil investor (od desky −0,350 do +2,400, R-105, R-408; projektantka potvrdí)",
     "zdroje": [
      "pudorys_1np",
      "dwg"
@@ -21615,22 +21422,18 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 10",
-     "projektantka 6",
-     "projektantka doplněk 4"
+     "projektantka 10"
     ],
     "otazky_hlavni": [
-     "projektantka 10",
-     "projektantka 6",
-     "projektantka doplněk 4"
+     "projektantka 10"
     ],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E40"
+    ]
    },
    "dotaz_srafa": [
-    "projektantka 10",
-    "projektantka 6",
-    "projektantka doplněk 4"
+    "projektantka 10"
    ]
   },
   {
@@ -21646,26 +21449,26 @@
     -829871,
     202914
    ],
-   "z0": 0,
+   "z0": -350,
    "z1": 2400,
-   "zdroj": "zděná přizdívka tl. 100 u 106 (šrafa HEXAGONS, `otvory.md` nález 1, E27); od podlahy ±0,000 do +2,400 = horní hrana zdiva 1.NP (výška není kótovaná, rozhodl investor 11. 10. 2026, R-296: „je to cil a zamer, ze nejdou ke stropu“)",
-   "jistota": "upřesnil investor (výška do +2,400, R-296, R-367)",
+   "zdroj": "zděná přizdívka tl. 100 u 106 (šrafa HEXAGONS, `otvory.md` nález 1, E27); od podkladní desky −0,350 do +2,400 = horní hrana zdiva 1.NP (výška není kótovaná, rozhodl investor 11. 10. 2026, R-296: „je to cil a zamer, ze nejdou ke stropu“; spodní hrana od podkladní desky −0,350 jako ostatní zdivo 1.NP, investor 18. 10. 2026, R-408, doslovně: „prizdivky 106, pocical [= počítal] bych je od desky, ale muzeme si to overit s projektantkou, podobne jako S06 a S07“, potvrzuje R-105 6. 10. 2026 „pricky se zdi od ZB desky“)",
+   "jistota": "upřesnil investor (od desky −0,350 do +2,400, R-105, R-408; projektantka potvrdí)",
    "strany": [
     "106",
     "110"
    ],
-   "vyska": 2400,
+   "vyska": 2750,
    "barva": "#c9a227",
    "jistota_srafa": null,
    "zdvih": 0,
    "lidsky": {
     "co": "Zděná přizdívka v 1.NP (přízemí), materiál zdivo (druh bloku výkres neuvádí). Mezi místnostmi 106 Obývací pokoj, kuchyně a 110 Spíž.",
-    "rozmer": "délka 735 mm, tloušťka 100 mm, výška 2400 mm; stojí od +0,000 m do +2,400 m nad podlahou 1.NP (±0,000)",
+    "rozmer": "délka 735 mm, tloušťka 100 mm, výška 2750 mm; stojí od −0,350 m do +2,400 m nad podlahou 1.NP (±0,000)",
     "odkud": [
      "srafa",
      "investor"
     ],
-    "jistota": "upřesnil investor (výška do +2,400, R-296, R-367)",
+    "jistota": "upřesnil investor (od desky −0,350 do +2,400, R-105, R-408; projektantka potvrdí)",
     "zdroje": [
      "pudorys_1np",
      "dwg"
@@ -21684,22 +21487,19 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 10",
-     "projektantka 6",
-     "projektantka doplněk 4"
+     "projektantka 10"
     ],
     "otazky_hlavni": [
-     "projektantka 10",
-     "projektantka 6",
-     "projektantka doplněk 4"
+     "projektantka 10"
     ],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E27",
+     "E40"
+    ]
    },
    "dotaz_srafa": [
-    "projektantka 10",
-    "projektantka 6",
-    "projektantka doplněk 4"
+    "projektantka 10"
    ]
   },
   {
@@ -23271,6 +23071,7 @@
    "historie": [],
    "dotazy": {
     "otazky": [
+     "projektantka 34",
      "statik 1 + N6",
      "statik 29"
     ],
@@ -23278,7 +23079,9 @@
      "statik 1 + N6",
      "statik 29"
     ],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "projektantka 34"
+    ],
     "body": [
      "E112",
      "E92"
@@ -32638,23 +32441,20 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 34",
-     "statik N11",
-     "statik N12"
+     "statik 29",
+     "statik N11"
     ],
     "otazky_hlavni": [
-     "statik N11",
-     "statik N12"
+     "statik 29",
+     "statik N11"
     ],
-    "otazky_zminene": [
-     "projektantka 34"
-    ],
+    "otazky_zminene": [],
     "body": [
      "E92"
     ]
    },
    "dotaz_srafa": [
-    "statik N12"
+    "statik 29"
    ]
   },
   {
@@ -33694,13 +33494,11 @@
    "dotazy": {
     "otazky": [
      "projektantka 34",
-     "statik 29",
-     "statik N12"
+     "statik 29"
     ],
     "otazky_hlavni": [
      "projektantka 34",
-     "statik 29",
-     "statik N12"
+     "statik 29"
     ],
     "otazky_zminene": [],
     "body": [
@@ -33710,8 +33508,7 @@
    },
    "dotaz_srafa": [
     "projektantka 34",
-    "statik 29",
-    "statik N12"
+    "statik 29"
    ]
   },
   {
@@ -42908,7 +42705,9 @@
     "otazky": [],
     "otazky_hlavni": [],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E111"
+    ]
    },
    "dotaz_srafa": []
   },
