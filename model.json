@@ -1,6 +1,6 @@
 {
  "meta": {
-  "stav_k": "16. 10. 2026 (S0.48b)",
+  "stav_k": "18. 10. 2026 (S0.47b)",
   "vznik": "krok S0.11, 21. 9. 2026 (E49); S0.12 (nulová spodní hrana, šrafy, SDK, stávající garáž, značky chybějících); S0.14 (ŽB z PDF statiky, E51); S0.16 až S0.26 (viz session logy); S0.29, 2. 10. 2026: ŽB, základy, ocel a kontext zdiva z IFC statika (investor: IFC autoritativní pro ŽB), odvozené ŽB prvky, ŽB z PDF statiky, věnec garáže, ŽB parapety, pracovní atika, ocelové sloupky a nadpraží z modelu odebrány",
   "jednotky": "mm, souřadnice modelu DWG (2.NP posunuté o −50 000 v x, E42), z absolutně od ±0,000",
   "urovne": {
@@ -8930,7 +8930,7 @@
      "adresat": "projektantka",
      "cislo": "B6",
      "oznaceni": "projektantka B6",
-     "stav": "aktivní",
+     "stav": "zodpovězená",
      "text": "Existuje technická zpráva D.1.1 architektonicko-stavební k DPS 06/2025 a můžeme ji dostat? [NÁVRH AGENTA]",
      "prvky": [],
      "prvky_hlavni": [],
@@ -8941,7 +8941,7 @@
       "E120"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 11 (B6), sekce 38 (D6.8)",
-     "pozn": "hledání E120 provedeno 16. 10. 2026: projektantka 26. 6. 2025 e-mailem potvrdila, že technickou zprávu k DPS nezpracovávala, a jiný autor DPS 06/2025 není; návrh agenta: otázku uzavřít jako zodpovězenou, rozhodne investor",
+     "pozn": "zodpovězeno e-mailem projektantky 26. 6. 2025 (technickou zprávu k DPS nezpracovávala, zpráva neexistuje); investor 18. 10. 2026 rozhodl otázku neposílat (R-399)",
      "druh": "otázka"
     },
     {
@@ -10058,7 +10058,8 @@
      "stavitel": 6
     },
     "otazek_podle_stavu": {
-     "aktivní": 51
+     "aktivní": 50,
+     "zodpovězená": 1
     },
     "otazek_aktivnich_s_prvkem": 30,
     "otazek_bez_prvku": 21,
