@@ -1,6 +1,6 @@
 {
  "meta": {
-  "stav_k": "18. 10. 2026 (S0.47b)",
+  "stav_k": "18. 10. 2026 (S0.48c)",
   "vznik": "krok S0.11, 21. 9. 2026 (E49); S0.12 (nulová spodní hrana, šrafy, SDK, stávající garáž, značky chybějících); S0.14 (ŽB z PDF statiky, E51); S0.16 až S0.26 (viz session logy); S0.29, 2. 10. 2026: ŽB, základy, ocel a kontext zdiva z IFC statika (investor: IFC autoritativní pro ŽB), odvozené ŽB prvky, ŽB z PDF statiky, věnec garáže, ŽB parapety, pracovní atika, ocelové sloupky a nadpraží z modelu odebrány",
   "jednotky": "mm, souřadnice modelu DWG (2.NP posunuté o −50 000 v x, E42), z absolutně od ±0,000",
   "urovne": {
@@ -9681,7 +9681,7 @@
     {
      "id": "E38",
      "nazev": "Přesnou výšku nadezdívky nad garáží potvrdí projektantka",
-     "stav": "nový 20. 9. 2026 ZJIŠTĚNO 21. 9. 2026 večer (S0.8e, subagent Opus po tools/dokumentace.py sync): spodní ŽB věnec stávající garáže je v půdorysu výkresu tvaru 1.NP … statikovi je rozdíl už v otázce 1 + N6",
+     "stav": "nový 20. 9. 2026 ZJIŠTĚNO 21. 9. 2026 večer (S0.8e, subagent Opus po tools/dokumentace.py sync): spodní ŽB věnec stávající … zapsáno v docs/znalosti/zdivo-a-zalozeni.md, otázky projektantce 5 a statikovi 1 + N6 se přeformulují v S0.49 (R-405)",
      "vlastnik": "investor (dotaz projektantce v S1), agent (zapsáno)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [],
@@ -9996,7 +9996,7 @@
     {
      "id": "E145",
      "nazev": "Zaměření oken stávající garáže a přepínání",
-     "stav": "otevřeno 13. 10. 2026 (S0.43, R-340); S0.44 (14. 10. 2026, R-375, investor …): jistota kusů garáže …, model dál kreslí projekt [výklad překonán týž den]; R-379 (19:16 SELČ, investor …): kusy garáže „jistá (IFC)“ …",
+     "stav": "otevřeno 13. 10. 2026 (S0.43, R-340); S0.44 (14. 10. 2026, R-375, investor …): jistota kusů garáže …, model dál kreslí projekt … zapsáno v docs/znalosti/zdivo-a-zalozeni.md, otázky projektantce 5 a statikovi 1 + N6 se přeformulují v S0.49 (R-405)",
      "vlastnik": "investor (zaměření), agent (model)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -17613,7 +17613,7 @@
    ],
    "z0": 0,
    "z1": 900,
-   "zdroj": "stávající zdivo garáže 105 pod oknem od podlahy garáže ±0,000 do parapetu (kóta „1500 (900)“); NENÍ nové zdivo, mimo výkaz; S0.24 (28. 9. 2026, R-44, E76): mezera ve stávající zdi garáže (`stavajici.json`, SOLID) přesně v místě rámečku A4_OKNA, kóta půdorysu 1.NP „2100“, „1500 (900)“ (parapet od podlahy garáže ±0,000); v realitě se použijí stávající otvory bez nových překladů, rozměry původních otvorů neznáme, kresba je podle projektu, přibližně odpovídá (investor 28. 9. 2026, R-44); mimo výkaz nového zdiva; stávající zdivo garáže je v IFC statika jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500), výška podle projektu potvrzená IFC (R-379), zaměření +3,250 je rozdíl projekt vs realita (E145)",
+   "zdroj": "stávající zdivo garáže 105 pod oknem od podlahy garáže ±0,000 do parapetu (kóta „1500 (900)“); NENÍ nové zdivo, mimo výkaz; S0.24 (28. 9. 2026, R-44, E76): mezera ve stávající zdi garáže (`stavajici.json`, SOLID) přesně v místě rámečku A4_OKNA, kóta půdorysu 1.NP „2100“, „1500 (900)“ (parapet od podlahy garáže ±0,000); v realitě se použijí stávající otvory bez nových překladů, rozměry původních otvorů neznáme, kresba je podle projektu, přibližně odpovídá (investor 28. 9. 2026, R-44); mimo výkaz nového zdiva; stávající zdivo garáže je v IFC statika jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500), výška podle projektu potvrzená IFC (R-379), zaměřená horní hrana zdiva +3,250 (R-235, R-257) nesedí s projektem garáže 2006 (zdivo do +2,65 = IFC +2,650, starý ŽB věnec 4 E 12 +2,65 až +2,85, trámy do +3,05, dozdívka do +3,42; R-410) o 17 cm a číselně sedí na horní hranu nového věnce IFC +3,240 (E145)",
    "jistota": "jistá (IFC)",
    "otvor": "1NP-O06",
    "steny": [
@@ -17631,14 +17631,14 @@
     "odkud": [
      "ifc",
      "pudorys",
-     "kota",
-     "geodet"
+     "kota"
     ],
     "jistota": "jistá (IFC)",
     "zdroje": [
      "ifc",
      "pudorys_1np",
-     "dwg"
+     "dwg",
+     "garaz_2006"
     ]
    },
    "technika": {
@@ -17681,7 +17681,7 @@
    ],
    "z0": 2400,
    "z1": 2650,
-   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,650 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V15` #15177 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže nad oknem od horní hrany okna +2,400 do horní hrany stávající zdi +2,650 (DH nového věnce, řez C-C); v realitě stávající otvor a stávající překlad (R-44), NENÍ nové zdivo, mimo výkaz; stávající zdivo garáže je v IFC statika jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500), výška podle projektu potvrzená IFC (R-379), zaměření +3,250 je rozdíl projekt vs realita (E145)",
+   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,650 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V15` #15177 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže nad oknem od horní hrany okna +2,400 do horní hrany stávající zdi +2,650 (DH nového věnce, řez C-C); v realitě stávající otvor a stávající překlad (R-44), NENÍ nové zdivo, mimo výkaz; stávající zdivo garáže je v IFC statika jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500), výška podle projektu potvrzená IFC (R-379), zaměřená horní hrana zdiva +3,250 (R-235, R-257) nesedí s projektem garáže 2006 (zdivo do +2,65 = IFC +2,650, starý ŽB věnec 4 E 12 +2,65 až +2,85, trámy do +3,05, dozdívka do +3,42; R-410) o 17 cm a číselně sedí na horní hranu nového věnce IFC +3,240 (E145)",
    "jistota": "jistá (IFC)",
    "otvor": "1NP-O06",
    "steny": [
@@ -17698,15 +17698,15 @@
     "rozmer": "délka 2100 mm, tloušťka 300 mm, výška 250 mm; stojí od +2,400 m do +2,650 m nad podlahou 1.NP (±0,000)",
     "odkud": [
      "ifc",
-     "rez",
-     "geodet"
+     "rez"
     ],
     "jistota": "jistá (IFC)",
     "zdroje": [
      "ifc",
      "pudorys_1np",
      "dwg",
-     "rezy"
+     "rezy",
+     "garaz_2006"
     ]
    },
    "technika": {
@@ -17749,7 +17749,7 @@
    ],
    "z0": 0,
    "z1": 900,
-   "zdroj": "stávající zdivo garáže 105 pod oknem od podlahy garáže ±0,000 do parapetu (kóta „1500 (900)“); NENÍ nové zdivo, mimo výkaz; S0.24 (28. 9. 2026, R-44, E76): mezera ve stávající zdi garáže (`stavajici.json`, SOLID) přesně v místě rámečku A4_OKNA, kóta půdorysu 1.NP „2100“, „1500 (900)“ (parapet od podlahy garáže ±0,000); v realitě se použijí stávající otvory bez nových překladů, rozměry původních otvorů neznáme, kresba je podle projektu, přibližně odpovídá (investor 28. 9. 2026, R-44); mimo výkaz nového zdiva; stávající zdivo garáže je v IFC statika jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500), výška podle projektu potvrzená IFC (R-379), zaměření +3,250 je rozdíl projekt vs realita (E145)",
+   "zdroj": "stávající zdivo garáže 105 pod oknem od podlahy garáže ±0,000 do parapetu (kóta „1500 (900)“); NENÍ nové zdivo, mimo výkaz; S0.24 (28. 9. 2026, R-44, E76): mezera ve stávající zdi garáže (`stavajici.json`, SOLID) přesně v místě rámečku A4_OKNA, kóta půdorysu 1.NP „2100“, „1500 (900)“ (parapet od podlahy garáže ±0,000); v realitě se použijí stávající otvory bez nových překladů, rozměry původních otvorů neznáme, kresba je podle projektu, přibližně odpovídá (investor 28. 9. 2026, R-44); mimo výkaz nového zdiva; stávající zdivo garáže je v IFC statika jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500), výška podle projektu potvrzená IFC (R-379), zaměřená horní hrana zdiva +3,250 (R-235, R-257) nesedí s projektem garáže 2006 (zdivo do +2,65 = IFC +2,650, starý ŽB věnec 4 E 12 +2,65 až +2,85, trámy do +3,05, dozdívka do +3,42; R-410) o 17 cm a číselně sedí na horní hranu nového věnce IFC +3,240 (E145)",
    "jistota": "jistá (IFC)",
    "otvor": "1NP-O07",
    "steny": [
@@ -17767,14 +17767,14 @@
     "odkud": [
      "ifc",
      "pudorys",
-     "kota",
-     "geodet"
+     "kota"
     ],
     "jistota": "jistá (IFC)",
     "zdroje": [
      "ifc",
      "pudorys_1np",
-     "dwg"
+     "dwg",
+     "garaz_2006"
     ]
    },
    "technika": {
@@ -17817,7 +17817,7 @@
    ],
    "z0": 2400,
    "z1": 2650,
-   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,650 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V15` #15177 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže nad oknem od horní hrany okna +2,400 do horní hrany stávající zdi +2,650 (DH nového věnce, řez C-C); v realitě stávající otvor a stávající překlad (R-44), NENÍ nové zdivo, mimo výkaz; stávající zdivo garáže je v IFC statika jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500), výška podle projektu potvrzená IFC (R-379), zaměření +3,250 je rozdíl projekt vs realita (E145)",
+   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,650 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V15` #15177 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže nad oknem od horní hrany okna +2,400 do horní hrany stávající zdi +2,650 (DH nového věnce, řez C-C); v realitě stávající otvor a stávající překlad (R-44), NENÍ nové zdivo, mimo výkaz; stávající zdivo garáže je v IFC statika jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500), výška podle projektu potvrzená IFC (R-379), zaměřená horní hrana zdiva +3,250 (R-235, R-257) nesedí s projektem garáže 2006 (zdivo do +2,65 = IFC +2,650, starý ŽB věnec 4 E 12 +2,65 až +2,85, trámy do +3,05, dozdívka do +3,42; R-410) o 17 cm a číselně sedí na horní hranu nového věnce IFC +3,240 (E145)",
    "jistota": "jistá (IFC)",
    "otvor": "1NP-O07",
    "steny": [
@@ -17834,15 +17834,15 @@
     "rozmer": "délka 2100 mm, tloušťka 300 mm, výška 250 mm; stojí od +2,400 m do +2,650 m nad podlahou 1.NP (±0,000)",
     "odkud": [
      "ifc",
-     "rez",
-     "geodet"
+     "rez"
     ],
     "jistota": "jistá (IFC)",
     "zdroje": [
      "ifc",
      "pudorys_1np",
      "dwg",
-     "rezy"
+     "rezy",
+     "garaz_2006"
     ]
    },
    "technika": {
@@ -20451,7 +20451,7 @@
    ],
    "z0": 0,
    "z1": 2650,
-   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,650 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V15` #15177 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup, rozdíl projekt vs realita (otázky projektantce 5, statikovi 1 + N6, přepínání E145)",
+   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,650 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V15` #15177 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup: podle projektu garáže 2006 (sken na Drive, řez A-A, R-410) končí zdivo pod starým věncem na +2,65 (= IFC +2,650), starý ŽB věnec 4 E 12 je +2,65 až +2,85, nad ním trámy do +3,05 a dozdívka do +3,42; měření +3,250 s projektem nesedí o 17 cm a číselně odpovídá horní hraně nového věnce IFC +3,240 (otázky projektantce 5, statikovi 1 + N6, přepínání E145)",
    "jistota": "jistá (IFC)",
    "strany": [
     "-",
@@ -20478,7 +20478,8 @@
      "pudorys_1np",
      "dwg",
      "rezy",
-     "statika_tvar"
+     "statika_tvar",
+     "garaz_2006"
     ]
    },
    "technika": {
@@ -20523,7 +20524,7 @@
    ],
    "z0": 0,
    "z1": 2650,
-   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,650 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V15` #15177 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup, rozdíl projekt vs realita (otázky projektantce 5, statikovi 1 + N6, přepínání E145)",
+   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,650 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V15` #15177 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup: podle projektu garáže 2006 (sken na Drive, řez A-A, R-410) končí zdivo pod starým věncem na +2,65 (= IFC +2,650), starý ŽB věnec 4 E 12 je +2,65 až +2,85, nad ním trámy do +3,05 a dozdívka do +3,42; měření +3,250 s projektem nesedí o 17 cm a číselně odpovídá horní hraně nového věnce IFC +3,240 (otázky projektantce 5, statikovi 1 + N6, přepínání E145)",
    "jistota": "jistá (IFC)",
    "strany": [
     "-",
@@ -20550,7 +20551,8 @@
      "pudorys_1np",
      "dwg",
      "rezy",
-     "statika_tvar"
+     "statika_tvar",
+     "garaz_2006"
     ]
    },
    "technika": {
@@ -20593,7 +20595,7 @@
    ],
    "z0": 0,
    "z1": 2650,
-   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,650 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V15` #15177 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup, rozdíl projekt vs realita (otázky projektantce 5, statikovi 1 + N6, přepínání E145)",
+   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,650 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V15` #15177 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup: podle projektu garáže 2006 (sken na Drive, řez A-A, R-410) končí zdivo pod starým věncem na +2,65 (= IFC +2,650), starý ŽB věnec 4 E 12 je +2,65 až +2,85, nad ním trámy do +3,05 a dozdívka do +3,42; měření +3,250 s projektem nesedí o 17 cm a číselně odpovídá horní hraně nového věnce IFC +3,240 (otázky projektantce 5, statikovi 1 + N6, přepínání E145)",
    "jistota": "jistá (IFC)",
    "strany": [
     "-",
@@ -20620,7 +20622,8 @@
      "pudorys_1np",
      "dwg",
      "rezy",
-     "statika_tvar"
+     "statika_tvar",
+     "garaz_2006"
     ]
    },
    "technika": {
@@ -20663,7 +20666,7 @@
    ],
    "z0": 0,
    "z1": 2650,
-   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,650 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V15` #15177 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup, rozdíl projekt vs realita (otázky projektantce 5, statikovi 1 + N6, přepínání E145)",
+   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,650 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V15` #15177 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup: podle projektu garáže 2006 (sken na Drive, řez A-A, R-410) končí zdivo pod starým věncem na +2,65 (= IFC +2,650), starý ŽB věnec 4 E 12 je +2,65 až +2,85, nad ním trámy do +3,05 a dozdívka do +3,42; měření +3,250 s projektem nesedí o 17 cm a číselně odpovídá horní hraně nového věnce IFC +3,240 (otázky projektantce 5, statikovi 1 + N6, přepínání E145)",
    "jistota": "jistá (IFC)",
    "strany": [
     "-",
@@ -20690,7 +20693,8 @@
      "pudorys_1np",
      "dwg",
      "rezy",
-     "statika_tvar"
+     "statika_tvar",
+     "garaz_2006"
     ]
    },
    "technika": {
@@ -20733,7 +20737,7 @@
    ],
    "z0": 0,
    "z1": 2500.0,
-   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,500 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V04` #15051 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup, rozdíl projekt vs realita (otázky projektantce 5, statikovi 1 + N6, přepínání E145); řez A-A v DWG, sloupec x ≈ −850 393 (`zdivo/steny/rezy-vysky.md`): ŽB ANSI35 +2,500 až +2,920 nad stávající zdí, VAPIS 300 od +2,920; výkres tvaru 1.NP „DH +2,500“, „HH +2,700“ (rozpor HH 2,700 vs 2,920 = deska, E71 a); do S0.23 kresleno +2,650 až +3,240 jako obvodový věnec garáže (E42); horní hrana = DH věnce IFC #15051 (1NP-V04) 2500 (E97, D5.5, R-181: úroveň z IFC, ne z řezu)",
+   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,500 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V04` #15051 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup: podle projektu garáže 2006 (sken na Drive, řez A-A, R-410) končí zdivo pod starým věncem na +2,65 (= IFC +2,650), starý ŽB věnec 4 E 12 je +2,65 až +2,85, nad ním trámy do +3,05 a dozdívka do +3,42; měření +3,250 s projektem nesedí o 17 cm a číselně odpovídá horní hraně nového věnce IFC +3,240 (otázky projektantce 5, statikovi 1 + N6, přepínání E145); řez A-A v DWG, sloupec x ≈ −850 393 (`zdivo/steny/rezy-vysky.md`): ŽB ANSI35 +2,500 až +2,920 nad stávající zdí, VAPIS 300 od +2,920; výkres tvaru 1.NP „DH +2,500“, „HH +2,700“ (rozpor HH 2,700 vs 2,920 = deska, E71 a); do S0.23 kresleno +2,650 až +3,240 jako obvodový věnec garáže (E42); horní hrana = DH věnce IFC #15051 (1NP-V04) 2500 (E97, D5.5, R-181: úroveň z IFC, ne z řezu)",
    "jistota": "jistá (IFC)",
    "strany": [
     "105",
@@ -20760,7 +20764,8 @@
      "pudorys_1np",
      "dwg",
      "rezy",
-     "statika_tvar"
+     "statika_tvar",
+     "garaz_2006"
     ]
    },
    "technika": {
@@ -20805,7 +20810,7 @@
    ],
    "z0": 0,
    "z1": 2650,
-   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,650 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V12` #15219 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup, rozdíl projekt vs realita (otázky projektantce 5, statikovi 1 + N6, přepínání E145)",
+   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,650 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V12` #15219 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup: podle projektu garáže 2006 (sken na Drive, řez A-A, R-410) končí zdivo pod starým věncem na +2,65 (= IFC +2,650), starý ŽB věnec 4 E 12 je +2,65 až +2,85, nad ním trámy do +3,05 a dozdívka do +3,42; měření +3,250 s projektem nesedí o 17 cm a číselně odpovídá horní hraně nového věnce IFC +3,240 (otázky projektantce 5, statikovi 1 + N6, přepínání E145)",
    "jistota": "jistá (IFC)",
    "strany": [
     "-",
@@ -20832,7 +20837,8 @@
      "pudorys_1np",
      "dwg",
      "rezy",
-     "statika_tvar"
+     "statika_tvar",
+     "garaz_2006"
     ]
    },
    "technika": {
@@ -20875,7 +20881,7 @@
    ],
    "z0": 0,
    "z1": 2650,
-   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,650 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V02` #15303 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup, rozdíl projekt vs realita (otázky projektantce 5, statikovi 1 + N6, přepínání E145)",
+   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,650 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V02` #15303 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup: podle projektu garáže 2006 (sken na Drive, řez A-A, R-410) končí zdivo pod starým věncem na +2,65 (= IFC +2,650), starý ŽB věnec 4 E 12 je +2,65 až +2,85, nad ním trámy do +3,05 a dozdívka do +3,42; měření +3,250 s projektem nesedí o 17 cm a číselně odpovídá horní hraně nového věnce IFC +3,240 (otázky projektantce 5, statikovi 1 + N6, přepínání E145)",
    "jistota": "jistá (IFC)",
    "strany": [
     "-",
@@ -20902,7 +20908,8 @@
      "pudorys_1np",
      "dwg",
      "rezy",
-     "statika_tvar"
+     "statika_tvar",
+     "garaz_2006"
     ]
    },
    "technika": {
@@ -20945,7 +20952,7 @@
    ],
    "z0": 0,
    "z1": 2500.0,
-   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,500 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V04` #15051 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup, rozdíl projekt vs realita (otázky projektantce 5, statikovi 1 + N6, přepínání E145); řez A-A v DWG, sloupec x ≈ −850 393: ŽB +2,500 až +2,920 nad stávající zdí, VAPIS 300 (2NP-S16) od +2,920; výkres tvaru 1.NP „DH +2,500“, „HH +2,700“ (E71 a); do S0.23 kresleno +2,650 až +3,240 (E42); horní hrana = DH věnce IFC #15051 (1NP-V04) 2500 (E97, D5.5, R-181: úroveň z IFC, ne z řezu)",
+   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,500 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V04` #15051 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup: podle projektu garáže 2006 (sken na Drive, řez A-A, R-410) končí zdivo pod starým věncem na +2,65 (= IFC +2,650), starý ŽB věnec 4 E 12 je +2,65 až +2,85, nad ním trámy do +3,05 a dozdívka do +3,42; měření +3,250 s projektem nesedí o 17 cm a číselně odpovídá horní hraně nového věnce IFC +3,240 (otázky projektantce 5, statikovi 1 + N6, přepínání E145); řez A-A v DWG, sloupec x ≈ −850 393: ŽB +2,500 až +2,920 nad stávající zdí, VAPIS 300 (2NP-S16) od +2,920; výkres tvaru 1.NP „DH +2,500“, „HH +2,700“ (E71 a); do S0.23 kresleno +2,650 až +3,240 (E42); horní hrana = DH věnce IFC #15051 (1NP-V04) 2500 (E97, D5.5, R-181: úroveň z IFC, ne z řezu)",
    "jistota": "jistá (IFC)",
    "strany": [
     "105",
@@ -20972,7 +20979,8 @@
      "pudorys_1np",
      "dwg",
      "rezy",
-     "statika_tvar"
+     "statika_tvar",
+     "garaz_2006"
     ]
    },
    "technika": {
@@ -21015,7 +21023,7 @@
    ],
    "z0": 0,
    "z1": 2500,
-   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,500 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V03` #15093 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup, rozdíl projekt vs realita (otázky projektantce 5, statikovi 1 + N6, přepínání E145); pod ŽB pilířkem IFC #15093 (`1NP-V03`, 300 × 301 mm, +2,500 až +3,240) jde stávající zdivo jen do +2,500 (E116 průnik 3, 150 mm, 0,013 m³); investor 13. 10. 2026 (R-339): „16 zkratit“; x od −850 597 = západní líc pilířku",
+   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,500 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V03` #15093 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup: podle projektu garáže 2006 (sken na Drive, řez A-A, R-410) končí zdivo pod starým věncem na +2,65 (= IFC +2,650), starý ŽB věnec 4 E 12 je +2,65 až +2,85, nad ním trámy do +3,05 a dozdívka do +3,42; měření +3,250 s projektem nesedí o 17 cm a číselně odpovídá horní hraně nového věnce IFC +3,240 (otázky projektantce 5, statikovi 1 + N6, přepínání E145); pod ŽB pilířkem IFC #15093 (`1NP-V03`, 300 × 301 mm, +2,500 až +3,240) jde stávající zdivo jen do +2,500 (E116 průnik 3, 150 mm, 0,013 m³); investor 13. 10. 2026 (R-339): „16 zkratit“; x od −850 597 = západní líc pilířku",
    "jistota": "jistá (IFC)",
    "strany": [
     "105",
@@ -21043,7 +21051,8 @@
      "pudorys_1np",
      "dwg",
      "rezy",
-     "statika_tvar"
+     "statika_tvar",
+     "garaz_2006"
     ]
    },
    "technika": {
@@ -21086,7 +21095,7 @@
    ],
    "z0": 0,
    "z1": 2650,
-   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,650 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V01` #15261 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup, rozdíl projekt vs realita (otázky projektantce 5, statikovi 1 + N6, přepínání E145); zkráceno o 303 mm pod pilířkem (kus `1NP-EX09-roh`, R-339)",
+   "zdroj": "JISTOTA VÝŠKY (S0.44, R-379): horní hrana +2,650 = DH ŽB věnec, průvlak, nadpraží IFC `1NP-V01` #15261 (rozdíl +0 mm); stávající zdivo garáže je v IFC jako tělesa PTH 30. stávající zdivo garáže 105 (šrafa SOLID v půdorysu 1.NP, legenda: stávající konstrukce, smíšené zdivo vč. omítky); od podlahy garáže ±0,000 [odvození: základ výkres nekreslí] do +2,650 = DH nového ŽB věnce v řezu C-C (nad vraty +2,800, jinde výkres tvaru 1.NP uvádí i +2,500; skutečnou výšku H změří investor, `docs/podklad-S1_garaz-vyska-vence-atika.md`). S0.44 (14. 10. 2026, R-379, investor doslovně: „stavajici garaz v ifc je a to potvrzuje vysku (potvrzujeme vysku v projektu, ne realitu, ne?) moje mereni je jiny vstup“): IFC statika nese stávající zdivo garáže jako tělesa PTH 30 (#4725, #4846, #4999, #5041 do +2,650; #4683, #4767 do +2,500) a nad nimi věnce `1NP-V01`, `V02`, `V12`, `V15` od +2,650 a `V03`, `V04`, `V16` od +2,500, takže výška podle projektu je potvrzená IFC; zaměření +3,250 (R-235) je jiný vstup: podle projektu garáže 2006 (sken na Drive, řez A-A, R-410) končí zdivo pod starým věncem na +2,65 (= IFC +2,650), starý ŽB věnec 4 E 12 je +2,65 až +2,85, nad ním trámy do +3,05 a dozdívka do +3,42; měření +3,250 s projektem nesedí o 17 cm a číselně odpovídá horní hraně nového věnce IFC +3,240 (otázky projektantce 5, statikovi 1 + N6, přepínání E145); zkráceno o 303 mm pod pilířkem (kus `1NP-EX09-roh`, R-339)",
    "jistota": "jistá (IFC)",
    "strany": [
     "105",
@@ -21113,7 +21122,8 @@
      "pudorys_1np",
      "dwg",
      "rezy",
-     "statika_tvar"
+     "statika_tvar",
+     "garaz_2006"
     ]
    },
    "technika": {
