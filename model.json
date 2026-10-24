@@ -1,6 +1,6 @@
 {
  "meta": {
-  "stav_k": "18. 10. 2026 (S0.49)",
+  "stav_k": "24. 10. 2026 (S0.54)",
   "vznik": "krok S0.11, 21. 9. 2026 (E49); S0.12 (nulová spodní hrana, šrafy, SDK, stávající garáž, značky chybějících); S0.14 (ŽB z PDF statiky, E51); S0.16 až S0.26 (viz session logy); S0.29, 2. 10. 2026: ŽB, základy, ocel a kontext zdiva z IFC statika (investor: IFC autoritativní pro ŽB), odvozené ŽB prvky, ŽB z PDF statiky, věnec garáže, ŽB parapety, pracovní atika, ocelové sloupky a nadpraží z modelu odebrány",
   "jednotky": "mm, souřadnice modelu DWG (2.NP posunuté o −50 000 v x, E42), z absolutně od ±0,000",
   "urovne": {
@@ -8096,7 +8096,7 @@
    "prvky_rucne": "Prvky označené jako doplněné agentem nejsou ID z textu otázky: kanon na tom místě mluví obecně („přizdívky 106“, „atika“, „dveře D01 až D05“) a prvky k nim přiřadil agent.",
    "hlavni_vs_zminene": "U každé otázky se rozlišuje, kterých prvků se otázka VĚCNĚ týká (hlavní) a které jen zmiňuje jako hranici nebo kontext (zmíněné). Podnět: investor 12. 10. 2026 se u otázky projektantce 25 zeptal, zda zeď `2NP-S05` s otázkou souvisí; rozlišení je návrh agenta (S0.42b), rozdělení je ruční úsudek nad textem otázky; v detailu prvku se v plném znění ukazují jen hlavní otázky, zmíněné jsou jednou větou s odkazem do panelu.",
    "neparovatelne": "Otázka bez prvku se v detailu prvku neukáže, je jen v panelu. Kusy zdiva nad otvorem (řada N, 19 kusů se stavem „neurčeno“, E132) se v modelu nekreslí, takže otázky staviteli 1 a 2 se k nim připojit nedají; stejně tak otázky na skladby, termíny a fakturaci žádný prvek nemají.",
-   "uzavrene_body": "Uzavřené body tu nejsou (přeskočeno 107 řádků s odkazem do archivu); veřejně jen body s vazbou na projektantku, statika nebo stavitele, bez jednání s dodavateli (vynecháno 45, S0.42 revize, otázka 48); investor 27. 9. 2026: „Uzavřené body asi veřejně dávat nemusíme, ty si budeme držet pouze lokálně, a ani uzavřené body nemusí být v tom 3D modelu.“",
+   "uzavrene_body": "Uzavřené body tu nejsou (přeskočeno 111 řádků s odkazem do archivu); veřejně jen body s vazbou na projektantku, statika nebo stavitele, bez jednání s dodavateli (vynecháno 52, S0.42 revize, otázka 48); investor 27. 9. 2026: „Uzavřené body asi veřejně dávat nemusíme, ty si budeme držet pouze lokálně, a ani uzavřené body nemusí být v tom 3D modelu.“",
    "otazky": [
     {
      "adresat": "projektantka",
@@ -9076,15 +9076,111 @@
      "oznaceni": "statik N14",
      "stav": "aktivní",
      "text": "V našem modelu je uložení (přesah) železobetonových překladů a nadpraží do zdiva vedle otvoru zatím 0. Jaké uložení máme u ŽB překladů počítat na každé straně otvoru, a liší se podle světlosti otvoru nebo tloušťky zdi? Podle odpovědi zkrátíme zdivo vedle otvorů a upravíme výkaz.",
-     "prvky": [],
-     "prvky_hlavni": [],
+     "prvky": [
+      "1NP-D01",
+      "1NP-D02",
+      "1NP-D03",
+      "1NP-D05",
+      "1NP-D08",
+      "1NP-O01",
+      "1NP-O02",
+      "1NP-O03",
+      "1NP-O04",
+      "1NP-O05",
+      "1NP-V04",
+      "1NP-V06",
+      "1NP-V07",
+      "1NP-V08",
+      "1NP-V09",
+      "1NP-V13",
+      "1NP-V14",
+      "1NP-V17",
+      "1NP-V18",
+      "2NP-O01",
+      "2NP-O02",
+      "2NP-O03",
+      "2NP-O04",
+      "2NP-O09",
+      "2NP-S21",
+      "2NP-V10",
+      "2NP-V12",
+      "2NP-V18",
+      "2NP-V19",
+      "2NP-V20",
+      "2NP-V21"
+     ],
+     "prvky_hlavni": [
+      "1NP-D01",
+      "1NP-D02",
+      "1NP-D03",
+      "1NP-D05",
+      "1NP-D08",
+      "1NP-O01",
+      "1NP-O02",
+      "1NP-O03",
+      "1NP-O04",
+      "1NP-O05",
+      "1NP-V04",
+      "1NP-V06",
+      "1NP-V07",
+      "1NP-V08",
+      "1NP-V09",
+      "1NP-V13",
+      "1NP-V14",
+      "1NP-V17",
+      "1NP-V18",
+      "2NP-O01",
+      "2NP-O02",
+      "2NP-O03",
+      "2NP-O04",
+      "2NP-O09",
+      "2NP-S21",
+      "2NP-V10",
+      "2NP-V12",
+      "2NP-V18",
+      "2NP-V19",
+      "2NP-V20",
+      "2NP-V21"
+     ],
      "prvky_zminene": [],
-     "prvky_rucne": [],
+     "prvky_rucne": [
+      "1NP-D01",
+      "1NP-D02",
+      "1NP-D03",
+      "1NP-D05",
+      "1NP-D08",
+      "1NP-O01",
+      "1NP-O02",
+      "1NP-O03",
+      "1NP-O04",
+      "1NP-O05",
+      "1NP-V04",
+      "1NP-V06",
+      "1NP-V07",
+      "1NP-V08",
+      "1NP-V09",
+      "1NP-V13",
+      "1NP-V14",
+      "1NP-V17",
+      "1NP-V18",
+      "2NP-O01",
+      "2NP-O02",
+      "2NP-O03",
+      "2NP-O04",
+      "2NP-O09",
+      "2NP-S21",
+      "2NP-V10",
+      "2NP-V12",
+      "2NP-V18",
+      "2NP-V19",
+      "2NP-V20",
+      "2NP-V21"
+     ],
      "body": [
       "E132",
       "A8"
      ],
-     "zdroj_kratky": "log rozhodnutí v repu R-433 a R-435 (investor 18. 10. 2026 večer, S0.49d: „presahy prekladu (ZB) jsou v modelu 0, nechame je 0, zeptame se statika, kolik ty presahy mame udelat“; „text N14 ok, zapis ho do kanonu hned“)",
+     "zdroj_kratky": "log rozhodnutí v repu R-433 a R-435 (investor 18. 10. 2026 večer, S0.49d: „presahy prekladu (ZB) jsou v modelu 0, nechame je 0, zeptame se statika, kolik ty presahy mame udelat“; „text N14 ok, zapis ho do kanonu hned“); R-450 (24. 10. 2026, S0.53) seznam prvků",
      "druh": "otázka"
     },
     {
@@ -9394,7 +9490,7 @@
     {
      "id": "E132",
      "nazev": "Kus zdiva nad otvorem",
-     "stav": "nový 11. 10. 2026 (S0.38); DOPLNĚNO 11. 10. 2026 (R-281, investor …): variantu určí odpověď stavitele (krok 11), soupis překladů je podklad otázky; otázka „ŽB nebo výrobek“ pro všechny překlady (R-287) PROVEDENO v datovém modelu 11. 10. 2026 …",
+     "stav": "nový 11. 10. 2026 (S0.38); DOPLNĚNO 11. 10. 2026 (R-281, investor …): variantu určí odpověď stavitele (krok 11), soupis překladů je podklad otázky; otázka „ŽB nebo výrobek“ pro všechny překlady (R-287) PROVEDENO v … výkaz nese V3 jako horní mez",
      "vlastnik": "agent",
      "sekce": "A. Zdivo a objednávka",
      "prvky": [
@@ -9816,17 +9912,6 @@
       "1NP-Z01"
      ],
      "dotazy": []
-    },
-    {
-     "id": "E150",
-     "nazev": "Skladby a kóta +2,380 v řezu B-B: průběžná revize 2 S0.43",
-     "stav": "otevřeno 14. 10. 2026 (S0.44, R-364)",
-     "vlastnik": "investor (projde v detailu), agent (připraví výřezy řezu B-B a tabulku skladeb)",
-     "sekce": "E. Znalostní báze a nástroje",
-     "prvky": [
-      "1NP-S17"
-     ],
-     "dotazy": []
     }
    ],
    "srafa_dotaz": "S0.43 (R-327): prvek se šrafuje modře („má dotaz“), když je hlavním prvkem aktivní otázky protistraně a otázka není tabulková (neptá se na celou třídu prvků) ani položka „na vědomí“ (R-353): tabulkové jsou projektantka 22, projektantka 5, projektantka 8, statik 1 + N6, statik N11, statik N9, stavitel 1",
@@ -9850,15 +9935,15 @@
      "aktivní": 40,
      "zodpovězená": 1
     },
-    "otazek_aktivnich_s_prvkem": 23,
-    "otazek_bez_prvku": 18,
-    "otazek_bez_hlavniho_prvku": 18,
-    "bodu": 29,
-    "bodu_s_prvkem": 28,
-    "prvku_s_dotazem": 152,
-    "prvku_s_hlavni_otazkou": 112,
+    "otazek_aktivnich_s_prvkem": 24,
+    "otazek_bez_prvku": 17,
+    "otazek_bez_hlavniho_prvku": 17,
+    "bodu": 28,
+    "bodu_s_prvkem": 27,
+    "prvku_s_dotazem": 164,
+    "prvku_s_hlavni_otazkou": 126,
     "prvku_jen_zminenych": 14,
-    "prvku_se_srafou_dotazu": 51
+    "prvku_se_srafou_dotazu": 71
    }
   },
   "lidsky": {
@@ -11047,9 +11132,7 @@
     "otazky": [],
     "otazky_hlavni": [],
     "otazky_zminene": [],
-    "body": [
-     "E150"
-    ]
+    "body": []
    },
    "dotaz_srafa": []
   },
@@ -12487,12 +12570,14 @@
      "projektantka 34",
      "projektantka 5",
      "statik 1 + N6",
-     "statik 29"
+     "statik 29",
+     "statik N14"
     ],
     "otazky_hlavni": [
      "projektantka 34",
      "statik 1 + N6",
-     "statik 29"
+     "statik 29",
+     "statik N14"
     ],
     "otazky_zminene": [
      "projektantka 5"
@@ -12504,7 +12589,8 @@
    },
    "dotaz_srafa": [
     "projektantka 34",
-    "statik 29"
+    "statik 29",
+    "statik N14"
    ]
   },
   {
@@ -13188,16 +13274,19 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 30"
+     "projektantka 30",
+     "statik N14"
     ],
     "otazky_hlavni": [
-     "projektantka 30"
+     "projektantka 30",
+     "statik N14"
     ],
     "otazky_zminene": [],
     "body": []
    },
    "dotaz_srafa": [
-    "projektantka 30"
+    "projektantka 30",
+    "statik N14"
    ]
   },
   {
@@ -13276,10 +13365,12 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 22"
+     "projektantka 22",
+     "statik N14"
     ],
     "otazky_hlavni": [
-     "projektantka 22"
+     "projektantka 22",
+     "statik N14"
     ],
     "otazky_zminene": [],
     "body": [
@@ -13287,7 +13378,9 @@
      "E63"
     ]
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "1NP-O03",
@@ -13347,16 +13440,19 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 30"
+     "projektantka 30",
+     "statik N14"
     ],
     "otazky_hlavni": [
-     "projektantka 30"
+     "projektantka 30",
+     "statik N14"
     ],
     "otazky_zminene": [],
     "body": []
    },
    "dotaz_srafa": [
-    "projektantka 30"
+    "projektantka 30",
+    "statik N14"
    ]
   },
   {
@@ -13437,10 +13533,12 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 22"
+     "projektantka 22",
+     "statik N14"
     ],
     "otazky_hlavni": [
-     "projektantka 22"
+     "projektantka 22",
+     "statik N14"
     ],
     "otazky_zminene": [],
     "body": [
@@ -13448,7 +13546,9 @@
      "E110"
     ]
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "1NP-D02",
@@ -13510,17 +13610,21 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 22"
+     "projektantka 22",
+     "statik N14"
     ],
     "otazky_hlavni": [
-     "projektantka 22"
+     "projektantka 22",
+     "statik N14"
     ],
     "otazky_zminene": [],
     "body": [
      "E110"
     ]
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "1NP-O04",
@@ -13598,12 +13702,18 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "statik N14"
+    ],
+    "otazky_hlavni": [
+     "statik N14"
+    ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "1NP-D03",
@@ -13682,10 +13792,12 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 22"
+     "projektantka 22",
+     "statik N14"
     ],
     "otazky_hlavni": [
-     "projektantka 22"
+     "projektantka 22",
+     "statik N14"
     ],
     "otazky_zminene": [],
     "body": [
@@ -13693,7 +13805,9 @@
      "E80"
     ]
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "1NP-D04",
@@ -13915,15 +14029,19 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 22"
+     "projektantka 22",
+     "statik N14"
     ],
     "otazky_hlavni": [
-     "projektantka 22"
+     "projektantka 22",
+     "statik N14"
     ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "1NP-O05",
@@ -14001,12 +14119,18 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "statik N14"
+    ],
+    "otazky_hlavni": [
+     "statik N14"
+    ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "1NP-O06",
@@ -14385,10 +14509,12 @@
     "otazky": [
      "projektantka 22",
      "projektantka 34",
-     "statik 29"
+     "statik 29",
+     "statik N14"
     ],
     "otazky_hlavni": [
-     "projektantka 22"
+     "projektantka 22",
+     "statik N14"
     ],
     "otazky_zminene": [
      "projektantka 34",
@@ -14398,7 +14524,9 @@
      "E92"
     ]
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "1NP-D09",
@@ -14791,16 +14919,19 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 30"
+     "projektantka 30",
+     "statik N14"
     ],
     "otazky_hlavni": [
-     "projektantka 30"
+     "projektantka 30",
+     "statik N14"
     ],
     "otazky_zminene": [],
     "body": []
    },
    "dotaz_srafa": [
-    "projektantka 30"
+    "projektantka 30",
+    "statik N14"
    ]
   },
   {
@@ -14865,16 +14996,19 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 30"
+     "projektantka 30",
+     "statik N14"
     ],
     "otazky_hlavni": [
-     "projektantka 30"
+     "projektantka 30",
+     "statik N14"
     ],
     "otazky_zminene": [],
     "body": []
    },
    "dotaz_srafa": [
-    "projektantka 30"
+    "projektantka 30",
+    "statik N14"
    ]
   },
   {
@@ -14939,16 +15073,19 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 30"
+     "projektantka 30",
+     "statik N14"
     ],
     "otazky_hlavni": [
-     "projektantka 30"
+     "projektantka 30",
+     "statik N14"
     ],
     "otazky_zminene": [],
     "body": []
    },
    "dotaz_srafa": [
-    "projektantka 30"
+    "projektantka 30",
+    "statik N14"
    ]
   },
   {
@@ -15012,16 +15149,19 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 30"
+     "projektantka 30",
+     "statik N14"
     ],
     "otazky_hlavni": [
-     "projektantka 30"
+     "projektantka 30",
+     "statik N14"
     ],
     "otazky_zminene": [],
     "body": []
    },
    "dotaz_srafa": [
-    "projektantka 30"
+    "projektantka 30",
+    "statik N14"
    ]
   },
   {
@@ -16182,18 +16322,21 @@
    "dotazy": {
     "otazky": [
      "projektantka 30",
-     "statik N13"
+     "statik N13",
+     "statik N14"
     ],
     "otazky_hlavni": [
      "projektantka 30",
-     "statik N13"
+     "statik N13",
+     "statik N14"
     ],
     "otazky_zminene": [],
     "body": []
    },
    "dotaz_srafa": [
     "projektantka 30",
-    "statik N13"
+    "statik N13",
+    "statik N14"
    ]
   },
   {
@@ -23091,11 +23234,13 @@
     "otazky": [
      "projektantka 34",
      "statik 1 + N6",
-     "statik 29"
+     "statik 29",
+     "statik N14"
     ],
     "otazky_hlavni": [
      "statik 1 + N6",
-     "statik 29"
+     "statik 29",
+     "statik N14"
     ],
     "otazky_zminene": [
      "projektantka 34"
@@ -23106,7 +23251,8 @@
     ]
    },
    "dotaz_srafa": [
-    "statik 29"
+    "statik 29",
+    "statik N14"
    ]
   },
   {
@@ -23338,12 +23484,18 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "statik N14"
+    ],
+    "otazky_hlavni": [
+     "statik N14"
+    ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "1NP-V07",
@@ -23415,10 +23567,12 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "statik N10"
+     "statik N10",
+     "statik N14"
     ],
     "otazky_hlavni": [
-     "statik N10"
+     "statik N10",
+     "statik N14"
     ],
     "otazky_zminene": [],
     "body": [
@@ -23426,7 +23580,8 @@
     ]
    },
    "dotaz_srafa": [
-    "statik N10"
+    "statik N10",
+    "statik N14"
    ]
   },
   {
@@ -23498,12 +23653,18 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "statik N14"
+    ],
+    "otazky_hlavni": [
+     "statik N14"
+    ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "1NP-V09",
@@ -23574,12 +23735,18 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "statik N14"
+    ],
+    "otazky_hlavni": [
+     "statik N14"
+    ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "1NP-V10",
@@ -23898,12 +24065,18 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "statik N14"
+    ],
+    "otazky_hlavni": [
+     "statik N14"
+    ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "1NP-V14",
@@ -23974,12 +24147,18 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "statik N14"
+    ],
+    "otazky_hlavni": [
+     "statik N14"
+    ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "1NP-V15",
@@ -25517,12 +25696,18 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "statik N14"
+    ],
+    "otazky_hlavni": [
+     "statik N14"
+    ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "1NP-AT02",
@@ -25675,12 +25860,18 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "statik N14"
+    ],
+    "otazky_hlavni": [
+     "statik N14"
+    ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "1NP-OS17",
@@ -33512,11 +33703,13 @@
    "dotazy": {
     "otazky": [
      "projektantka 34",
-     "statik 29"
+     "statik 29",
+     "statik N14"
     ],
     "otazky_hlavni": [
      "projektantka 34",
-     "statik 29"
+     "statik 29",
+     "statik N14"
     ],
     "otazky_zminene": [],
     "body": [
@@ -33526,7 +33719,8 @@
    },
    "dotaz_srafa": [
     "projektantka 34",
-    "statik 29"
+    "statik 29",
+    "statik N14"
    ]
   },
   {
@@ -33756,14 +33950,20 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "statik N14"
+    ],
+    "otazky_hlavni": [
+     "statik N14"
+    ],
     "otazky_zminene": [],
     "body": [
      "E94"
     ]
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "2NP-V13",
@@ -34304,12 +34504,18 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "statik N14"
+    ],
+    "otazky_hlavni": [
+     "statik N14"
+    ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "2NP-V19",
@@ -34380,12 +34586,18 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "statik N14"
+    ],
+    "otazky_hlavni": [
+     "statik N14"
+    ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "2NP-V20",
@@ -34456,12 +34668,18 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "statik N14"
+    ],
+    "otazky_hlavni": [
+     "statik N14"
+    ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "2NP-AT05",
@@ -34614,12 +34832,18 @@
    "historie_zminek": 0,
    "historie": [],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "statik N14"
+    ],
+    "otazky_hlavni": [
+     "statik N14"
+    ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N14"
+   ]
   },
   {
    "id": "2NP-SL01",
