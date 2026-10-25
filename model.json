@@ -10106,6 +10106,35 @@
       "2NP-O04"
      ],
      "dotazy": []
+    },
+    {
+     "id": "E168",
+     "nazev": "Stránka 3D modelu podle poznámek investora 25. 10. 2026",
+     "stav": "OTEVŘENO 25. 10. 2026 (S0.56d); (a) až (d) HOTOVO 25. 10. 2026 pozdě večer (S0.59a, headless: panel max(480px, 60vh), blok Výkresy … stav per session v řádku 16 sekce 3 plánu a v tabulce sekce 0 rozcestníku",
+     "vlastnik": "agent (noční řetězec), kontrola investor ráno",
+     "sekce": "E. Znalostní báze a nástroje",
+     "prvky": [
+      "2NP-V10"
+     ],
+     "dotazy": []
+    },
+    {
+     "id": "E169",
+     "nazev": "Nálezy automatické kontroly modelu a položky Chybí v datech",
+     "stav": "OTEVŘENO 25. 10. 2026 pozdě večer (S0.59c, headless, bez investora); kategorie ke kontrole investora (sekce 75 ke-kontrole-investor.md, JEN INFO); nález S0.59r 26. 10. 2026 … klasifikace se v S0.59r nemění, rozhodne investor",
+     "vlastnik": "investor (rozhodnutí) + agent (zápis)",
+     "sekce": "E. Znalostní báze a nástroje",
+     "prvky": [
+      "1NP-D01",
+      "1NP-D03",
+      "1NP-D04",
+      "1NP-D06",
+      "2NP-D01",
+      "2NP-D02",
+      "2NP-D03",
+      "2NP-V09"
+     ],
+     "dotazy": []
     }
    ],
    "srafa_dotaz": "S0.43 (R-327): prvek se šrafuje modře („má dotaz“), když je hlavním prvkem aktivní otázky protistraně a otázka není tabulková (neptá se na celou třídu prvků) ani položka „na vědomí“ (R-353): tabulkové jsou projektantka 22, projektantka 5, projektantka 8, statik 1 + N6, statik N11, statik N9, stavitel 1",
@@ -10132,8 +10161,8 @@
     "otazek_aktivnich_s_prvkem": 26,
     "otazek_bez_prvku": 13,
     "otazek_bez_hlavniho_prvku": 14,
-    "bodu": 30,
-    "bodu_s_prvkem": 29,
+    "bodu": 32,
+    "bodu_s_prvkem": 31,
     "prvku_s_dotazem": 164,
     "prvku_s_hlavni_otazkou": 126,
     "prvku_jen_zminenych": 14,
@@ -13743,7 +13772,8 @@
     "otazky_zminene": [],
     "body": [
      "E100",
-     "E110"
+     "E110",
+     "E169"
     ]
    },
    "dotaz_srafa": [
@@ -14002,6 +14032,7 @@
     "otazky_zminene": [],
     "body": [
      "E100",
+     "E169",
      "E80"
     ]
    },
@@ -14096,7 +14127,8 @@
     "otazky_zminene": [],
     "body": [
      "E108",
-     "E132"
+     "E132",
+     "E169"
     ]
    },
    "dotaz_srafa": []
@@ -14493,7 +14525,9 @@
      "projektantka 22"
     ],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E169"
+    ]
    },
    "dotaz_srafa": []
   },
@@ -15454,7 +15488,8 @@
     ],
     "otazky_zminene": [],
     "body": [
-     "E110"
+     "E110",
+     "E169"
     ]
    },
    "dotaz_srafa": []
@@ -15611,7 +15646,9 @@
      "stavitel 1"
     ],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E169"
+    ]
    },
    "dotaz_srafa": []
   },
@@ -15924,6 +15961,7 @@
     ],
     "otazky_zminene": [],
     "body": [
+     "E169",
      "E80"
     ]
    },
@@ -33864,7 +33902,9 @@
      "statik N11"
     ],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E169"
+    ]
    },
    "dotaz_srafa": [
     "statik N10"
@@ -33952,6 +33992,7 @@
     "otazky_zminene": [],
     "body": [
      "E112",
+     "E168",
      "E92"
     ]
    },
