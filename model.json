@@ -119,49 +119,178 @@
   },
   "legenda": [
    [
+    "VAPIS 300",
+    "#7e3ff2",
+    3
+   ],
+   [
+    "VAPIS 240",
+    "#f04fa0",
+    17
+   ],
+   [
+    "VAPIS 200",
+    "#2f7ff2",
+    24
+   ],
+   [
+    "VPC 75",
+    "#2ab04c",
+    4
+   ],
+   [
+    "Porotherm 30 (nástavba garáže; ve výkrese kreslená jako VAPIS 300)",
+    "#f57c00",
+    12
+   ],
+   [
+    "komín (mimo výkaz zdiva)",
+    "#546e7a",
+    2
+   ],
+   [
+    "překlad nad otvorem (typ neznámý: hotový výrobek, nebo železobeton)",
+    "#5c5c5c",
+    13
+   ],
+   [
+    "prostup ve zdi (jen v 3D modelu statika, nebo doplněný investorem)",
+    "#e65100",
+    13
+   ],
+   [
+    "stávající zdivo garáže",
+    "#a67c52",
+    15
+   ],
+   [
+    "SDK příčka / předstěna",
+    "#f2f2f2",
+    34
+   ],
+   [
+    "zděná přizdívka 106 (obývací pokoj, tl. 50 a 100)",
+    "#c9a227",
+    7
+   ],
+   [
+    "okno",
+    "#7fd3ff",
+    21
+   ],
+   [
+    "dveře",
+    "#ffb347",
+    20
+   ],
+   [
     "ŽB deska (IFC)",
-    "#b0bec5"
+    "#b0bec5",
+    4
    ],
    [
     "ŽB věnec, průvlak, nadpraží (IFC)",
-    "#78909c"
+    "#78909c",
+    40
    ],
    [
     "ŽB atika (IFC)",
-    "#90a4ae"
+    "#90a4ae",
+    7
    ],
    [
     "ŽB sloup, pilíř a stěna (IFC)",
-    "#455a64"
+    "#455a64",
+    14
    ],
    [
     "základy (IFC)",
-    "#8d6e63"
+    "#8d6e63",
+    45
    ],
    [
     "otvor v ŽB (IFC)",
-    "#ce93d8"
+    "#ce93d8",
+    62
    ],
    [
     "ocelová konstrukce (IFC)",
-    "#263238"
+    "#263238",
+    27
    ],
    [
     "zdivo z IFC (kontext)",
-    "#d7ccc8"
-   ],
-   [
-    "otvor ve zdivu z IFC (kontext)",
-    "#ffcc80"
+    "#d7ccc8",
+    37
    ],
    [
     "zděná atika z IFC (Silka 24)",
-    "#bcaaa4"
+    "#bcaaa4",
+    5
    ],
    [
-    "zídka dřevěná",
-    "#a1887f"
+    "zídka dřevěná (skříňka u okna, mimo zdivo)",
+    "#a1887f",
+    1
    ]
+  ],
+  "jistota_legenda": [
+   {
+    "stav": "z IFC",
+    "pocet": 253,
+    "srafa": null,
+    "kresleni": "bez šrafy",
+    "popis": "těleso převzaté z 3D modelu statika (IFC), nic se nedopočítávalo"
+   },
+   {
+    "stav": "jistá (IFC)",
+    "pocet": 82,
+    "srafa": null,
+    "kresleni": "bez šrafy",
+    "popis": "výška našeho zdiva nebo pásu nad otvorem, kterou potvrzuje i 3D model statika (IFC)"
+   },
+   {
+    "stav": "jistá",
+    "pocet": 24,
+    "srafa": null,
+    "kresleni": "bez šrafy",
+    "popis": "výška odečtená z kóty ve výkrese"
+   },
+   {
+    "stav": "pracovní",
+    "pocet": 47,
+    "srafa": null,
+    "kresleni": "bez šrafy",
+    "popis": "naše čtení jednoho podkladu, nebo zástupná výška (SDK příčka po podhled, který model zatím nemá; dveře v SDK podle popisky křídla); kde k tomu máme otázku, potvrdí projektantka"
+   },
+   {
+    "stav": "upřesnil investor",
+    "pocet": 16,
+    "srafa": null,
+    "kresleni": "bez šrafy",
+    "popis": "údaj doplněný investorem tam, kde podklad chybí; kde je to potřeba, potvrdí projektantka"
+   },
+   {
+    "stav": "stávající",
+    "pocet": 5,
+    "srafa": null,
+    "kresleni": "bez šrafy",
+    "popis": "otvory ve stávající zdi garáže (okna a dveře), rozměry podle projektu"
+   },
+   {
+    "stav": "neznámá",
+    "pocet": 0,
+    "srafa": "neznámá",
+    "kresleni": "husté červené šrafování bočních stěn (přepínač níže)",
+    "popis": "výšku se z podkladů určit nepodařilo; prvek se kreslí jen do horní hrany zdiva nebo pásu"
+   },
+   {
+    "stav": "odvození",
+    "pocet": 0,
+    "srafa": "odvození",
+    "kresleni": "řidší oranžové šrafování bočních stěn opačným směrem (přepínač níže)",
+    "popis": "naše čtení výkresu bez kóty; potvrdí projektantka"
+   }
   ],
   "kat_default_off": [
    "zdivo z IFC (kontext)"
