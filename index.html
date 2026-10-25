@@ -100,7 +100,7 @@
   #info ol.hist li { margin: 3px 0; }
   #info .dot { margin: 7px 0 2px; border-top: 1px solid var(--line); padding-top: 5px; }
 
-  /* dotazy, otevrene body, nalezy, chybi */
+  /* dotazy, otevrene body */
   .dotH { color: var(--dim); text-transform: uppercase; font-size: 11px; letter-spacing: .06em; }
   .dotI { margin: 4px 0; padding: 5px 8px; border-left: 3px solid var(--dotaz); border-radius: 0 5px 5px 0;
           background: #16293d; font-size: 12px; }
@@ -123,10 +123,6 @@
   #list div { cursor: pointer; padding: 2px 3px; border-radius: 4px; font-size: 12px;
               white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   #list div:hover { background: #24384c; }
-  #nalezy div, #chybi div { margin: 4px 0; padding: 5px 8px; font-size: 12px;
-    background: #2a2318; border-left: 3px solid var(--varovani); border-radius: 0 5px 5px 0; color: #ecdcc8; }
-  #chybi div { background: #2c1c1c; border-left-color: var(--chyba); color: #f2d6d1; cursor: pointer; }
-  #chybi div:hover { background: #3a2422; }
 
   /* uzke okno: panel pod scenou, karta detailu na celou sirku */
   @media (max-width: 1180px) {
@@ -161,7 +157,7 @@
 <div id="panel">
   <div class="stat">
     <div><strong id="statPrvku"></strong><span>prvků v modelu</span></div>
-    <div><strong id="statNalezu"></strong><span>nálezů a chybějících</span></div>
+    <div><strong id="statBodu"></strong><span>otevřených bodů</span></div><!-- S0.59c (R-523): místo počtu nálezů a chybějících, které na stránce už nejsou -->
     <div><strong id="statDotazu"></strong><span>aktivních otázek</span></div>
   </div>
   <!-- S0.45 (16. 10. 2026, investor: „uvodni text o modelu tat jako rozbalovaci a by default sbalit“): bez `open` -->
@@ -267,18 +263,10 @@
       <p class="pozn" id="dotazyPozn"></p>
     </div>
   </details>
-  <details class="blk" open>
-    <summary>Nálezy automatické kontroly <span class="pocet" id="nalezyN"></span></summary>
-    <div class="telo">
-      <div id="nalezy"></div>
-    </div>
-  </details>
-  <details class="blk" open>
-    <summary>Chybí v datech, nekreslí se <span class="pocet" id="chybiN"></span></summary>
-    <div class="telo">
-      <div id="chybi"></div>
-    </div>
-  </details>
+  <!-- S0.59c (25. 10. 2026, R-523, investor: „Nevidim valny vyznam je vypisovat v 3d modelu, budto nas nezajimaji a jsou
+       prijate/vysvetlene anebo se maji vyresit - pak na to ma byt bod v master planu“): panely nálezů automatické kontroly
+       a položek Chybí v datech na stránce nejsou; nálezy žijí v `model.json` (meta.nalezy, meta.chybi), v generovaném
+       přehledu `docs/nalezy-kontroly-modelu.md` s klasifikací a v řádku 17 sekce 3 plánu; značky CHYBÍ ve scéně zůstávají -->
   <details class="blk" open>
     <summary>Seznam prvků <span class="pocet" id="cnt"></span></summary>
     <div class="telo">
@@ -1719,17 +1707,7 @@ document.getElementById("jistotaVeta").textContent = nejistych
   ? `Prvek bez kóty v podkladech má červené (neznámá výška) nebo oranžové (odvození) šrafování bočních stěn; dnes je takových prvků ${nejistych} a šrafa se zapíná v bloku Jistota výšky.`
   : "Prvek bez kóty v podkladech by měl červené (neznámá výška) nebo oranžové (odvození) šrafování bočních stěn; dnes takový prvek v modelu není.";
 if (!nejistych) document.getElementById("jenNezPozn").textContent = " (dnes žádný prvek)";
-const nal = document.getElementById("nalezy");
-document.getElementById("nalezyN").textContent = DATA.meta.nalezy.length;
-if (!DATA.meta.nalezy.length) nal.innerHTML = "<small>žádné</small>";
-for (const n of DATA.meta.nalezy) nal.insertAdjacentHTML("beforeend", `<div>${n}</div>`);
-const chy = document.getElementById("chybi");
-document.getElementById("chybiN").textContent = DATA.meta.chybi.length;
-DATA.meta.chybi.forEach((c, i) => {
-  const d = document.createElement("div"); d.textContent = (i + 1) + ". " + c.text + (c.poloha ? "" : " (bez značky ve scéně, poloha není v datech)");
-  if (c.poloha) d.onclick = () => { const [x, y, z] = c.poloha; controls.target.set((x - CX) * M, (z - ZB) * M, -(y - CY) * M); controls.update(); };
-  chy.appendChild(d);
-});
+// S0.59c (R-523): panely nálezů a položek Chybí se neplní, na stránce nejsou (meta.nalezy a meta.chybi v datech zůstávají)
 
 // detail bodu zamereni geodeta (E137): cislo bodu, doslovny popis geodeta, vyska k +-0,000 i v Bpv
 function popisBodu(b) {
@@ -2064,7 +2042,7 @@ canvas.addEventListener("click", ev => {
 // S0.42 (E126): hlavicka stranky, prehledova cisla panelu a skryvani leveho panelu
 document.getElementById("stavK").textContent = "Stav k " + (DATA.meta.stav_k || "neuvedeno") + ".";
 document.getElementById("statPrvku").textContent = P.length;
-document.getElementById("statNalezu").textContent = DATA.meta.nalezy.length + DATA.meta.chybi.length;
+document.getElementById("statBodu").textContent = (DOT.body || []).length;  // S0.59c (R-523): otevřené body místo nálezů
 document.getElementById("statDotazu").textContent = (DOT.otazky || []).filter(z => z.stav === "aktivní").length;
 document.getElementById("panelToggle").onclick = function () {
   const skryto = document.getElementById("hlavni").parentNode.classList.toggle("skrytPanel");
