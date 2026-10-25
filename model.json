@@ -1,6 +1,6 @@
 {
  "meta": {
-  "stav_k": "24. 10. 2026 (S0.54)",
+  "stav_k": "25. 10. 2026 (S0.55)",
   "vznik": "krok S0.11, 21. 9. 2026 (E49); S0.12 (nulová spodní hrana, šrafy, SDK, stávající garáž, značky chybějících); S0.14 (ŽB z PDF statiky, E51); S0.16 až S0.26 (viz session logy); S0.29, 2. 10. 2026: ŽB, základy, ocel a kontext zdiva z IFC statika (investor: IFC autoritativní pro ŽB), odvozené ŽB prvky, ŽB z PDF statiky, věnec garáže, ŽB parapety, pracovní atika, ocelové sloupky a nadpraží z modelu odebrány",
   "jednotky": "mm, souřadnice modelu DWG (2.NP posunuté o −50 000 v x, E42), z absolutně od ±0,000",
   "urovne": {
@@ -8096,7 +8096,7 @@
    "prvky_rucne": "Prvky označené jako doplněné agentem nejsou ID z textu otázky: kanon na tom místě mluví obecně („přizdívky 106“, „atika“, „dveře D01 až D05“) a prvky k nim přiřadil agent.",
    "hlavni_vs_zminene": "U každé otázky se rozlišuje, kterých prvků se otázka VĚCNĚ týká (hlavní) a které jen zmiňuje jako hranici nebo kontext (zmíněné). Podnět: investor 12. 10. 2026 se u otázky projektantce 25 zeptal, zda zeď `2NP-S05` s otázkou souvisí; rozlišení je návrh agenta (S0.42b), rozdělení je ruční úsudek nad textem otázky; v detailu prvku se v plném znění ukazují jen hlavní otázky, zmíněné jsou jednou větou s odkazem do panelu.",
    "neparovatelne": "Otázka bez prvku se v detailu prvku neukáže, je jen v panelu. Kusy zdiva nad otvorem (řada N, 19 kusů se stavem „neurčeno“, E132) se v modelu nekreslí, takže otázky staviteli 1 a 2 se k nim připojit nedají; stejně tak otázky na skladby, termíny a fakturaci žádný prvek nemají.",
-   "uzavrene_body": "Uzavřené body tu nejsou (přeskočeno 111 řádků s odkazem do archivu); veřejně jen body s vazbou na projektantku, statika nebo stavitele, bez jednání s dodavateli (vynecháno 52, S0.42 revize, otázka 48); investor 27. 9. 2026: „Uzavřené body asi veřejně dávat nemusíme, ty si budeme držet pouze lokálně, a ani uzavřené body nemusí být v tom 3D modelu.“",
+   "uzavrene_body": "Uzavřené body tu nejsou (přeskočeno 112 řádků s odkazem do archivu); veřejně jen body s vazbou na projektantku, statika nebo stavitele, bez jednání s dodavateli (vynecháno 51, S0.42 revize, otázka 48); investor 27. 9. 2026: „Uzavřené body asi veřejně dávat nemusíme, ty si budeme držet pouze lokálně, a ani uzavřené body nemusí být v tom 3D modelu.“",
    "otazky": [
     {
      "adresat": "projektantka",
@@ -8984,7 +8984,7 @@
      "cislo": "N9",
      "oznaceni": "statik N9",
      "stav": "aktivní",
-     "text": "Má ŽB atika nosnou funkci, respektive musí být ze železobetonu, nebo může být zděná? (R-102, vrácena statikovi R-165.)",
+     "text": "Má ŽB atika nosnou funkci, respektive musí být ze železobetonu, nebo může být zděná? Lze ji udělat po celém domě jednotně (všude ŽB, nebo všude zděná), nebo má ŽB v některých místech funkci proti průhybu či ztužení? (R-102, vrácena statikovi R-165; druhá věta R-469.)",
      "prvky": [
       "1NP-AT01",
       "1NP-AT02",
@@ -9483,6 +9483,7 @@
      "prvky_rucne": [],
      "body": [],
      "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 7",
+     "pozn": "druhá vlna: ptá se až po odpovědích na technické dotazy, s e-mailem druhé vlny (řádek 12b plánu, R-441, R-470)",
      "druh": "otázka"
     }
    ],
