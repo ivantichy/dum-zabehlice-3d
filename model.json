@@ -8103,7 +8103,7 @@
      "cislo": "5",
      "oznaceni": "projektantka 5",
      "stav": "aktivní",
-     "text": "Stávající garáž: změřili jsme horní hranu stávajícího zdiva zhruba na +3,250 (jedno místo, ±3 cm, podlaha garáže je v úrovni ±0,000 domu), štít zhruba +4,390. Projekt i statika (IFC) počítají se stávajícím zdivem do +2,650 (sever, jih, západ) a +2,500 u východní zdi k místnosti 209, nad ním s novým ŽB věncem +2,650 až +3,240 a nástavbou od +3,240. Původní projekt garáže z roku 2006 (máme sken) kreslí zdivo do +2,65, nad ním věnec +2,65 až +2,85, dřevěné stropní trámy do +3,05 a dozdívku k pozednici do +3,42; naše měření +3,25 s ním nesedí o 17 cm. Rozumíme tomu tak, že se bourá všechno nad +2,650 (starý věnec, trámy, dozdívka) a lije nový věnec do +3,240, takže výška nástavby ani architektura 2.NP se měnit nemusí; detaily řešíme se statikem (jeho otázka, e-mail máte v kopii). Prosíme o potvrzení: Počítá projekt s bouráním stávající garáže nad +2,650 po celém obvodu včetně starého věnce?",
+     "text": "Stávající garáž: změřili jsme horní hranu stávajícího zdiva zhruba na +3,250 (jedno místo, ±3 cm, podlaha garáže je v úrovni ±0,000 domu), štít zhruba +4,390. Projekt i statika (IFC) počítají se stávajícím zdivem do +2,650 (sever, jih, západ) a +2,500 u východní zdi k místnosti 209, nad ním s novým (?) ŽB věncem +2,650 až +3,240 a nástavbou od +3,240. Původní projekt garáže z roku 2006 (máme sken) kreslí zdivo do +2,65, nad ním věnec +2,65 až +2,85, dřevěné stropní trámy do +3,05 a dozdívku k pozednici do +3,42; naše měření +3,25 s ním nesedí o 17 cm. To ale ještě nemusí znamenat, že to skutečně nesedí: měří se to špatně a přesné číslo by dala až sonda, kterou můžeme udělat a údaj doplnit. Rozumíme tomu tak, že se bourá všechno nad +2,650 (starý věnec, trámy, dozdívka) a lije nový věnec do +3,240, takže výška nástavby ani architektura 2.NP se měnit nemusí; ponechat stávající věnec by bylo samozřejmě jednodušší a levnější. Detaily řešíme se statikem (jeho otázka, e-mail máte v kopii). Prosíme o potvrzení: Počítá projekt s bouráním stávající garáže nad +2,650 po celém obvodu včetně starého věnce? (R-474.)",
      "prvky": [
       "1NP-D06-nad",
       "1NP-EX01",
@@ -8211,7 +8211,7 @@
      "cislo": "8",
      "oznaceni": "projektantka 8",
      "stav": "aktivní",
-     "text": "Atika: rozměry, materiál, délky po celém domě; zvlášť stávající garáž a nová část; zda má být zděná atika v objednávce. Rozpočtová položka se nepokládá (E45). Zúženo R-140 na jižní hrany. Nález kontroly ATIKA 13,1 m bez atiky v IFC je součást téhle otázky (E94, investor 2. 10. 2026: „to vyresime potom“).",
+     "text": "Atika: je to kontrolní dotaz, kde a z jakého materiálu se atika počítá. Část informací máme ze statiky (IFC, 3D model) a část ze stavařiny a chceme si být jisti: prosíme o rozměry, materiál a délky atiky po celém domě, zvlášť u stávající garáže a u nové části, a zda má být zděná atika součástí objednávky zdiva. Na jižních hranách (garáž asi 7,5 m, místnost 209 asi 5,5 m) statika v IFC žádnou atiku nemá. (R-475.)",
      "prvky": [
       "1NP-AT01",
       "1NP-AT02",
@@ -8270,7 +8270,7 @@
      "cislo": "10",
      "oznaceni": "projektantka 10",
      "stav": "aktivní",
-     "text": "Zděné přizdívky v obývacím pokoji 106 (v našem 3D modelu kategorie „přizdívka 106“, prvky `1NP-PZ01` až `1NP-PZ07`). Půdorys 1.NP je kreslí šrafou, která v legendě konstrukcí není (legenda zná u příček a přizdívek jen VPC tl. 75 mm), kótuje je 100 mm a popisuje „zděná přizdívka končící na spodní hraně nadpraží oken sloužící pro usazení LED osvětlení“. Prosíme o upřesnění:\n(a) Proč jsou zděné a ne ze sádrokartonu, když nejdou ke stropu a nesou jen LED osvětlení?\n(b) Z čeho a jak tlusté: výkres kótuje 100 mm (u plochy tvaru U na východní stěně ramena 50 mm), my je zatím počítáme jako VPC tl. 75 mm, stejně jako ostatní nenosné příčky.\n(c) Výšky počítáme takto a prosíme o potvrzení nebo opravu číslem: u všech sedmi kusů horní hrana +2,400 (spodní hrana nadpraží oken 1.NP), spodní hrana na podkladní desce −0,350 jako ostatní zdivo 1.NP, tedy 2750 mm; pokud mají stát až na podlaze ±0,000, je to 2400 mm. Pokud přizdívka jde od desky a navazuje na sádrokartonovou stěnu, je to zbytečné přerušení izolace podlahy; proto se ptáme, na čem má stát; předpokládáme, že izolace podlahy by přizdívku neunesla.\n(d) Délky z půdorysu: `1NP-PZ04` 580 a `1NP-PZ05` 700 (mezi 106 a 107), `1NP-PZ06` 134 a `1NP-PZ07` 735 (u spíže 110), `1NP-PZ02` 2080 s rameny `1NP-PZ01` 390 a `1NP-PZ03` 540 (plocha tvaru U u východní stěny 106): je plocha U také zděná přizdívka, a jsou ramena tl. 50 její součást (ostění okna), nebo kresba obkladu?\nPřizdívky jsou vyznačené v přiloženém půdorysu 1.NP s ID stěn a v 3D modelu https://ivantichy.github.io/dum-zabehlice-3d/.",
+     "text": "Zděné přizdívky v obývacím pokoji 106 (v našem 3D modelu prvky 1NP-PZ01 až 1NP-PZ07, vyznačené v přiloženém půdorysu 1.NP s ID stěn). Půdorys 1.NP je kreslí šrafou, která v legendě konstrukcí není (legenda zná u příček a přizdívek jen VPC tl. 75 mm), kótuje je 100 mm a popisuje „zděná přizdívka končící na spodní hraně nadpraží oken sloužící pro usazení LED osvětlení“. Dohledávali jsme, kde se vzal požadavek, aby tyto předstěny byly zděné (místo sádrokartonu, dřeva apod.), a našli jsme ho v e-mailu od interiérového architekta; ve vizualizacích je celá tato část bílá (není to dřevěný obklad), takže může být zděná i ze sádrokartonu. Je z Vaší strany jako projektantky nějaký důvod, proč by to mělo být zděné a ne ze sádrokartonu nebo dřeva? Pokud zděné, prosíme o upřesnění: (a) z čeho a jak tlusté: výkres kótuje 100 mm (u plochy tvaru U na východní stěně, tedy 1NP-PZ02 s rameny 1NP-PZ01 a 1NP-PZ03, mají ramena 50 mm), my je zatím počítáme jako VPC tl. 75 mm, stejně jako ostatní nenosné příčky; (b) výšky počítáme u všech sedmi kusů horní hrana +2,400 (spodní hrana nadpraží oken 1.NP), spodní hrana na podkladní desce −0,350 jako ostatní zdivo 1.NP, tedy 2750 mm; pokud mají stát až na podlaze ±0,000, je to 2400 mm; na čem mají stát? (c) délky z půdorysu: 1NP-PZ04 580 a 1NP-PZ05 700 (mezi 106 a 107), 1NP-PZ06 134 a 1NP-PZ07 735 (u spíže 110), 1NP-PZ02 2080 s rameny 1NP-PZ01 390 a 1NP-PZ03 540 (plocha tvaru U u východní stěny 106); délky potřebujeme jen kvůli množství cihel, takže pokud přizdívky mohou být ze sádrokartonu, jsou teď irelevantní a nemusíte je kontrolovat. (R-476.)",
      "prvky": [
       "1NP-PZ01",
       "1NP-PZ02",
@@ -8312,7 +8312,7 @@
      "cislo": "14",
      "oznaceni": "projektantka 14",
      "stav": "aktivní",
-     "text": "Zeď na terase 2.NP mezi `2NP-S27` a `2NP-S28`: je izolovaná a proč (vytažení zdi ven, obalené izolací, bude promrzat), není lepší přerušit tepelný most? Z jakého materiálu, skladba 300 + 200 + 60; sedí na izolaci; jak je kotvená do bočních stěn; horní hrana +4,170 (rozhodnuto R-103 podle IFC). Doplňky: bude opravdu z VAPIS, když jde o tepelný most; pás `2NP-S29` je v půdorysu dlouhý 6275, mezera mezi stěnami 6875, jak se napojuje (co je v těch 300 mm na každé straně); nedá se zeď od domu tepelně rozpojit místo obalování zábradlí izolací?",
+     "text": "Zeď na terase 2.NP mezi 2NP-S27 a 2NP-S28 (pás 2NP-S29, skladba 300 + 200 + 60, horní hrana +4,170 podle statiky): zeď leží na zdivu 1.NP bez přerušení tepelného mostu a obáváme se promrzání. Pás je v půdorysu dlouhý 6275 a mezera mezi stěnami 6875; v těch 300 mm na každé straně je podle výkresů tepelná izolace domu, zeď tedy není do bočních stěn provázaná. My bychom raději tepelný most přerušili a zeď řešili jinak: například z méně tepelně vodivého materiálu (Ytong apod.), jako montovanou konstrukci, nebo tak, aby seděla na izolaci. Konkrétní řešení nepotřebujeme hned; pro objednávku zdiva nám stačí shoda, že tato zeď nebude z VAPIS, vyřešíme to nějak jinak a nebudeme ji objednávat. Souhlasíte? (R-477.)",
      "prvky": [
       "2NP-S27",
       "2NP-S28",
@@ -8378,7 +8378,7 @@
      "cislo": "19",
      "oznaceni": "projektantka 19",
      "stav": "aktivní",
-     "text": "Nad oknem garáže je překlad (3 × 75 = 225) užší než zeď a věnec (300), zřejmě kvůli roletovému boxu v izolaci: bylo to tak myšleno úmyslně a jak to bude u ŽB nadpraží (musí být užší než věnec, aby se box vešel)? Statika kreslí překlady KP 7 v plné šířce (4 × 70 = 280). Rozšíření (E69 f): nástavba nad garáží má izolaci 150 mm, hlavní část 300 mm, roletový box 150 až 165 se do izolace nástavby nevejde; co platí pro `2NP-O07`, `2NP-O08` a `2NP-O14`.",
+     "text": "Nad oknem garáže je překlad (3 × 75 = 225) užší než zeď a věnec (300), zřejmě kvůli roletovému boxu v izolaci: bylo to tak myšleno úmyslně a jak to bude u ŽB nadpraží (musí být užší než věnec, aby se box vešel)? Statika kreslí překlady KP 7 v plné šířce (4 × 70 = 280). Nástavba nad garáží má přitom izolaci 150 mm, hlavní část 300 mm, a roletový box 150 až 165 se do izolace nástavby nevejde; co tedy platí pro okna 2NP-O07, 2NP-O08 a 2NP-O14? (R-478.)",
      "prvky": [
       "2NP-O07",
       "2NP-O07-překlad",
@@ -8509,7 +8509,7 @@
      "cislo": "23",
      "oznaceni": "projektantka 23",
      "stav": "aktivní",
-     "text": "Čím se vyplní pás nad dveřmi `2NP-D03`, kde SDK příčka navazuje na zděnou stěnu (SDK, nebo překlad)? `2NP-D03` je ten případ: VAPIS 200 `2NP-S09` z jedné strany, SDK `2NP-SDK03` a `2NP-SDK04` z druhé, nad ním v IFC beton není. AKTIVNÍ od 12. 10. 2026 (S0.40b, nález N3; R-92 „pak projektantce 23 v původním smyslu“).",
+     "text": "Čím se vyplní pás nad dveřmi 2NP-D03 (hala 201 / šatna 203), kde SDK příčka navazuje na zděnou stěnu: SDK, nebo překlad? Z jedné strany je VAPIS 200 (2NP-S09), z druhé SDK příčky 2NP-SDK03 a 2NP-SDK04; ve statice (IFC) nad dveřmi beton není. (R-478.)",
      "prvky": [
       "2NP-D03",
       "2NP-S09",
@@ -8533,26 +8533,10 @@
     },
     {
      "adresat": "projektantka",
-     "cislo": "28",
-     "oznaceni": "projektantka 28",
-     "stav": "aktivní",
-     "text": "Patka sloupku přístřešku (B10, R-174): jak je řešená? Otázka přešla od statika na projektantku (R-157, R-174).",
-     "prvky": [],
-     "prvky_hlavni": [],
-     "prvky_zminene": [],
-     "prvky_rucne": [],
-     "body": [
-      "B10"
-     ],
-     "zdroj_kratky": "kanon otázek v repu sekce 38 (D6.8 (28))",
-     "druh": "otázka"
-    },
-    {
-     "adresat": "projektantka",
      "cislo": "29",
      "oznaceni": "projektantka 29",
      "stav": "aktivní",
-     "text": "Je úsek `2NP-S10` tl. 170 mm opravdu zděný z VAPIS 200, nebo je to jiná tloušťka či jiná konstrukce? 170 mm nejde vyzdít z bloků VAPIS 200 (nejbližší vazba je 200 mm). AKTIVOVÁNA 11. 10. 2026 podle R-99 („jestli to nejde vyzdit anebo to nedava smysl, dotaz projektantce“), POTVRZENO 12. 10. 2026 (R-319, I3).",
+     "text": "Je úsek 2NP-S10 tl. 170 mm opravdu zděný z VAPIS 200, nebo je to jiná tloušťka či jiná konstrukce? 170 mm nejde vyzdít z bloků VAPIS 200 (nejbližší vazba je 200 mm). (R-478.)",
      "prvky": [
       "2NP-S10"
      ],
@@ -8601,24 +8585,10 @@
     },
     {
      "adresat": "projektantka",
-     "cislo": "31",
-     "oznaceni": "projektantka 31",
-     "stav": "aktivní",
-     "text": "Platí ±0,000 = 250,50 m n. m. Bpv (C.2 08/2023 a přílohy stavebního povolení 2022 a 2023) i pro DPS 2025/2026?",
-     "prvky": [],
-     "prvky_hlavni": [],
-     "prvky_zminene": [],
-     "prvky_rucne": [],
-     "body": [],
-     "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce 31, R-299)",
-     "druh": "otázka"
-    },
-    {
-     "adresat": "projektantka",
      "cislo": "32",
      "oznaceni": "projektantka 32",
      "stav": "aktivní",
-     "text": "Zídka u sedacího prostoru v koupelně 204 (2.NP, pod oknem 1900 ve východní stěně). Půdorys 2.NP tam kreslí zídku z VPC tl. 75 mm s popiskou „v. 650 mm“: 950 mm (kóty 875 + 75) u vnějšího líce obvodové zdi pod jižní polovinou okna, přímo pod rámem okna (v našem 3D modelu `2NP-S07`), a kolmá zídka `2NP-S06` (200 mm), která prochází tloušťkou parapetu a vyčnívá 75 mm do místnosti; jižně od ní je sádrokartonová předstěna instalační šachty mezi 202 a 204. Investor to chápe jako sedací prostor ve sprchovém koutě zapuštěný do parapetu: parapet okna je 900 mm nad podlahou 2.NP (+3,090) a parapetní zdivo je VAPIS 200 (prvek `2NP-P01`), v délce zídky (950 mm) ale podle půdorysu VAPIS není a parapet tam tvoří jen zídka VPC 75 u vnějšího líce; uvnitř písmene L vzniká nika hloubky 200 mm (125 mm v tloušťce zdi a 75 mm v místnosti) se sedací plochou ve výšce 650 mm. Tak to kreslí i náš 3D model (`2NP-S07` i `2NP-S06` do výšky parapetu 900, tedy +3,990). Prosíme o potvrzení nebo opravu:\n1. Je to tak? Tvoří parapet pod oknem v délce 950 jen zídka VPC 75 u vnějšího líce, nebo je i tam parapet VAPIS 200 a zídka stojí před ním v místnosti?\n2. Na čem zídka stojí: na železobetonové desce (+2,920), nebo na skladbě podlahy (na izolaci, podlaha +3,090)?\n3. Výšky: jde zídka `2NP-S07` i kolmá zídka `2NP-S06` do výšky parapetu 900 (+3,990) a „650 mm“ je sedací plocha uvnitř (650 nad podlahou, +3,740, nebo 650 od desky, +3,570)? `2NP-S06` vyčnívá 75 mm před líc parapetu `2NP-P01` a tvoří v místnosti zub; pokud má výšku 900, je to ve sprchovém koutě vystupující roh, proto se ptáme, zda má `2NP-S06` být 900, nebo jen 650. Co je u vnějšího líce mezi sedací plochou a oknem, jen zídka `2NP-S07`?\n4. Sedací plocha uvnitř písmene L (zhruba 875 × 200 mm mezi `2NP-S07`, `2NP-S06` a předstěnou šachty): vyzděná plně (plný kvádr) do výšky 650, nebo deska s prostorem pod ní? Z čeho (kvůli výkazu zdiva: VPC 75, nebo jiné zdivo)?\n5. Jak je řešený parapet v severní polovině okna (950 mm od zídky `2NP-S06` po zeď `2NP-S05`), kde zídka není: plných 200 mm VAPIS do 900 nad podlahou? A jak vypadá přechod mezi nikou a tímto parapetem na líci do místnosti?\nPokud je to jinak, model upravíme podle Vaší odpovědi. 3D model: https://ivantichy.github.io/dum-zabehlice-3d/ (2.NP, prvky `2NP-S06`, `2NP-S07`, `2NP-P01`, okno `2NP-O05`).",
+     "text": "Zídka u sedacího prostoru v koupelně 204 (2.NP, pod oknem šířky 1900 ve východní stěně). Půdorys 2.NP tam kreslí zídku z VPC tl. 75 mm s popiskou „v. 650 mm“: 950 mm (kóty 875 + 75) u vnějšího líce obvodové zdi pod jižní polovinou okna, přímo pod rámem okna (v našem 3D modelu 2NP-S07), a kolmá zídka 2NP-S06 (200 mm), která prochází tloušťkou parapetu a vyčnívá 75 mm do místnosti; jižně od ní je sádrokartonová předstěna instalační šachty mezi 202 a 204. Investor to chápe jako sedací prostor ve sprchovém koutě zapuštěný do parapetu: parapet okna je 900 mm nad podlahou 2.NP (+3,090) a parapetní zdivo je VAPIS 200 (prvek 2NP-P01), v délce zídky (950 mm) ale podle půdorysu VAPIS není a parapet tam tvoří jen zídka VPC 75 u vnějšího líce; uvnitř písmene L vzniká nika hloubky 200 mm (125 mm v tloušťce zdi a 75 mm v místnosti) se sedací plochou ve výšce 650 mm. Tak to kreslí i náš 3D model (2NP-S07 i 2NP-S06 do výšky parapetu 900, tedy +3,990). Náš model zatím nerespektuje, že okna mají předsazenou montáž; u polohy zídky a parapetu je to potřeba domyslet. Prosíme o potvrzení nebo opravu:\n1. Je to tak? Tvoří parapet pod oknem v délce 950 jen zídka VPC 75 u vnějšího líce, nebo je i tam parapet VAPIS 200 a zídka stojí před ním v místnosti?\n2. Na čem zídka stojí: na železobetonové desce (+2,920), nebo na skladbě podlahy (na izolaci, podlaha +3,090)?\n3. Výšky: jde zídka 2NP-S07 i kolmá zídka 2NP-S06 do výšky parapetu 900 (+3,990) a „650 mm“ je sedací plocha uvnitř (650 nad podlahou, +3,740, nebo 650 od desky, +3,570)? 2NP-S06 vyčnívá 75 mm před líc parapetu 2NP-P01 a tvoří v místnosti zub; pokud má výšku 900, je to ve sprchovém koutě vystupující roh, proto se ptáme, zda má 2NP-S06 být 900, nebo jen 650. Co je u vnějšího líce mezi sedací plochou a oknem, jen zídka 2NP-S07?\n4. Sedací plocha uvnitř písmene L (zhruba 875 × 200 mm mezi 2NP-S07, 2NP-S06 a předstěnou šachty): vyzděná plně (plný kvádr) do výšky 650, nebo deska s prostorem pod ní? Z čeho (kvůli výkazu zdiva: VPC 75, nebo jiné zdivo)?\n5. Jak je řešený parapet v severní polovině okna (950 mm od zídky 2NP-S06 po zeď 2NP-S05), kde zídka není: plných 200 mm VAPIS do 900 nad podlahou? A jak vypadá přechod mezi nikou a tímto parapetem na líci do místnosti?\nPokud je to jinak, model upravíme podle Vaší odpovědi. 3D model: https://ivantichy.github.io/dum-zabehlice-3d/ (2.NP, prvky 2NP-S06, 2NP-S07, 2NP-P01, okno 2NP-O05). (R-481.)",
      "prvky": [
       "2NP-O05",
       "2NP-P01",
@@ -8647,7 +8617,7 @@
      "cislo": "33",
      "oznaceni": "projektantka 33",
      "stav": "aktivní",
-     "text": "Prosba o kontrolu našeho 3D modelu proti jejím výkresům (R-102: „muzeme pak projektantku pozadat o kontrolu v nasem 3d modelem“); odkaz na veřejnou stránku po kroku 8 a po překrytí jmen v PDF (E118). POTVRZENO 12. 10. 2026 (R-319, I2).",
+     "text": "Prosíme Vás, abyste se na náš 3D model podívala a cíleně zkontrolovala věci, u kterých si myslíte, že by mohl být problém; kontrolu úplně všeho nechceme, to by zabralo dny. Přiložené půdorysy s ID stěn jsou Vaše výkresy s našimi ID prvků. (R-482.)",
      "prvky": [],
      "prvky_hlavni": [],
      "prvky_zminene": [],
@@ -8664,7 +8634,7 @@
      "cislo": "soupis překladů",
      "oznaceni": "projektantka soupis překladů",
      "stav": "aktivní",
-     "text": "Soupis překladů ke kontrole „je to takto OK“ (otvor × co je nad ním). R-108 (investor 6. 10. 2026): „my to nejak vygenerujeme a posleme v dotaz projektantce a statikovi, zda je to takto OK“; B4 16. 9. 2026: „soupis překladů a ten si nechat uvěřit [= ověřit] projektantkou“. Jde projektantce i statikovi (S0.40b, nález N2); vzniká v kroku 10 (a).",
+     "text": "V příloze je soupis překladů (otvor × co je nad ním) ke kontrole, zda je to takto OK; stejný soupis dostává i statik. (R-483.)",
      "prvky": [],
      "prvky_hlavni": [],
      "prvky_zminene": [],
@@ -8681,7 +8651,7 @@
      "cislo": "E111",
      "oznaceni": "projektantka E111",
      "stav": "aktivní",
-     "text": "Spodní hrana zdiva 1.NP, tedy horní hrana podkladní desky: řez A-A architektury má −0,350, výkres tvaru základů statiky i IFC model mají −0,360 (spodní hrana desky −0,560 je v obou shodně). Která hodnota platí a kde přesně má podle projektu být horní hrana desky proti ±0,000? Nemůže být těch 10 mm dvojitě položená hydroizolace (asfaltový pás IPA) pod zdivem? Pro nás je to rozdíl ve výšce zdiva 1.NP (2750 vs 2760 mm, tedy vyrovnávací vrstva nebo spára) a ve všech kótách otvorů měřených od desky.",
+     "text": "Spodní hrana zdiva 1.NP, tedy horní hrana podkladní desky: řez A-A architektury má −0,350, výkres tvaru základů statiky i IFC model mají −0,360 (spodní hrana desky −0,560 je v obou shodně). Která hodnota platí a kde přesně má podle projektu být horní hrana desky proti ±0,000? Nemůže být těch 10 mm hydroizolace ze skladby P1 (dva SBS modifikované asfaltové pásy, celkem 2× 4 mm) položená na desce pod zdivem? Součet vrstev P1 nad deskou (8 + 230 + 50 + 60 + 10 = 358 mm) odpovídá spíš −0,360. Pro nás je to rozdíl ve výšce zdiva 1.NP (2750 vs 2760 mm, tedy vyrovnávací vrstva nebo spára) a ve všech kótách otvorů měřených od desky.",
      "prvky": [],
      "prvky_hlavni": [],
      "prvky_zminene": [],
@@ -8697,7 +8667,7 @@
      "cislo": "bývalé statikovi 15 a 17",
      "oznaceni": "projektantka bývalé statikovi 15 a 17",
      "stav": "aktivní",
-     "text": "Překlady KP 7 v nástavbě nad garáží a okno `2NP-O08` (R-154): kolik kusů překladu a jaký typ je nad oknem nástavby, když statika předepisuje KP 7 v plné šířce a architektura kreslí překlad zúžený kvůli roletovému boxu?",
+     "text": "Překlady KP 7 v nástavbě nad garáží a okno 2NP-O08: kolik kusů překladu a jaký typ je nad oknem nástavby, když statika předepisuje KP 7 v plné šířce a architektura kreslí překlad zúžený kvůli roletovému boxu? Další varianta: zkusíme se domluvit se stavitelem, že překlad bude železobetonový. (R-484.)",
      "prvky": [
       "2NP-O08",
       "2NP-O08-překlad"
@@ -8721,7 +8691,7 @@
      "cislo": "O10",
      "oznaceni": "projektantka O10",
      "stav": "aktivní",
-     "text": "Rozpor řez A-A architektury vs IFC nad `2NP-O10` (R-159): co je nad tím oknem, ŽB nadpraží dolů na +5,490, nebo překlad a věnec od +5,740?",
+     "text": "Rozpor mezi stavařinou (řez A-A) a statikou (IFC) nad oknem 2NP-O10: co je nad tím oknem, ŽB nadpraží dolů na +5,490, nebo překlad a věnec od +5,740? Je to asi už diskutovaná věc: nebylo úplně jasně rozhodnuto, zda jsou překlady systémové prvky, nebo železobeton, a budeme to muset rozhodnout. (R-473.)",
      "prvky": [
       "2NP-O10",
       "2NP-O10-překlad"
@@ -8745,7 +8715,7 @@
      "cislo": "A11",
      "oznaceni": "projektantka A11",
      "stav": "aktivní",
-     "text": "Stěnové spony a vázací plechy na provázání příček: jsou podle projektu potřeba a kde (jsou v ceníku VAPIS, v nabídce dodavatele ne)?",
+     "text": "Stěnové spony a vázací plechy na provázání příček: jsou podle projektu potřeba a kde? (R-485.)",
      "prvky": [],
      "prvky_hlavni": [],
      "prvky_zminene": [],
@@ -9485,6 +9455,20 @@
      "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 7",
      "pozn": "druhá vlna: ptá se až po odpovědích na technické dotazy, s e-mailem druhé vlny (řádek 12b plánu, R-441, R-470)",
      "druh": "otázka"
+    },
+    {
+     "adresat": "projektantka",
+     "cislo": "36",
+     "oznaceni": "projektantka 36",
+     "stav": "aktivní",
+     "text": "Nástavba nad garáží 105 bude z Porotherm 30, statik to potvrdil; skladba W4b (obvodová stěna původní garáže, 2.NP) a legenda půdorysu 2.NP ji ale ještě vedou jako nosné vápenopískové zdivo VAPIS tl. 300 mm, je potřeba to v projektu opravit (stačí při příští revizi výkresů). (R-490, znění R-491.)",
+     "prvky": [],
+     "prvky_hlavni": [],
+     "prvky_zminene": [],
+     "prvky_rucne": [],
+     "body": [],
+     "zdroj_kratky": "docs/znalosti/skladby.md (S0.55c, 25. 10. 2026: skladba W4b vs rozhodnutí Porotherm 30 v nástavbě, zdivo-a-zalozeni.md Tloušťky stěn); R-490",
+     "druh": "otázka"
     }
    ],
    "body": [
@@ -9913,6 +9897,19 @@
       "1NP-Z01"
      ],
      "dotazy": []
+    },
+    {
+     "id": "E165",
+     "nazev": "Zeď na terase 2.NP (pás 2NP-S29 mezi 2NP-S27 a 2NP-S28, skladba 300 + 200 + 60, horní hrana +4,170) má podle investora vypadnout z objednávky VAPIS: otázka projektantce 14 od 25. 10. 2026 (R-477) žádá shodu, že zeď nebude z VAPIS, vyřeší se jinak (méně vodivý …",
+     "stav": "otevřeno 25. 10. 2026 (S0.55b)",
+     "vlastnik": "investor (po odpovědi), agent (výkaz)",
+     "sekce": "E. Znalostní báze a nástroje",
+     "prvky": [
+      "2NP-S27",
+      "2NP-S28",
+      "2NP-S29"
+     ],
+     "dotazy": []
     }
    ],
    "srafa_dotaz": "S0.43 (R-327): prvek se šrafuje modře („má dotaz“), když je hlavním prvkem aktivní otázky protistraně a otázka není tabulková (neptá se na celou třídu prvků) ani položka „na vědomí“ (R-353): tabulkové jsou projektantka 22, projektantka 5, projektantka 8, statik 1 + N6, statik N11, statik N9, stavitel 1",
@@ -9926,21 +9923,21 @@
     "stavitel 1"
    ],
    "pocty": {
-    "otazek": 41,
+    "otazek": 40,
     "otazek_podle_adresata": {
-     "projektantka": 23,
+     "projektantka": 22,
      "statik": 12,
      "stavitel": 6
     },
     "otazek_podle_stavu": {
-     "aktivní": 40,
+     "aktivní": 39,
      "zodpovězená": 1
     },
     "otazek_aktivnich_s_prvkem": 24,
-    "otazek_bez_prvku": 17,
-    "otazek_bez_hlavniho_prvku": 17,
-    "bodu": 28,
-    "bodu_s_prvkem": 27,
+    "otazek_bez_prvku": 16,
+    "otazek_bez_hlavniho_prvku": 16,
+    "bodu": 29,
+    "bodu_s_prvkem": 28,
     "prvku_s_dotazem": 164,
     "prvku_s_hlavni_otazkou": 126,
     "prvku_jen_zminenych": 14,
@@ -13002,7 +12999,9 @@
     "otazky_zminene": [
      "projektantka 14"
     ],
-    "body": []
+    "body": [
+     "E165"
+    ]
    },
    "dotaz_srafa": []
   },
@@ -13071,7 +13070,9 @@
     "otazky_zminene": [
      "projektantka 14"
     ],
-    "body": []
+    "body": [
+     "E165"
+    ]
    },
    "dotaz_srafa": []
   },
@@ -13142,7 +13143,8 @@
     ],
     "otazky_zminene": [],
     "body": [
-     "E139"
+     "E139",
+     "E165"
     ]
    },
    "dotaz_srafa": [
