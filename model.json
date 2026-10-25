@@ -8096,7 +8096,8 @@
    "prvky_rucne": "Prvky označené jako doplněné agentem nejsou ID z textu otázky: kanon na tom místě mluví obecně („přizdívky 106“, „atika“, „dveře D01 až D05“) a prvky k nim přiřadil agent.",
    "hlavni_vs_zminene": "U každé otázky se rozlišuje, kterých prvků se otázka VĚCNĚ týká (hlavní) a které jen zmiňuje jako hranici nebo kontext (zmíněné). Podnět: investor 12. 10. 2026 se u otázky projektantce 25 zeptal, zda zeď `2NP-S05` s otázkou souvisí; rozlišení je návrh agenta (S0.42b), rozdělení je ruční úsudek nad textem otázky; v detailu prvku se v plném znění ukazují jen hlavní otázky, zmíněné jsou jednou větou s odkazem do panelu.",
    "neparovatelne": "Otázka bez prvku se v detailu prvku neukáže, je jen v panelu. Kusy zdiva nad otvorem (řada N, 19 kusů se stavem „neurčeno“, E132) se v modelu nekreslí, takže otázky staviteli 1 a 2 se k nim připojit nedají; stejně tak otázky na skladby, termíny a fakturaci žádný prvek nemají.",
-   "uzavrene_body": "Uzavřené body tu nejsou (přeskočeno 112 řádků s odkazem do archivu); veřejně jen body s vazbou na projektantku, statika nebo stavitele, bez jednání s dodavateli (vynecháno 52, S0.42 revize, otázka 48); investor 27. 9. 2026: „Uzavřené body asi veřejně dávat nemusíme, ty si budeme držet pouze lokálně, a ani uzavřené body nemusí být v tom 3D modelu.“",
+   "uzavrene_body": "Uzavřené body tu nejsou (přeskočeno 112 řádků s odkazem do archivu); veřejně jen body s vazbou na projektantku, statika nebo stavitele, bez jednání s dodavateli (vynecháno 53, S0.42 revize, otázka 48); investor 27. 9. 2026: „Uzavřené body asi veřejně dávat nemusíme, ty si budeme držet pouze lokálně, a ani uzavřené body nemusí být v tom 3D modelu.“",
+   "emaily_co": "U každé otázky jsou čísla bodů všech odeslaných e-mailů, ve kterých byla položena (komu, datum, čas, číslo bodu); to je označení, pod kterým ji zná projektantka, statik nebo stavitel. Číslo v závorce malým písmem je interní číslo otázky v repu, které se nemění. Otázka položená ve více e-mailech má řádek za každý e-mail. Dokud e-mail odeslaný není, otázka nese jen interní číslo.",
    "otazky": [
     {
      "adresat": "projektantka",
@@ -8204,6 +8205,7 @@
       "E22"
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 11 a 38, aktivace sekce 44.3 (I1) a 45.9",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8263,6 +8265,7 @@
       "E94"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 11 a 38, nálezy sekce 45.4; R-512 (S0.56)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8305,6 +8308,7 @@
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 11 a 38 (zúžení R-296)",
      "pozn": "před e-mailem: subagent dohledá v Gmailu (vlákna s projektantkou, slova přizdívka, předstěna, LED, nadpraží), jak byla přizdívka myšlena (R-414, krok 10); příloha půdorys 1.NP s ID stěn a PZ",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8332,6 +8336,7 @@
       "E77"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 11 (doplňky S0.18, S0.22, S0.25), stav sekce 38 (D6.8 (14)), R-103",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8355,6 +8360,7 @@
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 11 (doplňky S0.19), stav sekce 38 (D6.7 (17)); znění E148 R-395 (16. 10. 2026, S0.48b), report docs/revize/2026-10-16/S0.48b_T6-e149-e69-fable.md",
      "pozn": "před e-mailem: přiložit JEDEN výřez řezu A-A (`docs/revize/2026-09-27/ikona-E69/ikona_A-A_obvodova-zed-2NP-hlavni-cast.png`, prvek bez otvoru pod sebou; R-418), zkontrolovat, že nenese jména ani adresu; výřez dělicí stěny patří k otázce 18",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8371,6 +8377,7 @@
       "E69"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 11 (doplňky S0.22), stav sekce 38 (D6.8 (18))",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8405,6 +8412,7 @@
       "E69"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 11 (doplňky S0.22), stav sekce 38 (D6.8 (19))",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8502,6 +8510,7 @@
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 38 (řádky projektantce 22 a tabulka dveří), doplňky sekce 44.3 (I4, I5) a 45.11",
      "pozn": "před e-mailem: tabulku dveří vygenerovat skriptem `tools/model/tabulka_dveri.py` z `otvory.json` a `model.json` (krok 10 g; ne opsat ze sekce 38), po kontrole investora i na veřejnou stránku (R-33); odpověď projektantky je vstup pro stavitele 1 a 2 (R-155, R-281)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8529,6 +8538,7 @@
       "E80"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce 23), sekce 44.2 (N3)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8549,6 +8559,7 @@
       "E103"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce 29), sekce 44.3 (I3)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8581,6 +8592,7 @@
       "E110"
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 38 (D6.7 (30)), sekce 45.9 (I9)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8610,6 +8622,7 @@
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 45.3 (R-311, R-312, R-318, R-320)",
      "pozn": "před e-mailem: zkontrolovat, že veřejná stránka už nese model po R-409 (publikace po merge S0.49); kopie statikovi a staviteli jen v rámci e-mailu (R-393)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8627,6 +8640,7 @@
       "E118"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce 33), sekce 44.3 (I2)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8644,6 +8658,7 @@
       "A8"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek soupis překladů), sekce 44.2 (N2)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8660,6 +8675,7 @@
       "E111"
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 38 (řádek projektantce E111); R-133, R-152, R-164, R-326; revize S0.46b D2; R-396 (16. 10. 2026, S0.48b, položka 14 „ano“), report docs/revize/2026-10-16/S0.48b_T7-e111-deska-fable.md",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8684,6 +8700,7 @@
       "E69"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce bývalé statikovi 15 a 17)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8708,6 +8725,7 @@
       "E70"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce O10)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8724,6 +8742,7 @@
       "A11"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce A11), bod A11",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8742,6 +8761,7 @@
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 11 (B6), sekce 38 (D6.8)",
      "pozn": "zodpovězeno e-mailem projektantky 26. 6. 2025 (technickou zprávu k DPS nezpracovávala, zpráva neexistuje); investor 18. 10. 2026 rozhodl otázku neposílat (R-399)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8759,6 +8779,7 @@
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce upozornění průvlak nad 102)",
      "pozn": "jen upozornění, ne otázka",
+     "emaily": [],
      "druh": "na vědomí"
     },
     {
@@ -8793,6 +8814,7 @@
       "E112"
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 11 (statikovi 29) a sekce 36 (zbývající otázky, R-151); R-503 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8893,6 +8915,7 @@
       "E92"
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 36 (doplnění S0.37, R-235, R-241, R-245, R-257)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8923,6 +8946,7 @@
       "E116"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 47.3 (otázka 18 sekce 46, E116 průnik 4, R-351); R-504 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -8947,6 +8971,7 @@
       "E42"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 36 (N10, R-168, R-169, R-241, R-245, R-264); R-511 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -9006,6 +9031,7 @@
       "E43"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 36 (N9, R-165); R-505 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -9022,6 +9048,7 @@
       "E110"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 36 (N8, R-117; doplnění S0.40b nález N4); R-506 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
+     "emaily": [],
      "druh": "na vědomí"
     },
     {
@@ -9135,6 +9162,7 @@
       "A8"
      ],
      "zdroj_kratky": "log rozhodnutí v repu R-433 a R-435 (investor 18. 10. 2026 večer, S0.49d: „presahy prekladu (ZB) jsou v modelu 0, nechame je 0, zeptame se statika, kolik ty presahy mame udelat“; „text N14 ok, zapis ho do kanonu hned“); R-450 (24. 10. 2026, S0.53) seznam prvků",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -9152,6 +9180,7 @@
       "A8"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 36 (soupis překladů, R-108, R-167); R-509 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -9192,6 +9221,7 @@
       "E71"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 36 (N11, R-320), sekce 45.9 (I10) a 45.10 (otázka 18); R-511 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -9224,6 +9254,7 @@
       "E77"
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 46.10 (projektantce 34, R-323)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -9249,6 +9280,7 @@
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 36 (na vědomí, R-159); R-510 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "pozn": "jen na vědomí, ne otázka",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -9266,6 +9298,7 @@
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 36 (na vědomí, R-152); R-200, R-326; R-396 (S0.48b T7, varianta B1); R-510 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "pozn": "jen na vědomí, ne otázka; kopie e-mailu projektantce (R-393)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -9298,6 +9331,7 @@
      ],
      "zdroj_kratky": "R-508 (S0.56, 25. 10. 2026 19:32:07 SEČ (18:32:07 UTC, transkript 342e953b) a 19:54:47 SEČ, investor: „Otazka 2, ja bych tu vetu o uzkych prekladech u garaze, roletovem boxu o moznosti to uzelat [= udělat] ZB poslal i statikovi, radeji“, „H ano otazka 2“, „o9 ok a ze se ptame i stavitel (betonar)“); revize `docs/revize/2026-10-25/S0.56_skrtnute-otazky-statikovi-fable.md` (otázka 2 UZAVŘENO ROZHODNUTÍM R-154, téma žilo jen u projektantky a stavitele)",
      "pozn": "návrat škrtnuté otázky statikovi 2 (překlady nad okny nástavby, KP 7) po průchodu 20 škrtnutých otázek (bod 0 S0.56, R-471); téma v e-mailech: projektantka 34 (bod 17), stavitel 2 (bod 2)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -9342,6 +9376,7 @@
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 1; R-497 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "pozn": "před e-mailem: plochý překlad 113 mm + nadezdívka ověřit v katalogu VAPIS; rozpor „nad `1NP-D04` statik beton nemá“ vs IFC („nad `1NP-D04` 380 mm zdiva a věnec #15810“) vyjasnit u zdroje",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -9406,6 +9441,7 @@
       "E70"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 2 (R-281, R-284, R-287, R-291); R-498 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -9423,6 +9459,7 @@
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 3; R-499 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "pozn": "kopie statikovi",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -9458,6 +9495,7 @@
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 5; R-500 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "pozn": "kopie statikovi",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -9473,6 +9511,7 @@
      "body": [],
      "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 7",
      "pozn": "druhá vlna: ptá se až po odpovědích na technické dotazy, s e-mailem druhé vlny (řádek 12b plánu, R-441, R-470)",
+     "emaily": [],
      "druh": "otázka"
     },
     {
@@ -9487,6 +9526,7 @@
      "prvky_rucne": [],
      "body": [],
      "zdroj_kratky": "docs/znalosti/skladby.md (S0.55c, 25. 10. 2026: skladba W4b vs rozhodnutí Porotherm 30 v nástavbě, zdivo-a-zalozeni.md Tloušťky stěn); R-490",
+     "emaily": [],
      "druh": "otázka"
     }
    ],
@@ -9971,6 +10011,7 @@
     "prvku_s_dotazem": 164,
     "prvku_s_hlavni_otazkou": 126,
     "prvku_jen_zminenych": 14,
+    "otazek_v_odeslanem_emailu": 0,
     "prvku_se_srafou_dotazu": 71
    }
   },
