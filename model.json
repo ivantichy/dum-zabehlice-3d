@@ -8096,7 +8096,7 @@
    "prvky_rucne": "Prvky označené jako doplněné agentem nejsou ID z textu otázky: kanon na tom místě mluví obecně („přizdívky 106“, „atika“, „dveře D01 až D05“) a prvky k nim přiřadil agent.",
    "hlavni_vs_zminene": "U každé otázky se rozlišuje, kterých prvků se otázka VĚCNĚ týká (hlavní) a které jen zmiňuje jako hranici nebo kontext (zmíněné). Podnět: investor 12. 10. 2026 se u otázky projektantce 25 zeptal, zda zeď `2NP-S05` s otázkou souvisí; rozlišení je návrh agenta (S0.42b), rozdělení je ruční úsudek nad textem otázky; v detailu prvku se v plném znění ukazují jen hlavní otázky, zmíněné jsou jednou větou s odkazem do panelu.",
    "neparovatelne": "Otázka bez prvku se v detailu prvku neukáže, je jen v panelu. Kusy zdiva nad otvorem (řada N, 19 kusů se stavem „neurčeno“, E132) se v modelu nekreslí, takže otázky staviteli 1 a 2 se k nim připojit nedají; stejně tak otázky na skladby, termíny a fakturaci žádný prvek nemají.",
-   "uzavrene_body": "Uzavřené body tu nejsou (přeskočeno 112 řádků s odkazem do archivu); veřejně jen body s vazbou na projektantku, statika nebo stavitele, bez jednání s dodavateli (vynecháno 51, S0.42 revize, otázka 48); investor 27. 9. 2026: „Uzavřené body asi veřejně dávat nemusíme, ty si budeme držet pouze lokálně, a ani uzavřené body nemusí být v tom 3D modelu.“",
+   "uzavrene_body": "Uzavřené body tu nejsou (přeskočeno 112 řádků s odkazem do archivu); veřejně jen body s vazbou na projektantku, statika nebo stavitele, bez jednání s dodavateli (vynecháno 52, S0.42 revize, otázka 48); investor 27. 9. 2026: „Uzavřené body asi veřejně dávat nemusíme, ty si budeme držet pouze lokálně, a ani uzavřené body nemusí být v tom 3D modelu.“",
    "otazky": [
     {
      "adresat": "projektantka",
@@ -8211,7 +8211,7 @@
      "cislo": "8",
      "oznaceni": "projektantka 8",
      "stav": "aktivní",
-     "text": "Atika: je to kontrolní dotaz, kde a z jakého materiálu se atika počítá. Část informací máme ze statiky (IFC, 3D model) a část ze stavařiny a chceme si být jisti: prosíme o rozměry, materiál a délky atiky po celém domě, zvlášť u stávající garáže a u nové části, a zda má být zděná atika součástí objednávky zdiva. Na jižních hranách (garáž asi 7,5 m, místnost 209 asi 5,5 m) statika v IFC žádnou atiku nemá. (R-475.)",
+     "text": "Atika: je to kontrolní dotaz, kde a z jakého materiálu se atika počítá. Část informací máme ze statiky (IFC, 3D model) a část ze stavařiny a chceme si být jisti: prosíme o rozměry, materiál a délky atiky po celém domě, zvlášť u stávající garáže a u nové části, a zda má být zděná atika součástí objednávky zdiva. Na jižních hranách (garáž asi 7,5 m, místnost 209 asi 5,5 m) statika v IFC žádnou atiku nemá; víme, že tam atika v tom místě není, a náš 3D model by tomu měl odpovídat.",
      "prvky": [
       "1NP-AT01",
       "1NP-AT02",
@@ -8262,7 +8262,7 @@
       "E43",
       "E94"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 11 a 38, nálezy sekce 45.4",
+     "zdroj_kratky": "kanon otázek v repu sekce 11 a 38, nálezy sekce 45.4; R-512 (S0.56)",
      "druh": "otázka"
     },
     {
@@ -8766,7 +8766,7 @@
      "cislo": "29",
      "oznaceni": "statik 29",
      "stav": "aktivní",
-     "text": "Stěna mezi garáží 105 a místností 209 ve 2.NP, pás `2NP-S21` pod připraveným překladem `2NP-V10` (300 × 3 500, +5,490 až +5,740) s boky `2NP-S16` (463 mm) a `2NP-S26` (490 mm): v IFC pod překladem v šířce 3 000 žádné zdivo není (jen dva kusy po 250 mm), chápeme to jako přípravu na budoucí probourání; stejně tak se bude bourat otvor `1NP-D08` (3 000 × 2 500) ve stávající zdi garáže pod průvlakem `1NP-V04` (+2,500 až +2,920). Do probourání ale bude tato stěna ve 2.NP (pás `2NP-S21` od +2,920 do +5,490) plná, i když ji IFC v tomto poli nemá. (1) Počítá statika s touto zdí? Pokud by se pás vyzdil naplno z Porothermu 30 (+2,920 až +5,490, asi 3,0 × 2,57 m zdiva navíc proti IFC), unese to průvlak `1NP-V04` nad otvorem 3 000? Pokud ne, co se musí změnit (výztuž průvlaku, nebo zeď nezdít)? (2) S projektantkou řešíme variantu udělat celou stěnu v tomto poli ze sádrokartonu s izolací (její otázka, e-mail v kopii). Šlo by přitom vynechat zděné boky `2NP-S16` a `2NP-S26` a udělat překlad přes celou délku stěny (asi 4,45 m) místo 3,5 m? Co by to znamenalo pro uložení překladu a pro věnec `2NP-V03` (+5,740 až +5,940) nad ním? Prvky jsou v našem 3D modelu pod uvedenými ID.",
+     "text": "Stěna mezi garáží 105 a místností 209 ve 2.NP, pás `2NP-S21` pod připraveným překladem `2NP-V10` (300 × 3 500, +5,490 až +5,740) s boky `2NP-S16` (463 mm) a `2NP-S26` (490 mm): v IFC pod překladem v šířce 3 000 žádné zdivo není (jen dva kusy po 250 mm), chápeme to jako přípravu na budoucí probourání; stejně tak se bude bourat otvor `1NP-D08` (3 000 × 2 500) ve stávající zdi garáže pod průvlakem `1NP-V04` (+2,500 až +2,920). Probourání přijde až někdy později, nebo vůbec, během stavby ne. Do té doby bude tato stěna ve 2.NP (pás `2NP-S21` od +2,920 do +5,490) plná, i když ji IFC v tomto poli nemá. (1) Počítá statika s touto zdí? Pokud by se pás vyzdil naplno z Porothermu 30 (+2,920 až +5,490, asi 3,0 × 2,57 m zdiva navíc proti IFC), unese to průvlak `1NP-V04` nad otvorem 3 000? Pokud ne, co se musí změnit (výztuž průvlaku, nebo zeď nezdít)? (2) S projektantkou řešíme variantu udělat celou stěnu v tomto poli ze sádrokartonu s izolací (její bod 19, e-mail máš v kopii). Šlo by přitom vynechat zděné boky `2NP-S16` a `2NP-S26` a udělat překlad přes celou délku stěny (asi 4,45 m) místo 3,5 m? Co by to znamenalo pro uložení překladu a pro věnec `2NP-V03` (+5,740 až +5,940) nad ním? Prvky jsou v našem 3D modelu pod uvedenými ID.",
      "prvky": [
       "1NP-D08",
       "1NP-V04",
@@ -8792,7 +8792,7 @@
       "E92",
       "E112"
      ],
-     "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 11 (statikovi 29) a sekce 36 (zbývající otázky, R-151)",
+     "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 11 (statikovi 29) a sekce 36 (zbývající otázky, R-151); R-503 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "druh": "otázka"
     },
     {
@@ -8900,7 +8900,7 @@
      "cislo": "N13",
      "oznaceni": "statik N13",
      "stav": "aktivní",
-     "text": "ŽB atika nad střechou 1.NP (IFC #15429, `1NP-AT01`, +2,920 až +3,240) zasahuje jižním koncem 50 mm do půdorysu parapetního zdiva pod oknem `2NP-O09` na severní stěně přístavku 2.NP (`2NP-P05`, VAPIS 200, +2,920 až +3,990; v IFC totéž zdivo #16463 `2NP-IW18`): překryv 50 × 200 mm, výška 320 mm, i uvnitř IFC. Je atika o 50 mm delší, nebo zdivo začíná o 50 mm dál? Pro vyzdívání potřebujeme vědět, kde parapet končí.",
+     "text": "ŽB atika nad střechou 1.NP (`1NP-AT01`, +2,920 až +3,240) zasahuje jižním koncem 50 mm do půdorysu parapetního zdiva pod oknem `2NP-O09` na severní stěně přístavku 2.NP (`2NP-P05`, VAPIS 200, +2,920 až +3,990; v IFC totéž zdivo `2NP-IW18`): překryv 50 × 200 mm, výška 320 mm, i uvnitř IFC. Je to asi jen chyba v IFC; stačí potvrdit, kde atika končí a kde parapet začíná, pro vyzdívání to potřebujeme vědět.",
      "prvky": [
       "1NP-AT01",
       "2NP-IW18",
@@ -8922,7 +8922,7 @@
      "body": [
       "E116"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 47.3 (otázka 18 sekce 46, E116 průnik 4, R-351)",
+     "zdroj_kratky": "kanon otázek v repu sekce 47.3 (otázka 18 sekce 46, E116 průnik 4, R-351); R-504 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "druh": "otázka"
     },
     {
@@ -8930,7 +8930,7 @@
      "cislo": "N10",
      "oznaceni": "statik N10",
      "stav": "aktivní",
-     "text": "Proč mají trámy `1NP-V07` (IFC #14967) a `1NP-V11` (#15689) DH +2,500 a zbytek věnce 1.NP +2,400, a proč východní zeď garáže končí v +2,500 a ostatní v +2,650? Investor (R-241): „nevim, proc jsou preklady/vence mezi novou casti a existujici garazi jinak vysoke (DH je jinak)“. Potvrzeno R-264, přidáno: trám `2NP-V09` (IFC #20570, 240 × 4 150, DH +5,740, HH +5,940) na dilatační spáře mezi pracovnou 209 a nástavbou garáže: je to věnec nástavby, nebo průvlak domu, a na čem je uložený (pod ním v IFC není zdivo domu)?",
+     "text": "Proč mají trámy `1NP-V07` a `1NP-V11` DH +2,500 a zbytek věnce 1.NP +2,400, a proč východní zeď garáže končí v +2,500 a ostatní v +2,650? K tomu trám `2NP-V09` (240 × 4 150, DH +5,740, HH +5,940) na dilatační spáře mezi pracovnou 209 a nástavbou garáže: je to věnec nástavby, nebo průvlak domu, a na čem je uložený (pod ním v IFC není zdivo domu)?",
      "prvky": [
       "1NP-V07",
       "1NP-V11",
@@ -8946,7 +8946,7 @@
      "body": [
       "E42"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 36 (N10, R-168, R-169, R-241, R-245, R-264)",
+     "zdroj_kratky": "kanon otázek v repu sekce 36 (N10, R-168, R-169, R-241, R-245, R-264); R-511 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "druh": "otázka"
     },
     {
@@ -8954,7 +8954,7 @@
      "cislo": "N9",
      "oznaceni": "statik N9",
      "stav": "aktivní",
-     "text": "Má ŽB atika nosnou funkci, respektive musí být ze železobetonu, nebo může být zděná? Lze ji udělat po celém domě jednotně (všude ŽB, nebo všude zděná), nebo má ŽB v některých místech funkci proti průhybu či ztužení? (R-102, vrácena statikovi R-165; druhá věta R-469.)",
+     "text": "Atika: v IFC nám přijde různě namíchaná: u hlavního domu je ŽB (`2NP-AT01` až `2NP-AT03`, `2NP-AT05`), u nástavby garáže a místnosti 209 zděná ze Silky 24 (`2NP-IW01` až `2NP-IW05`) a nad severní stěnou 209 ŽB (`2NP-AT04`), nad střechou 1.NP ŽB (`1NP-AT01`, `1NP-AT02`). Má ŽB atika nosnou funkci, respektive musí být ze železobetonu, nebo může být zděná? Lze ji udělat po celém domě jednotně (všude ŽB, nebo všude zděná), nebo má ŽB v některých místech funkci proti průhybu či ztužení? V našem 3D modelu se můžeš podívat, jak atiku z hlediska materiálu chápeme; jde spíš o potvrzení, co musí a nemusí být ŽB. Na jižní straně nástavby garáže ani nad 209 atika v IFC není; podle projektu jsou tam klasické okapy, to je v pořádku.",
      "prvky": [
       "1NP-AT01",
       "1NP-AT02",
@@ -9005,7 +9005,7 @@
       "E94",
       "E43"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 36 (N9, R-165)",
+     "zdroj_kratky": "kanon otázek v repu sekce 36 (N9, R-165); R-505 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "druh": "otázka"
     },
     {
@@ -9013,7 +9013,7 @@
      "cislo": "N8",
      "oznaceni": "statik N8",
      "stav": "aktivní",
-     "text": "Stavební otvory přesně z IFC (R-117): potvrdit rozměry a výškové určení otvorů. Bez přílohy je otázka nezodpověditelná, přikládá se seznam nejasných otvorů `docs/nejasne-otvory-E110_2026-10-11.md` (7 otvorů s rozdílem proti IFC, 11 bez prvku otvoru v IFC; devět dveří v SDK příčkách v seznamu není, R-319, R-320).",
+     "text": "Stavební otvory, u kterých se naše data a IFC rozcházejí nebo které v IFC prvek otvoru nemají (seznam v příloze nejasne-otvory.pdf; 7 otvorů s rozdílem proti IFC, 11 bez prvku otvoru v IFC): ptáme se projektantky (její bod 12), tobě jen na vědomí, odpovídat nemusíš.",
      "prvky": [],
      "prvky_hlavni": [],
      "prvky_zminene": [],
@@ -9021,24 +9021,8 @@
      "body": [
       "E110"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 36 (N8, R-117; doplnění S0.40b nález N4)",
-     "druh": "otázka"
-    },
-    {
-     "adresat": "statik",
-     "cislo": "21 zúžená",
-     "oznaceni": "statik 21 zúžená",
-     "stav": "aktivní",
-     "text": "Délka uložení výrobkového překladu do zdiva, a to jen pokud to nedá výrobce (zúženo R-156).",
-     "prvky": [],
-     "prvky_hlavni": [],
-     "prvky_zminene": [],
-     "prvky_rucne": [],
-     "body": [
-      "E70"
-     ],
-     "zdroj_kratky": "kanon otázek v repu sekce 36 (21 zúžená, R-156)",
-     "druh": "otázka"
+     "zdroj_kratky": "kanon otázek v repu sekce 36 (N8, R-117; doplnění S0.40b nález N4); R-506 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
+     "druh": "na vědomí"
     },
     {
      "adresat": "statik",
@@ -9158,7 +9142,7 @@
      "cislo": "soupis překladů",
      "oznaceni": "statik soupis překladů",
      "stav": "aktivní",
-     "text": "Soupis překladů ke kontrole „je to takto OK“ (otvor × co je nad ním; R-108, R-167). Jde před e-mailem, nebo s ním; vzniká v kroku 10 (a).",
+     "text": "V příloze je soupis překladů (soupis-prekladu.pdf; otvor × co je nad ním) ke kontrole, zda je to takto OK; stejný soupis dostává projektantka i stavitel. Půdorysy překladů s našimi ID jsou v přílohách preklady-1NP.pdf a preklady-2NP.pdf.",
      "prvky": [],
      "prvky_hlavni": [],
      "prvky_zminene": [],
@@ -9167,7 +9151,7 @@
       "E70",
       "A8"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 36 (soupis překladů, R-108, R-167)",
+     "zdroj_kratky": "kanon otázek v repu sekce 36 (soupis překladů, R-108, R-167); R-509 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "druh": "otázka"
     },
     {
@@ -9175,7 +9159,7 @@
      "cislo": "N11",
      "oznaceni": "statik N11",
      "stav": "aktivní",
-     "text": "Řez A-A výkresu tvaru 2.NP má u levé stěny nástavby garáže kótu „+5,700“, všude jinde a v IFC (`2NP-V01` až `2NP-V05`, `2NP-V09`, `2NP-V13`, `2NP-V14`) je DH věnce +5,740: je to překlep výkresu, nebo jiný problém? Investor 12. 10. 2026 (R-320): „18 otazku nechat, je to chyba vykresu anebo mozna jiny problem“.",
+     "text": "Řez A-A výkresu tvaru 2.NP (statika) má u levé stěny nástavby garáže kótu „+5,700“, všude jinde a v IFC (`2NP-V01` až `2NP-V05`, `2NP-V09`, `2NP-V13`, `2NP-V14`) je DH věnce +5,740: je to překlep výkresu, nebo jiný problém?",
      "prvky": [
       "2NP-V01",
       "2NP-V02",
@@ -9207,7 +9191,7 @@
      "body": [
       "E71"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 36 (N11, R-320), sekce 45.9 (I10) a 45.10 (otázka 18)",
+     "zdroj_kratky": "kanon otázek v repu sekce 36 (N11, R-320), sekce 45.9 (I10) a 45.10 (otázka 18); R-511 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "druh": "otázka"
     },
     {
@@ -9247,7 +9231,7 @@
      "cislo": "na vědomí (O10)",
      "oznaceni": "statik na vědomí (O10)",
      "stav": "aktivní",
-     "text": "Na vědomí: rozpor řez A-A vs IFC nad `2NP-O10` (R-159); otázka jde projektantce.",
+     "text": "Nad oknem `2NP-O10` se řez A-A stavařiny (architektura, výkres D11-04) rozchází s IFC: řez kreslí ŽB nadpraží dolů na +5,490, IFC má nad oknem jen věnec od +5,740. Ptáme se projektantky (její bod 3); podívej se na to prosím taky a napiš, který údaj je správně.",
      "prvky": [
       "2NP-O10",
       "2NP-O10-překlad"
@@ -9263,16 +9247,16 @@
      "body": [
       "E70"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 36 (na vědomí, R-159)",
+     "zdroj_kratky": "kanon otázek v repu sekce 36 (na vědomí, R-159); R-510 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "pozn": "jen na vědomí, ne otázka",
-     "druh": "na vědomí"
+     "druh": "otázka"
     },
     {
      "adresat": "statik",
      "cislo": "na vědomí (E111)",
      "oznaceni": "statik na vědomí (E111)",
      "stav": "aktivní",
-     "text": "Na vědomí (e-mail projektantce dostáváš v kopii): spodní hrana zdiva 1.NP je v řezu A-A architektury −0,350, ve výkresu tvaru základů a v IFC −0,360; projektantku se ptáme, která hodnota platí. Pokud k tomu máš poznámku (kde přesně má být horní hrana desky podle statiky), napiš ji prosím.",
+     "text": "Spodní hrana zdiva 1.NP, tedy horní hrana podkladní desky: řez A-A stavařiny má −0,350, výkres tvaru základů statiky i IFC mají −0,360 (spodní hrana desky −0,560 je v obou shodně). Ptáme se projektantky, která hodnota platí (její bod 16); ověř si prosím také, kde přesně má být horní hrana desky podle statiky, a napiš nám to.",
      "prvky": [],
      "prvky_hlavni": [],
      "prvky_zminene": [],
@@ -9280,16 +9264,48 @@
      "body": [
       "E111"
      ],
-     "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 36 (na vědomí, R-152); R-200, R-326; R-396 (S0.48b T7, varianta B1)",
+     "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 36 (na vědomí, R-152); R-200, R-326; R-396 (S0.48b T7, varianta B1); R-510 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "pozn": "jen na vědomí, ne otázka; kopie e-mailu projektantce (R-393)",
-     "druh": "na vědomí"
+     "druh": "otázka"
+    },
+    {
+     "adresat": "statik",
+     "cislo": "N15",
+     "oznaceni": "statik N15",
+     "stav": "aktivní",
+     "text": "Překlady nad okny nástavby na stávající garáži (okno `2NP-O08` a další okna nástavby): statika předepisuje KP 7 v plné šířce, architektura kreslí překlad zúžený (3 × 75) kvůli roletovému boxu. Ptáme se na to projektantky (její bod 17) i stavitele (betonář); šlo by místo toho udělat překlad železobetonový? Pokud ano, s jakým rozměrem, uložením a výztuží?",
+     "prvky": [
+      "2NP-O07-překlad",
+      "2NP-O08",
+      "2NP-O08-překlad",
+      "2NP-O14-překlad"
+     ],
+     "prvky_hlavni": [
+      "2NP-O07-překlad",
+      "2NP-O08-překlad",
+      "2NP-O14-překlad"
+     ],
+     "prvky_zminene": [
+      "2NP-O08"
+     ],
+     "prvky_rucne": [
+      "2NP-O07-překlad",
+      "2NP-O08-překlad",
+      "2NP-O14-překlad"
+     ],
+     "body": [
+      "E69"
+     ],
+     "zdroj_kratky": "R-508 (S0.56, 25. 10. 2026 19:32:07 SEČ (18:32:07 UTC, transkript 342e953b) a 19:54:47 SEČ, investor: „Otazka 2, ja bych tu vetu o uzkych prekladech u garaze, roletovem boxu o moznosti to uzelat [= udělat] ZB poslal i statikovi, radeji“, „H ano otazka 2“, „o9 ok a ze se ptame i stavitel (betonar)“); revize `docs/revize/2026-10-25/S0.56_skrtnute-otazky-statikovi-fable.md` (otázka 2 UZAVŘENO ROZHODNUTÍM R-154, téma žilo jen u projektantky a stavitele)",
+     "pozn": "návrat škrtnuté otázky statikovi 2 (překlady nad okny nástavby, KP 7) po průchodu 20 škrtnutých otázek (bod 0 S0.56, R-471); téma v e-mailech: projektantka 34 (bod 17), stavitel 2 (bod 2)",
+     "druh": "otázka"
     },
     {
      "adresat": "stavitel",
      "cislo": "1",
      "oznaceni": "stavitel 1",
      "stav": "aktivní",
-     "text": "Překlady nad dveřmi nosných příček 2.NP (`2NP-D01` až `2NP-D03`, VAPIS 200) a nad `1NP-D04`: statika v IFC nad dveřmi 2.NP beton nemá, pás od hlavy otvoru +5,110 do DH věnce +5,740 (630 mm). Varianty: a) výrobkový překlad a čím pás vyplnit (ne SDK), b) ŽB překlad a zdivo, c) ŽB až k věnci (R-148, R-155, R-202).",
+     "text": "Překlady nad dveřmi nosných příček 2.NP (`2NP-D01` až `2NP-D03`, VAPIS 200) a nad `1NP-D04`: statika v 3D modelu nad dveřmi 2.NP beton nemá, pás od hlavy otvoru +5,110 do DH věnce +5,740 (630 mm). Varianty: a) výrobkový překlad a čím pás vyplnit, b) ŽB překlad a zdivo, c) ŽB až k věnci. Kterou variantu bys zvolil? Projdi si to prosím v 3D modelu, zespodu desky je to pěkně vidět.",
      "prvky": [
       "1NP-D04",
       "1NP-D04-překlad",
@@ -9324,7 +9340,7 @@
       "E57",
       "E132"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 1",
+     "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 1; R-497 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "pozn": "před e-mailem: plochý překlad 113 mm + nadezdívka ověřit v katalogu VAPIS; rozpor „nad `1NP-D04` statik beton nemá“ vs IFC („nad `1NP-D04` 380 mm zdiva a věnec #15810“) vyjasnit u zdroje",
      "druh": "otázka"
     },
@@ -9333,7 +9349,7 @@
      "cislo": "2",
      "oznaceni": "stavitel 2",
      "stav": "aktivní",
-     "text": "ŽB nebo výrobek u VŠECH překladů (R-287, investor 11. 10. 2026: „ten preklad je otazka jak na stavitele zda zb nebo vyrobek - to plati na vsechny preklady“) a varianta kusu zdiva nad otvorem (E132, R-281: „varianta se rozhodne podle emailu od stavitele, az se ho zeptame“). Podklad je soupis překladů (krok 10 a), do odpovědi je kus nad otvorem „neurčeno“. K tomu i počet překladů nad oknem u koupelen 202 a 204 (jeden rám 3170, ve zdivu dva otvory 850 a 1900 s pilířem `2NP-S08`).",
+     "text": "Překlady obecně: jakou variantu volíš u všech překladů nad okny 2.NP a nad dveřmi, železobeton, nebo výrobkový překlad, a kde bys případně udělal výjimku? Podle toho se rozhodne i z čeho bude kus zdiva nad otvorem; v přiloženém soupisu překladů (soupis-prekladu.pdf) je ten kus zatím „neurčeno“. Komplikované jsou překlady nad okny nástavby na stávající garáži: překlad nad oknem garáže je užší (3 × 75), je to asi kvůli zateplení a aby se tam vešel box na pohon vrat. Projektantky jsem se na to ptal takto: „Překlady KP 7 v nástavbě nad garáží a okno `2NP-O08`: kolik kusů překladu a jaký typ je nad oknem nástavby, když statika předepisuje KP 7 v plné šířce a architektura kreslí překlad zúžený kvůli roletovému boxu? Další varianta: zkusíme se domluvit se stavitelem, že překlad bude železobetonový.“ (ten e-mail dostaneš v kopii). Do toho i počet překladů nad oknem u koupelen 202 a 204 (jeden rám 3170, ve zdivu dva otvory 850 a 1900 s pilířem `2NP-S08`).",
      "prvky": [
       "1NP-D04-překlad",
       "2NP-D01-překlad",
@@ -9342,6 +9358,7 @@
       "2NP-O05-překlad",
       "2NP-O06-překlad",
       "2NP-O07-překlad",
+      "2NP-O08",
       "2NP-O08-překlad",
       "2NP-O10-překlad",
       "2NP-O11-překlad",
@@ -9366,6 +9383,7 @@
       "2NP-O14-překlad"
      ],
      "prvky_zminene": [
+      "2NP-O08",
       "2NP-S08"
      ],
      "prvky_rucne": [
@@ -9387,7 +9405,7 @@
       "E132",
       "E70"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 2 (R-281, R-284, R-287, R-291)",
+     "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 2 (R-281, R-284, R-287, R-291); R-498 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "druh": "otázka"
     },
     {
@@ -9395,7 +9413,7 @@
      "cislo": "3",
      "oznaceni": "stavitel 3",
      "stav": "aktivní",
-     "text": "Věnec je podle IFC souvislý: lije se s deskou najednou, včetně překladů bez zdiva až k věnci (jen technologie; R-161, R-202)?",
+     "text": "Postup betonáže: lije se věnec současně s deskou, nebo postupně? Ptám se i kvůli nadpražím a prostorům nad dveřmi z otázky 1, které by se případně lily až k věnci.",
      "prvky": [],
      "prvky_hlavni": [],
      "prvky_zminene": [],
@@ -9403,41 +9421,42 @@
      "body": [
       "E58"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 3",
+     "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 3; R-499 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "pozn": "kopie statikovi",
      "druh": "otázka"
-    },
-    {
-     "adresat": "stavitel",
-     "cislo": "4",
-     "oznaceni": "stavitel 4",
-     "stav": "aktivní",
-     "text": "Jen upozornění, ne otázka: překlad nad oknem garáže je užší (3 × 75) kvůli roletovému boxu (R-161: „spis jde o to upozornit“); otázka k boxu jde projektantce (19).",
-     "prvky": [],
-     "prvky_hlavni": [],
-     "prvky_zminene": [],
-     "prvky_rucne": [],
-     "body": [
-      "E69"
-     ],
-     "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 4",
-     "pozn": "jen upozornění, ne otázka",
-     "druh": "na vědomí"
     },
     {
      "adresat": "stavitel",
      "cislo": "5",
      "oznaceni": "stavitel 5",
      "stav": "aktivní",
-     "text": "Členitost desky, věnce a překladů nad garáží a místností 209: není lepší jeden věnec v jedné výšce?",
-     "prvky": [],
+     "text": "Deska, věnce a překlady nad stávající garáží a místností 209 jsou členité: věnce garáže `1NP-V01`, `1NP-V02`, `1NP-V12` a `1NP-V15` jsou v +2,650 až +3,240, nad vraty `1NP-V10` od +2,800, průvlak `1NP-V04` nad východní zdí garáže je výškově uskočený (+2,500 až +2,920) a trámy na straně domu `1NP-V07` a `1NP-V11` mají spodní hranu +2,500 proti +2,400 zbytku věnce 1.NP. Na důvod a na to, zda to nejde udělat jedním věncem v jedné výšce, se ptám ještě statika. Od tebe potřebuju vědět, zda je to za tebe proveditelné tak, jak je to v projektu, nebo bys to dělal jinak.",
+     "prvky": [
+      "1NP-V01",
+      "1NP-V02",
+      "1NP-V04",
+      "1NP-V07",
+      "1NP-V10",
+      "1NP-V11",
+      "1NP-V12",
+      "1NP-V15"
+     ],
      "prvky_hlavni": [],
-     "prvky_zminene": [],
+     "prvky_zminene": [
+      "1NP-V01",
+      "1NP-V02",
+      "1NP-V04",
+      "1NP-V07",
+      "1NP-V10",
+      "1NP-V11",
+      "1NP-V12",
+      "1NP-V15"
+     ],
      "prvky_rucne": [],
      "body": [
       "E42"
      ],
-     "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 5",
+     "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 5; R-500 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "pozn": "kopie statikovi",
      "druh": "otázka"
     },
@@ -9611,7 +9630,7 @@
       "projektantka 18",
       "projektantka 19",
       "projektantka bývalé statikovi 15 a 17",
-      "stavitel 4"
+      "statik N15"
      ]
     },
     {
@@ -9628,7 +9647,6 @@
      "dotazy": [
       "projektantka O10",
       "projektantka soupis překladů",
-      "statik 21 zúžená",
       "statik na vědomí (O10)",
       "statik soupis překladů",
       "stavitel 2"
@@ -9910,6 +9928,18 @@
       "2NP-S29"
      ],
      "dotazy": []
+    },
+    {
+     "id": "E167",
+     "nazev": "Okna bez tělesa otvoru v IFC",
+     "stav": "otevřeno 25. 10. 2026 (S0.56b; po revizi opraveno: šrafa je od otázek, ne od jistoty)",
+     "vlastnik": "agent (jiná session)",
+     "sekce": "E. Znalostní báze a nástroje",
+     "prvky": [
+      "2NP-O01",
+      "2NP-O04"
+     ],
+     "dotazy": []
     }
    ],
    "srafa_dotaz": "S0.43 (R-327): prvek se šrafuje modře („má dotaz“), když je hlavním prvkem aktivní otázky protistraně a otázka není tabulková (neptá se na celou třídu prvků) ani položka „na vědomí“ (R-353): tabulkové jsou projektantka 22, projektantka 5, projektantka 8, statik 1 + N6, statik N11, statik N9, stavitel 1",
@@ -9923,21 +9953,21 @@
     "stavitel 1"
    ],
    "pocty": {
-    "otazek": 40,
+    "otazek": 39,
     "otazek_podle_adresata": {
      "projektantka": 22,
      "statik": 12,
-     "stavitel": 6
+     "stavitel": 5
     },
     "otazek_podle_stavu": {
-     "aktivní": 39,
+     "aktivní": 38,
      "zodpovězená": 1
     },
-    "otazek_aktivnich_s_prvkem": 24,
-    "otazek_bez_prvku": 16,
-    "otazek_bez_hlavniho_prvku": 16,
-    "bodu": 29,
-    "bodu_s_prvkem": 28,
+    "otazek_aktivnich_s_prvkem": 26,
+    "otazek_bez_prvku": 13,
+    "otazek_bez_hlavniho_prvku": 14,
+    "bodu": 30,
+    "bodu_s_prvkem": 29,
     "prvku_s_dotazem": 164,
     "prvku_s_hlavni_otazkou": 126,
     "prvku_jen_zminenych": 14,
@@ -14930,7 +14960,9 @@
      "statik N14"
     ],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E167"
+    ]
    },
    "dotaz_srafa": [
     "projektantka 30",
@@ -15160,7 +15192,9 @@
      "statik N14"
     ],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E167"
+    ]
    },
    "dotaz_srafa": [
     "projektantka 30",
@@ -16089,10 +16123,12 @@
    "dotazy": {
     "otazky": [
      "projektantka 19",
+     "statik N15",
      "stavitel 2"
     ],
     "otazky_hlavni": [
      "projektantka 19",
+     "statik N15",
      "stavitel 2"
     ],
     "otazky_zminene": [],
@@ -16100,6 +16136,7 @@
    },
    "dotaz_srafa": [
     "projektantka 19",
+    "statik N15",
     "stavitel 2"
    ]
   },
@@ -16181,13 +16218,18 @@
    "dotazy": {
     "otazky": [
      "projektantka 19",
-     "projektantka bývalé statikovi 15 a 17"
+     "projektantka bývalé statikovi 15 a 17",
+     "statik N15",
+     "stavitel 2"
     ],
     "otazky_hlavni": [
      "projektantka 19",
      "projektantka bývalé statikovi 15 a 17"
     ],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "statik N15",
+     "stavitel 2"
+    ],
     "body": []
    },
    "dotaz_srafa": [
@@ -16250,11 +16292,13 @@
     "otazky": [
      "projektantka 19",
      "projektantka bývalé statikovi 15 a 17",
+     "statik N15",
      "stavitel 2"
     ],
     "otazky_hlavni": [
      "projektantka 19",
      "projektantka bývalé statikovi 15 a 17",
+     "statik N15",
      "stavitel 2"
     ],
     "otazky_zminene": [],
@@ -16263,6 +16307,7 @@
    "dotaz_srafa": [
     "projektantka 19",
     "projektantka bývalé statikovi 15 a 17",
+    "statik N15",
     "stavitel 2"
    ]
   },
@@ -16433,7 +16478,8 @@
     ]
    },
    "dotaz_srafa": [
-    "projektantka O10"
+    "projektantka O10",
+    "statik na vědomí (O10)"
    ]
   },
   {
@@ -16503,6 +16549,7 @@
    },
    "dotaz_srafa": [
     "projektantka O10",
+    "statik na vědomí (O10)",
     "stavitel 2"
    ]
   },
@@ -17097,10 +17144,12 @@
    "dotazy": {
     "otazky": [
      "projektantka 19",
+     "statik N15",
      "stavitel 2"
     ],
     "otazky_hlavni": [
      "projektantka 19",
+     "statik N15",
      "stavitel 2"
     ],
     "otazky_zminene": [],
@@ -17108,6 +17157,7 @@
    },
    "dotaz_srafa": [
     "projektantka 19",
+    "statik N15",
     "stavitel 2"
    ]
   },
@@ -22990,13 +23040,15 @@
    "dotazy": {
     "otazky": [
      "projektantka 5",
-     "statik 1 + N6"
+     "statik 1 + N6",
+     "stavitel 5"
     ],
     "otazky_hlavni": [
      "statik 1 + N6"
     ],
     "otazky_zminene": [
-     "projektantka 5"
+     "projektantka 5",
+     "stavitel 5"
     ],
     "body": []
    },
@@ -23073,13 +23125,15 @@
    "dotazy": {
     "otazky": [
      "projektantka 5",
-     "statik 1 + N6"
+     "statik 1 + N6",
+     "stavitel 5"
     ],
     "otazky_hlavni": [
      "statik 1 + N6"
     ],
     "otazky_zminene": [
-     "projektantka 5"
+     "projektantka 5",
+     "stavitel 5"
     ],
     "body": []
    },
@@ -23238,7 +23292,8 @@
      "projektantka 34",
      "statik 1 + N6",
      "statik 29",
-     "statik N14"
+     "statik N14",
+     "stavitel 5"
     ],
     "otazky_hlavni": [
      "statik 1 + N6",
@@ -23246,7 +23301,8 @@
      "statik N14"
     ],
     "otazky_zminene": [
-     "projektantka 34"
+     "projektantka 34",
+     "stavitel 5"
     ],
     "body": [
      "E112",
@@ -23571,13 +23627,16 @@
    "dotazy": {
     "otazky": [
      "statik N10",
-     "statik N14"
+     "statik N14",
+     "stavitel 5"
     ],
     "otazky_hlavni": [
      "statik N10",
      "statik N14"
     ],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "stavitel 5"
+    ],
     "body": [
      "E92"
     ]
@@ -23822,13 +23881,15 @@
    "dotazy": {
     "otazky": [
      "projektantka 5",
-     "statik 1 + N6"
+     "statik 1 + N6",
+     "stavitel 5"
     ],
     "otazky_hlavni": [
      "statik 1 + N6"
     ],
     "otazky_zminene": [
-     "projektantka 5"
+     "projektantka 5",
+     "stavitel 5"
     ],
     "body": []
    },
@@ -23904,12 +23965,15 @@
    "historie": [],
    "dotazy": {
     "otazky": [
-     "statik N10"
+     "statik N10",
+     "stavitel 5"
     ],
     "otazky_hlavni": [
      "statik N10"
     ],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "stavitel 5"
+    ],
     "body": []
    },
    "dotaz_srafa": [
@@ -23987,13 +24051,15 @@
    "dotazy": {
     "otazky": [
      "projektantka 5",
-     "statik 1 + N6"
+     "statik 1 + N6",
+     "stavitel 5"
     ],
     "otazky_hlavni": [
      "statik 1 + N6"
     ],
     "otazky_zminene": [
-     "projektantka 5"
+     "projektantka 5",
+     "stavitel 5"
     ],
     "body": []
    },
@@ -24234,13 +24300,15 @@
    "dotazy": {
     "otazky": [
      "projektantka 5",
-     "statik 1 + N6"
+     "statik 1 + N6",
+     "stavitel 5"
     ],
     "otazky_hlavni": [
      "statik 1 + N6"
     ],
     "otazky_zminene": [
-     "projektantka 5"
+     "projektantka 5",
+     "stavitel 5"
     ],
     "body": []
    },
