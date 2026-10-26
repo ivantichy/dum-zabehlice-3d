@@ -170,7 +170,7 @@
    ],
    [
     "zděná přizdívka 106 (obývací pokoj, tl. 50 a 100)",
-    "#c9a227",
+    "#009999",
     7
    ],
    [
@@ -9789,7 +9789,7 @@
       "E132"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 1; R-497 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
-     "pozn": "před e-mailem: plochý překlad 113 mm + nadezdívka ověřit v katalogu VAPIS; rozpor „nad `1NP-D04` statik beton nemá“ vs IFC („nad `1NP-D04` 380 mm zdiva a věnec #15810“) vyjasnit u zdroje",
+     "pozn": "před e-mailem: plochý překlad 113 mm + nadezdívka ověřit v katalogu VAPIS; rozpor „nad `1NP-D04` statik beton nemá“ vs IFC („nad `1NP-D04` 380 mm zdiva a věnec“) vyjasnit u zdroje",
      "emaily": [
       {
        "adresat": "stavitel",
@@ -10277,7 +10277,7 @@
     },
     {
      "id": "E100",
-     "nazev": "Zdivo pod vstupními dveřmi 1NP-D01 a 1NP-D03: IFC statika má otvory #5382 a #5771 od −0,110",
+     "nazev": "Zdivo pod vstupními dveřmi 1NP-D01 a 1NP-D03: IFC statika má otvory od −0,110",
      "stav": "nový 5. 10. 2026 (S0.30c) ROZHODNUTO 6. 10. 2026 (R-111, investor) … Pod všemi dveřmi ve výkazu 0 zdiva … ODESLÁNO v první vlně e-mailů (otázka projektantce bod 9), čeká na odpověď (krok 12 plánu)",
      "vlastnik": "investor (v průchodu bodů, prompt S0.31 položka D2.12)",
      "sekce": "E. Znalostní báze a nástroje",
@@ -10336,7 +10336,7 @@
     },
     {
      "id": "E112",
-     "nazev": "Varianta: pás 3,5 m pod překladem 2NP-V10 #20192 v 2NP-S16 ze sádrokartonu místo zdiva 300",
+     "nazev": "Varianta: pás 3,5 m pod překladem 2NP-V10 v 2NP-S16 ze sádrokartonu místo zdiva 300",
      "stav": "otevřeno 7. 10. 2026 (S0.32) DOPLNĚNO 8. 10. 2026 (S0.33, R-134): S16 není vnější stěna (vedle je 209), otázka projektantce na vnější … ODESLÁNO v první vlně e-mailů (otázka projektantce bod 19, statikovi bod 3), čeká na odpověď (krok 12 plánu)",
      "vlastnik": "investor",
      "sekce": "E. Znalostní báze a nástroje",
@@ -10443,7 +10443,7 @@
     {
      "id": "E168",
      "nazev": "Stránka 3D modelu podle poznámek investora 25. 10. 2026",
-     "stav": "OTEVŘENO 25. 10. 2026 (S0.56d); (a) až (d) HOTOVO 25. 10. 2026 pozdě večer (S0.59a, headless: panel max(480px, 60vh), blok Výkresy … stav per session v řádku 16 sekce 3 plánu a v tabulce sekce 0 rozcestníku",
+     "stav": "OTEVŘENO 25. 10. 2026 (S0.56d); (a) až (d) HOTOVO 25. 10. 2026 pozdě večer (S0.59a, headless: panel max(480px, 60vh), blok Výkresy (PDF) zkrácen, terén jednou větou, nápověda meta.napoveda; sekce 73), (e) … sekce 79 ke-kontrole-investor.md",
      "vlastnik": "agent (noční řetězec), kontrola investor ráno",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -10454,7 +10454,7 @@
     {
      "id": "E169",
      "nazev": "Nálezy automatické kontroly modelu a položky Chybí v datech",
-     "stav": "OTEVŘENO 25. 10. 2026 pozdě večer (S0.59c, headless, bez investora); kategorie ke kontrole investora (sekce 75 ke-kontrole-investor.md, JEN INFO); nález S0.59r 26. 10. 2026 … klasifikace se v S0.59r nemění, rozhodne investor",
+     "stav": "OTEVŘENO 25. 10. 2026 pozdě večer (S0.59c, headless, bez investora); kategorie ke kontrole investora (sekce 75 ke-kontrole-investor.md, JEN INFO); nález S0.59r 26. 10. 2026 (červený tým Č1, TEĎ v sekci 76): sedm … klasifikace a přehled přegenerovány",
      "vlastnik": "investor (rozhodnutí) + agent (zápis)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -10592,9 +10592,9 @@
    },
    "pozn": "Pole `lidsky` u kazdeho prvku je text pro lidi (E127, R-246), pole `technika` jsou nase interni udaje (skript, session, IFC id a GUID, zdrojovy JSON, stare ID) a pole `historie` je audit trail prvku (E128, R-247; zkraceny text, plne znění `zdivo/model/historie.json`; od S0.44 (R-377, investor 14. 10. 2026 „35 i“) jen rozhodnuti, otevrene a uzavrene body a zmeny dat, zminky nalezu zustavaji jen v `historie.json`; od S0.45 (16. 10. 2026, investor: historie na strance prazdna, jen veci po odeslani S1) jen udalosti od `HISTORIE_OD`, dnes 2026-10-26). Generuji `tools/model/texty_pro_lidi.py` a `tools/model/historie_prvku.py`.",
    "historie_od": "2026-10-26",
-   "historie_udalosti": 0,
-   "historie_zminek": 7,
-   "historie_prvku": 0
+   "historie_udalosti": 7,
+   "historie_zminek": 9,
+   "historie_prvku": 7
   }
  },
  "prvky": [
@@ -14090,9 +14090,16 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-D01"
    },
-   "historie_n": 0,
+   "historie_n": 1,
    "historie_zminek": 1,
-   "historie": [],
+   "historie": [
+    {
+     "datum": "2026-10-26",
+     "typ": "rozhodnutí",
+     "ref": "R-534",
+     "text": "R-534: vlastník sedmi nálezů „OTVOR vs IFC“ u dveří (1NP-D01, 1NP-D03, 1NP-D04, 1NP-D06, 2NP-D01, 2NP-D02, 2NP-D03) v …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 22",
@@ -14350,9 +14357,16 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-D03"
    },
-   "historie_n": 0,
+   "historie_n": 1,
    "historie_zminek": 1,
-   "historie": [],
+   "historie": [
+    {
+     "datum": "2026-10-26",
+     "typ": "rozhodnutí",
+     "ref": "R-534",
+     "text": "R-534: vlastník sedmi nálezů „OTVOR vs IFC“ u dveří (1NP-D01, 1NP-D03, 1NP-D04, 1NP-D06, 2NP-D01, 2NP-D02, 2NP-D03) v …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 22",
@@ -14445,9 +14459,16 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-D04"
    },
-   "historie_n": 0,
+   "historie_n": 1,
    "historie_zminek": 1,
-   "historie": [],
+   "historie": [
+    {
+     "datum": "2026-10-26",
+     "typ": "rozhodnutí",
+     "ref": "R-534",
+     "text": "… R-534: vlastník sedmi nálezů „OTVOR vs IFC“ u dveří (1NP-D01, 1NP-D03, 1NP-D04, 1NP-D06, 2NP-D01, 2NP-D02, 2NP-D03) v …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 22",
@@ -14847,9 +14868,16 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": null
    },
-   "historie_n": 0,
+   "historie_n": 1,
    "historie_zminek": 1,
-   "historie": [],
+   "historie": [
+    {
+     "datum": "2026-10-26",
+     "typ": "rozhodnutí",
+     "ref": "R-534",
+     "text": "… vlastník sedmi nálezů „OTVOR vs IFC“ u dveří (1NP-D01, 1NP-D03, 1NP-D04, 1NP-D06, 2NP-D01, 2NP-D02, 2NP-D03) v …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 22"
@@ -15807,9 +15835,16 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-D01"
    },
-   "historie_n": 0,
+   "historie_n": 1,
    "historie_zminek": 1,
-   "historie": [],
+   "historie": [
+    {
+     "datum": "2026-10-26",
+     "typ": "rozhodnutí",
+     "ref": "R-534",
+     "text": "… nálezů „OTVOR vs IFC“ u dveří (1NP-D01, 1NP-D03, 1NP-D04, 1NP-D06, 2NP-D01, 2NP-D02, 2NP-D03) v klasifikaci nálezů je …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 22",
@@ -15966,9 +16001,16 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-D02"
    },
-   "historie_n": 0,
+   "historie_n": 1,
    "historie_zminek": 1,
-   "historie": [],
+   "historie": [
+    {
+     "datum": "2026-10-26",
+     "typ": "rozhodnutí",
+     "ref": "R-534",
+     "text": "… „OTVOR vs IFC“ u dveří (1NP-D01, 1NP-D03, 1NP-D04, 1NP-D06, 2NP-D01, 2NP-D02, 2NP-D03) v klasifikaci nálezů je otázka …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 22",
@@ -16278,9 +16320,16 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-D03"
    },
-   "historie_n": 0,
+   "historie_n": 1,
    "historie_zminek": 1,
-   "historie": [],
+   "historie": [
+    {
+     "datum": "2026-10-26",
+     "typ": "rozhodnutí",
+     "ref": "R-534",
+     "text": "… IFC“ u dveří (1NP-D01, 1NP-D03, 1NP-D04, 1NP-D06, 2NP-D01, 2NP-D02, 2NP-D03) v klasifikaci nálezů je otázka …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 22",
@@ -21817,7 +21866,7 @@
     "-"
    ],
    "vyska": 2750,
-   "barva": "#c9a227",
+   "barva": "#009999",
    "jistota_srafa": null,
    "zdvih": 0,
    "lidsky": {
@@ -21883,7 +21932,7 @@
     "-"
    ],
    "vyska": 2750,
-   "barva": "#c9a227",
+   "barva": "#009999",
    "jistota_srafa": null,
    "zdvih": 0,
    "lidsky": {
@@ -21948,7 +21997,7 @@
     "106"
    ],
    "vyska": 2750,
-   "barva": "#c9a227",
+   "barva": "#009999",
    "jistota_srafa": null,
    "zdvih": 0,
    "lidsky": {
@@ -22014,7 +22063,7 @@
     "107"
    ],
    "vyska": 2750,
-   "barva": "#c9a227",
+   "barva": "#009999",
    "jistota_srafa": null,
    "zdvih": 0,
    "lidsky": {
@@ -22080,7 +22129,7 @@
     "107"
    ],
    "vyska": 2750,
-   "barva": "#c9a227",
+   "barva": "#009999",
    "jistota_srafa": null,
    "zdvih": 0,
    "lidsky": {
@@ -22145,7 +22194,7 @@
     "110"
    ],
    "vyska": 2750,
-   "barva": "#c9a227",
+   "barva": "#009999",
    "jistota_srafa": null,
    "zdvih": 0,
    "lidsky": {
@@ -22210,7 +22259,7 @@
     "110"
    ],
    "vyska": 2750,
-   "barva": "#c9a227",
+   "barva": "#009999",
    "jistota_srafa": null,
    "zdvih": 0,
    "lidsky": {
@@ -23994,7 +24043,7 @@
     "id_stare": null
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 1,
    "historie": [],
    "dotazy": {
     "otazky": [
@@ -34309,7 +34358,7 @@
     "id_stare": null
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 1,
    "historie": [],
    "dotazy": {
     "otazky": [
