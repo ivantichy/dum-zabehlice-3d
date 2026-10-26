@@ -1,6 +1,6 @@
 {
  "meta": {
-  "stav_k": "25. 10. 2026 (S0.55)",
+  "stav_k": "26. 10. 2026 (S0.57)",
   "vznik": "krok S0.11, 21. 9. 2026 (E49); S0.12 (nulová spodní hrana, šrafy, SDK, stávající garáž, značky chybějících); S0.14 (ŽB z PDF statiky, E51); S0.16 až S0.26 (viz session logy); S0.29, 2. 10. 2026: ŽB, základy, ocel a kontext zdiva z IFC statika (investor: IFC autoritativní pro ŽB), odvozené ŽB prvky, ŽB z PDF statiky, věnec garáže, ŽB parapety, pracovní atika, ocelové sloupky a nadpraží z modelu odebrány",
   "jednotky": "mm, souřadnice modelu DWG (2.NP posunuté o −50 000 v x, E42), z absolutně od ±0,000",
   "urovne": {
@@ -8331,7 +8331,16 @@
       "E22"
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 11 a 38, aktivace sekce 44.3 (I1) a 45.9",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "4",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 4"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -8391,7 +8400,16 @@
       "E94"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 11 a 38, nálezy sekce 45.4; R-512 (S0.56)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "5",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 5"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -8434,7 +8452,16 @@
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 11 a 38 (zúžení R-296)",
      "pozn": "před e-mailem: subagent dohledá v Gmailu (vlákna s projektantkou, slova přizdívka, předstěna, LED, nadpraží), jak byla přizdívka myšlena (R-414, krok 10); příloha půdorys 1.NP s ID stěn a PZ",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "6",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 6"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -8462,7 +8489,16 @@
       "E77"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 11 (doplňky S0.18, S0.22, S0.25), stav sekce 38 (D6.8 (14)), R-103",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "7",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 7"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -8486,7 +8522,16 @@
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 11 (doplňky S0.19), stav sekce 38 (D6.7 (17)); znění E148 R-395 (16. 10. 2026, S0.48b), report docs/revize/2026-10-16/S0.48b_T6-e149-e69-fable.md",
      "pozn": "před e-mailem: přiložit JEDEN výřez řezu A-A (`docs/revize/2026-09-27/ikona-E69/ikona_A-A_obvodova-zed-2NP-hlavni-cast.png`, prvek bez otvoru pod sebou; R-418), zkontrolovat, že nenese jména ani adresu; výřez dělicí stěny patří k otázce 18",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "1",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 1"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -8503,7 +8548,16 @@
       "E69"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 11 (doplňky S0.22), stav sekce 38 (D6.8 (18))",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "2",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 2"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -8538,7 +8592,16 @@
       "E69"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 11 (doplňky S0.22), stav sekce 38 (D6.8 (19))",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "8",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 8"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -8636,7 +8699,16 @@
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 38 (řádky projektantce 22 a tabulka dveří), doplňky sekce 44.3 (I4, I5) a 45.11",
      "pozn": "před e-mailem: tabulku dveří vygenerovat skriptem `tools/model/tabulka_dveri.py` z `otvory.json` a `model.json` (krok 10 g; ne opsat ze sekce 38), po kontrole investora i na veřejnou stránku (R-33); odpověď projektantky je vstup pro stavitele 1 a 2 (R-155, R-281)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "9",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 9"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -8664,7 +8736,16 @@
       "E80"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce 23), sekce 44.2 (N3)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "10",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 10"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -8685,7 +8766,16 @@
       "E103"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce 29), sekce 44.3 (I3)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "11",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 11"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -8718,7 +8808,16 @@
       "E110"
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 38 (D6.7 (30)), sekce 45.9 (I9)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "12",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 12"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -8748,7 +8847,16 @@
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 45.3 (R-311, R-312, R-318, R-320)",
      "pozn": "před e-mailem: zkontrolovat, že veřejná stránka už nese model po R-409 (publikace po merge S0.49); kopie statikovi a staviteli jen v rámci e-mailu (R-393)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "13",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 13"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -8766,7 +8874,16 @@
       "E118"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce 33), sekce 44.3 (I2)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "14",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 14"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -8784,7 +8901,16 @@
       "A8"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek soupis překladů), sekce 44.2 (N2)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "15",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 15"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -8801,7 +8927,16 @@
       "E111"
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 38 (řádek projektantce E111); R-133, R-152, R-164, R-326; revize S0.46b D2; R-396 (16. 10. 2026, S0.48b, položka 14 „ano“), report docs/revize/2026-10-16/S0.48b_T7-e111-deska-fable.md",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "16",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 16"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -8826,7 +8961,16 @@
       "E69"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce bývalé statikovi 15 a 17)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "17",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 17"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -8851,7 +8995,16 @@
       "E70"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce O10)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "3",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 3"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -8868,7 +9021,16 @@
       "A11"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce A11), bod A11",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "18",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 18"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -8905,7 +9067,16 @@
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 38 (řádek projektantce upozornění průvlak nad 102)",
      "pozn": "jen upozornění, ne otázka",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "na vědomí",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod na vědomí"
+      }
+     ],
      "druh": "na vědomí"
     },
     {
@@ -8940,7 +9111,16 @@
       "E112"
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 11 (statikovi 29) a sekce 36 (zbývající otázky, R-151); R-503 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "statik",
+       "adresat_dativ": "statikovi",
+       "bod": "3",
+       "datum": "2026-10-26",
+       "cas_sec": "00:51",
+       "popis": "e-mail statikovi 26. 10. 2026 00:51, bod 3"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -9041,7 +9221,16 @@
       "E92"
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 36 (doplnění S0.37, R-235, R-241, R-245, R-257)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "statik",
+       "adresat_dativ": "statikovi",
+       "bod": "1",
+       "datum": "2026-10-26",
+       "cas_sec": "00:51",
+       "popis": "e-mail statikovi 26. 10. 2026 00:51, bod 1"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -9072,7 +9261,16 @@
       "E116"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 47.3 (otázka 18 sekce 46, E116 průnik 4, R-351); R-504 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "statik",
+       "adresat_dativ": "statikovi",
+       "bod": "4",
+       "datum": "2026-10-26",
+       "cas_sec": "00:51",
+       "popis": "e-mail statikovi 26. 10. 2026 00:51, bod 4"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -9097,7 +9295,16 @@
       "E42"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 36 (N10, R-168, R-169, R-241, R-245, R-264); R-511 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "statik",
+       "adresat_dativ": "statikovi",
+       "bod": "2",
+       "datum": "2026-10-26",
+       "cas_sec": "00:51",
+       "popis": "e-mail statikovi 26. 10. 2026 00:51, bod 2"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -9157,7 +9364,16 @@
       "E43"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 36 (N9, R-165); R-505 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "statik",
+       "adresat_dativ": "statikovi",
+       "bod": "5",
+       "datum": "2026-10-26",
+       "cas_sec": "00:51",
+       "popis": "e-mail statikovi 26. 10. 2026 00:51, bod 5"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -9174,7 +9390,16 @@
       "E110"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 36 (N8, R-117; doplnění S0.40b nález N4); R-506 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "statik",
+       "adresat_dativ": "statikovi",
+       "bod": "6",
+       "datum": "2026-10-26",
+       "cas_sec": "00:51",
+       "popis": "e-mail statikovi 26. 10. 2026 00:51, bod 6"
+      }
+     ],
      "druh": "na vědomí"
     },
     {
@@ -9288,7 +9513,16 @@
       "A8"
      ],
      "zdroj_kratky": "log rozhodnutí v repu R-433 a R-435 (investor 18. 10. 2026 večer, S0.49d: „presahy prekladu (ZB) jsou v modelu 0, nechame je 0, zeptame se statika, kolik ty presahy mame udelat“; „text N14 ok, zapis ho do kanonu hned“); R-450 (24. 10. 2026, S0.53) seznam prvků",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "statik",
+       "adresat_dativ": "statikovi",
+       "bod": "7",
+       "datum": "2026-10-26",
+       "cas_sec": "00:51",
+       "popis": "e-mail statikovi 26. 10. 2026 00:51, bod 7"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -9306,7 +9540,16 @@
       "A8"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 36 (soupis překladů, R-108, R-167); R-509 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "statik",
+       "adresat_dativ": "statikovi",
+       "bod": "9",
+       "datum": "2026-10-26",
+       "cas_sec": "00:51",
+       "popis": "e-mail statikovi 26. 10. 2026 00:51, bod 9"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -9347,7 +9590,16 @@
       "E71"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 36 (N11, R-320), sekce 45.9 (I10) a 45.10 (otázka 18); R-511 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "statik",
+       "adresat_dativ": "statikovi",
+       "bod": "10",
+       "datum": "2026-10-26",
+       "cas_sec": "00:51",
+       "popis": "e-mail statikovi 26. 10. 2026 00:51, bod 10"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -9380,7 +9632,16 @@
       "E77"
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 46.10 (projektantce 34, R-323)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "19",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 19"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -9406,7 +9667,16 @@
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 36 (na vědomí, R-159); R-510 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "pozn": "jen na vědomí, ne otázka",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "statik",
+       "adresat_dativ": "statikovi",
+       "bod": "11",
+       "datum": "2026-10-26",
+       "cas_sec": "00:51",
+       "popis": "e-mail statikovi 26. 10. 2026 00:51, bod 11"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -9424,7 +9694,16 @@
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 36 (na vědomí, R-152); R-200, R-326; R-396 (S0.48b T7, varianta B1); R-510 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "pozn": "jen na vědomí, ne otázka; kopie e-mailu projektantce (R-393)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "statik",
+       "adresat_dativ": "statikovi",
+       "bod": "12",
+       "datum": "2026-10-26",
+       "cas_sec": "00:51",
+       "popis": "e-mail statikovi 26. 10. 2026 00:51, bod 12"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -9457,7 +9736,16 @@
      ],
      "zdroj_kratky": "R-508 (S0.56, 25. 10. 2026 19:32:07 SEČ (18:32:07 UTC, transkript 342e953b) a 19:54:47 SEČ, investor: „Otazka 2, ja bych tu vetu o uzkych prekladech u garaze, roletovem boxu o moznosti to uzelat [= udělat] ZB poslal i statikovi, radeji“, „H ano otazka 2“, „o9 ok a ze se ptame i stavitel (betonar)“); revize `docs/revize/2026-10-25/S0.56_skrtnute-otazky-statikovi-fable.md` (otázka 2 UZAVŘENO ROZHODNUTÍM R-154, téma žilo jen u projektantky a stavitele)",
      "pozn": "návrat škrtnuté otázky statikovi 2 (překlady nad okny nástavby, KP 7) po průchodu 20 škrtnutých otázek (bod 0 S0.56, R-471); téma v e-mailech: projektantka 34 (bod 17), stavitel 2 (bod 2)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "statik",
+       "adresat_dativ": "statikovi",
+       "bod": "8",
+       "datum": "2026-10-26",
+       "cas_sec": "00:51",
+       "popis": "e-mail statikovi 26. 10. 2026 00:51, bod 8"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -9502,7 +9790,16 @@
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 1; R-497 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "pozn": "před e-mailem: plochý překlad 113 mm + nadezdívka ověřit v katalogu VAPIS; rozpor „nad `1NP-D04` statik beton nemá“ vs IFC („nad `1NP-D04` 380 mm zdiva a věnec #15810“) vyjasnit u zdroje",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "stavitel",
+       "adresat_dativ": "staviteli",
+       "bod": "1",
+       "datum": "2026-10-26",
+       "cas_sec": "00:52",
+       "popis": "e-mail staviteli 26. 10. 2026 00:52, bod 1"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -9567,7 +9864,16 @@
       "E70"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 2 (R-281, R-284, R-287, R-291); R-498 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "stavitel",
+       "adresat_dativ": "staviteli",
+       "bod": "2",
+       "datum": "2026-10-26",
+       "cas_sec": "00:52",
+       "popis": "e-mail staviteli 26. 10. 2026 00:52, bod 2"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -9585,7 +9891,16 @@
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 3; R-499 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "pozn": "kopie statikovi",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "stavitel",
+       "adresat_dativ": "staviteli",
+       "bod": "3",
+       "datum": "2026-10-26",
+       "cas_sec": "00:52",
+       "popis": "e-mail staviteli 26. 10. 2026 00:52, bod 3"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -9621,7 +9936,16 @@
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 44.1 bod 5; R-500 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem)",
      "pozn": "kopie statikovi",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "stavitel",
+       "adresat_dativ": "staviteli",
+       "bod": "4",
+       "datum": "2026-10-26",
+       "cas_sec": "00:52",
+       "popis": "e-mail staviteli 26. 10. 2026 00:52, bod 4"
+      }
+     ],
      "druh": "otázka"
     },
     {
@@ -9652,7 +9976,16 @@
      "prvky_rucne": [],
      "body": [],
      "zdroj_kratky": "docs/znalosti/skladby.md (S0.55c, 25. 10. 2026: skladba W4b vs rozhodnutí Porotherm 30 v nástavbě, zdivo-a-zalozeni.md Tloušťky stěn); R-490",
-     "emaily": [],
+     "emaily": [
+      {
+       "adresat": "projektantka",
+       "adresat_dativ": "projektantce",
+       "bod": "21",
+       "datum": "2026-10-26",
+       "cas_sec": "00:50",
+       "popis": "e-mail projektantce 26. 10. 2026 00:50, bod 21"
+      }
+     ],
      "druh": "otázka"
     }
    ],
@@ -9660,7 +9993,7 @@
     {
      "id": "E132",
      "nazev": "Kus zdiva nad otvorem",
-     "stav": "nový 11. 10. 2026 (S0.38); DOPLNĚNO 11. 10. 2026 (R-281, investor …): variantu určí odpověď stavitele (krok 11), soupis překladů je podklad otázky; otázka „ŽB nebo výrobek“ pro všechny překlady (R-287) PROVEDENO v … výkaz nese V3 jako horní mez",
+     "stav": "nový 11. 10. 2026 (S0.38); DOPLNĚNO 11. 10. 2026 (R-281, investor …): variantu určí odpověď stavitele (krok 11), soupis překladů je … ODESLÁNO v první vlně e-mailů (otázka statikovi bod 7, staviteli body 1 a 2), čeká na odpověď (krok 12 plánu)",
      "vlastnik": "agent",
      "sekce": "A. Zdivo a objednávka",
      "prvky": [
@@ -9715,7 +10048,7 @@
     {
      "id": "E27",
      "nazev": "Zděné přizdívky tl. 100 mm (šrafa HEXAGONS, pět ploch v 1.NP kolem obývacího pokoje 106). Výkres je popisuje",
-     "stav": "odloženo 20. 9. 2026, řeší se v S1 ZMĚNA 21. 9. 2026 (S0.8): investor 21. 9. 2026 (zadání session S0.8, doslovně) … Odpověď: výkres je kreslí šrafou HEXAGONS a kótuje 100 mm (ne 75), šrafa HEXAGONS v legendě konstrukcí není …",
+     "stav": "odloženo 20. 9. 2026, řeší se v S1 ZMĚNA 21. 9. 2026 (S0.8): investor 21. 9. 2026 (zadání session S0.8, doslovně) … Odpověď: výkres je kreslí šrafou … ODESLÁNO v první vlně e-mailů (otázka projektantce bod 6), čeká na odpověď (krok 12 plánu)",
      "vlastnik": "investor (dotaz projektantce v S1), agent (hledání v Gmailu v S1)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -9733,7 +10066,7 @@
     {
      "id": "E38",
      "nazev": "Přesnou výšku nadezdívky nad garáží potvrdí projektantka",
-     "stav": "nový 20. 9. 2026 ZJIŠTĚNO 21. 9. 2026 večer (S0.8e, subagent Opus po tools/dokumentace.py sync): spodní ŽB věnec stávající garáže je v půdorysu výkresu tvaru … stěny nástavby 2NP-S13, S14, S15, S19, S25, S30, S16, S26 v prvcích otázky",
+     "stav": "nový 20. 9. 2026 ZJIŠTĚNO 21. 9. 2026 večer (S0.8e, subagent Opus po tools/dokumentace.py sync): spodní ŽB věnec stávající garáže je v půdorysu … ODESLÁNO v první vlně e-mailů (otázka projektantce bod 4), čeká na odpověď (krok 12 plánu)",
      "vlastnik": "investor (dotaz projektantce v S1), agent (zapsáno)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -9746,7 +10079,7 @@
     {
      "id": "E40",
      "nazev": "Výšky zděných příček a přizdívek, které nejdou až ke stropu",
-     "stav": "nový 20. 9. 2026; doplněno 27. 9. 2026 (S0.16) ROZHODNUTO 6. 10. 2026 (R-105, investor) … Přizdívky 106 a příčky 75: výška od desky −0,350 do +2,400 (2750), agent ověří v řezech; projektantce 6.; S0.44 … projektantce 6 PŘEKONÁNA (zaniká bez ztráty)",
+     "stav": "nový 20. 9. 2026; doplněno 27. 9. 2026 (S0.16) ROZHODNUTO 6. 10. 2026 (R-105, investor) … Přizdívky 106 a příčky 75: výška od desky −0,350 do … ODESLÁNO v první vlně e-mailů (otázka projektantce body 6 a 13), čeká na odpověď (krok 12 plánu)",
      "vlastnik": "investor (dotaz projektantce v S1), agent (zapsáno)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -9768,7 +10101,7 @@
     {
      "id": "E63",
      "nazev": "Dotazy pro protistrany zobrazené přímo v 3D modelu a veřejný seznam otevřených bodů",
-     "stav": "nový 27. 9. 2026 (S0.18) DÁVKA 5, 9. 10. 2026 (R-178): dělá se PŘED e-maily S1, po přečíslování; veřejný seznam bodů přes publikuj.ps1, jména rolemi. Krok 8 v … ZBÝVÁ srovnání model / veřejná verze / repo před e-maily (krok 11)",
+     "stav": "nový 27. 9. 2026 (S0.18) DÁVKA 5, 9. 10. 2026 (R-178): dělá se PŘED e-maily S1, po přečíslování; veřejný seznam bodů přes publikuj.ps1, jména … ODESLÁNO v první vlně e-mailů (otázka projektantce bod 14), čeká na odpověď (krok 12 plánu)",
      "vlastnik": "investor (rozhodne rozsah veřejného seznamu, R-33), agent",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -9782,7 +10115,7 @@
     {
      "id": "E69",
      "nazev": "Prvek 200 × 250 s křížem nad zdivem 2.NP v řezu A-A architektury",
-     "stav": "nový 27. 9. 2026 (S0.19) DOPLNĚNO 27. 9. 2026 (S0.21): investor si téhož prvku všiml v PDF řezu (investor 27. 9. 2026 22:44:29 SELČ … příloha JEDEN výřez (obvodová zeď 2.NP hlavní část), výřez dělicí stěny patří k otázce 18",
+     "stav": "nový 27. 9. 2026 (S0.19) DOPLNĚNO 27. 9. 2026 (S0.21): investor si téhož prvku všiml v PDF řezu … ODESLÁNO v první vlně e-mailů (otázka projektantce body 1, 2, 8 a 17, statikovi bod 8), čeká na odpověď (krok 12 plánu)",
      "vlastnik": "investor (odešle), projektantka",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -9802,7 +10135,7 @@
     {
      "id": "E70",
      "nazev": "Nadpraží nad běžnými okny 2.NP (O11 a O13 v západní stěně hlavní části, O12 ve východní, O04 a O06 s neznámou výškou): mezi horní hranou okna +5,490 a věncem +5,740 je 250 mm, o kterých výkresy mlčí (žádný řez tudy nevede, výkres tvaru 2.NP má u nich jen …",
-     "stav": "nový 27. 9. 2026 (S0.19) DOPLNĚNO 27. 9. 2026 (S0.20, připomínky investora k modelu po S0.19): investor opravil, jak myslel svou původní … R-161: stavitel 3 jen upozornění na užší překlad kvůli roletě. Soupis překladů je krok 10 (a) v docs/plan.md",
+     "stav": "nový 27. 9. 2026 (S0.19) DOPLNĚNO 27. 9. 2026 (S0.20, připomínky investora k modelu po S0.19): investor opravil, jak myslel … ODESLÁNO v první vlně e-mailů (otázka projektantce body 3 a 15, statikovi body 9 a 11, staviteli bod 2), čeká na odpověď",
      "vlastnik": "investor (odešle), statik, projektantka",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -9821,7 +10154,7 @@
     {
      "id": "E77",
      "nazev": "Tepelné oddělení stávající garáže 105 od místnosti 209 nad ní",
-     "stav": "nový 27. 9. 2026 (S0.22). Krok 10 (e) v docs/plan.md.; DOPLNĚNO 18. 10. 2026 (S0.49): R-411, R-412: strop a podlaha 105/209 se NEŘEŠÍ (investor …; 209 je vedle garáže, nad 103), projektantce … krok 10 (e) plánu (skladba stropu nad garáží) tím odpadá",
+     "stav": "nový 27. 9. 2026 (S0.22). Krok 10 (e) v docs/plan.md.; DOPLNĚNO 18. 10. 2026 (S0.49): R-411, R-412: strop a podlaha 105/209 se NEŘEŠÍ … ODESLÁNO v první vlně e-mailů (otázka projektantce body 7 a 19), čeká na odpověď (krok 12 plánu)",
      "vlastnik": "investor (odešle ve fázi S1), agent (skladby)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [],
@@ -9833,7 +10166,7 @@
     {
      "id": "E80",
      "nazev": "Prostor nad dveřmi v SDK příčce, když je z jedné strany SDK a z druhé zdivo",
-     "stav": "nový 28. 9. 2026 (S0.23b) DOPLNĚNO 28. 9. 2026 (S0.24): seznam hotový, docs/revize/2026-09-28/S0.24_E80_sdk-dvere-sonnet.md … SDK oboustranně D09 až D13 a 2NP-D04 až D07. Otázka projektantce 23 zůstává jen pro 2NP-D03 (podmíněně, sekce 38)",
+     "stav": "nový 28. 9. 2026 (S0.23b) DOPLNĚNO 28. 9. 2026 (S0.24): seznam hotový, docs/revize/2026-09-28/S0.24_E80_sdk-dvere-sonnet.md (subagent Sonnet): u … ODESLÁNO v první vlně e-mailů (otázka projektantce bod 10), čeká na odpověď (krok 12 plánu)",
      "vlastnik": "agent (seznam), projektantka (odpověď)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -9851,7 +10184,7 @@
     {
      "id": "E88",
      "nazev": "Instalační stěna (sedátko) 204: co je pod sedací plochou (investor 29. 9. 2026 20:40:07 SELČ (18:40:07 UTC, S0.25, textové zadání session, doslovně))",
-     "stav": "nový 29. 9. 2026 (S0.25) DOPLNĚNO 6. 10. 2026 (R-99, investor) …, v aktuálním 3D špatně, vrátit se po průchodu; ruší čtení popisky z E81 R29; D2.7 s touto … model přepracován (P01 jen severní 950, S06 a S07 do +3,990), text projektantce 32 přepsán",
+     "stav": "nový 29. 9. 2026 (S0.25) DOPLNĚNO 6. 10. 2026 (R-99, investor) …, v aktuálním 3D špatně, vrátit se po průchodu; ruší čtení popisky z E81 R29; D2.7 s … ODESLÁNO v první vlně e-mailů (otázka projektantce bod 13), čeká na odpověď (krok 12 plánu)",
      "vlastnik": "projektantka (odpověď), investor (zařadí do mailu)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -9867,7 +10200,7 @@
     {
      "id": "E92",
      "nazev": "Stěna na hranici garáž 105 / dům (103 v 1.NP, 209 ve 2.NP): komu patří a má být v modelu (investor 2. 10. 2026 14:39:45 SELČ, doslovně)",
-     "stav": "OTEVŘENO, investor 2. 10. 2026 17:31:08 SELČ (15:31:08 UTC, S0.28, textově) …; vsuvka …. Vlastník: další session po zpracování modelu statika (IFC, E87); rozsah: S16 i stávající zeď pod ní v 1.NP …",
+     "stav": "OTEVŘENO, investor 2. 10. 2026 17:31:08 SELČ (15:31:08 UTC, S0.28, textově) …; vsuvka …. Vlastník: další session po zpracování modelu statika … ODESLÁNO v první vlně e-mailů (otázka statikovi body 1 a 3), čeká na odpověď (krok 12 plánu)",
      "vlastnik": "investor (R-64), projektantka (otázka 26), agent (další session)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -9903,7 +10236,7 @@
     {
      "id": "E94",
      "nazev": "Atika podle IFC (ověřeno revizí S0.29 v datech): ŽB atika je jen kolem desky 2NP-DS03 (severní křídlo, 2NP-AT01 až AT04, HH +6,410, 200 × 250) a dva kusy nad deskou 1.NP",
-     "stav": "otevřeno 2. 10. 2026 (S0.29) OPRAVA 6. 10. 2026 (R-102): bez atiky v IFC je jen jižní hrana garáže (7,5 m) a jižní hrana 209 (5,5 m) = 13,0 m, ne 18,9 m … projektantce 8 beze změny",
+     "stav": "otevřeno 2. 10. 2026 (S0.29) OPRAVA 6. 10. 2026 (R-102): bez atiky v IFC je jen jižní hrana garáže (7,5 m) a jižní hrana 209 … ODESLÁNO v první vlně e-mailů (otázka projektantce bod 5, statikovi bod 5), čeká na odpověď (krok 12 plánu)",
      "vlastnik": "investor, statik, projektantka",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -9932,7 +10265,7 @@
     {
      "id": "E60",
      "nazev": "Severní stěna stávající garáže je v DWG (SOLID) rozdělená mezerami přesně v místě oken nástavby 2.NP (O07, O08), takže model měl v přízemí garáže",
-     "stav": "nový 27. 9. 2026 (S0.16) SLOUČENO 8. 10. 2026 (S0.33, R-144): jeden bod měření garáže (E60 + R-15 + R-30), investor měří 9. 10. 2026; seznam v ke-kontrole-investor.md sekce 35",
+     "stav": "nový 27. 9. 2026 (S0.16) SLOUČENO 8. 10. 2026 (S0.33, R-144): jeden bod měření garáže (E60 + R-15 + R-30), investor měří 9. 10. 2026; seznam v … ODESLÁNO v první vlně e-mailů (otázka statikovi bod 1), čeká na odpověď (krok 12 plánu)",
      "vlastnik": "investor (při měření garáže ověří, zda ve stávající severní zdi otvory jsou)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -9945,7 +10278,7 @@
     {
      "id": "E100",
      "nazev": "Zdivo pod vstupními dveřmi 1NP-D01 a 1NP-D03: IFC statika má otvory #5382 a #5771 od −0,110",
-     "stav": "nový 5. 10. 2026 (S0.30c) ROZHODNUTO 6. 10. 2026 (R-111, investor) … Pod všemi dveřmi ve výkazu 0 zdiva (skladba podlahy s izolací; IFC D04 od −0,360 souhlasí, D01/D03 od −0,110 a D06 od −0,100 ne); pod portálem … bod E100 je v body řádku 22",
+     "stav": "nový 5. 10. 2026 (S0.30c) ROZHODNUTO 6. 10. 2026 (R-111, investor) … Pod všemi dveřmi ve výkazu 0 zdiva … ODESLÁNO v první vlně e-mailů (otázka projektantce bod 9), čeká na odpověď (krok 12 plánu)",
      "vlastnik": "investor (v průchodu bodů, prompt S0.31 položka D2.12)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -9959,7 +10292,7 @@
     {
      "id": "E108",
      "nazev": "Zdivo pod dveřmi v nosném zdivu v modelu a datech: stěny stojí na desce",
-     "stav": "nový 6. 10. 2026 (S0.31). Krok 5 v docs/plan.md (vlna oprav před S1). OVĚŘENO SNÍMKEM 10. 10. 2026 (S0.37, Chrome, lokální server, model bez rozestupu podlaží): dveře v nosném zdivu (např. 1NP-D04) i SDK příčky (1NP-SDK01) začínají na …",
+     "stav": "nový 6. 10. 2026 (S0.31). Krok 5 v docs/plan.md (vlna oprav před S1). OVĚŘENO SNÍMKEM 10. 10. 2026 … ODESLÁNO v první vlně e-mailů (otázka projektantce bod 9), čeká na odpověď (krok 12 plánu)",
      "vlastnik": "agent (navazující session, snímek modelu), projektantka (otázka 22 skladba pod dveřmi)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -9974,7 +10307,7 @@
     {
      "id": "E110",
      "nazev": "Seznam všech „nejasných“ otvorů (investor 7. 10. 2026, R-117: „Do vyreseni drz seznam vsech \"nejasnych\" otvoru.“): otvory, kde se IFC a naše data liší v poloze spodní hrany, hlavy nebo rozměru, nebo kde IFC prvek otvoru nemá: dveře 1NP D01, D03, D04, D06 a 2NP …",
-     "stav": "otevřeno 7. 10. 2026 (S0.32) R-148: na tento seznam čeká i e-mail staviteli (překlady nad dveřmi a okny, varianty a/b/c) a volba nad okny 2.NP (R-155). 8 … dřívější odkaz na porovnani-ifc-zdivo_2026-10-02.md v tomto řádku je historický",
+     "stav": "otevřeno 7. 10. 2026 (S0.32) R-148: na tento seznam čeká i e-mail staviteli (překlady nad dveřmi a okny, varianty a/b/c) a volba … ODESLÁNO v první vlně e-mailů (otázka projektantce bod 12, statikovi bod 6), čeká na odpověď (krok 12 plánu)",
      "vlastnik": "agent (navazující session: seznam skriptem z `ifc_vs_zdivo.py` po opravě D5.1), investor (otázka v e-mailu S1)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -9990,7 +10323,7 @@
     {
      "id": "E111",
      "nazev": "Horní hrana podkladní desky 1.NP: IFC statika −0,360",
-     "stav": "otevřeno 7. 10. 2026 (S0.32) DOPLNĚNO 8. 10. 2026 (S0.33, R-133): −0,360 má statika v IFC i v PDF výkresu tvaru základů (text „-0,360“), −0,350 je jen z DWG řezu A-A architektury … statik na vědomí (E111) s měkkou výzvou",
+     "stav": "otevřeno 7. 10. 2026 (S0.32) DOPLNĚNO 8. 10. 2026 (S0.33, R-133): −0,360 má statika v IFC i v PDF výkresu tvaru základů … ODESLÁNO v první vlně e-mailů (otázka projektantce bod 16, statikovi bod 12), čeká na odpověď (krok 12 plánu)",
      "vlastnik": "investor (koho se zeptat), agent",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -10004,7 +10337,7 @@
     {
      "id": "E112",
      "nazev": "Varianta: pás 3,5 m pod překladem 2NP-V10 #20192 v 2NP-S16 ze sádrokartonu místo zdiva 300",
-     "stav": "otevřeno 7. 10. 2026 (S0.32) DOPLNĚNO 8. 10. 2026 (S0.33, R-134): S16 není vnější stěna (vedle je 209), otázka projektantce na vnější stěnu ze SDK padá; obě otázky platí (unese, otázka 29 statikovi; SDK s vatou jako zateplení); komu jde otázka na …",
+     "stav": "otevřeno 7. 10. 2026 (S0.32) DOPLNĚNO 8. 10. 2026 (S0.33, R-134): S16 není vnější stěna (vedle je 209), otázka projektantce na vnější … ODESLÁNO v první vlně e-mailů (otázka projektantce bod 19, statikovi bod 3), čeká na odpověď (krok 12 plánu)",
      "vlastnik": "investor",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -10166,7 +10499,7 @@
     "prvku_s_dotazem": 164,
     "prvku_s_hlavni_otazkou": 126,
     "prvku_jen_zminenych": 14,
-    "otazek_v_odeslanem_emailu": 0,
+    "otazek_v_odeslanem_emailu": 37,
     "prvku_se_srafou_dotazu": 71
    }
   },
@@ -10257,10 +10590,10 @@
      "pozn": "odkaz vede přímo do složky Podrobnosti/Existující garáž na Drive (S0.44, R-377); jediný podklad ke SKUTEČNÉMU STAVU garáže, ne zdroj rozměrů v modelu: rozměry stávajícího zdiva jsou ze šrafy SOLID v půdorysu a z řezu C-C, u prvku se proto tenhle zdroj uvádí jen tam, kde ho text zdroje skutečně cituje (revize S0.42b)"
     }
    },
-   "pozn": "Pole `lidsky` u kazdeho prvku je text pro lidi (E127, R-246), pole `technika` jsou nase interni udaje (skript, session, IFC id a GUID, zdrojovy JSON, stare ID) a pole `historie` je audit trail prvku (E128, R-247; zkraceny text, plne znění `zdivo/model/historie.json`; od S0.44 (R-377, investor 14. 10. 2026 „35 i“) jen rozhodnuti, otevrene a uzavrene body a zmeny dat, zminky nalezu zustavaji jen v `historie.json`; od S0.45 (16. 10. 2026, investor: historie na strance prazdna, jen veci po odeslani S1) jen udalosti od `HISTORIE_OD`, dnes nenastaveno, historie prazdna). Generuji `tools/model/texty_pro_lidi.py` a `tools/model/historie_prvku.py`.",
-   "historie_od": null,
+   "pozn": "Pole `lidsky` u kazdeho prvku je text pro lidi (E127, R-246), pole `technika` jsou nase interni udaje (skript, session, IFC id a GUID, zdrojovy JSON, stare ID) a pole `historie` je audit trail prvku (E128, R-247; zkraceny text, plne znění `zdivo/model/historie.json`; od S0.44 (R-377, investor 14. 10. 2026 „35 i“) jen rozhodnuti, otevrene a uzavrene body a zmeny dat, zminky nalezu zustavaji jen v `historie.json`; od S0.45 (16. 10. 2026, investor: historie na strance prazdna, jen veci po odeslani S1) jen udalosti od `HISTORIE_OD`, dnes 2026-10-26). Generuji `tools/model/texty_pro_lidi.py` a `tools/model/historie_prvku.py`.",
+   "historie_od": "2026-10-26",
    "historie_udalosti": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 7,
    "historie_prvku": 0
   }
  },
@@ -13758,7 +14091,7 @@
     "id_stare": "1NP-D01"
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 1,
    "historie": [],
    "dotazy": {
     "otazky": [
@@ -14018,7 +14351,7 @@
     "id_stare": "1NP-D03"
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 1,
    "historie": [],
    "dotazy": {
     "otazky": [
@@ -14113,7 +14446,7 @@
     "id_stare": "1NP-D04"
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 1,
    "historie": [],
    "dotazy": {
     "otazky": [
@@ -14515,7 +14848,7 @@
     "id_stare": null
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 1,
    "historie": [],
    "dotazy": {
     "otazky": [
@@ -15475,7 +15808,7 @@
     "id_stare": "2NP-D01"
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 1,
    "historie": [],
    "dotazy": {
     "otazky": [
@@ -15634,7 +15967,7 @@
     "id_stare": "2NP-D02"
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 1,
    "historie": [],
    "dotazy": {
     "otazky": [
@@ -15946,7 +16279,7 @@
     "id_stare": "2NP-D03"
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 1,
    "historie": [],
    "dotazy": {
     "otazky": [
