@@ -10613,7 +10613,7 @@
       "E80"
      ],
      "zdroj_kratky": "R-566 (investor 28. 10. 2026 18:02 SEČ, S0.64, doslovně: „dotaz na statika, zda tam ten novy sloup 200x200 v 2np musi byt, zda podpira stropni desku (jinak by se to tak udelalo cele ze sdk, i nad dvermi D03. Nevim, zda to tam neudela zub v te koupelne - to by mi vadilo.“); text schválil investor 28. 10. 2026 (S0.69, R-572: „3 ok, posli, napis tam v koupelne 202/204 a je to vyresene“); druhý doplňující e-mail statikovi `docs/emaily/2026-10-28_statik_doplneni2.md`",
-     "pozn": "navazuje na N19 (potvrzení ŽB sloupku 200 × 200 a nový IFC) a na odpověď projektantky 26. 10. 2026 body 10 a 11; pokud sloupek desku nepodpírá, stěna i pás nad `2NP-D03` ze sádrokartonu bez sloupku a překladu (E173); výkres výztuže sloupku je E171; „202/204“ v textu = investor neví, kterou koupelnu zub zasáhne, rozhodne nový IFC (S0.65)",
+     "pozn": "navazuje na N19 (potvrzení ŽB sloupku 200 × 200 a nový IFC) a na odpověď projektantky 26. 10. 2026 body 10 a 11; pokud sloupek desku nepodpírá, stěna i pás nad `2NP-D03` ze sádrokartonu bez sloupku a překladu (E173); výkres výztuže sloupku je E171; „202/204“ v textu = investor neví, kterou koupelnu zub zasáhne, možná se to zjistí z nového IFC (S0.65; investor R-572: „mozna to pak zjisime z noveho ifc“)",
      "emaily": [
       {
        "adresat": "statik",
@@ -11282,7 +11282,7 @@
    },
    "pozn": "Pole `lidsky` u kazdeho prvku je text pro lidi (E127, R-246), pole `technika` jsou nase interni udaje (skript, session, IFC id a GUID, zdrojovy JSON, stare ID) a pole `historie` je audit trail prvku (E128, R-247; zkraceny text, plne znění `zdivo/model/historie.json`; od S0.44 (R-377, investor 14. 10. 2026 „35 i“) jen rozhodnuti, otevrene a uzavrene body a zmeny dat, zminky nalezu zustavaji jen v `historie.json`; od S0.45 (16. 10. 2026, investor: historie na strance prazdna, jen veci po odeslani S1) jen udalosti od `HISTORIE_OD`, dnes 2026-10-26). Generuji `tools/model/texty_pro_lidi.py` a `tools/model/historie_prvku.py`.",
    "historie_od": "2026-10-26",
-   "historie_udalosti": 89,
+   "historie_udalosti": 93,
    "historie_zminek": 96,
    "historie_prvku": 32
   }
@@ -12801,7 +12801,7 @@
     "json": "zdivo/steny/steny-v2.json",
     "id_stare": "2NP-S06"
    },
-   "historie_n": 6,
+   "historie_n": 7,
    "historie_zminek": 10,
    "historie": [
     {
@@ -12838,6 +12838,12 @@
      "typ": "rozhodnutí",
      "ref": "R-572",
      "text": "… projektantka (otázka 41, na bod 5 doplnění neodpověděla), (c) návratek `2NP-S06` jde až ke stropu. Doslovně (19:55 …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-573",
+     "text": "R-573: zídky koupelny 204 (`2NP-S06`, `2NP-S07`, sedák v `2NP-P01`, E88): v příštím e-mailu projektantce (krok 12, po …"
     }
    ],
    "dotazy": {
@@ -12910,7 +12916,7 @@
     "json": "zdivo/steny/steny-v2.json",
     "id_stare": "2NP-S07"
    },
-   "historie_n": 3,
+   "historie_n": 4,
    "historie_zminek": 6,
    "historie": [
     {
@@ -12930,6 +12936,12 @@
      "typ": "rozhodnutí",
      "ref": "R-572",
      "text": "… agentovi odeslat hned; (5) zídky koupelny 204 (R-565): (a) horní hrana `2NP-S07` jako SDK zdi, tedy +5,740, a zůstává …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-573",
+     "text": "R-573: zídky koupelny 204 (`2NP-S06`, `2NP-S07`, sedák v `2NP-P01`, E88): v příštím e-mailu projektantce (krok 12, po …"
     }
    ],
    "dotazy": {
@@ -13203,7 +13215,7 @@
      "datum": "2026-10-28",
      "typ": "rozhodnutí",
      "ref": "R-572",
-     "text": "… kterou koupelnu by zub sloupku 200 × 200 zasáhl (202 podle stran `2NP-S10`, nebo 204), neví, rozhodne nový IFC …"
+     "text": "… kterou koupelnu by zub sloupku 200 × 200 zasáhl (202 podle stran `2NP-S10`, nebo 204), neví, možná se to zjistí z …"
     },
     {
      "datum": "2026-10-28",
@@ -19952,7 +19964,7 @@
     "json": "zdivo/steny/otvory-kusy.json",
     "id_stare": null
    },
-   "historie_n": 2,
+   "historie_n": 4,
    "historie_zminek": 8,
    "historie": [
     {
@@ -19966,6 +19978,18 @@
      "typ": "rozhodnutí",
      "ref": "R-572",
      "text": "… odeslán (řádek níže), model `2NP-S06`, `2NP-S07` do +5,740 a sedák v `2NP-P01` do +3,740 s jistotou pracovní"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-573",
+     "text": "R-573: zídky koupelny 204 (`2NP-S06`, `2NP-S07`, sedák v `2NP-P01`, E88): v příštím e-mailu projektantce (krok 12, po …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "změna dat",
+     "ref": "931b742",
+     "text": "změna dat prvku: jistota, vyrez, zdroj (commit: S0.69: otázka statikovi N21 (kanon před odesláním, druhý doplňující …"
     }
    ],
    "dotazy": {
