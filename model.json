@@ -1,6 +1,6 @@
 {
  "meta": {
-  "stav_k": "28. 10. 2026 (S0.63)",
+  "stav_k": "28. 10. 2026 (S0.69)",
   "vznik": "krok S0.11, 21. 9. 2026 (E49); S0.12 (nulová spodní hrana, šrafy, SDK, stávající garáž, značky chybějících); S0.14 (ŽB z PDF statiky, E51); S0.16 až S0.26 (viz session logy); S0.29, 2. 10. 2026: ŽB, základy, ocel a kontext zdiva z IFC statika (investor: IFC autoritativní pro ŽB), odvozené ŽB prvky, ŽB z PDF statiky, věnec garáže, ŽB parapety, pracovní atika, ocelové sloupky a nadpraží z modelu odebrány",
   "jednotky": "mm, souřadnice modelu DWG (2.NP posunuté o −50 000 v x, E42), z absolutně od ±0,000",
   "urovne": {
@@ -258,14 +258,14 @@
    },
    {
     "stav": "pracovní",
-    "pocet": 47,
+    "pocet": 50,
     "srafa": null,
     "kresleni": "bez šrafy",
     "popis": "naše čtení jednoho podkladu, nebo zástupná výška (SDK příčka po podhled, který model zatím nemá; dveře v SDK podle popisky křídla); kde k tomu máme otázku, potvrdí projektantka"
    },
    {
     "stav": "upřesnil investor",
-    "pocet": 16,
+    "pocet": 13,
     "srafa": null,
     "kresleni": "bez šrafy",
     "popis": "údaj doplněný investorem tam, kde podklad chybí; kde je to potřeba, potvrdí projektantka"
@@ -1402,8 +1402,9 @@
    "prekryv": 0.2,
    "pocty": {
     "jistá (IFC)": 67,
-    "upřesnil investor": 3,
-    "zůstává": 5,
+    "upřesnil investor": 2,
+    "pracovní (čtení investora)": 3,
+    "zůstává": 3,
     "jistá (IFC), typ překladu neznámý": 13
    },
    "prvky": [
@@ -1564,15 +1565,15 @@
     {
      "id": "2NP-S06",
      "kat": "stěna",
-     "verdikt": "zůstává",
-     "horni": "NIC",
+     "verdikt": "pracovní (čtení investora)",
+     "horni": "SHODA",
      "spodni": "SHODA"
     },
     {
      "id": "2NP-S07",
      "kat": "stěna",
-     "verdikt": "zůstává",
-     "horni": "NIC",
+     "verdikt": "pracovní (čtení investora)",
+     "horni": "SHODA",
      "spodni": "SHODA"
     },
     {
@@ -1879,7 +1880,7 @@
     {
      "id": "2NP-P01",
      "kat": "kus parapet",
-     "verdikt": "upřesnil investor",
+     "verdikt": "pracovní (čtení investora)",
      "horni": "NIC",
      "spodni": "SHODA"
     },
@@ -2053,11 +2054,16 @@
    }
   ],
   "nalezy": [
+   "PŘEKRYV ŽB × ZDIVO 2NP-O05-překlad x 2NP-S06: 125 x 75 x 250 mm (zdivo v pásu průvlaku/překladu)",
+   "PŘEKRYV ŽB × ZDIVO 2NP-O05-překlad x 2NP-S07: 75 x 950 x 250 mm (zdivo v pásu průvlaku/překladu)",
+   "PŘEKRYV 2NP-S06 x 2NP-O05-překlad: 125 x 75 x 250 mm",
+   "PŘEKRYV 2NP-S06 x 2NP-P01: 200 x 75 x 820 mm; zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: podle čtení investora (R-565, R-572, doplňující e-mail projektantce 26. 10. 2026 bod 5) jde zídka u vnějšího líce od desky až ke stropu a před ní je sedák VAPIS 200 do 650 nad podlahou (+3,740; součást kusu `2NP-P01`); projektantka potvrdí (otázka projektantce 41; její odpověď na otázku 32 psala zdivo do +3,990 a popisku 650 nevysvětlila); dřívější čtení R-431 (prázdná nika, zídky do +3,990) je překonané; tenhle nález rozhodnutím nezanikl a patří k téže otázce (R-309 zrušil rámeček ve zídce, ne zídku samu)",
+   "PŘEKRYV 2NP-S07 x 2NP-O05-překlad: 75 x 950 x 250 mm",
    "PŘEKRYV 1NP-P01 x 1NP-PZ01: 90 x 50 x 750 mm",
    "PŘEKRYV 1NP-P02 x 1NP-PZ03: 240 x 50 x 1250 mm",
    "PŘEKRYV 1NP-SDK11 x 1NP-SDK12: 125 x 125 x 2700 mm",
-   "PŮDORYS 2NP-O05 x 2NP-S06: otvor a stěna se v půdorysu překrývají 125 x 75 mm (jedno místo popsané dvakrát); zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: v délce 950 mm je NIKA V PARAPETU, ROZHODL INVESTOR 18. 10. 2026 (R-431: parapetní zdivo VAPIS 200 tam není vůbec, zídka stojí u vnějšího líce pod rámem okna a jde do výšky parapetu +3,990; výřez na kusu `2NP-P01`), projektantka potvrdí (otázka projektantce 32); tenhle nález rozhodnutím nezanikl a patří k téže otázce (R-309 zrušil rámeček ve zídce, ne zídku samu)",
-   "PŮDORYS 2NP-O05 x 2NP-S07: otvor a stěna se v půdorysu překrývají 75 x 950 mm (jedno místo popsané dvakrát); zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: v délce 950 mm je NIKA V PARAPETU, ROZHODL INVESTOR 18. 10. 2026 (R-431: parapetní zdivo VAPIS 200 tam není vůbec, zídka stojí u vnějšího líce pod rámem okna a jde do výšky parapetu +3,990; výřez na kusu `2NP-P01`), projektantka potvrdí (otázka projektantce 32); tenhle nález rozhodnutím nezanikl a patří k téže otázce (R-309 zrušil rámeček ve zídce, ne zídku samu)",
+   "PŮDORYS 2NP-O05 x 2NP-S06: otvor a stěna se v půdorysu překrývají 125 x 75 mm (jedno místo popsané dvakrát); zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: podle čtení investora (R-565, R-572, doplňující e-mail projektantce 26. 10. 2026 bod 5) jde zídka u vnějšího líce od desky až ke stropu a před ní je sedák VAPIS 200 do 650 nad podlahou (+3,740; součást kusu `2NP-P01`); projektantka potvrdí (otázka projektantce 41; její odpověď na otázku 32 psala zdivo do +3,990 a popisku 650 nevysvětlila); dřívější čtení R-431 (prázdná nika, zídky do +3,990) je překonané; tenhle nález rozhodnutím nezanikl a patří k téže otázce (R-309 zrušil rámeček ve zídce, ne zídku samu)",
+   "PŮDORYS 2NP-O05 x 2NP-S07: otvor a stěna se v půdorysu překrývají 75 x 950 mm (jedno místo popsané dvakrát); zídka VPC 75 leží v půdorysu okna u 204 a jeho parapetního kusu: podle čtení investora (R-565, R-572, doplňující e-mail projektantce 26. 10. 2026 bod 5) jde zídka u vnějšího líce od desky až ke stropu a před ní je sedák VAPIS 200 do 650 nad podlahou (+3,740; součást kusu `2NP-P01`); projektantka potvrdí (otázka projektantce 41; její odpověď na otázku 32 psala zdivo do +3,990 a popisku 650 nevysvětlila); dřívější čtení R-431 (prázdná nika, zídky do +3,990) je překonané; tenhle nález rozhodnutím nezanikl a patří k téže otázce (R-309 zrušil rámeček ve zídce, ne zídku samu)",
    "KONEC 2NP: začátek 2NP-S06 nenavazuje na nic (nejbližší kolmá stěna 2NP-SDK03 ve 2870 mm)",
    "KONEC 2NP: mezi začátkem 2NP-S12 a kolmou stěnou 2NP-SDK05 chybí 1400 mm zdiva",
    "VERTIKÁLNÍ MEZERA 1NP: 20 prvků (1NP-S01, 1NP-S02, 1NP-S03, 1NP-S04, …) má pod sebou ŽB z IFC (podkladní deska) až 10 mm od hrany (spodní hrana zdiva −0,350, ŽB −0,360); E111: podkladní deska IFC −0,360 vs zdivo −0,350, otázka projektantce",
@@ -10573,6 +10579,52 @@
       }
      ],
      "druh": "otázka"
+    },
+    {
+     "adresat": "statik",
+     "cislo": "N21",
+     "oznaceni": "statik N21",
+     "stav": "aktivní",
+     "text": "K bodu 4 mého e-mailu z 26. 10. (ŽB sloupek 200 × 200 u dveří 2NP-D03, hala 201 / šatna 203, místo zděného sloupku 175 × 200, náš 2NP-S10): musí tam ten sloupek být, tedy podpírá stropní desku nad 2.NP, nebo nese jen překlad nad dveřmi? Pokud desku nepodpírá, udělali bychom to celé ze sádrokartonu jako navazující příčky, včetně pásu nad dveřmi 2NP-D03, bez sloupku a bez překladu. Bojím se, že sloupek 200 × 200 udělá v koupelně 202/204 vystupující roh, a to by mi vadilo.",
+     "prvky": [
+      "2NP-D03",
+      "2NP-S09",
+      "2NP-S10",
+      "2NP-SDK03",
+      "2NP-SDK04"
+     ],
+     "prvky_hlavni": [
+      "2NP-D03",
+      "2NP-S10"
+     ],
+     "prvky_zminene": [
+      "2NP-S09",
+      "2NP-SDK03",
+      "2NP-SDK04"
+     ],
+     "prvky_rucne": [
+      "2NP-S09",
+      "2NP-SDK03",
+      "2NP-SDK04"
+     ],
+     "body": [
+      "E173",
+      "E171",
+      "E80"
+     ],
+     "zdroj_kratky": "R-566 (investor 28. 10. 2026 18:02 SEČ, S0.64, doslovně: „dotaz na statika, zda tam ten novy sloup 200x200 v 2np musi byt, zda podpira stropni desku (jinak by se to tak udelalo cele ze sdk, i nad dvermi D03. Nevim, zda to tam neudela zub v te koupelne - to by mi vadilo.“); text schválil investor 28. 10. 2026 (S0.69, R-572: „3 ok, posli, napis tam v koupelne 202/204 a je to vyresene“); druhý doplňující e-mail statikovi `docs/emaily/2026-10-28_statik_doplneni2.md`",
+     "pozn": "navazuje na N19 (potvrzení ŽB sloupku 200 × 200 a nový IFC) a na odpověď projektantky 26. 10. 2026 body 10 a 11; pokud sloupek desku nepodpírá, stěna i pás nad `2NP-D03` ze sádrokartonu bez sloupku a překladu (E173); výkres výztuže sloupku je E171; „202/204“ v textu = investor neví, kterou koupelnu zub zasáhne, rozhodne nový IFC (S0.65)",
+     "emaily": [
+      {
+       "adresat": "statik",
+       "adresat_dativ": "statikovi",
+       "bod": "1",
+       "datum": "2026-10-28",
+       "cas_sec": "19:57",
+       "popis": "e-mail statikovi 28. 10. 2026 19:57, bod 1"
+      }
+     ],
+     "druh": "otázka"
     }
    ],
    "body": [
@@ -10769,7 +10821,8 @@
      ],
      "dotazy": [
       "projektantka 23",
-      "statik N19"
+      "statik N19",
+      "statik N21"
      ]
     },
     {
@@ -11102,7 +11155,8 @@
       "2NP-S10"
      ],
      "dotazy": [
-      "statik N19"
+      "statik N19",
+      "statik N21"
      ]
     }
    ],
@@ -11117,17 +11171,17 @@
     "stavitel 1"
    ],
    "pocty": {
-    "otazek": 49,
+    "otazek": 50,
     "otazek_podle_adresata": {
      "projektantka": 28,
-     "statik": 16,
+     "statik": 17,
      "stavitel": 5
     },
     "otazek_podle_stavu": {
      "zodpovězená": 12,
-     "aktivní": 37
+     "aktivní": 38
     },
-    "otazek_aktivnich_s_prvkem": 28,
+    "otazek_aktivnich_s_prvkem": 29,
     "otazek_bez_prvku": 13,
     "otazek_bez_hlavniho_prvku": 14,
     "bodu": 34,
@@ -11135,7 +11189,7 @@
     "prvku_s_dotazem": 170,
     "prvku_s_hlavni_otazkou": 138,
     "prvku_jen_zminenych": 9,
-    "otazek_v_odeslanem_emailu": 47,
+    "otazek_v_odeslanem_emailu": 48,
     "prvku_se_srafou_dotazu": 108
    }
   },
@@ -11149,12 +11203,12 @@
     "pracovní": "„pracovní“: Výška stojí na jednom podkladu (řez nebo tabulka úrovní sestavená z řezů). Počítá se s ní, ale potvrzení druhým výkresem nebo projektantkou ještě nepadlo.",
     "pracovní (dveře v SDK, z popisky křídla)": "„pracovní (dveře v SDK, z popisky křídla)“: Dveře v sádrokartonové příčce: stavební otvor je křídlo + 100 mm, výška z popisky křídla. Mimo zdivo a mimo objednávku cihel, bez šrafy.",
     "pracovní (podhled)": "„pracovní (podhled)“: Sádrokartonová příčka jde od podlahy k sádrokartonovému podhledu, který model zatím nemá (a ne každá místnost ho má). Horní hrana v modelu je jen zástupná, bez šrafy; podhled se doplní v další etapě.",
+    "pracovní (čtení investora: návratek od desky ke stropu, R-565, R-572; projektantka potvrdí, otázka 41)": "„pracovní (čtení investora: návratek od desky ke stropu, R-565, R-572; projektantka potvrdí, otázka 41)“: Krátký kolmý návratek tl. 75 mm na konci zídky, vyčnívá 75 mm do místnosti; podle investora jde stejně jako zídka od desky až ke stropu. Ve stejné stopě stojí do výšky 650 mm sedák z VAPIS 200, se kterým se návratek v datech překrývá; jak to je doopravdy, potvrdí projektantka (modrá šrafa „má dotaz“).",
+    "pracovní (čtení investora: zídka od desky ke stropu, před ní sedák VAPIS 200 do 650 nad podlahou, R-565, R-572; projektantka potvrdí, otázka 41)": "„pracovní (čtení investora: zídka od desky ke stropu, před ní sedák VAPIS 200 do 650 nad podlahou, R-565, R-572; projektantka potvrdí, otázka 41)“: Polohu kreslí půdorys (u zídky popiska „v. 650 mm“), výšky jsou čtení investora, které poslal projektantce k potvrzení: zídka tl. 75 mm u vnějšího líce pod rámem okna jde od desky až ke stropu a před ní směrem do sprchového koutu je sedák z VAPIS 200 vysoký 650 mm nad podlahou, na kterém se sedí. Projektantka ve své odpovědi psala zdivo i přizdívku do výšky parapetu (900 mm nad podlahou) a popisku 650 nevysvětlila, proto to zůstává pracovní, dokud neodpoví na doplňující dotaz (modrá šrafa „má dotaz“).",
     "stávající": "„stávající“: Prvek už stojí. Rozměry jsou podle projektu, ne podle nového zaměření.",
     "stávající (podle projektu, R-44)": "„stávající (podle projektu, R-44)“: Prvek už stojí. Rozměry jsou podle projektu, ne podle nového zaměření.",
     "upřesnil investor (dřevo, R-66, R-183, R-367)": "„upřesnil investor (dřevo, R-66, R-183, R-367)“: Zídku u okna kreslí půdorys (poloha, délka 2 780 mm, tloušťka 300 mm, popiska „v. 400 mm“); investor rozhodl jen MATERIÁL: je dřevěná, ne zděná, proto je mimo objednávku cihel. Bez šrafy.",
     "upřesnil investor (hranol do +5,740, nad ním trubka; R-335, R-360)": "„upřesnil investor (hranol do +5,740, nad ním trubka; R-335, R-360)“: Výšku hranolu komína doplnil investor podle pohledů fasád: hranol 400 × 400 končí na horní hraně zdiva 2.NP a nad ním pokračuje trubka. Bez šrafy.",
-    "upřesnil investor (nika v parapetu, R-431; výška 900 nebo 650 k potvrzení projektantkou)": "„upřesnil investor (nika v parapetu, R-431; výška 900 nebo 650 k potvrzení projektantkou)“: Krátký návratek, který niku pod oknem uzavírá ze severu a vyčnívá 75 mm do místnosti. Investor rozhodl modelovat ho do výšky parapetu (900 mm nad podlahou), ale sám si není jistý, zda je 900, nebo 650 mm, jak říká popiska půdorysu; potvrdí to projektantka (proto modrá šrafa „má dotaz“).",
-    "upřesnil investor (nika v parapetu, zídka u vnějšího líce do výšky parapetu, R-431; projektantka potvrdí)": "„upřesnil investor (nika v parapetu, zídka u vnějšího líce do výšky parapetu, R-431; projektantka potvrdí)“: Polohu obou prvků kreslí půdorys (u zídky s popiskou „v. 650 mm“); investor rozhodl, JAK na sebe navazují a kam zídka sahá: pod oknem u koupelny je v délce 950 mm nika, zdivo pod oknem tam není vůbec a parapet tvoří jen zídka tl. 75 mm u vnějšího líce pod rámem okna, až do výšky parapetu (900 mm nad podlahou). Nika je hluboká 200 mm, z toho 125 mm v tloušťce zdi a 75 mm v místnosti. Sedací plochu uvnitř niky model nekreslí, žádný výkres ji nemá. Projektantka to potvrdí (proto modrá šrafa „má dotaz“).",
     "upřesnil investor (od desky −0,350 do +2,400, R-105, R-408; projektantka potvrdí)": "„upřesnil investor (od desky −0,350 do +2,400, R-105, R-408; projektantka potvrdí)“: Výšku přizdívky doplnil a upřesnil investor: stojí na podkladní desce (−0,350) jako ostatní zdivo přízemí a končí na spodní hraně nadpraží oken (+2,400), záměrně nejde ke stropu. Nejistá zůstává tloušťka a materiál; obojí i spodní hranu potvrdí projektantka. Bez šrafy.",
     "upřesnil investor (prostup v projektu chybí, doplněn podle návodu rekuperace; R-293, R-380)": "„upřesnil investor (prostup v projektu chybí, doplněn podle návodu rekuperace; R-293, R-380)“: Kruhový prostup, který v projektu (IFC ani architektura) není; investor ho doplnil symetricky k prostupu z IFC podle návodu rekuperace. Bez šrafy.",
     "upřesnil investor (trubka do +7,570, Ø 200 z pohledu; R-335, R-352, R-360)": "„upřesnil investor (trubka do +7,570, Ø 200 z pohledu; R-335, R-352, R-360)“: Trubku komína nad střechou doplnil investor podle pohledů fasád: do +7,570, průměr zhruba 200 mm odměřený z pohledu. Materiál neznámý, bez šrafy, mimo objednávku cihel.",
@@ -11228,9 +11282,9 @@
    },
    "pozn": "Pole `lidsky` u kazdeho prvku je text pro lidi (E127, R-246), pole `technika` jsou nase interni udaje (skript, session, IFC id a GUID, zdrojovy JSON, stare ID) a pole `historie` je audit trail prvku (E128, R-247; zkraceny text, plne znění `zdivo/model/historie.json`; od S0.44 (R-377, investor 14. 10. 2026 „35 i“) jen rozhodnuti, otevrene a uzavrene body a zmeny dat, zminky nalezu zustavaji jen v `historie.json`; od S0.45 (16. 10. 2026, investor: historie na strance prazdna, jen veci po odeslani S1) jen udalosti od `HISTORIE_OD`, dnes 2026-10-26). Generuji `tools/model/texty_pro_lidi.py` a `tools/model/historie_prvku.py`.",
    "historie_od": "2026-10-26",
-   "historie_udalosti": 46,
-   "historie_zminek": 47,
-   "historie_prvku": 20
+   "historie_udalosti": 89,
+   "historie_zminek": 96,
+   "historie_prvku": 32
   }
  },
  "prvky": [
@@ -12715,9 +12769,9 @@
     207704
    ],
    "z0": 2920,
-   "z1": 3990,
-   "zdroj": "půdorys 2.NP „v. 650 mm“; stojí na desce +2,920 (investor 12. 10. 2026, R-318); NIKA V PARAPETU (18. 10. 2026, R-431, investor doslovně: „Ono to asi bude tak, ze ta zed s06 a s07 bude do vysky parapetu 900 a ta sedaci plocha uvnitr bude 650. takto bych to popsal jako dotaz pro overeni u projektantky a takto to i namodeloval“): návratek jde do výšky parapetu +3,990 (900 nad podlahou +3,090) a uzavírá niku pod oknem `2NP-O05` ze severu; prochází 125 mm tloušťky parapetu a vyčnívá 75 mm do místnosti 204. Zda je 900, nebo 650 mm (popiska půdorysu „v. 650 mm“), potvrdí projektantka (otázka projektantce 32); sedací plochu 650 mm uvnitř niky model nekreslí (žádný výkres ji nemá, R-60, R-61). Dřívější čtení do 18. 10. 2026: horní hrana +3,740 = 650 nad podlahou (pracovní, otázka projektantce 32, R-320)",
-   "jistota": "upřesnil investor (nika v parapetu, R-431; výška 900 nebo 650 k potvrzení projektantkou)",
+   "z1": 5740,
+   "zdroj": "HRANY PROTI IFC JEN PRO INFORMACI (S0.69, R-565): nad horní hranou +5,740 leží věnec `2NP-V08` (č. 20696), pod spodní hranou +2,920 deska `1NP-DS01` (č. 9235); výšku určilo čtení investora, projektantka potvrdí. NÁVRATEK OD DESKY KE STROPU (S0.69, 28. 10. 2026, R-565, R-572, investor doslovně k návratku: „jde az ke stropu“): kolmý návratek VPC 75 na severním konci zídky `2NP-S07` stojí na desce +2,920 (investor 12. 10. 2026, R-318) a jde až ke stropu, horní hrana +5,740 jako u `2NP-S07` (otevřený bod 5,490 vs 5,740); prochází 125 mm tloušťky parapetu a vyčnívá 75 mm do místnosti 204, stejnou stopu má sedák VAPIS 200 před zídkou (kus `2NP-P01`, do +3,740), se kterým se v datech překrývá (nález PŘEKRYV, čeká na odpověď projektantky na otázku 41). ČTENÍ INVESTORA (investor 28. 10. 2026 18:02 SEČ (R-565, doslovně: „pregenerovat s06 a s07 a parapet pod oknem podle toho, jak jsem to ja popsal projektantce do emailu“); popis v doplňujícím e-mailu projektantce 26. 10. 2026 22:05 SEČ bod 5 (otázka 41, doslovně: „zídka 2NP-S07 (75 mm) jde od desky až ke stropu, VAPIS 200 je před ní směrem do sprchového koutu do výšky 650 a sedí se na něm“); upřesnění investora 28. 10. 2026 (S0.69, R-572): „až ke stropu“ = výška jako SDK zdi, tedy +5,740, a zůstává otevřený bod (5,490 vs 5,740); „do výšky 650“ = 650 nad podlahou 2.NP, tedy +3,740 (doslovně: „to bude 650 nad podlahu, kdyz by to bylo od desky, tak by to na sezeni bylo nesmyslne nizko“); návratek `2NP-S06` „jde až ke stropu“; potvrdí projektantka v odpovědi na otázku 41 (doslovně: „ale muzeme si to potvrdit potom s projektantkou, je to jedna z veci, na kterou neodpovedela“)). Projektantka 26. 10. 2026 (bod 13) píše VAPIS 200 + přizdívka 75 do +3,990 a popisku „v. 650 mm“ nevysvětlila; rozpor je otevřený (E88). Dřívější čtení (18. 10. 2026, R-431, překonáno): návratek do výšky parapetu +3,990 uzavírá niku ze severu, doslovně: „Ono to asi bude tak, ze ta zed s06 a s07 bude do vysky parapetu 900 a ta sedaci plocha uvnitr bude 650. takto bych to popsal jako dotaz pro overeni u projektantky a takto to i namodeloval“; do 18. 10. 2026 +3,740 (R-320). Půdorys 2.NP má popisku „v. 650 mm“.",
+   "jistota": "pracovní (čtení investora: návratek od desky ke stropu, R-565, R-572; projektantka potvrdí, otázka 41)",
    "strany": [
     "204",
     "204"
@@ -12725,18 +12779,15 @@
    "cast_useku": null,
    "deleno_z": null,
    "id_stare": "2NP-S06",
-   "vyska": 1070,
+   "vyska": 2820,
    "barva": "#2ab04c",
    "jistota_srafa": null,
    "zdvih": 1,
    "lidsky": {
     "co": "Zděná stěna ve 2.NP, materiál vápenopískové příčkovky VPC tl. 75 mm. U místnosti 204 Koupelna, WC.",
-    "rozmer": "délka 200 mm, tloušťka 75 mm, výška 1070 mm; stojí od +2,920 m do +3,990 m nad podlahou 1.NP (±0,000)",
-    "odkud": [
-     "pudorys",
-     "kota"
-    ],
-    "jistota": "upřesnil investor (nika v parapetu, R-431; výška 900 nebo 650 k potvrzení projektantkou)",
+    "rozmer": "délka 200 mm, tloušťka 75 mm, výška 2820 mm; stojí od +2,920 m do +5,740 m nad podlahou 1.NP (±0,000)",
+    "odkud": [],
+    "jistota": "pracovní (čtení investora: návratek od desky ke stropu, R-565, R-572; projektantka potvrdí, otázka 41)",
     "zdroje": [
      "pudorys_2np",
      "dwg"
@@ -12744,14 +12795,14 @@
    },
    "technika": {
     "skript": "tools/model/model3d.py",
-    "session": "",
+    "session": "S0.69",
     "ifc_id": null,
     "ifc_guid": null,
     "json": "zdivo/steny/steny-v2.json",
     "id_stare": "2NP-S06"
    },
-   "historie_n": 4,
-   "historie_zminek": 4,
+   "historie_n": 6,
+   "historie_zminek": 10,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -12775,6 +12826,18 @@
      "typ": "rozhodnutí",
      "ref": "R-551",
      "text": "… přizdívek 106 `1NP-PZ01` až `PZ07`, pouzdra `1NP-S10`, `S11` a zídek `2NP-S06`, `S07`) se do dat a modelu (materiál v …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-565",
+     "text": "R-565: zídky `2NP-S06`, `2NP-S07` a parapet pod oknem `2NP-O05` (`2NP-P01`, koupelna 204) přegenerovat podle popisu …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-572",
+     "text": "… projektantka (otázka 41, na bod 5 doplnění neodpověděla), (c) návratek `2NP-S06` jde až ke stropu. Doslovně (19:55 …"
     }
    ],
    "dotazy": {
@@ -12815,9 +12878,9 @@
     207704
    ],
    "z0": 2920,
-   "z1": 3990,
-   "zdroj": "půdorys 2.NP „v. 650 mm“; stojí na desce +2,920 (investor 12. 10. 2026, R-318); NIKA V PARAPETU ROZHODL INVESTOR 18. 10. 2026 (R-431, doslovně: „mas pravdu, je to nika, oprav slova, oprav i model … ta zed s06 a s07 bude do vysky parapetu 900 a ta sedaci plocha uvnitr bude 650“; ruší čtení R-409, podle kterého zídka nahrazovala vnitřních 75 mm parapetu): zídka VPC 75 stojí u VNĚJŠÍHO líce parapetu pod rámem okna `2NP-O05` a jde do výšky parapetu +3,990; parapetní zdivo VAPIS 200 tam v délce 950 není vůbec, je to nika hloubky 200 mm (125 mm v tloušťce zdi + 75 mm v místnosti u návratku `2NP-S06`). Sedací plochu 650 mm uvnitř niky model nekreslí (žádný výkres ji nemá, R-60, R-61); projektantka potvrdí (otázka projektantce 32, E148/T2). E33: investor mluvil o plechové výplni okna, v seznamu je jako příčka VPC 75. Dřívější čtení do 18. 10. 2026: horní hrana +3,740 (650 nad podlahou) a zídka jako vnitřních 75 mm parapetu (R-409)",
-   "jistota": "upřesnil investor (nika v parapetu, zídka u vnějšího líce do výšky parapetu, R-431; projektantka potvrdí)",
+   "z1": 5740,
+   "zdroj": "HRANY PROTI IFC JEN PRO INFORMACI (S0.69, R-565): nad horní hranou +5,740 leží věnec `2NP-V08` (č. 20696), pod spodní hranou +2,920 deska `1NP-DS01` (č. 9235); výšku určilo čtení investora, projektantka potvrdí. ZÍDKA OD DESKY KE STROPU (S0.69, 28. 10. 2026, R-565, R-572): zídka VPC 75 stojí u vnějšího líce pod rámem okna `2NP-O05` na desce +2,920 (investor 12. 10. 2026, R-318) a jde až ke stropu; horní hrana +5,740 = výška SDK příček, zda +5,490 (spodní hrana nadpraží), nebo +5,740 (DH věnce), je otevřený bod. Před ní směrem do sprchového koutu je sedák VAPIS 200 do +3,740 (součást kusu `2NP-P01`). ČTENÍ INVESTORA (investor 28. 10. 2026 18:02 SEČ (R-565, doslovně: „pregenerovat s06 a s07 a parapet pod oknem podle toho, jak jsem to ja popsal projektantce do emailu“); popis v doplňujícím e-mailu projektantce 26. 10. 2026 22:05 SEČ bod 5 (otázka 41, doslovně: „zídka 2NP-S07 (75 mm) jde od desky až ke stropu, VAPIS 200 je před ní směrem do sprchového koutu do výšky 650 a sedí se na něm“); upřesnění investora 28. 10. 2026 (S0.69, R-572): „až ke stropu“ = výška jako SDK zdi, tedy +5,740, a zůstává otevřený bod (5,490 vs 5,740); „do výšky 650“ = 650 nad podlahou 2.NP, tedy +3,740 (doslovně: „to bude 650 nad podlahu, kdyz by to bylo od desky, tak by to na sezeni bylo nesmyslne nizko“); návratek `2NP-S06` „jde až ke stropu“; potvrdí projektantka v odpovědi na otázku 41 (doslovně: „ale muzeme si to potvrdit potom s projektantkou, je to jedna z veci, na kterou neodpovedela“)). Projektantka 26. 10. 2026 (bod 13) píše VAPIS 200 + přizdívka 75 do +3,990 a popisku „v. 650 mm“ nevysvětlila; rozpor je otevřený (E88). Dřívější čtení (18. 10. 2026, R-431, překonáno): nika v parapetu, zídka jen do výšky parapetu +3,990, doslovně: „mas pravdu, je to nika, oprav slova, oprav i model … ta zed s06 a s07 bude do vysky parapetu 900 a ta sedaci plocha uvnitr bude 650“; do 18. 10. 2026 +3,740 (R-409, R-320). Půdorys 2.NP má popisku „v. 650 mm“. E33: investor mluvil o plechové výplni okna, v seznamu je jako příčka VPC 75.",
+   "jistota": "pracovní (čtení investora: zídka od desky ke stropu, před ní sedák VAPIS 200 do 650 nad podlahou, R-565, R-572; projektantka potvrdí, otázka 41)",
    "strany": [
     "204",
     "-"
@@ -12825,17 +12888,15 @@
    "cast_useku": null,
    "deleno_z": null,
    "id_stare": "2NP-S07",
-   "vyska": 1070,
+   "vyska": 2820,
    "barva": "#2ab04c",
    "jistota_srafa": null,
    "zdvih": 1,
    "lidsky": {
     "co": "Zděná stěna ve 2.NP, materiál vápenopískové příčkovky VPC tl. 75 mm. Obvodová (na jedné straně exteriér), uvnitř místnosti 204 Koupelna, WC.",
-    "rozmer": "délka 950 mm, tloušťka 75 mm, výška 1070 mm; stojí od +2,920 m do +3,990 m nad podlahou 1.NP (±0,000)",
-    "odkud": [
-     "pudorys"
-    ],
-    "jistota": "upřesnil investor (nika v parapetu, zídka u vnějšího líce do výšky parapetu, R-431; projektantka potvrdí)",
+    "rozmer": "délka 950 mm, tloušťka 75 mm, výška 2820 mm; stojí od +2,920 m do +5,740 m nad podlahou 1.NP (±0,000)",
+    "odkud": [],
+    "jistota": "pracovní (čtení investora: zídka od desky ke stropu, před ní sedák VAPIS 200 do 650 nad podlahou, R-565, R-572; projektantka potvrdí, otázka 41)",
     "zdroje": [
      "pudorys_2np",
      "dwg"
@@ -12843,20 +12904,32 @@
    },
    "technika": {
     "skript": "tools/model/model3d.py",
-    "session": "",
+    "session": "S0.69",
     "ifc_id": null,
     "ifc_guid": null,
     "json": "zdivo/steny/steny-v2.json",
     "id_stare": "2NP-S07"
    },
-   "historie_n": 1,
-   "historie_zminek": 1,
+   "historie_n": 3,
+   "historie_zminek": 6,
    "historie": [
     {
      "datum": "2026-10-26",
      "typ": "rozhodnutí",
      "ref": "R-539",
      "text": "… `1NP-S10` a `1NP-S11` i zídky u sedacího prostoru 204 `2NP-S06` a `2NP-S07` budou ze SÁDROKARTONU, ne zděné; …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-565",
+     "text": "R-565: zídky `2NP-S06`, `2NP-S07` a parapet pod oknem `2NP-O05` (`2NP-P01`, koupelna 204) přegenerovat podle popisu …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-572",
+     "text": "… agentovi odeslat hned; (5) zídky koupelny 204 (R-565): (a) horní hrana `2NP-S07` jako SDK zdi, tedy +5,740, a zůstává …"
     }
    ],
    "dotazy": {
@@ -13005,18 +13078,20 @@
     "id_stare": "2NP-S09"
    },
    "historie_n": 0,
-   "historie_zminek": 1,
+   "historie_zminek": 3,
    "historie": [],
    "dotazy": {
     "otazky": [
      "projektantka 23",
-     "statik N19"
+     "statik N19",
+     "statik N21"
     ],
     "otazky_hlavni": [
      "statik N19"
     ],
     "otazky_zminene": [
-     "projektantka 23"
+     "projektantka 23",
+     "statik N21"
     ],
     "body": [
      "E80"
@@ -13081,8 +13156,8 @@
     "json": "zdivo/steny/steny-v2.json",
     "id_stare": "2NP-S10"
    },
-   "historie_n": 6,
-   "historie_zminek": 2,
+   "historie_n": 9,
+   "historie_zminek": 6,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -13108,6 +13183,12 @@
     },
     {
      "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E173",
+     "text": "… projektantka 26. 10. 2026 (body 10, 11) nahradila zděný sloupek 175 × 200 (`2NP-S10`) ŽB sloupkem 200 × 200 od desky …"
+    },
+    {
+     "datum": "2026-10-28",
      "typ": "rozhodnutí",
      "ref": "R-550",
      "text": "… stávající garáž, 8 atika, 10 přizdívky 106, 23 pás nad `2NP-D03`, 29 úsek `2NP-S10`, E111 −0,350 vs −0,360, 36 …"
@@ -13117,16 +13198,29 @@
      "typ": "rozhodnutí",
      "ref": "R-555",
      "text": "… u dveří `2NP-D03` (hala 201 / šatna 203; nahrazuje zděný sloupek `2NP-S10` 170 × 200, odpověď projektantky 26. 10. …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-572",
+     "text": "… kterou koupelnu by zub sloupku 200 × 200 zasáhl (202 podle stran `2NP-S10`, nebo 204), neví, rozhodne nový IFC …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "událost",
+     "text": "… (E173, R-566): musí ŽB sloupek 200 × 200 u dveří `2NP-D03` (místo `2NP-S10`) být a podpírá desku, nebo jen překlad; …"
     }
    ],
    "dotazy": {
     "otazky": [
      "projektantka 29",
-     "statik N19"
+     "statik N19",
+     "statik N21"
     ],
     "otazky_hlavni": [
      "projektantka 29",
-     "statik N19"
+     "statik N19",
+     "statik N21"
     ],
     "otazky_zminene": [],
     "body": [
@@ -13137,7 +13231,8 @@
     ]
    },
    "dotaz_srafa": [
-    "statik N19"
+    "statik N19",
+    "statik N21"
    ]
   },
   {
@@ -14642,9 +14737,16 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-O01"
    },
-   "historie_n": 0,
+   "historie_n": 1,
    "historie_zminek": 0,
-   "historie": [],
+   "historie": [
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-559",
+     "text": "… pravidlo otvor okno -5 a HS portal -10“. Dotčené otvory: HS portály `1NP-O01`, `1NP-O03` (zdivo beze změny, jen nižší …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 30",
@@ -14736,8 +14838,8 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-O02"
    },
-   "historie_n": 5,
-   "historie_zminek": 5,
+   "historie_n": 10,
+   "historie_zminek": 8,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -14765,6 +14867,36 @@
      "datum": "2026-10-26",
      "typ": "událost",
      "text": "… přerušení tepelného mostu, nebo lehká montovaná konstrukce; práh `1NP-O02` prolévačky + Propasiv a provázání s …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E172",
+     "text": "… −100 mm; parapety oken 850 nad podlahou (`1NP-O04` kuchyň i obecně); `1NP-O02` +0,300 s ŽB prolévačkami (650 mm od …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-556",
+     "text": "… parafráze; doslovně: „1 parafraze“ (otázka 1: dvě události u `1NP-D01` a `1NP-O02` s citací projektantky „to jsem …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-559",
+     "text": "… portály `1NP-O01`, `1NP-O03` (zdivo beze změny, jen nižší izolace), `1NP-O02` (R-561), okna s parapetem 900 (R-560), …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-561",
+     "text": "R-561: portál `1NP-O02` (balkonové dveře na východě místnosti 106): spodek otvoru o 100 mm níž než v projektu, tedy …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-568",
+     "text": "… schůzce s dodavatelem oken; doslovně v řádku „citace k R-568“ níže; (3) `1NP-O02` podezdívka s horní hranou +0,300 …"
     }
    ],
    "dotazy": {
@@ -14849,9 +14981,16 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-O03"
    },
-   "historie_n": 0,
+   "historie_n": 1,
    "historie_zminek": 0,
-   "historie": [],
+   "historie": [
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-559",
+     "text": "… otvor okno -5 a HS portal -10“. Dotčené otvory: HS portály `1NP-O01`, `1NP-O03` (zdivo beze změny, jen nižší …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 30",
@@ -14945,8 +15084,8 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-D01"
    },
-   "historie_n": 3,
-   "historie_zminek": 2,
+   "historie_n": 6,
+   "historie_zminek": 5,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -14964,6 +15103,24 @@
      "typ": "rozhodnutí",
      "ref": "R-534",
      "text": "R-534: vlastník sedmi nálezů „OTVOR vs IFC“ u dveří (1NP-D01, 1NP-D03, 1NP-D04, 1NP-D06, 2NP-D01, 2NP-D02, 2NP-D03) v …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E172",
+     "text": "… (650 mm od hydroizolace); terasa `2NP-O10`, `2NP-O13` 200; dveře `1NP-D01`, `D02`, `D03`, `D05`, `D06` bez cihly a …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-556",
+     "text": "… jen parafráze; doslovně: „1 parafraze“ (otázka 1: dvě události u `1NP-D01` a `1NP-O02` s citací projektantky „to jsem …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-568",
+     "text": "… jako parapetem je `1NP-O04` (volba „Ano, 1NP-O04“); (2) dveře 1.NP `1NP-D01`, `1NP-D02`, `1NP-D03`, `1NP-D05`, …"
     }
    ],
    "dotazy": {
@@ -15045,9 +15202,22 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-D02"
    },
-   "historie_n": 0,
+   "historie_n": 2,
    "historie_zminek": 0,
-   "historie": [],
+   "historie": [
+    {
+     "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E172",
+     "text": "… SCHŮZKU s dodavatelem oken (R-563, po objednávce, před zděním 1.NP): `1NP-D02` (práh, −50?), `1NP-D05` („na podlaze …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-568",
+     "text": "… parapetem je `1NP-O04` (volba „Ano, 1NP-O04“); (2) dveře 1.NP `1NP-D01`, `1NP-D02`, `1NP-D03`, `1NP-D05`, `1NP-D06`: …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 22",
@@ -15141,9 +15311,28 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-O04"
    },
-   "historie_n": 0,
-   "historie_zminek": 0,
-   "historie": [],
+   "historie_n": 3,
+   "historie_zminek": 2,
+   "historie": [
+    {
+     "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E172",
+     "text": "… dveře −50 mm, HS portál −100 mm; parapety oken 850 nad podlahou (`1NP-O04` kuchyň i obecně); `1NP-O02` +0,300 s ŽB …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-560",
+     "text": "… mm nad čistou podlahou místo projektových 900: u kuchyňského okna `1NP-O04` kvůli pracovní desce linky jako parapetu …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-568",
+     "text": "R-568: (1) kuchyňské okno s pracovní deskou jako parapetem je `1NP-O04` (volba „Ano, 1NP-O04“); (2) dveře 1.NP …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 39",
@@ -15233,14 +15422,33 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-D03"
    },
-   "historie_n": 1,
-   "historie_zminek": 1,
+   "historie_n": 4,
+   "historie_zminek": 2,
    "historie": [
     {
      "datum": "2026-10-26",
      "typ": "rozhodnutí",
      "ref": "R-534",
      "text": "R-534: vlastník sedmi nálezů „OTVOR vs IFC“ u dveří (1NP-D01, 1NP-D03, 1NP-D04, 1NP-D06, 2NP-D01, 2NP-D02, 2NP-D03) v …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E172",
+     "text": "… dveře hlavního objektu na první řadu cihel, statika pod `1NP-D01` a `1NP-D03` zdivo do −0,110; pod portálem `1NP-O02` …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E172",
+     "text": "… `2NP-O07`, `O08`, `O14` a stávající garáže `1NP-O06`, `O07`, okno `1NP-O05` (parapet 1700 → 1650?), vyšší stavební …",
+     "pozn": "pod starým ID 1NP-O05"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-568",
+     "text": "… `1NP-O04` (volba „Ano, 1NP-O04“); (2) dveře 1.NP `1NP-D01`, `1NP-D02`, `1NP-D03`, `1NP-D05`, `1NP-D06`: všechny bez …"
     }
    ],
    "dotazy": {
@@ -15493,9 +15701,22 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-D05"
    },
-   "historie_n": 0,
+   "historie_n": 2,
    "historie_zminek": 0,
-   "historie": [],
+   "historie": [
+    {
+     "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E172",
+     "text": "… (R-563, po objednávce, před zděním 1.NP): `1NP-D02` (práh, −50?), `1NP-D05` („na podlaze na 0“?), podezdívka …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-568",
+     "text": "… „Ano, 1NP-O04“); (2) dveře 1.NP `1NP-D01`, `1NP-D02`, `1NP-D03`, `1NP-D05`, `1NP-D06`: všechny bez cihly a všechny se …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 22",
@@ -15588,7 +15809,7 @@
     "id_stare": "1NP-O07"
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 1,
    "historie": [],
    "dotazy": {
     "otazky": [
@@ -15675,9 +15896,16 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": null
    },
-   "historie_n": 0,
+   "historie_n": 1,
    "historie_zminek": 0,
-   "historie": [],
+   "historie": [
+    {
+     "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E172",
+     "text": "… statikovi), okna nástavby `2NP-O07`, `O08`, `O14` a stávající garáže `1NP-O06`, `O07`, okno `1NP-O05` (parapet 1700 → …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 39"
@@ -15763,7 +15991,7 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": null
    },
-   "historie_n": 1,
+   "historie_n": 2,
    "historie_zminek": 1,
    "historie": [
     {
@@ -15771,6 +15999,12 @@
      "typ": "rozhodnutí",
      "ref": "R-534",
      "text": "… vlastník sedmi nálezů „OTVOR vs IFC“ u dveří (1NP-D01, 1NP-D03, 1NP-D04, 1NP-D06, 2NP-D01, 2NP-D02, 2NP-D03) v …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-568",
+     "text": "… 1NP-O04“); (2) dveře 1.NP `1NP-D01`, `1NP-D02`, `1NP-D03`, `1NP-D05`, `1NP-D06`: všechny bez cihly a všechny se …"
     }
    ],
    "dotazy": {
@@ -16441,9 +16675,16 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-O17"
    },
-   "historie_n": 0,
-   "historie_zminek": 0,
-   "historie": [],
+   "historie_n": 1,
+   "historie_zminek": 1,
+   "historie": [
+    {
+     "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E172",
+     "text": "… deska jako parapet 850 (rešerše: desky 850 až 920), pás oken ložnice `2NP-O01` až `O04` s ŽB parapetem ze statiky …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 30",
@@ -16683,7 +16924,7 @@
     "id_stare": "2NP-O18"
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 1,
    "historie": [],
    "dotazy": {
     "otazky": [
@@ -17119,9 +17360,22 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": null
    },
-   "historie_n": 0,
-   "historie_zminek": 0,
-   "historie": [],
+   "historie_n": 2,
+   "historie_zminek": 2,
+   "historie": [
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-565",
+     "text": "R-565: zídky `2NP-S06`, `2NP-S07` a parapet pod oknem `2NP-O05` (`2NP-P01`, koupelna 204) přegenerovat podle popisu …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-572",
+     "text": "… pise do vysky +3,990“ (odpověď agenta: +3,990 = výška parapetu okna `2NP-O05`, 900 nad podlahou +3,090 a 1070 nad …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 32",
@@ -17280,8 +17534,8 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-D03"
    },
-   "historie_n": 6,
-   "historie_zminek": 6,
+   "historie_n": 10,
+   "historie_zminek": 11,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -17307,6 +17561,12 @@
     },
     {
      "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E173",
+     "text": "NUTNOST ŽB SLOUPKU 200 × 200 u dveří `2NP-D03` (hala 201 / šatna 203) vs celá stěna ze sádrokartonu (S0.64, 28. 10. …"
+    },
+    {
+     "datum": "2026-10-28",
      "typ": "rozhodnutí",
      "ref": "R-550",
      "text": "… terasu, 5 stávající garáž, 8 atika, 10 přizdívky 106, 23 pás nad `2NP-D03`, 29 úsek `2NP-S10`, E111 −0,350 vs −0,360, …"
@@ -17316,6 +17576,23 @@
      "typ": "rozhodnutí",
      "ref": "R-555",
      "text": "… R-555: k novému železobetonovému sloupku 200 × 200 ve 2.NP u dveří `2NP-D03` (hala 201 / šatna 203; nahrazuje zděný …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-557",
+     "text": "R-557: výřez události ODESLÁNO u dveří `2NP-D03` se slovy „pevnost a formát“ (téma neveřejného řádku N20, bez jména …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-566",
+     "text": "… R-566: otázka statikovi, zda nový ŽB sloupek 200 × 200 ve 2.NP u dveří `2NP-D03` musí být a zda podpírá stropní …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "událost",
+     "text": "… otázka `statik N21` (E173, R-566): musí ŽB sloupek 200 × 200 u dveří `2NP-D03` (místo `2NP-S10`) být a podpírá desku, …"
     }
    ],
    "dotazy": {
@@ -17324,6 +17601,7 @@
      "projektantka 23",
      "projektantka 39",
      "statik N19",
+     "statik N21",
      "stavitel 1"
     ],
     "otazky_hlavni": [
@@ -17331,6 +17609,7 @@
      "projektantka 23",
      "projektantka 39",
      "statik N19",
+     "statik N21",
      "stavitel 1"
     ],
     "otazky_zminene": [],
@@ -17342,7 +17621,8 @@
    },
    "dotaz_srafa": [
     "projektantka 39",
-    "statik N19"
+    "statik N19",
+    "statik N21"
    ]
   },
   {
@@ -17639,9 +17919,16 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-O07"
    },
-   "historie_n": 0,
+   "historie_n": 1,
    "historie_zminek": 0,
-   "historie": [],
+   "historie": [
+    {
+     "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E172",
+     "text": "… parapetem ze statiky (snížení = otázka statikovi), okna nástavby `2NP-O07`, `O08`, `O14` a stávající garáže …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 19",
@@ -18052,9 +18339,22 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-O10"
    },
-   "historie_n": 0,
-   "historie_zminek": 0,
-   "historie": [],
+   "historie_n": 2,
+   "historie_zminek": 1,
+   "historie": [
+    {
+     "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E172",
+     "text": "… `1NP-O02` +0,300 s ŽB prolévačkami (650 mm od hydroizolace); terasa `2NP-O10`, `2NP-O13` 200; dveře `1NP-D01`, `D02`, …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-562",
+     "text": "R-562: dveře na terasu (`2NP-O13` z haly 201 na terasu 210, `2NP-O10` z místnosti 209 ven; investor píše „210/211“, …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 22",
@@ -18528,9 +18828,22 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-O13"
    },
-   "historie_n": 0,
-   "historie_zminek": 0,
-   "historie": [],
+   "historie_n": 2,
+   "historie_zminek": 1,
+   "historie": [
+    {
+     "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E172",
+     "text": "… +0,300 s ŽB prolévačkami (650 mm od hydroizolace); terasa `2NP-O10`, `2NP-O13` 200; dveře `1NP-D01`, `D02`, `D03`, …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-562",
+     "text": "R-562: dveře na terasu (`2NP-O13` z haly 201 na terasu 210, `2NP-O10` z místnosti 209 ven; investor píše „210/211“, …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 22",
@@ -19570,8 +19883,8 @@
    ],
    "z0": 2920,
    "z1": 3990,
-   "zdroj": "JISTOTA VÝŠKY (E141, R-328): spodní hrana +2,920 = HH ŽB deska IFC `1NP-DS01` #9235 (rozdíl +0 mm); horní hrana = parapet z kóty okna; jistotu prvku ale určuje nika v parapetu (R-431). NIKA V PARAPETU (R-431): v délce 950 mm (u zídky `2NP-S07`) parapetní zdivo VAPIS 200 NENÍ VŮBEC: je tam NIKA hloubky 200 mm (125 mm v tloušťce zdi + 75 mm v místnosti, kde vyčnívá návratek `2NP-S06`) a parapet tvoří jen zídka VPC 75 u vnějšího líce pod rámem okna, do výšky parapetu +3,990. ROZHODL INVESTOR 18. 10. 2026 (R-431, doslovně: „mas pravdu, je to nika, oprav slova, oprav i model … Ono to asi bude tak, ze ta zed s06 a s07 bude do vysky parapetu 900 a ta sedaci plocha uvnitr bude 650. takto bych to popsal jako dotaz pro overeni u projektantky a takto to i namodeloval“; ruší čtení R-409, podle kterého zídka nahrazovala vnitřních 75 mm parapetu), projektantka potvrdí (otázka projektantce 32, E148/T2). Sedací plocha 650 mm uvnitř niky v modelu není (žádný výkres ji nekreslí) a u návratku `2NP-S06` není jisté, zda je 900, nebo 650 mm. parapet (900) od podlahy 2.NP +3,090, zdivo od horní hrany desky +2,920 (řez A-A v DWG (výškové kóty a šrafy, `tools/steny/README.md`); deska IFC HH +2,920)",
-   "jistota": "upřesnil investor (nika v parapetu, zídka u vnějšího líce do výšky parapetu, R-431; projektantka potvrdí)",
+   "zdroj": "JISTOTA VÝŠKY (E141, R-328): spodní hrana +2,920 = HH ŽB deska IFC `1NP-DS01` #9235 (rozdíl +0 mm); horní hrana = parapet z kóty okna; jistotu prvku ale určuje sedák před zídkou místo zdiva ve zdi (čtení investora, R-565, R-572). ZÍDKA KE STROPU A SEDÁK (R-565, R-572; dřív NIKA V PARAPETU R-431): v délce 950 mm (u zídky `2NP-S07`) parapetní zdivo VAPIS 200 ve zdi NENÍ: zídka `2NP-S07` (75 mm) jde u vnějšího líce od desky až ke stropu a před ní směrem do sprchového koutu je SEDÁK VAPIS 200 (200 × 950, od desky +2,920 do 650 nad podlahou = +3,740; 125 mm v tloušťce zdi + 75 mm v místnosti), sedí se na něm. ČTENÍ INVESTORA (investor 28. 10. 2026 18:02 SEČ (R-565, doslovně: „pregenerovat s06 a s07 a parapet pod oknem podle toho, jak jsem to ja popsal projektantce do emailu“); popis v doplňujícím e-mailu projektantce 26. 10. 2026 22:05 SEČ bod 5 (otázka 41, doslovně: „zídka 2NP-S07 (75 mm) jde od desky až ke stropu, VAPIS 200 je před ní směrem do sprchového koutu do výšky 650 a sedí se na něm“); upřesnění investora 28. 10. 2026 (S0.69, R-572): „až ke stropu“ = výška jako SDK zdi, tedy +5,740, a zůstává otevřený bod (5,490 vs 5,740); „do výšky 650“ = 650 nad podlahou 2.NP, tedy +3,740 (doslovně: „to bude 650 nad podlahu, kdyz by to bylo od desky, tak by to na sezeni bylo nesmyslne nizko“); návratek `2NP-S06` „jde až ke stropu“; potvrdí projektantka v odpovědi na otázku 41 (doslovně: „ale muzeme si to potvrdit potom s projektantkou, je to jedna z veci, na kterou neodpovedela“)). Projektantka 26. 10. 2026 (bod 13) píše VAPIS 200 + přizdívka 75 do +3,990 a popisku „v. 650 mm“ nevysvětlila; rozpor je otevřený (E88). Dřívější čtení R-431 (18. 10. 2026): prázdná nika, zídka i návratek jen do výšky parapetu +3,990, doslovně: „mas pravdu, je to nika, oprav slova, oprav i model … Ono to asi bude tak, ze ta zed s06 a s07 bude do vysky parapetu 900 a ta sedaci plocha uvnitr bude 650“; překonáno R-565. Dřívější text R-431: v délce 950 mm (u zídky `2NP-S07`) parapetní zdivo VAPIS 200 NENÍ VŮBEC: je tam NIKA hloubky 200 mm (125 mm v tloušťce zdi + 75 mm v místnosti, kde vyčnívá návratek `2NP-S06`) a parapet tvoří jen zídka VPC 75 u vnějšího líce pod rámem okna, do výšky parapetu +3,990. ROZHODL INVESTOR 18. 10. 2026 (R-431, doslovně: „mas pravdu, je to nika, oprav slova, oprav i model … Ono to asi bude tak, ze ta zed s06 a s07 bude do vysky parapetu 900 a ta sedaci plocha uvnitr bude 650. takto bych to popsal jako dotaz pro overeni u projektantky a takto to i namodeloval“; ruší čtení R-409, podle kterého zídka nahrazovala vnitřních 75 mm parapetu), projektantka potvrdí (otázka projektantce 32, E148/T2). Sedací plocha 650 mm uvnitř niky v modelu není (žádný výkres ji nekreslí) a u návratku `2NP-S06` není jisté, zda je 900, nebo 650 mm. parapet (900) od podlahy 2.NP +3,090, zdivo od horní hrany desky +2,920 (řez A-A v DWG (výškové kóty a šrafy, `tools/steny/README.md`); deska IFC HH +2,920)",
+   "jistota": "pracovní (čtení investora: zídka od desky ke stropu, před ní sedák VAPIS 200 do 650 nad podlahou, R-565, R-572; projektantka potvrdí, otázka 41)",
    "otvor": "2NP-O05",
    "steny": [
     "2NP-S08",
@@ -19581,7 +19894,11 @@
     "prvek": "2NP-S07",
     "tl": 200,
     "delka": 950,
-    "zdroj": "v délce 950 mm (u zídky `2NP-S07`) parapetní zdivo VAPIS 200 NENÍ VŮBEC: je tam NIKA hloubky 200 mm (125 mm v tloušťce zdi + 75 mm v místnosti, kde vyčnívá návratek `2NP-S06`) a parapet tvoří jen zídka VPC 75 u vnějšího líce pod rámem okna, do výšky parapetu +3,990. ROZHODL INVESTOR 18. 10. 2026 (R-431, doslovně: „mas pravdu, je to nika, oprav slova, oprav i model … Ono to asi bude tak, ze ta zed s06 a s07 bude do vysky parapetu 900 a ta sedaci plocha uvnitr bude 650. takto bych to popsal jako dotaz pro overeni u projektantky a takto to i namodeloval“; ruší čtení R-409, podle kterého zídka nahrazovala vnitřních 75 mm parapetu), projektantka potvrdí (otázka projektantce 32, E148/T2). Sedací plocha 650 mm uvnitř niky v modelu není (žádný výkres ji nekreslí) a u návratku `2NP-S06` není jisté, zda je 900, nebo 650 mm.",
+    "sedak": {
+     "tl": 200,
+     "z1": 3740
+    },
+    "zdroj": "v délce 950 mm (u zídky `2NP-S07`) parapetní zdivo VAPIS 200 ve zdi NENÍ: zídka `2NP-S07` (75 mm) jde u vnějšího líce od desky až ke stropu a před ní směrem do sprchového koutu je SEDÁK VAPIS 200 (200 × 950, od desky +2,920 do 650 nad podlahou = +3,740; 125 mm v tloušťce zdi + 75 mm v místnosti), sedí se na něm. ČTENÍ INVESTORA (investor 28. 10. 2026 18:02 SEČ (R-565, doslovně: „pregenerovat s06 a s07 a parapet pod oknem podle toho, jak jsem to ja popsal projektantce do emailu“); popis v doplňujícím e-mailu projektantce 26. 10. 2026 22:05 SEČ bod 5 (otázka 41, doslovně: „zídka 2NP-S07 (75 mm) jde od desky až ke stropu, VAPIS 200 je před ní směrem do sprchového koutu do výšky 650 a sedí se na něm“); upřesnění investora 28. 10. 2026 (S0.69, R-572): „až ke stropu“ = výška jako SDK zdi, tedy +5,740, a zůstává otevřený bod (5,490 vs 5,740); „do výšky 650“ = 650 nad podlahou 2.NP, tedy +3,740 (doslovně: „to bude 650 nad podlahu, kdyz by to bylo od desky, tak by to na sezeni bylo nesmyslne nizko“); návratek `2NP-S06` „jde až ke stropu“; potvrdí projektantka v odpovědi na otázku 41 (doslovně: „ale muzeme si to potvrdit potom s projektantkou, je to jedna z veci, na kterou neodpovedela“)). Projektantka 26. 10. 2026 (bod 13) píše VAPIS 200 + přizdívka 75 do +3,990 a popisku „v. 650 mm“ nevysvětlila; rozpor je otevřený (E88). Dřívější čtení R-431 (18. 10. 2026): prázdná nika, zídka i návratek jen do výšky parapetu +3,990, doslovně: „mas pravdu, je to nika, oprav slova, oprav i model … Ono to asi bude tak, ze ta zed s06 a s07 bude do vysky parapetu 900 a ta sedaci plocha uvnitr bude 650“; překonáno R-565. Dřívější text R-431: v délce 950 mm (u zídky `2NP-S07`) parapetní zdivo VAPIS 200 NENÍ VŮBEC: je tam NIKA hloubky 200 mm (125 mm v tloušťce zdi + 75 mm v místnosti, kde vyčnívá návratek `2NP-S06`) a parapet tvoří jen zídka VPC 75 u vnějšího líce pod rámem okna, do výšky parapetu +3,990. ROZHODL INVESTOR 18. 10. 2026 (R-431, doslovně: „mas pravdu, je to nika, oprav slova, oprav i model … Ono to asi bude tak, ze ta zed s06 a s07 bude do vysky parapetu 900 a ta sedaci plocha uvnitr bude 650. takto bych to popsal jako dotaz pro overeni u projektantky a takto to i namodeloval“; ruší čtení R-409, podle kterého zídka nahrazovala vnitřních 75 mm parapetu), projektantka potvrdí (otázka projektantce 32, E148/T2). Sedací plocha 650 mm uvnitř niky v modelu není (žádný výkres ji nekreslí) a u návratku `2NP-S06` není jisté, zda je 900, nebo 650 mm.",
     "vyska": 1070
    },
    "kvadry": [
@@ -19594,6 +19911,17 @@
      ],
      "z0": 2920,
      "z1": 3990
+    },
+    {
+     "box": [
+      -829596,
+      206754,
+      -829396,
+      207704
+     ],
+     "z0": 2920,
+     "z1": 3740,
+     "sedak": true
     }
    ],
    "vyska": 1070,
@@ -19602,13 +19930,13 @@
    "zdvih": 1,
    "lidsky": {
     "co": "Parapetní zdivo pod oknem ve 2.NP, materiál vápenopískové bloky VAPIS tl. 200 mm. Ve stěně 2NP-S08 + 2NP-S01; patří k otvoru 2NP-O05.",
-    "rozmer": "délka 1900 mm, tloušťka 200 mm, výška 1070 mm; stojí od +2,920 m do +3,990 m nad podlahou 1.NP (±0,000); v délce 950 mm zdivo vůbec není (nika v parapetu, rozhodl investor, R-431), takže zdiva je o 0,20 m³ méně",
+    "rozmer": "délka 1900 mm, tloušťka 200 mm, výška 1070 mm; stojí od +2,920 m do +3,990 m nad podlahou 1.NP (±0,000); v délce 950 mm zdivo ve zdi není, místo něj je před zídkou sedák z VAPIS 200 (200 × 950 mm, do +3,740 m, tedy 650 mm nad podlahou; čtení investora, R-565, projektantka potvrdí), takže zdiva je o 0,05 m³ méně",
     "odkud": [
      "ifc",
      "rez",
      "kota"
     ],
-    "jistota": "upřesnil investor (nika v parapetu, zídka u vnějšího líce do výšky parapetu, R-431; projektantka potvrdí)",
+    "jistota": "pracovní (čtení investora: zídka od desky ke stropu, před ní sedák VAPIS 200 do 650 nad podlahou, R-565, R-572; projektantka potvrdí, otázka 41)",
     "zdroje": [
      "ifc",
      "pudorys_2np",
@@ -19618,15 +19946,28 @@
    },
    "technika": {
     "skript": "tools/model/model3d.py",
-    "session": "",
+    "session": "S0.69",
     "ifc_id": null,
     "ifc_guid": null,
     "json": "zdivo/steny/otvory-kusy.json",
     "id_stare": null
    },
-   "historie_n": 0,
-   "historie_zminek": 1,
-   "historie": [],
+   "historie_n": 2,
+   "historie_zminek": 8,
+   "historie": [
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-565",
+     "text": "… R-565: zídky `2NP-S06`, `2NP-S07` a parapet pod oknem `2NP-O05` (`2NP-P01`, koupelna 204) přegenerovat podle popisu …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "rozhodnutí",
+     "ref": "R-572",
+     "text": "… odeslán (řádek níže), model `2NP-S06`, `2NP-S07` do +5,740 a sedák v `2NP-P01` do +3,740 s jistotou pracovní"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 32",
@@ -21724,15 +22065,17 @@
     "id_stare": null
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 2,
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 23"
+     "projektantka 23",
+     "statik N21"
     ],
     "otazky_hlavni": [],
     "otazky_zminene": [
-     "projektantka 23"
+     "projektantka 23",
+     "statik N21"
     ],
     "body": [
      "E80"
@@ -21787,15 +22130,17 @@
     "id_stare": null
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 2,
    "historie": [],
    "dotazy": {
     "otazky": [
-     "projektantka 23"
+     "projektantka 23",
+     "statik N21"
     ],
     "otazky_hlavni": [],
     "otazky_zminene": [
-     "projektantka 23"
+     "projektantka 23",
+     "statik N21"
     ],
     "body": [
      "E138"
