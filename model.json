@@ -10625,6 +10625,102 @@
       }
      ],
      "druh": "otázka"
+    },
+    {
+     "adresat": "statik",
+     "cislo": "N22",
+     "oznaceni": "statik N22",
+     "stav": "aktivní",
+     "text": "V novém exportu chybí železobetonový věnec na západní stěně nástavby garáže (300 × 200 mm, +5,740 až +5,940, pod stropní deskou; náš 2NP-V02), který v exportu z 1. 10. byl. Jižní a severní věnec nástavby zůstaly. Je to záměr, nebo vypadl při exportu? Souvisí to s mým bodem 10 z 26. 10. (kóta +5,700 v řezu A-A výkresu tvaru 2.NP)?",
+     "prvky": [
+      "2NP-DS01",
+      "2NP-IW07",
+      "2NP-V01",
+      "2NP-V02",
+      "2NP-V14"
+     ],
+     "prvky_hlavni": [
+      "2NP-V02"
+     ],
+     "prvky_zminene": [
+      "2NP-DS01",
+      "2NP-IW07",
+      "2NP-V01",
+      "2NP-V14"
+     ],
+     "prvky_rucne": [
+      "2NP-DS01",
+      "2NP-IW07",
+      "2NP-V01",
+      "2NP-V14"
+     ],
+     "body": [
+      "E174",
+      "E71"
+     ],
+     "zdroj_kratky": "R-576 a R-577 (investor 29. 10. 2026 19:11 SEČ, 18:11:34 UTC, S0.71, doslovně: „jinak s emailem statikovi ohledne IFC (materialy apod) souhlasim, projektantka v kopii“; „1. otazka statikovi, projektantka v kopii, a tyto zmenu ted ignorujeme. Statikovi ted jeden email.“; „2. a  a vezmeme si jen ZB sloup a i ty prolejvacky ted docasne“; „Z IFC tedy ted bereme jen ten ZB sloup a pozadame o spravny IFC a uvedeme rozdily, ktere jsme nasli do emailu.“); e-mail `docs/emaily/2026-10-29_statik_ifc.md`; nález S0.65 (`docs/porovnani-ifc_2026-10-01_vs_2026-10-26.md` sekce 7, E174); text schválil investor 29. 10. 2026 19:26 SEČ (R-582: „1. ok 2. posli ty ted“), ODESLÁNO 29. 10. 2026 19:27 SEČ (18:27:44 UTC), zpráva `1a188eb01259c119`",
+     "pozn": "věnec `2NP-V02` je v modelu dál podle exportu 1. 10. 2026 (R-576: změnu teď ignorujeme); mezera v novém IFC 4 451 mm z 5 083 mm pod deskou `2NP-DS01`, zbytek kryjí konce `2NP-V01` a `2NP-V14`; otázka N11 (kóta +5,700 v řezu A-A výkresu tvaru 2.NP, bod 10 e-mailu z 26. 10. 2026) se týká téže stěny",
+     "emaily": [
+      {
+       "adresat": "statik",
+       "adresat_dativ": "statikovi",
+       "bod": "2",
+       "datum": "2026-10-29",
+       "cas_sec": "19:27",
+       "popis": "e-mail statikovi 29. 10. 2026 19:27, bod 2"
+      }
+     ],
+     "druh": "otázka"
+    },
+    {
+     "adresat": "statik",
+     "cislo": "N23",
+     "oznaceni": "statik N23",
+     "stav": "aktivní",
+     "text": "Nový export nenese žádné materiály (v exportu z 1. 10. byly C25/30, Silka, Porotherm a S235) a má jinak pojmenované vlastnosti prvků, takže ho naše kontrola proti 3D modelu neumí načíst. Můžeš prosím poslat export znovu s materiály, nejlépe se stejným nastavením jako 1. 10.? Do té doby pracujeme s exportem z 1. 10. a z nového si zatím bereme jen sloupek u dveří 2NP-D03 a prolévačky pod portálem 1NP-O02. Pro úplnost, co jsme mezi oběma exporty našli: nový ŽB sloupek 200 × 200 u dveří 2NP-D03 (zeď vedle o 200 mm kratší, dveře o 25 mm na západ, věnec nad nimi o 5 mm delší; totéž je v novém DWG od projektantky), pod portálem 1NP-O02 otvor od +0,150 místo +0,400 a úsek zdi tloušťky 250 (prolévačky), konce dvou atik u místnosti 209 o 2 mm, a chybějící věnec z bodu 2. Celek se neposunul, geometrie ostatních prvků je stejná.",
+     "prvky": [
+      "1NP-O02",
+      "1NP-P01",
+      "2NP-AT04",
+      "2NP-D03",
+      "2NP-IW04",
+      "2NP-S10"
+     ],
+     "prvky_hlavni": [
+      "1NP-O02",
+      "2NP-D03"
+     ],
+     "prvky_zminene": [
+      "1NP-P01",
+      "2NP-AT04",
+      "2NP-IW04",
+      "2NP-S10"
+     ],
+     "prvky_rucne": [
+      "1NP-P01",
+      "2NP-AT04",
+      "2NP-IW04",
+      "2NP-S10"
+     ],
+     "body": [
+      "E175",
+      "E172",
+      "E180",
+      "E181"
+     ],
+     "zdroj_kratky": "R-576 a R-577 (investor 29. 10. 2026 19:11 SEČ, 18:11:34 UTC, S0.71, doslovně: „jinak s emailem statikovi ohledne IFC (materialy apod) souhlasim, projektantka v kopii“; „1. otazka statikovi, projektantka v kopii, a tyto zmenu ted ignorujeme. Statikovi ted jeden email.“; „2. a  a vezmeme si jen ZB sloup a i ty prolejvacky ted docasne“; „Z IFC tedy ted bereme jen ten ZB sloup a pozadame o spravny IFC a uvedeme rozdily, ktere jsme nasli do emailu.“); e-mail `docs/emaily/2026-10-29_statik_ifc.md`; nálezy S0.65 (`docs/porovnani-ifc_2026-10-01_vs_2026-10-26.md` sekce 1, 4, 7 a 9, E175) a S0.66 (nový DWG: dveře `2NP-D03` o 25 mm západněji, větev S0.66); text schválil investor 29. 10. 2026 19:26 SEČ (R-582: „1. ok 2. posli ty ted“), ODESLÁNO 29. 10. 2026 19:27 SEČ (18:27:44 UTC), zpráva `1a188eb01259c119`",
+     "pozn": "žádost o nový export IFC s materiály (E175) s výčtem rozdílů exportů 1. 10. a 26. 10. 2026 (S0.65); do nového exportu zůstává zdrojem export 1. 10. 2026 a z exportu 26. 10. 2026 se do modelu dočasně berou jen ŽB sloupek u `2NP-D03` a prolévačky pod `1NP-O02` (R-577, E181); posun dveří `2NP-D03` o 25 mm je E180 (investor se chce podívat v modelu)",
+     "emaily": [
+      {
+       "adresat": "statik",
+       "adresat_dativ": "statikovi",
+       "bod": "1",
+       "datum": "2026-10-29",
+       "cas_sec": "19:27",
+       "popis": "e-mail statikovi 29. 10. 2026 19:27, bod 1"
+      }
+     ],
+     "druh": "otázka"
     }
    ],
    "body": [
@@ -11171,26 +11267,26 @@
     "stavitel 1"
    ],
    "pocty": {
-    "otazek": 50,
+    "otazek": 52,
     "otazek_podle_adresata": {
      "projektantka": 28,
-     "statik": 17,
+     "statik": 19,
      "stavitel": 5
     },
     "otazek_podle_stavu": {
      "zodpovězená": 12,
-     "aktivní": 38
+     "aktivní": 40
     },
-    "otazek_aktivnich_s_prvkem": 29,
+    "otazek_aktivnich_s_prvkem": 31,
     "otazek_bez_prvku": 13,
     "otazek_bez_hlavniho_prvku": 14,
     "bodu": 34,
     "bodu_s_prvkem": 33,
-    "prvku_s_dotazem": 170,
+    "prvku_s_dotazem": 171,
     "prvku_s_hlavni_otazkou": 138,
-    "prvku_jen_zminenych": 9,
-    "otazek_v_odeslanem_emailu": 48,
-    "prvku_se_srafou_dotazu": 108
+    "prvku_jen_zminenych": 11,
+    "otazek_v_odeslanem_emailu": 50,
+    "prvku_se_srafou_dotazu": 109
    }
   },
   "lidsky": {
@@ -11282,9 +11378,9 @@
    },
    "pozn": "Pole `lidsky` u kazdeho prvku je text pro lidi (E127, R-246), pole `technika` jsou nase interni udaje (skript, session, IFC id a GUID, zdrojovy JSON, stare ID) a pole `historie` je audit trail prvku (E128, R-247; zkraceny text, plne znění `zdivo/model/historie.json`; od S0.44 (R-377, investor 14. 10. 2026 „35 i“) jen rozhodnuti, otevrene a uzavrene body a zmeny dat, zminky nalezu zustavaji jen v `historie.json`; od S0.45 (16. 10. 2026, investor: historie na strance prazdna, jen veci po odeslani S1) jen udalosti od `HISTORIE_OD`, dnes 2026-10-26). Generuji `tools/model/texty_pro_lidi.py` a `tools/model/historie_prvku.py`.",
    "historie_od": "2026-10-26",
-   "historie_udalosti": 93,
-   "historie_zminek": 96,
-   "historie_prvku": 32
+   "historie_udalosti": 126,
+   "historie_zminek": 148,
+   "historie_prvku": 48
   }
  },
  "prvky": [
@@ -13089,9 +13185,16 @@
     "json": "zdivo/steny/steny-v2.json",
     "id_stare": "2NP-S09"
    },
-   "historie_n": 0,
-   "historie_zminek": 3,
-   "historie": [],
+   "historie_n": 1,
+   "historie_zminek": 4,
+   "historie": [
+    {
+     "datum": "2026-10-26",
+     "typ": "otevřený bod",
+     "ref": "E180",
+     "text": "… (S0.66, větev: čáry dveří −783 491…−782 591 → −783 516…−782 616, stěna `2NP-S09` 3 630 → 3 605, kóta 500 → 525); …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 23",
@@ -13169,7 +13272,7 @@
     "id_stare": "2NP-S10"
    },
    "historie_n": 9,
-   "historie_zminek": 6,
+   "historie_zminek": 8,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -13227,14 +13330,17 @@
     "otazky": [
      "projektantka 29",
      "statik N19",
-     "statik N21"
+     "statik N21",
+     "statik N23"
     ],
     "otazky_hlavni": [
      "projektantka 29",
      "statik N19",
      "statik N21"
     ],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "statik N23"
+    ],
     "body": [
      "E138",
      "E139",
@@ -14850,8 +14956,8 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-O02"
    },
-   "historie_n": 10,
-   "historie_zminek": 8,
+   "historie_n": 14,
+   "historie_zminek": 12,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -14863,6 +14969,18 @@
      "typ": "otevřený bod",
      "ref": "E170",
      "text": "… čekají na odpověď stavitele (R-538, statikovi se teď neposílají); práh `1NP-O02` 2 šáry prolévaček vs 3 šáry cihel a …"
+    },
+    {
+     "datum": "2026-10-26",
+     "typ": "otevřený bod",
+     "ref": "E172",
+     "text": "… −100 mm; parapety oken 850 nad podlahou (`1NP-O04` kuchyň i obecně); `1NP-O02` +0,300 s ŽB prolévačkami (650 mm od …"
+    },
+    {
+     "datum": "2026-10-26",
+     "typ": "otevřený bod",
+     "ref": "E181",
+     "text": "DOČASNÉ PŘEVZETÍ ŽB SLOUPKU U `2NP-D03` A PROLÉVAČEK POD `1NP-O02` Z EXPORTU IFC 26. 10. 2026 DO MODELU PŘED EXPORTEM S …"
     },
     {
      "datum": "2026-10-26",
@@ -14879,12 +14997,6 @@
      "datum": "2026-10-26",
      "typ": "událost",
      "text": "… přerušení tepelného mostu, nebo lehká montovaná konstrukce; práh `1NP-O02` prolévačky + Propasiv a provázání s …"
-    },
-    {
-     "datum": "2026-10-28",
-     "typ": "otevřený bod",
-     "ref": "E172",
-     "text": "… −100 mm; parapety oken 850 nad podlahou (`1NP-O04` kuchyň i obecně); `1NP-O02` +0,300 s ŽB prolévačkami (650 mm od …"
     },
     {
      "datum": "2026-10-28",
@@ -14909,6 +15021,23 @@
      "typ": "rozhodnutí",
      "ref": "R-568",
      "text": "… schůzce s dodavatelem oken; doslovně v řádku „citace k R-568“ níže; (3) `1NP-O02` podezdívka s horní hranou +0,300 …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "událost",
+     "text": "… `2NP-D03` o 25 mm západněji, `2NP-V16` o 5 mm delší) a prolévačky pod `1NP-O02` (otvor od +0,150, úsek zdi tl. 250, …"
+    },
+    {
+     "datum": "2026-10-29",
+     "typ": "rozhodnutí",
+     "ref": "R-577",
+     "text": "… DOČASNĚ přebírají jen ŽB sloupek 200 × 200 u `2NP-D03` a prolévačky pod `1NP-O02` (odchylka od ADR 0022, tělesa z …"
+    },
+    {
+     "datum": "2026-10-29",
+     "typ": "rozhodnutí",
+     "ref": "R-581",
+     "text": "R-581: práh HS portálu `1NP-O02` a prolévačky: výšku prolévaček pod portálem investor s agentem ještě ověří proti tomu, …"
     }
    ],
    "dotazy": {
@@ -14917,14 +15046,16 @@
      "projektantka 39",
      "projektantka 40",
      "statik N14",
-     "statik N18"
+     "statik N18",
+     "statik N23"
     ],
     "otazky_hlavni": [
      "projektantka 22",
      "projektantka 39",
      "projektantka 40",
      "statik N14",
-     "statik N18"
+     "statik N18",
+     "statik N23"
     ],
     "otazky_zminene": [],
     "body": [
@@ -14937,7 +15068,8 @@
     "projektantka 39",
     "projektantka 40",
     "statik N14",
-    "statik N18"
+    "statik N18",
+    "statik N23"
    ]
   },
   {
@@ -15112,15 +15244,15 @@
     },
     {
      "datum": "2026-10-26",
-     "typ": "rozhodnutí",
-     "ref": "R-534",
-     "text": "R-534: vlastník sedmi nálezů „OTVOR vs IFC“ u dveří (1NP-D01, 1NP-D03, 1NP-D04, 1NP-D06, 2NP-D01, 2NP-D02, 2NP-D03) v …"
-    },
-    {
-     "datum": "2026-10-28",
      "typ": "otevřený bod",
      "ref": "E172",
      "text": "… (650 mm od hydroizolace); terasa `2NP-O10`, `2NP-O13` 200; dveře `1NP-D01`, `D02`, `D03`, `D05`, `D06` bez cihly a …"
+    },
+    {
+     "datum": "2026-10-26",
+     "typ": "rozhodnutí",
+     "ref": "R-534",
+     "text": "R-534: vlastník sedmi nálezů „OTVOR vs IFC“ u dveří (1NP-D01, 1NP-D03, 1NP-D04, 1NP-D06, 2NP-D01, 2NP-D02, 2NP-D03) v …"
     },
     {
      "datum": "2026-10-28",
@@ -15218,7 +15350,7 @@
    "historie_zminek": 0,
    "historie": [
     {
-     "datum": "2026-10-28",
+     "datum": "2026-10-26",
      "typ": "otevřený bod",
      "ref": "E172",
      "text": "… SCHŮZKU s dodavatelem oken (R-563, po objednávce, před zděním 1.NP): `1NP-D02` (práh, −50?), `1NP-D05` („na podlaze …"
@@ -15323,14 +15455,20 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-O04"
    },
-   "historie_n": 3,
-   "historie_zminek": 2,
+   "historie_n": 4,
+   "historie_zminek": 4,
    "historie": [
     {
-     "datum": "2026-10-28",
+     "datum": "2026-10-26",
      "typ": "otevřený bod",
      "ref": "E172",
      "text": "… dveře −50 mm, HS portál −100 mm; parapety oken 850 nad podlahou (`1NP-O04` kuchyň i obecně); `1NP-O02` +0,300 s ŽB …"
+    },
+    {
+     "datum": "2026-10-26",
+     "typ": "otevřený bod",
+     "ref": "E181",
+     "text": "… `1NP-O02` od +0,150, nová jižní zeď 8 870 mm s přesunutými otvory `1NP-O04`, `1NP-O05`, `1NP-PK07` (materiál Silka …"
     },
     {
      "datum": "2026-10-28",
@@ -15439,22 +15577,22 @@
    "historie": [
     {
      "datum": "2026-10-26",
-     "typ": "rozhodnutí",
-     "ref": "R-534",
-     "text": "R-534: vlastník sedmi nálezů „OTVOR vs IFC“ u dveří (1NP-D01, 1NP-D03, 1NP-D04, 1NP-D06, 2NP-D01, 2NP-D02, 2NP-D03) v …"
-    },
-    {
-     "datum": "2026-10-28",
      "typ": "otevřený bod",
      "ref": "E172",
      "text": "… dveře hlavního objektu na první řadu cihel, statika pod `1NP-D01` a `1NP-D03` zdivo do −0,110; pod portálem `1NP-O02` …"
     },
     {
-     "datum": "2026-10-28",
+     "datum": "2026-10-26",
      "typ": "otevřený bod",
      "ref": "E172",
      "text": "… `2NP-O07`, `O08`, `O14` a stávající garáže `1NP-O06`, `O07`, okno `1NP-O05` (parapet 1700 → 1650?), vyšší stavební …",
      "pozn": "pod starým ID 1NP-O05"
+    },
+    {
+     "datum": "2026-10-26",
+     "typ": "rozhodnutí",
+     "ref": "R-534",
+     "text": "R-534: vlastník sedmi nálezů „OTVOR vs IFC“ u dveří (1NP-D01, 1NP-D03, 1NP-D04, 1NP-D06, 2NP-D01, 2NP-D02, 2NP-D03) v …"
     },
     {
      "datum": "2026-10-28",
@@ -15717,7 +15855,7 @@
    "historie_zminek": 0,
    "historie": [
     {
-     "datum": "2026-10-28",
+     "datum": "2026-10-26",
      "typ": "otevřený bod",
      "ref": "E172",
      "text": "… (R-563, po objednávce, před zděním 1.NP): `1NP-D02` (práh, −50?), `1NP-D05` („na podlaze na 0“?), podezdívka …"
@@ -15820,9 +15958,16 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-O07"
    },
-   "historie_n": 0,
-   "historie_zminek": 1,
-   "historie": [],
+   "historie_n": 1,
+   "historie_zminek": 3,
+   "historie": [
+    {
+     "datum": "2026-10-26",
+     "typ": "otevřený bod",
+     "ref": "E181",
+     "text": "… od +0,150, nová jižní zeď 8 870 mm s přesunutými otvory `1NP-O04`, `1NP-O05`, `1NP-PK07` (materiál Silka jako …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 39",
@@ -15912,7 +16057,7 @@
    "historie_zminek": 0,
    "historie": [
     {
-     "datum": "2026-10-28",
+     "datum": "2026-10-26",
      "typ": "otevřený bod",
      "ref": "E172",
      "text": "… statikovi), okna nástavby `2NP-O07`, `O08`, `O14` a stávající garáže `1NP-O06`, `O07`, okno `1NP-O05` (parapet 1700 → …"
@@ -16691,7 +16836,7 @@
    "historie_zminek": 1,
    "historie": [
     {
-     "datum": "2026-10-28",
+     "datum": "2026-10-26",
      "typ": "otevřený bod",
      "ref": "E172",
      "text": "… deska jako parapet 850 (rešerše: desky 850 až 920), pás oken ložnice `2NP-O01` až `O04` s ŽB parapetem ze statiky …"
@@ -17546,13 +17691,25 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-D03"
    },
-   "historie_n": 10,
-   "historie_zminek": 11,
+   "historie_n": 15,
+   "historie_zminek": 21,
    "historie": [
     {
      "datum": "2026-10-26",
      "typ": "odpověď",
      "text": "… cihel; `2NP-S10` (170 mm) se mění na ŽB sloupek 200 × 200 u dveří `2NP-D03`; zídka 204: parapet VAPIS 200 plný + …"
+    },
+    {
+     "datum": "2026-10-26",
+     "typ": "otevřený bod",
+     "ref": "E180",
+     "text": "POSUN DVEŘÍ `2NP-D03` O 25 MM NA ZÁPAD V NOVÉM IFC I NOVÉM DWG, NEOHLÁŠENÝ (S0.71, 29. 10. 2026, R-580, investor …"
+    },
+    {
+     "datum": "2026-10-26",
+     "typ": "otevřený bod",
+     "ref": "E181",
+     "text": "DOČASNÉ PŘEVZETÍ ŽB SLOUPKU U `2NP-D03` A PROLÉVAČEK POD `1NP-O02` Z EXPORTU IFC 26. 10. 2026 DO MODELU PŘED EXPORTEM S …"
     },
     {
      "datum": "2026-10-26",
@@ -17605,6 +17762,23 @@
      "datum": "2026-10-28",
      "typ": "událost",
      "text": "… otázka `statik N21` (E173, R-566): musí ŽB sloupek 200 × 200 u dveří `2NP-D03` (místo `2NP-S10`) být a podpírá desku, …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "událost",
+     "text": "… posun celku žádný; ohlášené změny v IFC jsou: ŽB sloupek 200 × 200 u `2NP-D03` (`2NP-IW22` o 200 kratší, otvor …"
+    },
+    {
+     "datum": "2026-10-29",
+     "typ": "rozhodnutí",
+     "ref": "R-577",
+     "text": "… 26. 10. 2026 do modelu DOČASNĚ přebírají jen ŽB sloupek 200 × 200 u `2NP-D03` a prolévačky pod `1NP-O02` (odchylka od …"
+    },
+    {
+     "datum": "2026-10-29",
+     "typ": "rozhodnutí",
+     "ref": "R-580",
+     "text": "R-580: posun dveří `2NP-D03` o 25 mm na západ (nový IFC i nový DWG shodně, nikdo ho neohlásil) si investor chce …"
     }
    ],
    "dotazy": {
@@ -17614,6 +17788,7 @@
      "projektantka 39",
      "statik N19",
      "statik N21",
+     "statik N23",
      "stavitel 1"
     ],
     "otazky_hlavni": [
@@ -17622,6 +17797,7 @@
      "projektantka 39",
      "statik N19",
      "statik N21",
+     "statik N23",
      "stavitel 1"
     ],
     "otazky_zminene": [],
@@ -17634,7 +17810,8 @@
    "dotaz_srafa": [
     "projektantka 39",
     "statik N19",
-    "statik N21"
+    "statik N21",
+    "statik N23"
    ]
   },
   {
@@ -17935,7 +18112,7 @@
    "historie_zminek": 0,
    "historie": [
     {
-     "datum": "2026-10-28",
+     "datum": "2026-10-26",
      "typ": "otevřený bod",
      "ref": "E172",
      "text": "… parapetem ze statiky (snížení = otázka statikovi), okna nástavby `2NP-O07`, `O08`, `O14` a stávající garáže …"
@@ -18355,7 +18532,7 @@
    "historie_zminek": 1,
    "historie": [
     {
-     "datum": "2026-10-28",
+     "datum": "2026-10-26",
      "typ": "otevřený bod",
      "ref": "E172",
      "text": "… `1NP-O02` +0,300 s ŽB prolévačkami (650 mm od hydroizolace); terasa `2NP-O10`, `2NP-O13` 200; dveře `1NP-D01`, `D02`, …"
@@ -18844,7 +19021,7 @@
    "historie_zminek": 1,
    "historie": [
     {
-     "datum": "2026-10-28",
+     "datum": "2026-10-26",
      "typ": "otevřený bod",
      "ref": "E172",
      "text": "… +0,300 s ŽB prolévačkami (650 mm od hydroizolace); terasa `2NP-O10`, `2NP-O13` 200; dveře `1NP-D01`, `D02`, `D03`, …"
@@ -19463,7 +19640,8 @@
      "projektantka 22",
      "projektantka 39",
      "projektantka 40",
-     "statik N18"
+     "statik N18",
+     "statik N23"
     ],
     "otazky_hlavni": [
      "projektantka 39",
@@ -19471,7 +19649,8 @@
      "statik N18"
     ],
     "otazky_zminene": [
-     "projektantka 22"
+     "projektantka 22",
+     "statik N23"
     ],
     "body": [
      "E170",
@@ -22088,9 +22267,16 @@
     "json": "zdivo/steny/sdk.json",
     "id_stare": null
    },
-   "historie_n": 0,
-   "historie_zminek": 2,
-   "historie": [],
+   "historie_n": 1,
+   "historie_zminek": 3,
+   "historie": [
+    {
+     "datum": "2026-10-26",
+     "typ": "otevřený bod",
+     "ref": "E180",
+     "text": "… zda je to problém (zárubeň 900 vs sloupek, návaznost na SDK příčky `2NP-SDK03`, `SDK04`) a zda se ptát projektantky; …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 23",
@@ -24166,7 +24352,7 @@
     "id_stare": null
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 1,
    "historie": [],
    "dotazy": {
     "otazky": [],
@@ -24533,9 +24719,16 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 0,
-   "historie_zminek": 0,
-   "historie": [],
+   "historie_n": 1,
+   "historie_zminek": 2,
+   "historie": [
+    {
+     "datum": "2026-10-26",
+     "typ": "otevřený bod",
+     "ref": "E181",
+     "text": "… nová jižní zeď 8 870 mm s přesunutými otvory `1NP-O04`, `1NP-O05`, `1NP-PK07` (materiál Silka jako sousední úsek, …"
+    }
+   ],
    "dotazy": {
     "otazky": [],
     "otazky_hlavni": [],
@@ -26031,7 +26224,7 @@
     "id_stare": null
    },
    "historie_n": 0,
-   "historie_zminek": 1,
+   "historie_zminek": 2,
    "historie": [],
    "dotazy": {
     "otazky": [
@@ -33489,9 +33682,16 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 0,
-   "historie_zminek": 0,
-   "historie": [],
+   "historie_n": 1,
+   "historie_zminek": 1,
+   "historie": [
+    {
+     "datum": "2026-10-26",
+     "typ": "otevřený bod",
+     "ref": "E181",
+     "text": "… `2NP-D03` (E180), prodloužený věnec `2NP-V16`; (b) prolévačky: zeď `1NP-IW06` zkrácená na severní úsek tl. 250, otvor …"
+    }
+   ],
    "dotazy": {
     "otazky": [],
     "otazky_hlavni": [],
@@ -34649,17 +34849,27 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 0,
+   "historie_n": 1,
    "historie_zminek": 0,
-   "historie": [],
+   "historie": [
+    {
+     "datum": "2026-10-29",
+     "typ": "otevřený bod",
+     "ref": "E174",
+     "text": "… `2NP-DS01`), v exportu z 26. 10. 2026 chybí (jediný zaniklý ŽB prvek; jižní `2NP-V01` a severní `2NP-V14` věnec …"
+    }
+   ],
    "dotazy": {
     "otazky": [
-     "statik N11"
+     "statik N11",
+     "statik N22"
     ],
     "otazky_hlavni": [
      "statik N11"
     ],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "statik N22"
+    ],
     "body": []
    },
    "dotaz_srafa": []
@@ -34729,20 +34939,59 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 0,
-   "historie_zminek": 0,
-   "historie": [],
+   "historie_n": 6,
+   "historie_zminek": 8,
+   "historie": [
+    {
+     "datum": "2026-10-26",
+     "typ": "otevřený bod",
+     "ref": "E181",
+     "text": "… `1NP-PK07` (materiál Silka jako sousední úsek, [odvození]); věnec `2NP-V02` zůstává (R-576), 2 mm atik se neberou. …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "událost",
+     "text": "… +0,150, úsek zdi tl. 250, východní zeď rozdělená); NEOHLÁŠENÉ: věnec `2NP-V02` (západní zeď nástavby garáže) v novém …"
+    },
+    {
+     "datum": "2026-10-29",
+     "typ": "otevřený bod",
+     "ref": "E174",
+     "text": "ZANIKLÝ ŽB VĚNEC `2NP-V02` V NOVÉM IFC 26-10-26 (S0.65 headless, 28. 10. 2026 pozdě večer; porovnání …"
+    },
+    {
+     "datum": "2026-10-29",
+     "typ": "otevřený bod",
+     "ref": "E176",
+     "text": "… sloupek 200 × 200 ve 2.NP by posunul čísla `2NP-SLxx` za ním a zánik `2NP-V02` by snížil čísla `2NP-V03` až `2NP-V21` …"
+    },
+    {
+     "datum": "2026-10-29",
+     "typ": "rozhodnutí",
+     "ref": "R-576",
+     "text": "R-576: zaniklý věnec `2NP-V02` (E174): otázka statikovi jako řádek kanonu `statik N22`, projektantka v kopii, v jednom …"
+    },
+    {
+     "datum": "2026-10-29",
+     "typ": "událost",
+     "text": "… exportů 1. 10. a 26. 10. 2026, E175) a `statik N22` (chybějící věnec `2NP-V02`, E174); mapa …"
+    }
+   ],
    "dotazy": {
     "otazky": [
-     "statik N11"
+     "statik N11",
+     "statik N22"
     ],
     "otazky_hlavni": [
-     "statik N11"
+     "statik N11",
+     "statik N22"
     ],
     "otazky_zminene": [],
     "body": []
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N22"
+   ]
   },
   {
    "id": "2NP-V03",
@@ -34809,9 +35058,16 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 0,
-   "historie_zminek": 0,
-   "historie": [],
+   "historie_n": 1,
+   "historie_zminek": 2,
+   "historie": [
+    {
+     "datum": "2026-10-29",
+     "typ": "otevřený bod",
+     "ref": "E176",
+     "text": "… posunul čísla `2NP-SLxx` za ním a zánik `2NP-V02` by snížil čísla `2NP-V03` až `2NP-V21` o jedno, přitom ID řady V …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "statik 29",
@@ -35153,14 +35409,21 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 0,
-   "historie_zminek": 0,
-   "historie": [],
+   "historie_n": 1,
+   "historie_zminek": 2,
+   "historie": [
+    {
+     "datum": "2026-10-28",
+     "typ": "událost",
+     "text": "… (západní zeď nástavby garáže) v novém IFC chybí (E174), `2NP-AT04` a `2NP-IW04` o 2 mm; export nenese materiály a …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 38",
      "projektantka 8",
      "statik N16",
+     "statik N23",
      "statik N9"
     ],
     "otazky_hlavni": [
@@ -35169,7 +35432,9 @@
      "statik N16",
      "statik N9"
     ],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "statik N23"
+    ],
     "body": []
    },
    "dotaz_srafa": [
@@ -35906,7 +36171,7 @@
     "id_stare": null
    },
    "historie_n": 1,
-   "historie_zminek": 3,
+   "historie_zminek": 6,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -36081,14 +36346,21 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 0,
-   "historie_zminek": 0,
-   "historie": [],
+   "historie_n": 1,
+   "historie_zminek": 2,
+   "historie": [
+    {
+     "datum": "2026-10-28",
+     "typ": "událost",
+     "text": "… `2NP-V02` (západní zeď nástavby garáže) v novém IFC chybí (E174), `2NP-AT04` a `2NP-IW04` o 2 mm; export nenese …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "projektantka 38",
      "projektantka 8",
      "statik N16",
+     "statik N23",
      "statik N9"
     ],
     "otazky_hlavni": [
@@ -36097,7 +36369,9 @@
      "statik N16",
      "statik N9"
     ],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "statik N23"
+    ],
     "body": []
    },
    "dotaz_srafa": [
@@ -36334,17 +36608,27 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 0,
+   "historie_n": 1,
    "historie_zminek": 0,
-   "historie": [],
+   "historie": [
+    {
+     "datum": "2026-10-29",
+     "typ": "otevřený bod",
+     "ref": "E174",
+     "text": "… 10. 2026 chybí (jediný zaniklý ŽB prvek; jižní `2NP-V01` a severní `2NP-V14` věnec nástavby zůstaly), nikde v …"
+    }
+   ],
    "dotazy": {
     "otazky": [
-     "statik N11"
+     "statik N11",
+     "statik N22"
     ],
     "otazky_hlavni": [
      "statik N11"
     ],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "statik N22"
+    ],
     "body": []
    },
    "dotaz_srafa": []
@@ -36579,9 +36863,21 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 0,
-   "historie_zminek": 0,
-   "historie": [],
+   "historie_n": 2,
+   "historie_zminek": 2,
+   "historie": [
+    {
+     "datum": "2026-10-26",
+     "typ": "otevřený bod",
+     "ref": "E181",
+     "text": "… zeď `2NP-IW22`, posunutý otvor `2NP-D03` (E180), prodloužený věnec `2NP-V16`; (b) prolévačky: zeď `1NP-IW06` zkrácená …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "událost",
+     "text": "… `2NP-D03` (`2NP-IW22` o 200 kratší, otvor `2NP-D03` o 25 mm západněji, `2NP-V16` o 5 mm delší) a prolévačky pod …"
+    }
+   ],
    "dotazy": {
     "otazky": [],
     "otazky_hlavni": [],
@@ -37066,9 +37362,16 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 0,
+   "historie_n": 1,
    "historie_zminek": 0,
-   "historie": [],
+   "historie": [
+    {
+     "datum": "2026-10-29",
+     "typ": "otevřený bod",
+     "ref": "E176",
+     "text": "… `2NP-SLxx` za ním a zánik `2NP-V02` by snížil čísla `2NP-V03` až `2NP-V21` o jedno, přitom ID řady V jsou v kanonu …"
+    }
+   ],
    "dotazy": {
     "otazky": [
      "statik N14"
@@ -39164,13 +39467,24 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 0,
-   "historie_zminek": 0,
-   "historie": [],
+   "historie_n": 1,
+   "historie_zminek": 2,
+   "historie": [
+    {
+     "datum": "2026-10-29",
+     "typ": "otevřený bod",
+     "ref": "E174",
+     "text": "… západní zdi nástavby garáže (`2NP-IW07`, Silka 24, pod stropní deskou `2NP-DS01`), v exportu z 26. 10. 2026 chybí …"
+    }
+   ],
    "dotazy": {
-    "otazky": [],
+    "otazky": [
+     "statik N22"
+    ],
     "otazky_hlavni": [],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "statik N22"
+    ],
     "body": [
      "E92"
     ]
@@ -40054,13 +40368,24 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 0,
+   "historie_n": 1,
    "historie_zminek": 0,
-   "historie": [],
+   "historie": [
+    {
+     "datum": "2026-10-29",
+     "typ": "otevřený bod",
+     "ref": "E174",
+     "text": "… 300 × 200 mm od +5,740 do +5,940 na západní zdi nástavby garáže (`2NP-IW07`, Silka 24, pod stropní deskou …"
+    }
+   ],
    "dotazy": {
-    "otazky": [],
+    "otazky": [
+     "statik N22"
+    ],
     "otazky_hlavni": [],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "statik N22"
+    ],
     "body": []
    },
    "dotaz_srafa": []
@@ -41206,9 +41531,21 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 0,
-   "historie_zminek": 0,
-   "historie": [],
+   "historie_n": 2,
+   "historie_zminek": 2,
+   "historie": [
+    {
+     "datum": "2026-10-26",
+     "typ": "otevřený bod",
+     "ref": "E181",
+     "text": "… podle textu odpovědi projektantky, jistota pracovní), zkrácená zeď `2NP-IW22`, posunutý otvor `2NP-D03` (E180), …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "událost",
+     "text": "… žádný; ohlášené změny v IFC jsou: ŽB sloupek 200 × 200 u `2NP-D03` (`2NP-IW22` o 200 kratší, otvor `2NP-D03` o 25 mm …"
+    }
+   ],
    "dotazy": {
     "otazky": [],
     "otazky_hlavni": [],
@@ -41359,7 +41696,7 @@
     "id_stare": null
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 1,
    "historie": [],
    "dotazy": {
     "otazky": [],
@@ -41587,7 +41924,7 @@
     "id_stare": null
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 1,
    "historie": [],
    "dotazy": {
     "otazky": [],
