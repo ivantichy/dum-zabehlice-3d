@@ -1,6 +1,6 @@
 {
  "meta": {
-  "stav_k": "28. 10. 2026 (S0.69)",
+  "stav_k": "29. 10. 2026 (S0.66c)",
   "vznik": "krok S0.11, 21. 9. 2026 (E49); S0.12 (nulová spodní hrana, šrafy, SDK, stávající garáž, značky chybějících); S0.14 (ŽB z PDF statiky, E51); S0.16 až S0.26 (viz session logy); S0.29, 2. 10. 2026: ŽB, základy, ocel a kontext zdiva z IFC statika (investor: IFC autoritativní pro ŽB), odvozené ŽB prvky, ŽB z PDF statiky, věnec garáže, ŽB parapety, pracovní atika, ocelové sloupky a nadpraží z modelu odebrány",
   "jednotky": "mm, souřadnice modelu DWG (2.NP posunuté o −50 000 v x, E42), z absolutně od ±0,000",
   "urovne": {
@@ -10721,6 +10721,34 @@
       }
      ],
      "druh": "otázka"
+    },
+    {
+     "adresat": "statik",
+     "cislo": "N24",
+     "oznaceni": "statik N24",
+     "stav": "aktivní",
+     "text": "Ploché překlady VAPIS nad dveřmi 900 × 1970 ve zdivu VAPIS: 1NP-D04 ve stěně tl. 300 (dva překlady vedle sebe), 2NP-D01, 2NP-D02 a 2NP-D03 ve stěnách tl. 200 (u 2NP-D03 podle projektantky uložení jen na jedné straně, druhá do L-profilu). Tabulka únosnosti výrobce, kterou poslala projektantka, dává pro každou světlost dvě hodnoty podle délky uložení 11,5 nebo 17,5 cm a podle výšky tlakové zóny (překlad 11,3 cm plus 1 až 5 řad nadezdívky po 12,5 cm). Stačí nám u těchto čtyř dveří uložení 11,5 cm s jednou řadou nadezdívky (celkem 23,8 cm), nebo máme počítat 17,5 cm? Podle odpovědi doplníme uložení do soupisu překladů (dnes 175 mm z nejkratší délky ceníku 1 250) a zdivo vedle otvorů ve výkazu.",
+     "prvky": [
+      "1NP-D04",
+      "2NP-D01",
+      "2NP-D02",
+      "2NP-D03"
+     ],
+     "prvky_hlavni": [
+      "1NP-D04",
+      "2NP-D01",
+      "2NP-D02",
+      "2NP-D03"
+     ],
+     "prvky_zminene": [],
+     "prvky_rucne": [],
+     "body": [
+      "E179"
+     ],
+     "zdroj_kratky": "R-585 (investor 29. 10. 2026 (S0.66c, 21:46 SEČ, 20:46:22 UTC), doslovně: „3 proc jsi na ulozeni narazil zrovna v teto session? a my jsme se na to statika uz ptali anebo jeste ne? paklize ne, musime se zeptat.“); agent ověřil v kanonu, že otázka 21 je překonaná a N14 se ptá jen na ŽB překlady; text otázky [NÁVRH AGENTA] ke schválení investorem před odesláním (sekce 86.4 `ke-kontrole-investor.md`)",
+     "pozn": "uložení plochých překladů VAPIS 11,5 vs 17,5 cm podle tabulky únosnosti výrobce (příloha odpovědi projektantky 26. 10. 2026, `docs/znalosti/vence-a-preklady.md` sekce 9, E179); nahrazuje překonanou otázku 21 (R-507: uložení dává výrobce), protože výrobce dává dvě délky podle zatížení, které zná jen statik; soupis překladů dnes vede uložení 175 / 175 z nejkratší délky ceníku 1 250 (min. 115 podle výrobce), odpověď určí sloupec tabulky únosnosti",
+     "emaily": [],
+     "druh": "otázka"
     }
    ],
    "body": [
@@ -11267,17 +11295,17 @@
     "stavitel 1"
    ],
    "pocty": {
-    "otazek": 52,
+    "otazek": 53,
     "otazek_podle_adresata": {
      "projektantka": 28,
-     "statik": 19,
+     "statik": 20,
      "stavitel": 5
     },
     "otazek_podle_stavu": {
      "zodpovězená": 12,
-     "aktivní": 40
+     "aktivní": 41
     },
-    "otazek_aktivnich_s_prvkem": 31,
+    "otazek_aktivnich_s_prvkem": 32,
     "otazek_bez_prvku": 13,
     "otazek_bez_hlavniho_prvku": 14,
     "bodu": 34,
@@ -15710,11 +15738,13 @@
     "otazky": [
      "projektantka 22",
      "projektantka 39",
+     "statik N24",
      "stavitel 1"
     ],
     "otazky_hlavni": [
      "projektantka 22",
      "projektantka 39",
+     "statik N24",
      "stavitel 1"
     ],
     "otazky_zminene": [],
@@ -15725,7 +15755,8 @@
     ]
    },
    "dotaz_srafa": [
-    "projektantka 39"
+    "projektantka 39",
+    "statik N24"
    ]
   },
   {
@@ -17191,11 +17222,13 @@
     "otazky": [
      "projektantka 22",
      "projektantka 39",
+     "statik N24",
      "stavitel 1"
     ],
     "otazky_hlavni": [
      "projektantka 22",
      "projektantka 39",
+     "statik N24",
      "stavitel 1"
     ],
     "otazky_zminene": [],
@@ -17205,7 +17238,8 @@
     ]
    },
    "dotaz_srafa": [
-    "projektantka 39"
+    "projektantka 39",
+    "statik N24"
    ]
   },
   {
@@ -17361,11 +17395,13 @@
     "otazky": [
      "projektantka 22",
      "projektantka 39",
+     "statik N24",
      "stavitel 1"
     ],
     "otazky_hlavni": [
      "projektantka 22",
      "projektantka 39",
+     "statik N24",
      "stavitel 1"
     ],
     "otazky_zminene": [],
@@ -17374,7 +17410,8 @@
     ]
    },
    "dotaz_srafa": [
-    "projektantka 39"
+    "projektantka 39",
+    "statik N24"
    ]
   },
   {
@@ -17789,6 +17826,7 @@
      "statik N19",
      "statik N21",
      "statik N23",
+     "statik N24",
      "stavitel 1"
     ],
     "otazky_hlavni": [
@@ -17798,6 +17836,7 @@
      "statik N19",
      "statik N21",
      "statik N23",
+     "statik N24",
      "stavitel 1"
     ],
     "otazky_zminene": [],
@@ -17811,7 +17850,8 @@
     "projektantka 39",
     "statik N19",
     "statik N21",
-    "statik N23"
+    "statik N23",
+    "statik N24"
    ]
   },
   {
