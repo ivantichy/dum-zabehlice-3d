@@ -12014,8 +12014,8 @@
    },
    "pozn": "Pole `lidsky` u kazdeho prvku je text pro lidi (E127, R-246), pole `technika` jsou nase interni udaje (skript, session, IFC id a GUID, zdrojovy JSON, stare ID) a pole `historie` je audit trail prvku (E128, R-247; zkraceny text, plne znění `zdivo/model/historie.json`; od S0.44 (R-377, investor 14. 10. 2026 „35 i“) jen rozhodnuti, otevrene a uzavrene body a zmeny dat, zminky nalezu zustavaji jen v `historie.json`; od S0.45 (16. 10. 2026, investor: historie na strance prazdna, jen veci po odeslani S1) jen udalosti od `HISTORIE_OD`, dnes 2026-10-26). Generuji `tools/model/texty_pro_lidi.py` a `tools/model/historie_prvku.py`.",
    "historie_od": "2026-10-26",
-   "historie_udalosti": 343,
-   "historie_zminek": 394,
+   "historie_udalosti": 347,
+   "historie_zminek": 411,
    "historie_prvku": 98
   }
  },
@@ -14195,7 +14195,7 @@
     "id_stare": "2NP-S09"
    },
    "historie_n": 11,
-   "historie_zminek": 16,
+   "historie_zminek": 17,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -14342,7 +14342,7 @@
     "json": "zdivo/steny/sdk.json",
     "id_stare": "2NP-S10"
    },
-   "historie_n": 14,
+   "historie_n": 15,
    "historie_zminek": 14,
    "historie": [
     {
@@ -14355,6 +14355,12 @@
      "typ": "otevřený bod",
      "ref": "E170",
      "text": "… `1NP-O02` 2 šáry prolévaček vs 3 šáry cihel a sloupek ŽB 200 × 200 místo `2NP-S10` jsou v doplňujícím e-mailu …"
+    },
+    {
+     "datum": "2026-10-26",
+     "typ": "otevřený bod",
+     "ref": "E180",
+     "text": "… jiná: zůstane posun dveří v DWG i bez ŽB sloupku (sádrokarton místo `2NP-S10`)? Kandidát na otázku projektantce s 43 …"
     },
     {
      "datum": "2026-10-26",
@@ -15525,7 +15531,7 @@
     "id_stare": "2NP-S16"
    },
    "historie_n": 9,
-   "historie_zminek": 11,
+   "historie_zminek": 12,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -19758,8 +19764,8 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-D03"
    },
-   "historie_n": 28,
-   "historie_zminek": 45,
+   "historie_n": 29,
+   "historie_zminek": 48,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -19904,6 +19910,11 @@
      "typ": "rozhodnutí",
      "ref": "R-608",
      "text": "… na google drive, mame ji v master planu?“ (2) zrušení ŽB sloupku u `2NP-D03` je potvrzené, podmínka statika z hovoru …"
+    },
+    {
+     "datum": "2026-10-30",
+     "typ": "událost",
+     "text": "… (dočasné převzetí těles z exportu 26. 10. 2026, pohled na posun dveří `2NP-D03`) NEPROVEDENY jako překonané …"
     },
     {
      "datum": "2026-10-30",
@@ -22295,7 +22306,7 @@
     "id_stare": null
    },
    "historie_n": 7,
-   "historie_zminek": 4,
+   "historie_zminek": 5,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -26995,7 +27006,7 @@
     "id_stare": null
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 1,
    "historie": [],
    "dotazy": {
     "otazky": [],
@@ -27455,7 +27466,7 @@
     "id_stare": null
    },
    "historie_n": 1,
-   "historie_zminek": 2,
+   "historie_zminek": 3,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -27948,7 +27959,7 @@
     "id_stare": null
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 1,
    "historie": [],
    "dotazy": {
     "otazky": [],
@@ -28310,8 +28321,8 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 4,
-   "historie_zminek": 2,
+   "historie_n": 5,
+   "historie_zminek": 3,
    "historie": [
     {
      "datum": "2026-10-30",
@@ -28329,6 +28340,11 @@
      "typ": "rozhodnutí",
      "ref": "R-595",
      "text": "… postup změnit, ponechání původního věnce je nepravděpodobné; uskočení `1NP-V04` je záměr (dorovnání s domem a deskou, …"
+    },
+    {
+     "datum": "2026-10-30",
+     "typ": "událost",
+     "text": "… `PREPIS_PRUMERU`, `KONTROLA_POZ`, známé případy v `beton_vs_zdivo.py` a `1NP-V04` v `model3d.py` z čísel entit na …"
     },
     {
      "datum": "2026-10-30",
@@ -37826,8 +37842,8 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 10,
-   "historie_zminek": 13,
+   "historie_n": 11,
+   "historie_zminek": 15,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -37853,12 +37869,6 @@
     },
     {
      "datum": "2026-10-29",
-     "typ": "otevřený bod",
-     "ref": "E176",
-     "text": "… sloupek 200 × 200 ve 2.NP by posunul čísla `2NP-SLxx` za ním a zánik `2NP-V02` by snížil čísla `2NP-V03` až `2NP-V21` …"
-    },
-    {
-     "datum": "2026-10-29",
      "typ": "rozhodnutí",
      "ref": "R-576",
      "text": "R-576: zaniklý věnec `2NP-V02` (E174): otázka statikovi jako řádek kanonu `statik N22`, projektantka v kopii, v jednom …"
@@ -37867,6 +37877,12 @@
      "datum": "2026-10-29",
      "typ": "událost",
      "text": "… exportů 1. 10. a 26. 10. 2026, E175) a `statik N22` (chybějící věnec `2NP-V02`, E174); mapa …"
+    },
+    {
+     "datum": "2026-10-29",
+     "typ": "uzavřený bod",
+     "ref": "E176",
+     "text": "… sloupek 200 × 200 ve 2.NP by posunul čísla `2NP-SLxx` za ním a zánik `2NP-V02` by snížil čísla `2NP-V03` až `2NP-V21` …"
     },
     {
      "datum": "2026-10-30",
@@ -37885,6 +37901,12 @@
      "typ": "rozhodnutí",
      "ref": "R-595",
      "text": "… export IFC s materiály pošlou v pondělí (2. 11. 2026), smazaný věnec `2NP-V02` vrátí, byla to chyba u statika nebo …"
+    },
+    {
+     "datum": "2026-10-30",
+     "typ": "uzavřený bod",
+     "ref": "E176",
+     "text": "… (R-579); důkaz: `model.json` po zavedení bajtově shodný, test se zánikem `2NP-V02` a novým tělesem (`2NP-V22`, nic se …"
     }
    ],
    "dotazy": {
@@ -37978,7 +38000,7 @@
    "historie": [
     {
      "datum": "2026-10-29",
-     "typ": "otevřený bod",
+     "typ": "uzavřený bod",
      "ref": "E176",
      "text": "… posunul čísla `2NP-SLxx` za ním a zánik `2NP-V02` by snížil čísla `2NP-V03` až `2NP-V21` o jedno, přitom ID řady V …"
     },
@@ -39150,7 +39172,7 @@
     "id_stare": null
    },
    "historie_n": 14,
-   "historie_zminek": 17,
+   "historie_zminek": 18,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -39965,7 +39987,7 @@
     "id_stare": null
    },
    "historie_n": 5,
-   "historie_zminek": 9,
+   "historie_zminek": 10,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -40604,7 +40626,7 @@
    "historie": [
     {
      "datum": "2026-10-29",
-     "typ": "otevřený bod",
+     "typ": "uzavřený bod",
      "ref": "E176",
      "text": "… `2NP-SLxx` za ním a zánik `2NP-V02` by snížil čísla `2NP-V03` až `2NP-V21` o jedno, přitom ID řady V jsou v kanonu …"
     }
@@ -40690,7 +40712,7 @@
     "id_stare": null
    },
    "historie_n": 1,
-   "historie_zminek": 2,
+   "historie_zminek": 3,
    "historie": [
     {
      "datum": "2026-10-30",
@@ -45186,7 +45208,7 @@
     "id_stare": null
    },
    "historie_n": 1,
-   "historie_zminek": 3,
+   "historie_zminek": 4,
    "historie": [
     {
      "datum": "2026-10-30",
@@ -53212,7 +53234,7 @@
     "id_stare": null
    },
    "historie_n": 5,
-   "historie_zminek": 7,
+   "historie_zminek": 8,
    "historie": [
     {
      "datum": "2026-10-30",
