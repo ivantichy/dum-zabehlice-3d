@@ -1,6 +1,6 @@
 {
  "meta": {
-  "stav_k": "30. 10. 2026 (S0.77)",
+  "stav_k": "31. 10. 2026 (S0.72b)",
   "vznik": "krok S0.11, 21. 9. 2026 (E49); S0.12 (nulová spodní hrana, šrafy, SDK, stávající garáž, značky chybějících); S0.14 (ŽB z PDF statiky, E51); S0.16 až S0.26 (viz session logy); S0.29, 2. 10. 2026: ŽB, základy, ocel a kontext zdiva z IFC statika (investor: IFC autoritativní pro ŽB), odvozené ŽB prvky, ŽB z PDF statiky, věnec garáže, ŽB parapety, pracovní atika, ocelové sloupky a nadpraží z modelu odebrány",
   "jednotky": "mm, souřadnice modelu DWG (2.NP posunuté o −50 000 v x, E42), z absolutně od ±0,000",
   "urovne": {
@@ -11184,6 +11184,57 @@
      "pozn": "PŘIPRAVENO, NEODESLÁNO: odejde s otázkami 43 až 45 před výkazem cihel (projektantka na dovolené do 31. 10. 2026)",
      "emaily": [],
      "druh": "otázka"
+    },
+    {
+     "adresat": "projektantka",
+     "cislo": "47",
+     "oznaceni": "projektantka 47",
+     "stav": "aktivní",
+     "text": "Po telefonátu investora se statikem 30. 10. 2026 (shrnutí jste dostala v kopii e-mailu statikovi z 30. 10. 2026 večer, část A, body A1 až A3, A6, A8 a A9) se proti Vašim výkresům z 26. 10. 2026 mění několik věcí: stěna mezi garáží 105 a pracovnou 209 ve 2. NP bude celá ze sádrokartonu; u dveří 2NP-D03 nebude ŽB sloupek 200 × 200, zděný sloupek vedle dveří (2NP-S10) i pás nad dveřmi budou ze sádrokartonu; všechny překlady nad otvory budou železobetonové; zděné atiky z Ytongu; zeď na terase 2NP-S29 nebude z VAPIS, materiál dořešíte se statikem, zatím jen poznámka ve výkresu; pod prahem portálu 1NP-O02 prolévací tvarovky provázané s deskou. Prosíme o aktualizovaný DWG a PDF všech dotčených výkresů (půdorysy, řezy, legenda konstrukcí) s těmito změnami. Překlady v půdorysech nemusíte překreslovat na železobetonové, stačí, že budou ve statice; jen prosím odstraňte zmínky o výrobkových (systémových) překladech, aby nebyly zavádějící, a upravte to v řezech. U dveří 2NP-D03 prosíme uvést, zda zůstávají na poloze z výkresů ze září, nebo posunuté o 25 mm jako ve verzi z 26. 10. 2026 (posun vznikl kvůli ŽB sloupku, který nebude), a polohu prosím sladit se statikem, aby ji měl v IFC stejně.",
+     "prvky": [
+      "1NP-O02",
+      "1NP-P01",
+      "2NP-D03",
+      "2NP-S09",
+      "2NP-S10",
+      "2NP-S16",
+      "2NP-S21",
+      "2NP-S26",
+      "2NP-S29",
+      "2NP-V10"
+     ],
+     "prvky_hlavni": [
+      "2NP-D03",
+      "2NP-S10",
+      "2NP-S21",
+      "2NP-S29"
+     ],
+     "prvky_zminene": [
+      "1NP-O02",
+      "1NP-P01",
+      "2NP-S09",
+      "2NP-S16",
+      "2NP-S26",
+      "2NP-V10"
+     ],
+     "prvky_rucne": [
+      "1NP-O02",
+      "1NP-P01",
+      "2NP-S09",
+      "2NP-S16",
+      "2NP-S21",
+      "2NP-S26",
+      "2NP-V10"
+     ],
+     "body": [
+      "E178",
+      "E180",
+      "E177"
+     ],
+     "zdroj_kratky": "R-619 (S0.72b, 31. 10. 2026 00:33 SEČ (30. 10. 2026 23:33 UTC), investor k návrhu revizí: „odstran:  Potřebujeme to před objednávkou zdiva, výkaz cihel děláme z DWG. ; potom napis, ze preklady v pudorysech prekleslovat na ZB nemusi, ze staci,ze to bude ve statice. Snad jen odstranit zminku o vyrobkovych prekladech, at to neni zavadejici a upravit to v rezech.“; nové znění [NÁVRH AGENTA] podle toho); R-618 (S0.72b, 31. 10. 2026 00:08 SEČ (30. 10. 2026 23:08:28 UTC), investor: „souhlasim s navrhem“ k návrhu agenta: DWG 26-10-26 kreslí ŽB sloupek a posunuté dveře 2NP-D03 a zděnou stěnu 105/209, které telefonát se statikem 30. 10. 2026 zrušil (R-595), projektantka o nový výkres nebyla požádána); podklad `docs/porovnani-vykresy_2026-09-16_vs_2026-10-26.md` (sekce 5), změnová dokumentace statikovi `docs/emaily/2026-10-30_statik_zmenova-dokumentace.md` (kopie projektantka, body A1 až A3, A5, A6, A9)",
+     "pozn": "PŘIPRAVENO, NEODESLÁNO: odejde s otázkami 43 až 46 před výkazem cihel (projektantka na dovolené do 31. 10. 2026); nasazení DWG 26-10-26 jako celku do dat čeká na aktualizovanou verzi (S0.68, R-618)",
+     "emaily": [],
+     "druh": "otázka"
     }
    ],
    "body": [
@@ -11900,17 +11951,17 @@
     "stavitel 1"
    ],
    "pocty": {
-    "otazek": 63,
+    "otazek": 64,
     "otazek_podle_adresata": {
-     "projektantka": 31,
+     "projektantka": 32,
      "statik": 29,
      "stavitel": 3
     },
     "otazek_podle_stavu": {
      "zodpovězená": 32,
-     "aktivní": 31
+     "aktivní": 32
     },
-    "otazek_aktivnich_s_prvkem": 25,
+    "otazek_aktivnich_s_prvkem": 26,
     "otazek_bez_prvku": 13,
     "otazek_bez_hlavniho_prvku": 14,
     "bodu": 43,
@@ -11919,7 +11970,7 @@
     "prvku_s_hlavni_otazkou": 137,
     "prvku_jen_zminenych": 14,
     "otazek_v_odeslanem_emailu": 58,
-    "prvku_se_srafou_dotazu": 95
+    "prvku_se_srafou_dotazu": 96
    }
   },
   "lidsky": {
@@ -12011,8 +12062,8 @@
    },
    "pozn": "Pole `lidsky` u kazdeho prvku je text pro lidi (E127, R-246), pole `technika` jsou nase interni udaje (skript, session, IFC id a GUID, zdrojovy JSON, stare ID) a pole `historie` je audit trail prvku (E128, R-247; zkraceny text, plne znění `zdivo/model/historie.json`; od S0.44 (R-377, investor 14. 10. 2026 „35 i“) jen rozhodnuti, otevrene a uzavrene body a zmeny dat, zminky nalezu zustavaji jen v `historie.json`; od S0.45 (16. 10. 2026, investor: historie na strance prazdna, jen veci po odeslani S1) jen udalosti od `HISTORIE_OD`, dnes 2026-10-26). Generuji `tools/model/texty_pro_lidi.py` a `tools/model/historie_prvku.py`.",
    "historie_od": "2026-10-26",
-   "historie_udalosti": 367,
-   "historie_zminek": 412,
+   "historie_udalosti": 372,
+   "historie_zminek": 417,
    "historie_prvku": 100
   }
  },
@@ -14267,6 +14318,7 @@
    "dotazy": {
     "otazky": [
      "projektantka 23",
+     "projektantka 47",
      "statik N19",
      "statik N21",
      "statik N25"
@@ -14277,6 +14329,7 @@
     ],
     "otazky_zminene": [
      "projektantka 23",
+     "projektantka 47",
      "statik N21"
     ],
     "body": [
@@ -14344,8 +14397,8 @@
     "json": "zdivo/steny/sdk.json",
     "id_stare": "2NP-S10"
    },
-   "historie_n": 15,
-   "historie_zminek": 14,
+   "historie_n": 16,
+   "historie_zminek": 16,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -14433,11 +14486,18 @@
      "typ": "uzavřený bod",
      "ref": "E173",
      "text": "… projektantka 26. 10. 2026 (body 10, 11) nahradila zděný sloupek 175 × 200 (`2NP-S10`) ŽB sloupkem 200 × 200 od desky …"
+    },
+    {
+     "datum": "2026-10-31",
+     "typ": "rozhodnutí",
+     "ref": "R-618",
+     "text": "… (text [NÁVRH AGENTA], stav aktivní, NEODESLÁNO); prvky `2NP-D03`, `2NP-S10`, `2NP-S21`, `2NP-S29`, body E177, E178, …"
     }
    ],
    "dotazy": {
     "otazky": [
      "projektantka 29",
+     "projektantka 47",
      "statik N19",
      "statik N21",
      "statik N23",
@@ -14445,6 +14505,7 @@
     ],
     "otazky_hlavni": [
      "projektantka 29",
+     "projektantka 47",
      "statik N19",
      "statik N21",
      "statik N25"
@@ -14459,7 +14520,9 @@
      "E186"
     ]
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "projektantka 47"
+   ]
   },
   {
    "id": "2NP-S11",
@@ -15350,6 +15413,7 @@
     "otazky": [
      "projektantka 34",
      "projektantka 44",
+     "projektantka 47",
      "projektantka 5",
      "statik 1 + N6",
      "statik N27"
@@ -15361,6 +15425,7 @@
      "statik N27"
     ],
     "otazky_zminene": [
+     "projektantka 47",
      "projektantka 5"
     ],
     "body": [
@@ -15532,7 +15597,7 @@
     "json": "zdivo/steny/sdk.json",
     "id_stare": "2NP-S16"
    },
-   "historie_n": 9,
+   "historie_n": 10,
    "historie_zminek": 12,
    "historie": [
     {
@@ -15587,12 +15652,19 @@
      "typ": "uzavřený bod",
      "ref": "E195",
      "text": "… chci to jen videt, jak to vypada“): v IFC věnec zůstává, po zrušení `2NP-S21`, `S16`, `S26` a `2NP-V10` pod ním v …"
+    },
+    {
+     "datum": "2026-10-31",
+     "typ": "rozhodnutí",
+     "ref": "R-618",
+     "text": "… [NÁVRH AGENTA], stav aktivní, NEODESLÁNO); prvky `2NP-D03`, `2NP-S10`, `2NP-S21`, `2NP-S29`, body E177, E178, E180; …"
     }
    ],
    "dotazy": {
     "otazky": [
      "projektantka 34",
      "projektantka 44",
+     "projektantka 47",
      "projektantka 5",
      "statik 1 + N6",
      "statik N14",
@@ -15602,6 +15674,7 @@
     "otazky_hlavni": [
      "projektantka 34",
      "projektantka 44",
+     "projektantka 47",
      "statik 1 + N6",
      "statik N14"
     ],
@@ -15619,7 +15692,8 @@
    },
    "dotaz_srafa": [
     "projektantka 34",
-    "projektantka 44"
+    "projektantka 44",
+    "projektantka 47"
    ]
   },
   {
@@ -16052,6 +16126,7 @@
     "otazky": [
      "projektantka 34",
      "projektantka 44",
+     "projektantka 47",
      "projektantka 5",
      "statik 1 + N6",
      "statik N27"
@@ -16063,6 +16138,7 @@
      "statik N27"
     ],
     "otazky_zminene": [
+     "projektantka 47",
      "projektantka 5"
     ],
     "body": [
@@ -16281,8 +16357,8 @@
     "json": "zdivo/steny/steny-v2.json",
     "id_stare": "2NP-O15"
    },
-   "historie_n": 7,
-   "historie_zminek": 12,
+   "historie_n": 8,
+   "historie_zminek": 13,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -16322,17 +16398,25 @@
      "datum": "2026-10-30",
      "typ": "událost",
      "text": "… `2NP-V10` celá ze sádrokartonu bez `2NP-S16` a `2NP-S26`, N28 zeď terasy `2NP-S29` Ytong 200); mapa …"
+    },
+    {
+     "datum": "2026-10-31",
+     "typ": "rozhodnutí",
+     "ref": "R-618",
+     "text": "… stav aktivní, NEODESLÁNO); prvky `2NP-D03`, `2NP-S10`, `2NP-S21`, `2NP-S29`, body E177, E178, E180; řádek plánu 12a …"
     }
    ],
    "dotazy": {
     "otazky": [
      "projektantka 14",
+     "projektantka 47",
      "statik N17",
      "statik N28",
      "statik N34"
     ],
     "otazky_hlavni": [
      "projektantka 14",
+     "projektantka 47",
      "statik N17",
      "statik N28",
      "statik N34"
@@ -16347,6 +16431,7 @@
    },
    "dotaz_srafa": [
     "projektantka 14",
+    "projektantka 47",
     "statik N34"
    ]
   },
@@ -16702,6 +16787,7 @@
      "projektantka 39",
      "projektantka 40",
      "projektantka 46",
+     "projektantka 47",
      "statik N14",
      "statik N18",
      "statik N23",
@@ -16717,7 +16803,9 @@
      "statik N23",
      "statik N30"
     ],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "projektantka 47"
+    ],
     "body": [
      "E147",
      "E170",
@@ -19780,8 +19868,8 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-D03"
    },
-   "historie_n": 30,
-   "historie_zminek": 48,
+   "historie_n": 32,
+   "historie_zminek": 50,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -19954,6 +20042,18 @@
      "typ": "uzavřený bod",
      "ref": "E173",
      "text": "NUTNOST ŽB SLOUPKU 200 × 200 u dveří `2NP-D03` (hala 201 / šatna 203) vs celá stěna ze sádrokartonu (S0.64, 28. 10. …"
+    },
+    {
+     "datum": "2026-10-31",
+     "typ": "rozhodnutí",
+     "ref": "R-618",
+     "text": "… 30. 10. 2026: výkresy z 26. 10. 2026 kreslí ŽB sloupek 200 × 200 u `2NP-D03`, dveře posunuté o 25 mm a zděnou stěnu …"
+    },
+    {
+     "datum": "2026-10-31",
+     "typ": "rozhodnutí",
+     "ref": "R-619",
+     "text": "… řezu A-A; zeď terasy „materiál dořešíte se statikem“; polohu dveří `2NP-D03` sladit se statikem) a podle investora …"
     }
    ],
    "dotazy": {
@@ -19961,6 +20061,7 @@
      "projektantka 22",
      "projektantka 23",
      "projektantka 39",
+     "projektantka 47",
      "statik N19",
      "statik N21",
      "statik N23",
@@ -19970,6 +20071,7 @@
      "projektantka 22",
      "projektantka 23",
      "projektantka 39",
+     "projektantka 47",
      "statik N19",
      "statik N21",
      "statik N23",
@@ -19988,6 +20090,7 @@
    },
    "dotaz_srafa": [
     "projektantka 39",
+    "projektantka 47",
     "statik N23"
    ]
   },
@@ -22390,6 +22493,7 @@
      "projektantka 39",
      "projektantka 40",
      "projektantka 46",
+     "projektantka 47",
      "statik N18",
      "statik N23",
      "statik N30"
@@ -22402,6 +22506,7 @@
     "otazky_zminene": [
      "projektantka 22",
      "projektantka 46",
+     "projektantka 47",
      "statik N23",
      "statik N30"
     ],
@@ -39366,6 +39471,7 @@
    "dotazy": {
     "otazky": [
      "projektantka 34",
+     "projektantka 47",
      "statik N14",
      "statik N27",
      "statik N36"
@@ -39376,6 +39482,7 @@
      "statik N27"
     ],
     "otazky_zminene": [
+     "projektantka 47",
      "statik N36"
     ],
     "body": [
