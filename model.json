@@ -1,6 +1,6 @@
 {
  "meta": {
-  "stav_k": "31. 10. 2026 (S0.84)",
+  "stav_k": "31. 10. 2026 (S0.84b)",
   "vznik": "krok S0.11, 21. 9. 2026 (E49); S0.12 (nulová spodní hrana, šrafy, SDK, stávající garáž, značky chybějících); S0.14 (ŽB z PDF statiky, E51); S0.16 až S0.26 (viz session logy); S0.29, 2. 10. 2026: ŽB, základy, ocel a kontext zdiva z IFC statika (investor: IFC autoritativní pro ŽB), odvozené ŽB prvky, ŽB z PDF statiky, věnec garáže, ŽB parapety, pracovní atika, ocelové sloupky a nadpraží z modelu odebrány",
   "jednotky": "mm, souřadnice modelu DWG (2.NP posunuté o −50 000 v x, E42), z absolutně od ±0,000",
   "urovne": {
@@ -12062,7 +12062,7 @@
    },
    "pozn": "Pole `lidsky` u kazdeho prvku je text pro lidi (E127, R-246), pole `technika` jsou nase interni udaje (skript, session, IFC id a GUID, zdrojovy JSON, stare ID) a pole `historie` je audit trail prvku (E128, R-247; zkraceny text, plne znění `zdivo/model/historie.json`; od S0.44 (R-377, investor 14. 10. 2026 „35 i“) jen rozhodnuti, otevrene a uzavrene body a zmeny dat, zminky nalezu zustavaji jen v `historie.json`; od S0.45 (16. 10. 2026, investor: historie na strance prazdna, jen veci po odeslani S1) jen udalosti od `HISTORIE_OD`, dnes 2026-10-26). Generuji `tools/model/texty_pro_lidi.py` a `tools/model/historie_prvku.py`.",
    "historie_od": "2026-10-26",
-   "historie_udalosti": 383,
+   "historie_udalosti": 386,
    "historie_zminek": 422,
    "historie_prvku": 101
   }
@@ -17263,7 +17263,7 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-O04"
    },
-   "historie_n": 6,
+   "historie_n": 7,
    "historie_zminek": 6,
    "historie": [
     {
@@ -17301,6 +17301,12 @@
      "typ": "rozhodnutí",
      "ref": "R-627",
      "text": "… umístěním okna (lze o kousek výš); stavební otvor kuchyňského okna `1NP-O04` se udělá o 50 mm větší, okno zůstává …"
+    },
+    {
+     "datum": "2026-10-31",
+     "typ": "rozhodnutí",
+     "ref": "R-628",
+     "text": "… zpětvzetí 850): PARAPETY OKEN 900 podle projektu, výjimka kuchyňské okno `1NP-O04` cca 850 až 870 (dořeší se měřením …"
     }
    ],
    "dotazy": {
@@ -21144,7 +21150,7 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-O10"
    },
-   "historie_n": 9,
+   "historie_n": 10,
    "historie_zminek": 11,
    "historie": [
     {
@@ -21199,6 +21205,12 @@
      "typ": "uzavřený bod",
      "ref": "E70",
      "text": "… soupis překladů; výkres výztuže zůstává E184, čtení řezu A-A nad `2NP-O10` E194. Plné znění …"
+    },
+    {
+     "datum": "2026-10-31",
+     "typ": "rozhodnutí",
+     "ref": "R-628",
+     "text": "… R-627); cihly se pro objednávku počítají plošně do 900; dveře na terasu `2NP-O10`, `2NP-O13` parapet 200 (R-562 …"
     }
    ],
    "dotazy": {
@@ -21812,7 +21824,7 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-O13"
    },
-   "historie_n": 4,
+   "historie_n": 5,
    "historie_zminek": 1,
    "historie": [
     {
@@ -21838,6 +21850,12 @@
      "typ": "rozhodnutí",
      "ref": "R-595",
      "text": "… [na obě strany: čtení agenta, investor: „vse presah 25cm“]; `2NP-O10` a `2NP-O13` přesah 0; `2NP-O11` 250; `2NP-O12` …"
+    },
+    {
+     "datum": "2026-10-31",
+     "typ": "rozhodnutí",
+     "ref": "R-628",
+     "text": "… pro objednávku počítají plošně do 900; dveře na terasu `2NP-O10`, `2NP-O13` parapet 200 (R-562 platí), HS portály …"
     }
    ],
    "dotazy": {
