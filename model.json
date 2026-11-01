@@ -1,6 +1,6 @@
 {
  "meta": {
-  "stav_k": "31. 10. 2026 (S0.84b)",
+  "stav_k": "1. 11. 2026 (S0.82)",
   "vznik": "krok S0.11, 21. 9. 2026 (E49); S0.12 (nulová spodní hrana, šrafy, SDK, stávající garáž, značky chybějících); S0.14 (ŽB z PDF statiky, E51); S0.16 až S0.26 (viz session logy); S0.29, 2. 10. 2026: ŽB, základy, ocel a kontext zdiva z IFC statika (investor: IFC autoritativní pro ŽB), odvozené ŽB prvky, ŽB z PDF statiky, věnec garáže, ŽB parapety, pracovní atika, ocelové sloupky a nadpraží z modelu odebrány",
   "jednotky": "mm, souřadnice modelu DWG (2.NP posunuté o −50 000 v x, E42), z absolutně od ±0,000",
   "urovne": {
@@ -45,7 +45,7 @@
   "ifc": {
    "soubor": "rdza__3_001.ifc",
    "export": "2026-10-01T23:01:27",
-   "aplikace": "RECOC, spol. s r.o. - REBIM 3D - 3.02.02",
+   "aplikace": "projektantská kancelář - REBIM 3D - 3.02.02",
    "posun": [
     -839122.0,
     198764.0
@@ -9189,7 +9189,7 @@
       "E92"
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 36 (doplnění S0.37, R-235, R-241, R-245, R-257); R-601 (S0.76, 30. 10. 2026, stavy po odpovědích statika a telefonátu)",
-     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:12 SEČ (thread 1a1748433e0189d6; odpověď na první vlnu) a telefonátem: nový věnec, starý se bourá a nedolévá, uskočení `1NP-V04` je zarovnání s nosnými konstrukcemi domu; sonda během stavby možná; DLUH: výkres výztuže věnců garáže (E182), nespěchá před objednávkou zdiva",
+     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:12 SEČ (vlákno Gmailu; odpověď na první vlnu) a telefonátem: nový věnec, starý se bourá a nedolévá, uskočení `1NP-V04` je zarovnání s nosnými konstrukcemi domu; sonda během stavby možná; DLUH: výkres výztuže věnců garáže (E182), nespěchá před objednávkou zdiva",
      "emaily": [
       {
        "adresat": "statik",
@@ -9230,7 +9230,7 @@
       "E116"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 47.3 (otázka 18 sekce 46, E116 průnik 4, R-351); R-504 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem); R-601 (S0.76, 30. 10. 2026, stavy po odpovědích statika a telefonátu)",
-     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:12 SEČ (thread 1a1748433e0189d6; odpověď na první vlnu): průnik atiky do parapetu je chyba, atika končí před zdivem; telefonát: statik chybu potvrdil; oprava v IFC se čeká v novém exportu (pondělí 2. 11. 2026, E174, E175), model do té doby podle exportu 1. 10. 2026",
+     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:12 SEČ (vlákno Gmailu; odpověď na první vlnu): průnik atiky do parapetu je chyba, atika končí před zdivem; telefonát: statik chybu potvrdil; oprava v IFC se čeká v novém exportu (pondělí 2. 11. 2026, E174, E175), model do té doby podle exportu 1. 10. 2026",
      "emaily": [
       {
        "adresat": "statik",
@@ -9265,7 +9265,7 @@
       "E42"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 36 (N10, R-168, R-169, R-241, R-245, R-264); R-511 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem); R-601 (S0.76, 30. 10. 2026, stavy po odpovědích statika a telefonátu)",
-     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:12 SEČ (thread 1a1748433e0189d6; odpověď na první vlnu): výšky trámů podle skladby zdiva, `2NP-V09` průvlak u dilatace vetknutý do ŽB sloupku a průvlaku; telefonát: záměr",
+     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:12 SEČ (vlákno Gmailu; odpověď na první vlnu): výšky trámů podle skladby zdiva, `2NP-V09` průvlak u dilatace vetknutý do ŽB sloupku a průvlaku; telefonát: záměr",
      "emaily": [
       {
        "adresat": "statik",
@@ -9335,7 +9335,7 @@
       "E43"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 36 (N9, R-165); R-505 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem); R-601 (S0.76, 30. 10. 2026, stavy po odpovědích statika a telefonátu)",
-     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:12 SEČ (thread 1a1748433e0189d6; odpověď na první vlnu) a telefonátem: ŽB atiky z výkresu výztuže jsou nosné a zůstávají ŽB; zděné z lehčího materiálu při zachování šířky, přednostně Ytong; ŽB atika z cihel nejde",
+     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:12 SEČ (vlákno Gmailu; odpověď na první vlnu) a telefonátem: ŽB atiky z výkresu výztuže jsou nosné a zůstávají ŽB; zděné z lehčího materiálu při zachování šířky, přednostně Ytong; ŽB atika z cihel nejde",
      "emaily": [
       {
        "adresat": "statik",
@@ -9362,7 +9362,7 @@
       "E110"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 36 (N8, R-117; doplnění S0.40b nález N4); R-506 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem); R-601 (S0.76, 30. 10. 2026, stavy po odpovědích statika a telefonátu)",
-     "pozn": "vzato na vědomí e-mail statika 30. 10. 2026 00:12 SEČ (thread 1a1748433e0189d6; odpověď na první vlnu) (statik vzal na vědomí); rozdíly otvorů vs IFC projde investor sám (E187)",
+     "pozn": "vzato na vědomí e-mail statika 30. 10. 2026 00:12 SEČ (vlákno Gmailu; odpověď na první vlnu) (statik vzal na vědomí); rozdíly otvorů vs IFC projde investor sám (E187)",
      "emaily": [
       {
        "adresat": "statik",
@@ -9486,7 +9486,7 @@
       "A8"
      ],
      "zdroj_kratky": "log rozhodnutí v repu R-433 a R-435 (investor 18. 10. 2026 večer, S0.49d: „presahy prekladu (ZB) jsou v modelu 0, nechame je 0, zeptame se statika, kolik ty presahy mame udelat“; „text N14 ok, zapis ho do kanonu hned“); R-450 (24. 10. 2026, S0.53) seznam prvků; R-601 (S0.76, 30. 10. 2026, stavy po odpovědích statika a telefonátu)",
-     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:12 SEČ (thread 1a1748433e0189d6; odpověď na první vlnu) (min. 250 mm, u širších otvorů 300 až 400) a telefonátem (přesahy per otvor pracovně: většina 250, `2NP-O10` a `2NP-O13` 0, dveře `2NP-D01` + `D02` 200, `1NP-D04` 250/480; přesně ve výkresu výztuže); DLUH: výkres výztuže překladů (E184)",
+     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:12 SEČ (vlákno Gmailu; odpověď na první vlnu) (min. 250 mm, u širších otvorů 300 až 400) a telefonátem (přesahy per otvor pracovně: většina 250, `2NP-O10` a `2NP-O13` 0, dveře `2NP-D01` + `D02` 200, `1NP-D04` 250/480; přesně ve výkresu výztuže); DLUH: výkres výztuže překladů (E184)",
      "emaily": [
       {
        "adresat": "statik",
@@ -9564,7 +9564,7 @@
       "E71"
      ],
      "zdroj_kratky": "kanon otázek v repu sekce 36 (N11, R-320), sekce 45.9 (I10) a 45.10 (otázka 18); R-511 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem); R-601 (S0.76, 30. 10. 2026, stavy po odpovědích statika a telefonátu)",
-     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:12 SEČ (thread 1a1748433e0189d6; odpověď na první vlnu): +5,700 je překlep, platí +5,740; telefonát totéž",
+     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:12 SEČ (vlákno Gmailu; odpověď na první vlnu): +5,700 je překlep, platí +5,740; telefonát totéž",
      "emaily": [
       {
        "adresat": "statik",
@@ -9633,7 +9633,7 @@
       "E111"
      ],
      "zdroj_kratky": "S0.49 (18. 10. 2026, E148, rozhodnutí investora R-411 až R-426 v `log rozhodnutí v repu`); návrhy textů reporty `docs/revize/2026-10-16/S0.48b_T1` až `T5`; dřívější zdroj: kanon otázek v repu sekce 36 (na vědomí, R-152); R-200, R-326; R-396 (S0.48b T7, varianta B1); R-510 (S0.56, 25. 10. 2026, kontrola textu e-mailu s investorem); R-601 (S0.76, 30. 10. 2026, stavy po odpovědích statika a telefonátu)",
-     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:12 SEČ (thread 1a1748433e0189d6; odpověď na první vlnu) (oba výkresy shodně −0,360); projektantka 26. 10. 2026: deska −0,360, hydroizolace 2 × 4 mm, zdivo od −0,350; telefonát: dvě vrstvy asfaltového pásu, zhruba 10 mm; bod E111 uzavřen v S0.75 (R-600); dřív: jen na vědomí, ne otázka; kopie e-mailu projektantce (R-393)",
+     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:12 SEČ (vlákno Gmailu; odpověď na první vlnu) (oba výkresy shodně −0,360); projektantka 26. 10. 2026: deska −0,360, hydroizolace 2 × 4 mm, zdivo od −0,350; telefonát: dvě vrstvy asfaltového pásu, zhruba 10 mm; bod E111 uzavřen v S0.75 (R-600); dřív: jen na vědomí, ne otázka; kopie e-mailu projektantce (R-393)",
      "emaily": [
       {
        "adresat": "statik",
@@ -9675,7 +9675,7 @@
       "E69"
      ],
      "zdroj_kratky": "R-508 (S0.56, 25. 10. 2026 19:32:07 SEČ (18:32:07 UTC, transkript 342e953b) a 19:54:47 SEČ, investor: „Otazka 2, ja bych tu vetu o uzkych prekladech u garaze, roletovem boxu o moznosti to uzelat [= udělat] ZB poslal i statikovi, radeji“, „H ano otazka 2“, „o9 ok a ze se ptame i stavitel (betonar)“); revize `docs/revize/2026-10-25/S0.56_skrtnute-otazky-statikovi-fable.md` (otázka 2 UZAVŘENO ROZHODNUTÍM R-154, téma žilo jen u projektantky a stavitele); R-601 (S0.76, 30. 10. 2026, stavy po odpovědích statika a telefonátu)",
-     "pozn": "zodpovězeno telefonicky 30. 10. 2026 (všechny překlady ŽB: ŽB překlady místo KP 7 nad okny nástavby, přesah 250); e-mailem odmítnuto (není to na něm, e-mail statika 30. 10. 2026 00:12 SEČ (thread 1a1748433e0189d6; odpověď na první vlnu)); DLUH: výkres výztuže (E184); dřív: návrat škrtnuté otázky statikovi 2 (překlady nad okny nástavby, KP 7) po průchodu 20 škrtnutých otázek (bod 0 S0.56, R-471); téma v e-mailech: projektantka 34 (bod 17), stavitel 2 (bod 2)",
+     "pozn": "zodpovězeno telefonicky 30. 10. 2026 (všechny překlady ŽB: ŽB překlady místo KP 7 nad okny nástavby, přesah 250); e-mailem odmítnuto (není to na něm, e-mail statika 30. 10. 2026 00:12 SEČ (vlákno Gmailu; odpověď na první vlnu)); DLUH: výkres výztuže (E184); dřív: návrat škrtnuté otázky statikovi 2 (překlady nad okny nástavby, KP 7) po průchodu 20 škrtnutých otázek (bod 0 S0.56, R-471); téma v e-mailech: projektantka 34 (bod 17), stavitel 2 (bod 2)",
      "emaily": [
       {
        "adresat": "statik",
@@ -10256,7 +10256,7 @@
       "E43"
      ],
      "zdroj_kratky": "doplňující e-mail statikovi 26. 10. 2026 22:06 SEČ, bod 1 (odeslán agentem S0.62d s mandátem R-548); řádek kanonu založila S0.63 28. 10. 2026 (R-549); R-601 (S0.76, 30. 10. 2026, stavy po odpovědích statika a telefonátu)",
-     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:19 SEČ (thread 1a1748433e0189d6; odpověď na doplňující e-mail): zděné atiky z čehokoliv lehčího, ŽB atiky z cihel nemohou; telefonát: přednostně Ytong; dřív: navazuje na N9 (atika, bod 5 první vlny) a na odpověď projektantky k jejímu bodu 5; totéž projektantce jako 38; materiál atiky po reakci statika (R-543)",
+     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:19 SEČ (vlákno Gmailu; odpověď na doplňující e-mail): zděné atiky z čehokoliv lehčího, ŽB atiky z cihel nemohou; telefonát: přednostně Ytong; dřív: navazuje na N9 (atika, bod 5 první vlny) a na odpověď projektantky k jejímu bodu 5; totéž projektantce jako 38; materiál atiky po reakci statika (R-543)",
      "emaily": [
       {
        "adresat": "statik",
@@ -10292,7 +10292,7 @@
       "E165"
      ],
      "zdroj_kratky": "doplňující e-mail statikovi 26. 10. 2026 22:06 SEČ, bod 2 (odeslán agentem S0.62d s mandátem R-548); řádek kanonu založila S0.63 28. 10. 2026 (R-549); R-601 (S0.76, 30. 10. 2026, stavy po odpovědích statika a telefonátu)",
-     "pozn": "zodpovězeno záporně e-mail statika 30. 10. 2026 00:19 SEČ (thread 1a1748433e0189d6; odpověď na doplňující e-mail): Ytong 150 je málo, funkce zábradlí, kotvit pásky; co zeď bude, zůstává otevřené (E165); dřív: navazuje na otázku projektantce 14 (zeď terasy `2NP-S29`, bod 7 první vlny) a její odpověď (materiál i tloušťku má posvětit statik); rozhodnutí investora R-541 (Ytong 150 po statikovi)",
+     "pozn": "zodpovězeno záporně e-mail statika 30. 10. 2026 00:19 SEČ (vlákno Gmailu; odpověď na doplňující e-mail): Ytong 150 je málo, funkce zábradlí, kotvit pásky; co zeď bude, zůstává otevřené (E165); dřív: navazuje na otázku projektantce 14 (zeď terasy `2NP-S29`, bod 7 první vlny) a její odpověď (materiál i tloušťku má posvětit statik); rozhodnutí investora R-541 (Ytong 150 po statikovi)",
      "emaily": [
       {
        "adresat": "statik",
@@ -10327,7 +10327,7 @@
       "E170"
      ],
      "zdroj_kratky": "doplňující e-mail statikovi 26. 10. 2026 22:06 SEČ, bod 3 (odeslán agentem S0.62d s mandátem R-548); řádek kanonu založila S0.63 28. 10. 2026 (R-549); R-601 (S0.76, 30. 10. 2026, stavy po odpovědích statika a telefonátu)",
-     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:19 SEČ (thread 1a1748433e0189d6; odpověď na doplňující e-mail): prolévací tvarovky ano (kvůli HS portálu), provázané s deskou; telefonát totéž, statik doplní výkres výztuže prolévaček (E184); výška prahu zůstává rozpor projektantka vs dodavatel oken (E172, S0.68); dřív: navazuje na otázku projektantce 22 bod (c) a její odpověď (2 šáry prolévacích tvarovek + Propasiv); rozhodnutí investora R-540; totéž projektantce jako 40",
+     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:19 SEČ (vlákno Gmailu; odpověď na doplňující e-mail): prolévací tvarovky ano (kvůli HS portálu), provázané s deskou; telefonát totéž, statik doplní výkres výztuže prolévaček (E184); výška prahu zůstává rozpor projektantka vs dodavatel oken (E172, S0.68); dřív: navazuje na otázku projektantce 22 bod (c) a její odpověď (2 šáry prolévacích tvarovek + Propasiv); rozhodnutí investora R-540; totéž projektantce jako 40",
      "emaily": [
       {
        "adresat": "statik",
@@ -10365,7 +10365,7 @@
       "E171"
      ],
      "zdroj_kratky": "doplňující e-mail statikovi 26. 10. 2026 22:06 SEČ, bod 4 (odeslán agentem S0.62d s mandátem R-548); řádek kanonu založila S0.63 28. 10. 2026 (R-549); R-601 (S0.76, 30. 10. 2026, stavy po odpovědích statika a telefonátu)",
-     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:19 SEČ (thread 1a1748433e0189d6; odpověď na doplňující e-mail) (sloupek potvrdil, výztuž k němu neexistuje); VÝSLEDEK přebil telefonát 30. 10. 2026: sloupek NEBUDE, `2NP-S10` i pás nad dveřmi sádrokarton, `2NP-V16` jen nad `2NP-S09`; dřív: navazuje na otázky projektantce 23 (pás nad `2NP-D03`) a 29 (úsek `2NP-S10` 170 mm) a její odpověď (ŽB sloupek 200 × 200 po domluvě se statikem, nový IFC 26-10-26 v příloze); k novému ŽB sloupku chceme výkres výztuže (R-555, bod E171; vyžádat po odpovědi statika, text otázky se nemění)",
+     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:19 SEČ (vlákno Gmailu; odpověď na doplňující e-mail) (sloupek potvrdil, výztuž k němu neexistuje); VÝSLEDEK přebil telefonát 30. 10. 2026: sloupek NEBUDE, `2NP-S10` i pás nad dveřmi sádrokarton, `2NP-V16` jen nad `2NP-S09`; dřív: navazuje na otázky projektantce 23 (pás nad `2NP-D03`) a 29 (úsek `2NP-S10` 170 mm) a její odpověď (ŽB sloupek 200 × 200 po domluvě se statikem, nový IFC 26-10-26 v příloze); k novému ŽB sloupku chceme výkres výztuže (R-555, bod E171; vyžádat po odpovědi statika, text otázky se nemění)",
      "emaily": [
       {
        "adresat": "statik",
@@ -10411,7 +10411,7 @@
       "E80"
      ],
      "zdroj_kratky": "R-566 (investor 28. 10. 2026 18:02 SEČ, S0.64, doslovně: „dotaz na statika, zda tam ten novy sloup 200x200 v 2np musi byt, zda podpira stropni desku (jinak by se to tak udelalo cele ze sdk, i nad dvermi D03. Nevim, zda to tam neudela zub v te koupelne - to by mi vadilo.“); text schválil investor 28. 10. 2026 (S0.69, R-572: „3 ok, posli, napis tam v koupelne 202/204 a je to vyresene“); druhý doplňující e-mail statikovi `docs/emaily/2026-10-28_statik_doplneni2.md`; R-601 (S0.76, 30. 10. 2026, stavy po odpovědích statika a telefonátu)",
-     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:30 SEČ (thread 1a1748433e0189d6; k N21) (teoreticky by tam sloupek být nemusel, ve výpočtu měl stěnu bez dveří); výsledek: bez sloupku, sádrokarton, platí telefonát 30. 10. 2026; dřív: navazuje na N19 (potvrzení ŽB sloupku 200 × 200 a nový IFC) a na odpověď projektantky 26. 10. 2026 body 10 a 11; pokud sloupek desku nepodpírá, stěna i pás nad `2NP-D03` ze sádrokartonu bez sloupku a překladu (E173); výkres výztuže sloupku je E171; „202/204“ v textu = investor neví, kterou koupelnu zub zasáhne, možná se to zjistí z nového IFC (S0.65; investor R-572: „mozna to pak zjisime z noveho ifc“)",
+     "pozn": "zodpovězeno e-mail statika 30. 10. 2026 00:30 SEČ (vlákno Gmailu; k N21) (teoreticky by tam sloupek být nemusel, ve výpočtu měl stěnu bez dveří); výsledek: bez sloupku, sádrokarton, platí telefonát 30. 10. 2026; dřív: navazuje na N19 (potvrzení ŽB sloupku 200 × 200 a nový IFC) a na odpověď projektantky 26. 10. 2026 body 10 a 11; pokud sloupek desku nepodpírá, stěna i pás nad `2NP-D03` ze sádrokartonu bez sloupku a překladu (E173); výkres výztuže sloupku je E171; „202/204“ v textu = investor neví, kterou koupelnu zub zasáhne, možná se to zjistí z nového IFC (S0.65; investor R-572: „mozna to pak zjisime z noveho ifc“)",
      "emaily": [
       {
        "adresat": "statik",
@@ -10456,7 +10456,7 @@
       "E174",
       "E71"
      ],
-     "zdroj_kratky": "R-576 a R-577 (investor 29. 10. 2026 19:11 SEČ, 18:11:34 UTC, S0.71, doslovně: „jinak s emailem statikovi ohledne IFC (materialy apod) souhlasim, projektantka v kopii“; „1. otazka statikovi, projektantka v kopii, a tyto zmenu ted ignorujeme. Statikovi ted jeden email.“; „2. a  a vezmeme si jen ZB sloup a i ty prolejvacky ted docasne“; „Z IFC tedy ted bereme jen ten ZB sloup a pozadame o spravny IFC a uvedeme rozdily, ktere jsme nasli do emailu.“); e-mail `docs/emaily/2026-10-29_statik_ifc.md`; nález S0.65 (`docs/porovnani-ifc_2026-10-01_vs_2026-10-26.md` sekce 7, E174); text schválil investor 29. 10. 2026 19:26 SEČ (R-582: „1. ok 2. posli ty ted“), ODESLÁNO 29. 10. 2026 19:27 SEČ (18:27:44 UTC), zpráva `1a188eb01259c119`; R-601 (S0.76, 30. 10. 2026, stavy po odpovědích statika a telefonátu)",
+     "zdroj_kratky": "R-576 a R-577 (investor 29. 10. 2026 19:11 SEČ, 18:11:34 UTC, S0.71, doslovně: „jinak s emailem statikovi ohledne IFC (materialy apod) souhlasim, projektantka v kopii“; „1. otazka statikovi, projektantka v kopii, a tyto zmenu ted ignorujeme. Statikovi ted jeden email.“; „2. a  a vezmeme si jen ZB sloup a i ty prolejvacky ted docasne“; „Z IFC tedy ted bereme jen ten ZB sloup a pozadame o spravny IFC a uvedeme rozdily, ktere jsme nasli do emailu.“); e-mail `docs/emaily/2026-10-29_statik_ifc.md`; nález S0.65 (`docs/porovnani-ifc_2026-10-01_vs_2026-10-26.md` sekce 7, E174); text schválil investor 29. 10. 2026 19:26 SEČ (R-582: „1. ok 2. posli ty ted“), ODESLÁNO 29. 10. 2026 19:27 SEČ (18:27:44 UTC), zpráva v Gmailu; R-601 (S0.76, 30. 10. 2026, stavy po odpovědích statika a telefonátu)",
      "pozn": "věnec `2NP-V02` je v modelu dál podle exportu 1. 10. 2026 (R-576: změnu teď ignorujeme); mezera v novém IFC 4 451 mm z 5 083 mm pod deskou `2NP-DS01`, zbytek kryjí konce `2NP-V01` a `2NP-V14`; otázka N11 (kóta +5,700 v řezu A-A výkresu tvaru 2.NP, bod 10 e-mailu z 26. 10. 2026) se týká téže stěny",
      "emaily": [
       {
@@ -10506,7 +10506,7 @@
       "E180",
       "E181"
      ],
-     "zdroj_kratky": "R-576 a R-577 (investor 29. 10. 2026 19:11 SEČ, 18:11:34 UTC, S0.71, doslovně: „jinak s emailem statikovi ohledne IFC (materialy apod) souhlasim, projektantka v kopii“; „1. otazka statikovi, projektantka v kopii, a tyto zmenu ted ignorujeme. Statikovi ted jeden email.“; „2. a  a vezmeme si jen ZB sloup a i ty prolejvacky ted docasne“; „Z IFC tedy ted bereme jen ten ZB sloup a pozadame o spravny IFC a uvedeme rozdily, ktere jsme nasli do emailu.“); e-mail `docs/emaily/2026-10-29_statik_ifc.md`; nálezy S0.65 (`docs/porovnani-ifc_2026-10-01_vs_2026-10-26.md` sekce 1, 4, 7 a 9, E175) a S0.66 (nový DWG: dveře `2NP-D03` o 25 mm západněji, větev S0.66); text schválil investor 29. 10. 2026 19:26 SEČ (R-582: „1. ok 2. posli ty ted“), ODESLÁNO 29. 10. 2026 19:27 SEČ (18:27:44 UTC), zpráva `1a188eb01259c119`; R-601 (S0.76, 30. 10. 2026, stavy po odpovědích statika a telefonátu)",
+     "zdroj_kratky": "R-576 a R-577 (investor 29. 10. 2026 19:11 SEČ, 18:11:34 UTC, S0.71, doslovně: „jinak s emailem statikovi ohledne IFC (materialy apod) souhlasim, projektantka v kopii“; „1. otazka statikovi, projektantka v kopii, a tyto zmenu ted ignorujeme. Statikovi ted jeden email.“; „2. a  a vezmeme si jen ZB sloup a i ty prolejvacky ted docasne“; „Z IFC tedy ted bereme jen ten ZB sloup a pozadame o spravny IFC a uvedeme rozdily, ktere jsme nasli do emailu.“); e-mail `docs/emaily/2026-10-29_statik_ifc.md`; nálezy S0.65 (`docs/porovnani-ifc_2026-10-01_vs_2026-10-26.md` sekce 1, 4, 7 a 9, E175) a S0.66 (nový DWG: dveře `2NP-D03` o 25 mm západněji, větev S0.66); text schválil investor 29. 10. 2026 19:26 SEČ (R-582: „1. ok 2. posli ty ted“), ODESLÁNO 29. 10. 2026 19:27 SEČ (18:27:44 UTC), zpráva v Gmailu; R-601 (S0.76, 30. 10. 2026, stavy po odpovědích statika a telefonátu)",
      "pozn": "žádost o nový export IFC s materiály (E175) s výčtem rozdílů exportů 1. 10. a 26. 10. 2026 (S0.65); do nového exportu zůstává zdrojem export 1. 10. 2026 a z exportu 26. 10. 2026 se do modelu dočasně berou jen ŽB sloupek u `2NP-D03` a prolévačky pod `1NP-O02` (R-577, E181); posun dveří `2NP-D03` o 25 mm je E180 (investor se chce podívat v modelu)",
      "emaily": [
       {
@@ -11088,6 +11088,24 @@
     },
     {
      "adresat": "projektantka",
+     "cislo": "43",
+     "oznaceni": "projektantka 43",
+     "stav": "aktivní",
+     "text": "Při porovnání Vašich výkresů z 26. 10. 2026 s verzí ze 16. 9. 2026 jsme našli tři rozdíly, které v průvodním e-mailu nebyly zmíněné: (1) popisky skladeb stěn W1 až W4b (bubliny u stěn v půdorysech 1. NP, 2. NP a v řezech), které verze ze září přidala, v nové verzi nejsou, v DWG ani v PDF; (2) skladba W3 má v nadpisu tl. 200 mm, ale v textu skladby je nosné vápenopískové zdivo tl. 240 mm, půdorys i legenda mají 200; (3) skladby W4a a W4b jsou přejmenované na W4 a W5. Je to záměr, nebo se do exportu dostala starší verze souboru? Pro objednávku zdiva počítáme s W3 jako VAPIS tl. 200 mm, prosíme o potvrzení. V aktualizované verzi výkresů (viz další bod) prosíme popisky skladeb vrátit.",
+     "prvky": [],
+     "prvky_hlavni": [],
+     "prvky_zminene": [],
+     "prvky_rucne": [],
+     "body": [
+      "E177"
+     ],
+     "zdroj_kratky": "R-630 (S0.82, 1. 11. 2026 14:46 SEČ (13:46:22 UTC), investor: „ok“ k návrhu textu); R-584 (S0.66c, 29. 10. 2026 21:46 SEČ, varianta (a) sekce 86.2 bod 2 `kanon otázek v repu`); podklad `docs/porovnani-vykresy_2026-09-16_vs_2026-10-26.md` sekce 4 body 1 až 3 a řádek E177 `seznam otevřených bodů v repu`",
+     "pozn": "PŘIPRAVENO, NEODESLÁNO: odejde s otázkami 44 až 47 před výkazem cihel (R-584: relativně brzo, ne na neurčito; projektantka na dovolené do 31. 10. 2026); otázka 47 = aktualizovaný DWG a PDF po telefonátu (R-618, text R-619 a R-625), věta o vrácení popisek na ni navazuje; bez prvku: popisky skladeb v nové verzi chybí, takže přiřazení stěn ke skladbám W1 až W5 není z výkresů 26-10-26 dohledatelné (krok 13 sekce 3 plánu)",
+     "emaily": [],
+     "druh": "otázka"
+    },
+    {
+     "adresat": "projektantka",
      "cislo": "44",
      "oznaceni": "projektantka 44",
      "stav": "aktivní",
@@ -11246,6 +11264,7 @@
      "sekce": "A. Zdivo a objednávka",
      "prvky": [
       "1NP-D04",
+      "2NP-D01",
       "2NP-D03",
       "2NP-O01",
       "2NP-O09"
@@ -11653,7 +11672,7 @@
     {
      "id": "E165",
      "nazev": "Zeď na terase 2.NP (pás 2NP-S29 mezi 2NP-S27 a 2NP-S28, skladba 300 + 200 + 60, horní hrana +4,170) má podle investora vypadnout z objednávky VAPIS: otázka projektantce 14 od 25. 10. 2026 (R-477) žádá shodu, že zeď nebude z VAPIS, vyřeší se jinak (méně vodivý …",
-     "stav": "otevřeno 25. 10. 2026 (S0.55b) DOPLNĚNO 30. 10. 2026 (S0.74, odpovědi statika 00:12, 00:19 a 00:30 SEČ, vlákno 1a1748433e0189d6): statik k N17 …; Ytong 150 (R-541) padá, náhradní … N17 a N28 čekají na výsledek statik a projektantka",
+     "stav": "otevřeno 25. 10. 2026 (S0.55b) DOPLNĚNO 30. 10. 2026 (S0.74, odpovědi statika 00:12, 00:19 a 00:30 SEČ, vlákno Gmailu): statik k N17 …; Ytong 150 (R-541) padá, náhradní … N17 a N28 čekají na výsledek statik a projektantka",
      "vlastnik": "investor (po odpovědi), agent (výkaz)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
@@ -11704,7 +11723,8 @@
       "2NP-D01",
       "2NP-D02",
       "2NP-D03",
-      "2NP-V09"
+      "2NP-V09",
+      "2NP-V19"
      ],
      "dotazy": []
     },
@@ -11729,6 +11749,136 @@
       "projektantka 40",
       "projektantka 42",
       "statik N18"
+     ]
+    },
+    {
+     "id": "E172",
+     "nazev": "PRAHY, PARAPETY A SPODKY OTVORŮ VÝPLNÍ PODLE DODAVATELE OKEN",
+     "stav": "OTEVŘENO",
+     "vlastnik": "S0.68 (data podle dodavatele oken bez −50 u oken; dál odložena do nového DWG, R-620), investor (měření, schůzka)",
+     "sekce": "E. Znalostní báze a nástroje",
+     "prvky": [
+      "1NP-D01",
+      "1NP-D02",
+      "1NP-D03",
+      "1NP-D05",
+      "1NP-O02",
+      "1NP-O04",
+      "1NP-O05",
+      "1NP-O06",
+      "2NP-O01",
+      "2NP-O07",
+      "2NP-O10",
+      "2NP-O13"
+     ],
+     "dotazy": [
+      "statik N23"
+     ]
+    },
+    {
+     "id": "E174",
+     "nazev": "ZANIKLÝ ŽB VĚNEC 2NP-V02 V NOVÉM IFC 26-10-26",
+     "stav": "ODESLÁNO 29. 10. 2026",
+     "vlastnik": "statik (export), investor (stav po exportu)",
+     "sekce": "E. Znalostní báze a nástroje",
+     "prvky": [
+      "2NP-DS01",
+      "2NP-IW07",
+      "2NP-V01",
+      "2NP-V02",
+      "2NP-V14"
+     ],
+     "dotazy": [
+      "statik N22",
+      "statik N32"
+     ]
+    },
+    {
+     "id": "E175",
+     "nazev": "NOVÝ EXPORT IFC 26-10-26 BEZ MATERIÁLŮ A S JINÝMI ČÍSLY ENTIT, NASAZENÍ ZASTAVENO",
+     "stav": "ODESLÁNO 29. 10. 2026 (žádost), nasazení čeká",
+     "vlastnik": "statik (export), agent (nasazení)",
+     "sekce": "E. Znalostní báze a nástroje",
+     "prvky": [
+      "2NP-OS01",
+      "2NP-V02"
+     ],
+     "dotazy": [
+      "statik N23",
+      "statik N32"
+     ]
+    },
+    {
+     "id": "E177",
+     "nazev": "NEOHLÁŠENÉ ROZDÍLY VE VÝKRESECH ARCHITEKTURY 26-10-26 PROTI 16. 9. 2026",
+     "stav": "otevřeno 28. 10. 2026 (S0.66)",
+     "vlastnik": "investor (S0.83)",
+     "sekce": "E. Znalostní báze a nástroje",
+     "prvky": [
+      "1NP-PZ06"
+     ],
+     "dotazy": [
+      "projektantka 43",
+      "projektantka 47"
+     ]
+    },
+    {
+     "id": "E178",
+     "nazev": "NASAZENÍ NOVÉHO DWG 26-10-26 DO PIPELINE A DAT STĚN",
+     "stav": "otevřeno 28. 10. 2026 (S0.66)",
+     "vlastnik": "agent (session nasazující opravený DWG)",
+     "sekce": "E. Znalostní báze a nástroje",
+     "prvky": [
+      "2NP-D03",
+      "2NP-O06",
+      "2NP-O07",
+      "2NP-S09",
+      "2NP-S10",
+      "2NP-S13"
+     ],
+     "dotazy": [
+      "projektantka 47"
+     ]
+    },
+    {
+     "id": "E180",
+     "nazev": "POSUN DVEŘÍ 2NP-D03 O 25 MM NA ZÁPAD V NOVÉM IFC I NOVÉM DWG, NEOHLÁŠENÝ",
+     "stav": "otevřeno 29. 10. 2026 (S0.71)",
+     "vlastnik": "projektantka (odpověď), S0.68 (data), agent (porovnání)",
+     "sekce": "E. Znalostní báze a nástroje",
+     "prvky": [
+      "2NP-D03",
+      "2NP-S09",
+      "2NP-S10",
+      "2NP-SDK03"
+     ],
+     "dotazy": [
+      "projektantka 47",
+      "statik N23"
+     ]
+    },
+    {
+     "id": "E181",
+     "nazev": "DOČASNÉ PŘEVZETÍ ŽB SLOUPKU U 2NP-D03 A PROLÉVAČEK POD 1NP-O02 Z EXPORTU IFC 26. 10. 2026 DO MODELU PŘED EXPORTEM S MATERIÁLY",
+     "stav": "čeká na export s materiály; po jeho nasazení uzavřít",
+     "vlastnik": "agent (S0.72), statik (export)",
+     "sekce": "E. Znalostní báze a nástroje",
+     "prvky": [
+      "1NP-IW06",
+      "1NP-O02",
+      "1NP-O04",
+      "1NP-O05",
+      "1NP-P01",
+      "1NP-PK07",
+      "2NP-D03",
+      "2NP-IW22",
+      "2NP-V02",
+      "2NP-V16"
+     ],
+     "dotazy": [
+      "projektantka 46",
+      "statik N23",
+      "statik N30"
      ]
     },
     {
@@ -11951,22 +12101,22 @@
     "stavitel 1"
    ],
    "pocty": {
-    "otazek": 64,
+    "otazek": 65,
     "otazek_podle_adresata": {
-     "projektantka": 32,
+     "projektantka": 33,
      "statik": 29,
      "stavitel": 3
     },
     "otazek_podle_stavu": {
      "zodpovězená": 32,
-     "aktivní": 32
+     "aktivní": 33
     },
     "otazek_aktivnich_s_prvkem": 26,
-    "otazek_bez_prvku": 13,
-    "otazek_bez_hlavniho_prvku": 14,
-    "bodu": 43,
-    "bodu_s_prvkem": 40,
-    "prvku_s_dotazem": 173,
+    "otazek_bez_prvku": 14,
+    "otazek_bez_hlavniho_prvku": 15,
+    "bodu": 50,
+    "bodu_s_prvkem": 47,
+    "prvku_s_dotazem": 176,
     "prvku_s_hlavni_otazkou": 137,
     "prvku_jen_zminenych": 14,
     "otazek_v_odeslanem_emailu": 58,
@@ -12062,8 +12212,8 @@
    },
    "pozn": "Pole `lidsky` u kazdeho prvku je text pro lidi (E127, R-246), pole `technika` jsou nase interni udaje (skript, session, IFC id a GUID, zdrojovy JSON, stare ID) a pole `historie` je audit trail prvku (E128, R-247; zkraceny text, plne znění `zdivo/model/historie.json`; od S0.44 (R-377, investor 14. 10. 2026 „35 i“) jen rozhodnuti, otevrene a uzavrene body a zmeny dat, zminky nalezu zustavaji jen v `historie.json`; od S0.45 (16. 10. 2026, investor: historie na strance prazdna, jen veci po odeslani S1) jen udalosti od `HISTORIE_OD`, dnes 2026-10-26). Generuji `tools/model/texty_pro_lidi.py` a `tools/model/historie_prvku.py`.",
    "historie_od": "2026-10-26",
-   "historie_udalosti": 386,
-   "historie_zminek": 422,
+   "historie_udalosti": 397,
+   "historie_zminek": 457,
    "historie_prvku": 101
   }
  },
@@ -13538,7 +13688,7 @@
      "datum": "2026-10-30",
      "typ": "otevřený bod",
      "ref": "E184",
-     "text": "… `V19` požadavek investora (10): přesah má být nad zdí směrem na jih (do `2NP-S02`, resp. `2NP-S01`), nad ocelovým …"
+     "text": "… požadavek investora (10): přesah má být nad zdí směrem na jih (do `2NP-S02`, resp. `2NP-S01`), nad ocelovým sloupkem …"
     },
     {
      "datum": "2026-10-30",
@@ -13716,7 +13866,7 @@
     "json": "zdivo/steny/steny-v2.json",
     "id_stare": "2NP-S04"
    },
-   "historie_n": 4,
+   "historie_n": 5,
    "historie_zminek": 9,
    "historie": [
     {
@@ -13730,6 +13880,12 @@
      "typ": "otevřený bod",
      "ref": "E186",
      "text": "… +5,740, spojené překlady jako dvojice těles, vyřazená tělesa drátěně; `2NP-S04` po zkrácení 2 140 mm = 8 řad + 70 mm, …"
+    },
+    {
+     "datum": "2026-10-30",
+     "typ": "otevřený bod",
+     "ref": "E188",
+     "text": "… `2NP-V17-OD2` (260 × 200 půdorysně, výška 100, +5,840 až +5,940, nad `2NP-S04` u hrany `2NP-D02`) STATIK POSUNE NA …"
     },
     {
      "datum": "2026-10-30",
@@ -14247,20 +14403,20 @@
     "json": "zdivo/steny/steny-v2.json",
     "id_stare": "2NP-S09"
    },
-   "historie_n": 12,
-   "historie_zminek": 18,
+   "historie_n": 13,
+   "historie_zminek": 20,
    "historie": [
     {
-     "datum": "2026-10-26",
+     "datum": "2026-10-28",
      "typ": "otevřený bod",
-     "ref": "E180",
-     "text": "… (S0.66, větev: čáry dveří −783 491…−782 591 → −783 516…−782 616, stěna `2NP-S09` 3 630 → 3 605, kóta 500 → 525); …"
+     "ref": "E178",
+     "text": "… 300), který `tools/steny/steny_ze_sraf.py` v mapě `MATERIAL` nemá; `2NP-S09` o 25 mm kratší a `2NP-D03` o 25 mm …"
     },
     {
      "datum": "2026-10-29",
      "typ": "otevřený bod",
-     "ref": "E178",
-     "text": "… 300), který `tools/steny/steny_ze_sraf.py` v mapě `MATERIAL` nemá; `2NP-S09` o 25 mm kratší a `2NP-D03` o 25 mm …"
+     "ref": "E180",
+     "text": "… (S0.66, větev: čáry dveří −783 491…−782 591 → −783 516…−782 616, stěna `2NP-S09` 3 630 → 3 605, kóta 500 → 525); …"
     },
     {
      "datum": "2026-10-29",
@@ -14284,6 +14440,12 @@
      "typ": "otevřený bod",
      "ref": "E186",
      "text": "… překladu, `2NP-S10` a pás nad dveřmi sádrokarton, `2NP-V16` zkrácen na `2NP-S09`; `2NP-S21`, `S16`, `S26`, `2NP-V10` …"
+    },
+    {
+     "datum": "2026-10-30",
+     "typ": "otevřený bod",
+     "ref": "E188",
+     "text": "… prostup `2NP-V16-OD2` (300 × 200, celá výška věnce `2NP-V16` nad `2NP-S09`, 116 až 416 mm západně od `2NP-D03`), …"
     },
     {
      "datum": "2026-10-30",
@@ -14339,6 +14501,8 @@
      "statik N21"
     ],
     "body": [
+     "E178",
+     "E180",
      "E184",
      "E186",
      "E188",
@@ -14362,7 +14526,7 @@
    ],
    "z0": 2920,
    "z1": 5740,
-   "zdroj": "SDK MÍSTO ZDIVA (telefonát se statikem 30. 10. 2026, R-595; `zdivo/steny/deleni-useku.json`): úsek byl v DWG šrafovaný jako zdivo, zůstává v modelu se svým ID jako sádrokartonová stěna, mimo výkaz zdiva; spodní hrana 2920 beze změny; dřívější jistota „pracovní“. zdivo 2.NP +2,920 až +5,740 = blok 70 + 11 řad (S0.19: řezy B-B, C-C, D-D výkresu tvaru 2.NP kreslí zdivo pod deskou do DH věnce +5,740 na všech proříznutých stěnách; řez A-A v DWG má nad 10 řadami VAPIS 200 prvek 200 × 250 s křížem na vrstvě zdiva +5,490 až +5,740, otázka projektantce), podlaha +3,090, ŽB věnec +5,740 až +5,940 (200), deska +5,940 až +6,160; okna mají horní hranu +5,490, nad nimi nadpraží +5,490 až +5,740 (ŽB nad O10 a nad severním oknem, výkres tvaru 2.NP DH +5,490; jinde typ neznámý) (řez A-A v DWG (výškové kóty a šrafy, `tools/steny/README.md`), tabulka úrovní v `zdivo/steny/otvory.md`; `zdivo/steny/rezy-vysky.md`, E41); materiál: SDK PODLE TELEFONÁTU SE STATIKEM 30. 10. 2026 (R-595 (g), doslovně: „2np s10 nebude z cihel, ale SDK, tzn nebude to ani ZB sloup, bude spojena s SDK03a SDK04, to znamena, ze 2NP-D03-překlad nebude ZB, ale bude SDK“; R-598 (0): statik zrušení ŽB sloupku potvrdil; R-602): kus 170 × 200 vedle dveří `2NP-D03` bude ze sádrokartonu spojeného s příčkami `2NP-SDK03` a `2NP-SDK04`; ŽB sloupek 200 × 200 z exportu IFC 26. 10. 2026 se NEPŘEBÍRÁ (E181 pro sloupek odpadá, E173 uzavřen); otázka projektantce 29 (170 vs blok 200, E103) překonaná; prvek zůstává v modelu jako SDK (ID zmrazené), ve výkazu se nepočítá; posun dveří o 25 mm (E180) ztrácí důvod, rozhodne nový DWG; S0.76. DŘÍVĚJŠÍ MATERIÁL (do 30. 10. 2026): VAPIS 200 (šrafa 170 mm, PDF Stěny modrá; 170 nejde vyzdít z bloků 200, otázka projektantce 29, E103); dřívější zdroj: investor 6. 10. 2026 (R-89, doslovně): „2n S10 je vapis modrou bavou. A urcite neni vyrazeny“; (R-99): „jestli to nejde vyzdit anebo to nedava smysl, dotaz projektantce, s10 nevyrazovat, byla by tam dira“. Úsek má v useky.json tl = tl_merena = 170 mm a délku 200 mm; legenda DWG mu dává VAPIS 200 (vzor ZDIVO-VYS_PEV), PDF Stěny modrou barvu = VAPIS 200. Rozpor 170 vs blok 200 je otázka projektantce 29 (E103); vyřazení odebráno z vyrazeno-po-kontrole.json ve stejném kroku.",
+   "zdroj": "SDK MÍSTO ZDIVA (telefonát se statikem 30. 10. 2026, R-595; `zdivo/steny/deleni-useku.json`): úsek byl v DWG šrafovaný jako zdivo, zůstává v modelu se svým ID jako sádrokartonová stěna, mimo výkaz zdiva; spodní hrana 2920 beze změny; tloušťka 170 mm je tloušťka zdiva z DWG a zůstává jen pracovně (tloušťku ani spodní hranu sádrokartonu nikdo nezadal, sousední SDK příčky z půdorysu jsou jiné; nový DWG od projektantky, otázka 47); dřívější jistota „pracovní“. zdivo 2.NP +2,920 až +5,740 = blok 70 + 11 řad (S0.19: řezy B-B, C-C, D-D výkresu tvaru 2.NP kreslí zdivo pod deskou do DH věnce +5,740 na všech proříznutých stěnách; řez A-A v DWG má nad 10 řadami VAPIS 200 prvek 200 × 250 s křížem na vrstvě zdiva +5,490 až +5,740, otázka projektantce), podlaha +3,090, ŽB věnec +5,740 až +5,940 (200), deska +5,940 až +6,160; okna mají horní hranu +5,490, nad nimi nadpraží +5,490 až +5,740 (ŽB nad O10 a nad severním oknem, výkres tvaru 2.NP DH +5,490; jinde typ neznámý) (řez A-A v DWG (výškové kóty a šrafy, `tools/steny/README.md`), tabulka úrovní v `zdivo/steny/otvory.md`; `zdivo/steny/rezy-vysky.md`, E41); materiál: SDK PODLE TELEFONÁTU SE STATIKEM 30. 10. 2026 (R-595 (g), doslovně: „2np s10 nebude z cihel, ale SDK, tzn nebude to ani ZB sloup, bude spojena s SDK03a SDK04, to znamena, ze 2NP-D03-překlad nebude ZB, ale bude SDK“; R-598 (0): statik zrušení ŽB sloupku potvrdil; R-602): kus 170 × 200 vedle dveří `2NP-D03` bude ze sádrokartonu spojeného s příčkami `2NP-SDK03` a `2NP-SDK04`; ŽB sloupek 200 × 200 z exportu IFC 26. 10. 2026 se NEPŘEBÍRÁ (E181 pro sloupek odpadá, E173 uzavřen); otázka projektantce 29 (170 vs blok 200, E103) překonaná; prvek zůstává v modelu jako SDK (ID zmrazené), ve výkazu se nepočítá; posun dveří o 25 mm (E180) ztrácí důvod, rozhodne nový DWG; S0.76. DŘÍVĚJŠÍ MATERIÁL (do 30. 10. 2026): VAPIS 200 (šrafa 170 mm, PDF Stěny modrá; 170 nejde vyzdít z bloků 200, otázka projektantce 29, E103); dřívější zdroj: investor 6. 10. 2026 (R-89, doslovně): „2n S10 je vapis modrou bavou. A urcite neni vyrazeny“; (R-99): „jestli to nejde vyzdit anebo to nedava smysl, dotaz projektantce, s10 nevyrazovat, byla by tam dira“. Úsek má v useky.json tl = tl_merena = 170 mm a délku 200 mm; legenda DWG mu dává VAPIS 200 (vzor ZDIVO-VYS_PEV), PDF Stěny modrou barvu = VAPIS 200. Rozpor 170 vs blok 200 je otázka projektantce 29 (E103); vyřazení odebráno z vyrazeno-po-kontrole.json ve stejném kroku.",
    "jistota": "pracovní (telefonát 30. 10. 2026)",
    "strany": [
     "-",
@@ -14379,11 +14543,12 @@
    "jistota_srafa": null,
    "zdvih": 1,
    "lidsky": {
-    "co": "Sádrokartonová příčka nebo předstěna ve 2.NP, materiál sádrokarton. U místnosti 202 Koupelna, WC.",
-    "rozmer": "délka 200 mm, tloušťka 170 mm, výška 2820 mm; stojí od +2,920 m do +5,740 m nad podlahou 1.NP (±0,000)",
+    "co": "Sádrokartonová stěna místo zdiva (podle telefonátu investora se statikem 30. 10. 2026, pracovní) ve 2.NP, materiál sádrokarton. U místnosti 202 Koupelna, WC.",
+    "rozmer": "délka 200 mm, tloušťka 170 mm, výška 2820 mm; stojí od +2,920 m do +5,740 m nad podlahou 1.NP (±0,000); tloušťka 170 mm a spodní hrana +2,920 m jsou zatím převzaté z výkresu zdiva (DWG, dřív VAPIS 200): sádrokartonová stěna bude jiná, její tloušťku ani spodní hranu zatím nikdo nezadal, obojí je pracovní do nového výkresu od projektantky",
     "odkud": [
      "tvar",
      "rez",
+     "pudorys",
      "srafa",
      "urovne"
     ],
@@ -14404,7 +14569,7 @@
     "id_stare": "2NP-S10"
    },
    "historie_n": 16,
-   "historie_zminek": 16,
+   "historie_zminek": 19,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -14419,14 +14584,14 @@
     },
     {
      "datum": "2026-10-26",
-     "typ": "otevřený bod",
-     "ref": "E180",
-     "text": "… jiná: zůstane posun dveří v DWG i bez ŽB sloupku (sádrokarton místo `2NP-S10`)? Kandidát na otázku projektantce s 43 …"
-    },
-    {
-     "datum": "2026-10-26",
      "typ": "událost",
      "text": "… prolévačky + Propasiv a provázání s deskou; ŽB sloupek 200 × 200 místo `2NP-S10` u `2NP-D03`, nový IFC a výztuž; …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E178",
+     "text": "… IFC) mění klíč registru (nový klíč by dal `2NP-S31` a `2NP-D09`); `2NP-S10` (sloupek 170) v DWG zaniká; okna …"
     },
     {
      "datum": "2026-10-28",
@@ -14454,8 +14619,8 @@
     {
      "datum": "2026-10-29",
      "typ": "otevřený bod",
-     "ref": "E178",
-     "text": "… IFC) mění klíč registru (nový klíč by dal `2NP-S31` a `2NP-D09`); `2NP-S10` (sloupek 170) v DWG zaniká; okna …"
+     "ref": "E180",
+     "text": "… jiná: zůstane posun dveří v DWG i bez ŽB sloupku (sádrokarton místo `2NP-S10`)? Kandidát na otázku projektantce s 43 …"
     },
     {
      "datum": "2026-10-30",
@@ -14523,6 +14688,8 @@
      "E138",
      "E139",
      "E170",
+     "E178",
+     "E180",
      "E186"
     ]
    },
@@ -14799,7 +14966,7 @@
    "historie_zminek": 0,
    "historie": [
     {
-     "datum": "2026-10-29",
+     "datum": "2026-10-28",
      "typ": "otevřený bod",
      "ref": "E178",
      "text": "… stěn „jen v repu“: 9 stěn nástavby garáže a dělicí stěny 105/209 (`2NP-S13`, `S14`, `S15`, `S16`, `S19`, `S21`, …"
@@ -14814,6 +14981,7 @@
      "projektantka 5"
     ],
     "body": [
+     "E178",
      "E38"
     ]
    },
@@ -15118,7 +15286,7 @@
     "id_stare": "2NP-S17"
    },
    "historie_n": 1,
-   "historie_zminek": 3,
+   "historie_zminek": 4,
    "historie": [
     {
      "datum": "2026-10-30",
@@ -15199,7 +15367,7 @@
     "id_stare": "2NP-S18"
    },
    "historie_n": 0,
-   "historie_zminek": 1,
+   "historie_zminek": 2,
    "historie": [],
    "dotazy": {
     "otazky": [],
@@ -15325,7 +15493,7 @@
    ],
    "z0": 2920,
    "z1": 5740,
-   "zdroj": "SDK MÍSTO ZDIVA (telefonát se statikem 30. 10. 2026, R-595; `zdivo/steny/deleni-useku.json`): úsek byl v DWG šrafovaný jako zdivo, zůstává v modelu se svým ID jako sádrokartonová stěna, mimo výkaz zdiva; spodní hrana 2920 beze změny; dřívější jistota „odvození“. součást nástavby garáže (R-64, investor 2. 10. 2026 17:03:27 SELČ: „s16 je soucast nastavby“): nadezdívka stávající východní zdi garáže (SOLID, s dveřmi ve stávajícím zdivu) na ŽB věnci +2,500 až +2,920 (IFC #15051); spodní hrana +2,920 (investor 2. 10. 2026 16:47: „stoji na venci/prekladu“); SEVERNÍ konec úseku (y 202 704 až 203 165, délka 461; podle šrafy DWG do 203 451, zkráceno na líc pilířku IFC #15009, R-347) mimo pás překladu: horní hrana +5,740 (viz jižní konec); část rozděleného úseku 2NP-S16/sever (`zdivo/steny/deleni-useku.json`, E115), původní úsek 2NP-S16; materiál: SDK PODLE TELEFONÁTU SE STATIKEM 30. 10. 2026 (R-595 (a), doslovně: „2np s21 as26 a s16 a v10 lze zrusit, zustava problem ze je mala skvira v rohu mezi 209, 103 a 105 , doresit - otevreny bod, s21, s16, s26 bude to z SDK, ma to vliv na vykres vyztuze (vyztuz nejde dolu k prekladu 2NP-V10, ktery je zruseny“): dělicí stěna garáž 105 / místnost 209 ve 2.NP (všechny tři části rozděleného úseku: dnešní `2NP-S26` jih 490, `2NP-S21` pás 3 500, `2NP-S16` sever 463) bude ze sádrokartonu s vatou; prvky zůstávají v modelu jako SDK (ID zmrazené, ADR 0026), ve výkazu zdiva se nepočítají (E112 uzavřen, −7,7 m² z pásu a boky), připravený překlad `2NP-V10` je dočasně vyřazený (`zdivo/ifc/prekryv-docasny.json`), skvíra v rohu 209 / 103 / 105 je E183; jistota pracovní do nového IFC a výkresu výztuže (E184); S0.76. DŘÍVĚJŠÍ MATERIÁL (do 30. 10. 2026): Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87); dřívější zdroj: E136 (6), R-87, R-130, E115: nadezdívka stávající východní zdi garáže je součást nástavby (R-64). Materiál platí pro všechny tři části úseku po rozdělení (viz sekce deleni).",
+   "zdroj": "SDK MÍSTO ZDIVA (telefonát se statikem 30. 10. 2026, R-595; `zdivo/steny/deleni-useku.json`): úsek byl v DWG šrafovaný jako zdivo, zůstává v modelu se svým ID jako sádrokartonová stěna, mimo výkaz zdiva; spodní hrana 2920 beze změny; tloušťka 300 mm je tloušťka zdiva z DWG a zůstává jen pracovně (tloušťku ani spodní hranu sádrokartonu nikdo nezadal, sousední SDK příčky z půdorysu jsou jiné; nový DWG od projektantky, otázka 47); dřívější jistota „odvození“. součást nástavby garáže (R-64, investor 2. 10. 2026 17:03:27 SELČ: „s16 je soucast nastavby“): nadezdívka stávající východní zdi garáže (SOLID, s dveřmi ve stávajícím zdivu) na ŽB věnci +2,500 až +2,920 (IFC #15051); spodní hrana +2,920 (investor 2. 10. 2026 16:47: „stoji na venci/prekladu“); SEVERNÍ konec úseku (y 202 704 až 203 165, délka 461; podle šrafy DWG do 203 451, zkráceno na líc pilířku IFC #15009, R-347) mimo pás překladu: horní hrana +5,740 (viz jižní konec); část rozděleného úseku 2NP-S16/sever (`zdivo/steny/deleni-useku.json`, E115), původní úsek 2NP-S16; materiál: SDK PODLE TELEFONÁTU SE STATIKEM 30. 10. 2026 (R-595 (a), doslovně: „2np s21 as26 a s16 a v10 lze zrusit, zustava problem ze je mala skvira v rohu mezi 209, 103 a 105 , doresit - otevreny bod, s21, s16, s26 bude to z SDK, ma to vliv na vykres vyztuze (vyztuz nejde dolu k prekladu 2NP-V10, ktery je zruseny“): dělicí stěna garáž 105 / místnost 209 ve 2.NP (všechny tři části rozděleného úseku: dnešní `2NP-S26` jih 490, `2NP-S21` pás 3 500, `2NP-S16` sever 463) bude ze sádrokartonu s vatou; prvky zůstávají v modelu jako SDK (ID zmrazené, ADR 0026), ve výkazu zdiva se nepočítají (E112 uzavřen, −7,7 m² z pásu a boky), připravený překlad `2NP-V10` je dočasně vyřazený (`zdivo/ifc/prekryv-docasny.json`), skvíra v rohu 209 / 103 / 105 je E183; jistota pracovní do nového IFC a výkresu výztuže (E184); S0.76. DŘÍVĚJŠÍ MATERIÁL (do 30. 10. 2026): Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87); dřívější zdroj: E136 (6), R-87, R-130, E115: nadezdívka stávající východní zdi garáže je součást nástavby (R-64). Materiál platí pro všechny tři části úseku po rozdělení (viz sekce deleni).",
    "jistota": "pracovní (telefonát 30. 10. 2026)",
    "strany": [
     "105",
@@ -15342,10 +15510,11 @@
    "jistota_srafa": null,
    "zdvih": 1,
    "lidsky": {
-    "co": "Sádrokartonová příčka nebo předstěna ve 2.NP, materiál sádrokarton. Mezi místnostmi 105 Garáž a 209 Sklad, pracovna.",
-    "rozmer": "délka 463 mm, tloušťka 300 mm, výška 2820 mm; stojí od +2,920 m do +5,740 m nad podlahou 1.NP (±0,000)",
+    "co": "Sádrokartonová stěna místo zdiva (podle telefonátu investora se statikem 30. 10. 2026, pracovní) ve 2.NP, materiál sádrokarton. Mezi místnostmi 105 Garáž a 209 Sklad, pracovna.",
+    "rozmer": "délka 463 mm, tloušťka 300 mm, výška 2820 mm; stojí od +2,920 m do +5,740 m nad podlahou 1.NP (±0,000); tloušťka 300 mm a spodní hrana +2,920 m jsou zatím převzaté z výkresu zdiva (DWG, dřív Porotherm 30; legenda DWG VAPIS 300): sádrokartonová stěna bude jiná, její tloušťku ani spodní hranu zatím nikdo nezadal, obojí je pracovní do nového výkresu od projektantky",
     "odkud": [
      "ifc",
+     "pudorys",
      "srafa",
      "garaz2006"
     ],
@@ -15365,7 +15534,7 @@
     "id_stare": "2NP-S16"
    },
    "historie_n": 8,
-   "historie_zminek": 2,
+   "historie_zminek": 4,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -15377,7 +15546,7 @@
      "datum": "2026-10-30",
      "typ": "otevřený bod",
      "ref": "E183",
-     "text": "… 2026, poznámky investora): stěna bude ze sádrokartonu s vatou (`2NP-S21`, `2NP-S16`, `2NP-S26`, `2NP-V10` zrušeny), v …"
+     "text": "… poznámky investora): stěna bude ze sádrokartonu s vatou (`2NP-S21`, `2NP-S16`, `2NP-S26`, `2NP-V10` zrušeny), v rohu, …"
     },
     {
      "datum": "2026-10-30",
@@ -15406,7 +15575,7 @@
      "datum": "2026-10-30",
      "typ": "uzavřený bod",
      "ref": "E112",
-     "text": "Varianta: pás 3,5 m pod překladem `2NP-V10` #20192 v `2NP-S16` ze sádrokartonu místo zdiva 300 (nástavba je Porotherm …"
+     "text": "Varianta: pás 3,5 m pod překladem `2NP-V10` v `2NP-S16` ze sádrokartonu místo zdiva 300 (nástavba je Porotherm 30, R-87 …"
     },
     {
      "datum": "2026-10-30",
@@ -15564,7 +15733,7 @@
    ],
    "z0": 2920,
    "z1": 5740,
-   "zdroj": "SDK MÍSTO ZDIVA (telefonát se statikem 30. 10. 2026, R-595; `zdivo/steny/deleni-useku.json`): úsek byl v DWG šrafovaný jako zdivo, zůstává v modelu se svým ID jako sádrokartonová stěna, mimo výkaz zdiva; spodní hrana 2920 beze změny; horní hrana z 5490 na 5740 (pás pod zrušeným překladem `2NP-V10` odpadl, SDK stěna jde k věnci `2NP-V03`) [NÁVRH AGENTA]; dřívější jistota „pracovní“. součást nástavby garáže (R-64, investor 2. 10. 2026 17:03:27 SELČ: „s16 je soucast nastavby“): nadezdívka stávající východní zdi garáže (SOLID, s dveřmi ve stávajícím zdivu) na ŽB věnci +2,500 až +2,920 (IFC #15051); spodní hrana +2,920 (investor 2. 10. 2026 16:47: „stoji na venci/prekladu“); PÁS 3500 mm pod připraveným ŽB překladem IFC #20192 (IfcBeam C25/30, +5,490 až +5,740, y 199 204 až 202 704): zdivo jde jen do +5,490, nad ním je překlad. investor 8. 10. 2026 (R-129, doslovně): „proc se mam lisi vyska te steny, kdyz vime, ze je tam preklad?“; investor (R-67): „bude to tam pod tim prekladem vyzdeno“. V IFC končí zdivo v pásu na +5,490 (kusy 2NP-IW14 #16058 a IW16 #16142, 250 × 300, +2,920 až +5,490). Do S0.39 vedl celý S16 do +5,740 a kontrola hlásila PŘEKRYV ŽB (IFC) × ZDIVO 2NP-V10 × 2NP-S16 (300 × 3500 × 250 mm, 0,260 m³, E116); část rozděleného úseku 2NP-S16/pás (`zdivo/steny/deleni-useku.json`, E115), původní úsek 2NP-S16; materiál: SDK PODLE TELEFONÁTU SE STATIKEM 30. 10. 2026 (R-595 (a), doslovně: „2np s21 as26 a s16 a v10 lze zrusit, zustava problem ze je mala skvira v rohu mezi 209, 103 a 105 , doresit - otevreny bod, s21, s16, s26 bude to z SDK, ma to vliv na vykres vyztuze (vyztuz nejde dolu k prekladu 2NP-V10, ktery je zruseny“): dělicí stěna garáž 105 / místnost 209 ve 2.NP (všechny tři části rozděleného úseku: dnešní `2NP-S26` jih 490, `2NP-S21` pás 3 500, `2NP-S16` sever 463) bude ze sádrokartonu s vatou; prvky zůstávají v modelu jako SDK (ID zmrazené, ADR 0026), ve výkazu zdiva se nepočítají (E112 uzavřen, −7,7 m² z pásu a boky), připravený překlad `2NP-V10` je dočasně vyřazený (`zdivo/ifc/prekryv-docasny.json`), skvíra v rohu 209 / 103 / 105 je E183; jistota pracovní do nového IFC a výkresu výztuže (E184); S0.76. DŘÍVĚJŠÍ MATERIÁL (do 30. 10. 2026): Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87); dřívější zdroj: E136 (6), R-87, R-130, E115: nadezdívka stávající východní zdi garáže je součást nástavby (R-64). Materiál platí pro všechny tři části úseku po rozdělení (viz sekce deleni).",
+   "zdroj": "SDK MÍSTO ZDIVA (telefonát se statikem 30. 10. 2026, R-595; `zdivo/steny/deleni-useku.json`): úsek byl v DWG šrafovaný jako zdivo, zůstává v modelu se svým ID jako sádrokartonová stěna, mimo výkaz zdiva; spodní hrana 2920 beze změny; horní hrana z 5490 na 5740 (pás pod zrušeným překladem `2NP-V10` odpadl, SDK stěna jde k věnci `2NP-V03`) [NÁVRH AGENTA]; tloušťka 300 mm je tloušťka zdiva z DWG a zůstává jen pracovně (tloušťku ani spodní hranu sádrokartonu nikdo nezadal, sousední SDK příčky z půdorysu jsou jiné; nový DWG od projektantky, otázka 47); dřívější jistota „pracovní“. součást nástavby garáže (R-64, investor 2. 10. 2026 17:03:27 SELČ: „s16 je soucast nastavby“): nadezdívka stávající východní zdi garáže (SOLID, s dveřmi ve stávajícím zdivu) na ŽB věnci +2,500 až +2,920 (IFC #15051); spodní hrana +2,920 (investor 2. 10. 2026 16:47: „stoji na venci/prekladu“); PÁS 3500 mm pod připraveným ŽB překladem IFC #20192 (IfcBeam C25/30, +5,490 až +5,740, y 199 204 až 202 704): zdivo jde jen do +5,490, nad ním je překlad. investor 8. 10. 2026 (R-129, doslovně): „proc se mam lisi vyska te steny, kdyz vime, ze je tam preklad?“; investor (R-67): „bude to tam pod tim prekladem vyzdeno“. V IFC končí zdivo v pásu na +5,490 (kusy 2NP-IW14 #16058 a IW16 #16142, 250 × 300, +2,920 až +5,490). Do S0.39 vedl celý S16 do +5,740 a kontrola hlásila PŘEKRYV ŽB (IFC) × ZDIVO 2NP-V10 × 2NP-S16 (300 × 3500 × 250 mm, 0,260 m³, E116); část rozděleného úseku 2NP-S16/pás (`zdivo/steny/deleni-useku.json`, E115), původní úsek 2NP-S16; materiál: SDK PODLE TELEFONÁTU SE STATIKEM 30. 10. 2026 (R-595 (a), doslovně: „2np s21 as26 a s16 a v10 lze zrusit, zustava problem ze je mala skvira v rohu mezi 209, 103 a 105 , doresit - otevreny bod, s21, s16, s26 bude to z SDK, ma to vliv na vykres vyztuze (vyztuz nejde dolu k prekladu 2NP-V10, ktery je zruseny“): dělicí stěna garáž 105 / místnost 209 ve 2.NP (všechny tři části rozděleného úseku: dnešní `2NP-S26` jih 490, `2NP-S21` pás 3 500, `2NP-S16` sever 463) bude ze sádrokartonu s vatou; prvky zůstávají v modelu jako SDK (ID zmrazené, ADR 0026), ve výkazu zdiva se nepočítají (E112 uzavřen, −7,7 m² z pásu a boky), připravený překlad `2NP-V10` je dočasně vyřazený (`zdivo/ifc/prekryv-docasny.json`), skvíra v rohu 209 / 103 / 105 je E183; jistota pracovní do nového IFC a výkresu výztuže (E184); S0.76. DŘÍVĚJŠÍ MATERIÁL (do 30. 10. 2026): Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87); dřívější zdroj: E136 (6), R-87, R-130, E115: nadezdívka stávající východní zdi garáže je součást nástavby (R-64). Materiál platí pro všechny tři části úseku po rozdělení (viz sekce deleni).",
    "jistota": "pracovní (telefonát 30. 10. 2026)",
    "strany": [
     "105",
@@ -15581,10 +15750,11 @@
    "jistota_srafa": null,
    "zdvih": 1,
    "lidsky": {
-    "co": "Sádrokartonová příčka nebo předstěna ve 2.NP, materiál sádrokarton. Mezi místnostmi 105 Garáž a 209 Sklad, pracovna.",
-    "rozmer": "délka 3500 mm, tloušťka 300 mm, výška 2820 mm; stojí od +2,920 m do +5,740 m nad podlahou 1.NP (±0,000)",
+    "co": "Sádrokartonová stěna místo zdiva (podle telefonátu investora se statikem 30. 10. 2026, pracovní) ve 2.NP, materiál sádrokarton. Mezi místnostmi 105 Garáž a 209 Sklad, pracovna.",
+    "rozmer": "délka 3500 mm, tloušťka 300 mm, výška 2820 mm; stojí od +2,920 m do +5,740 m nad podlahou 1.NP (±0,000); tloušťka 300 mm a spodní hrana +2,920 m jsou zatím převzaté z výkresu zdiva (DWG, dřív Porotherm 30; legenda DWG VAPIS 300): sádrokartonová stěna bude jiná, její tloušťku ani spodní hranu zatím nikdo nezadal, obojí je pracovní do nového výkresu od projektantky",
     "odkud": [
      "ifc",
+     "pudorys",
      "srafa",
      "garaz2006"
     ],
@@ -15604,7 +15774,7 @@
     "id_stare": "2NP-S16"
    },
    "historie_n": 10,
-   "historie_zminek": 12,
+   "historie_zminek": 13,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -15621,7 +15791,7 @@
      "datum": "2026-10-30",
      "typ": "otevřený bod",
      "ref": "E183",
-     "text": "… 30. 10. 2026, poznámky investora): stěna bude ze sádrokartonu s vatou (`2NP-S21`, `2NP-S16`, `2NP-S26`, `2NP-V10` …"
+     "text": "… 10. 2026, poznámky investora): stěna bude ze sádrokartonu s vatou (`2NP-S21`, `2NP-S16`, `2NP-S26`, `2NP-V10` …"
     },
     {
      "datum": "2026-10-30",
@@ -15651,7 +15821,7 @@
      "datum": "2026-10-30",
      "typ": "uzavřený bod",
      "ref": "E112",
-     "text": "… vlákno `1a1748433e0189d6`): statik na otázku 29 (bod 3 první vlny: pás `2NP-S21` vyzděný naplno a únosnost `1NP-V04`, …"
+     "text": "… 00:30 SEČ, vlákno Gmailu): statik na otázku 29 (bod 3 první vlny: pás `2NP-S21` vyzděný naplno a únosnost `1NP-V04`, …"
     },
     {
      "datum": "2026-10-30",
@@ -16046,7 +16216,7 @@
    ],
    "z0": 2920,
    "z1": 5740,
-   "zdroj": "SDK MÍSTO ZDIVA (telefonát se statikem 30. 10. 2026, R-595; `zdivo/steny/deleni-useku.json`): úsek byl v DWG šrafovaný jako zdivo, zůstává v modelu se svým ID jako sádrokartonová stěna, mimo výkaz zdiva; spodní hrana 2920 beze změny; dřívější jistota „odvození“. součást nástavby garáže (R-64, investor 2. 10. 2026 17:03:27 SELČ: „s16 je soucast nastavby“): nadezdívka stávající východní zdi garáže (SOLID, s dveřmi ve stávajícím zdivu) na ŽB věnci +2,500 až +2,920 (IFC #15051); spodní hrana +2,920 (investor 2. 10. 2026 16:47: „stoji na venci/prekladu“); JIŽNÍ konec úseku (y 198 714 až 199 204, délka 490) mimo pás překladu: horní hrana +5,740 = blok 70 + 11 řad (řez A-A v DWG; výkres tvaru 2.NP statiky u dilatace „PRŮVLAK DH +5,490“; S0.19, E22); část rozděleného úseku 2NP-S16/jih (`zdivo/steny/deleni-useku.json`, E115), původní úsek 2NP-S16; materiál: SDK PODLE TELEFONÁTU SE STATIKEM 30. 10. 2026 (R-595 (a), doslovně: „2np s21 as26 a s16 a v10 lze zrusit, zustava problem ze je mala skvira v rohu mezi 209, 103 a 105 , doresit - otevreny bod, s21, s16, s26 bude to z SDK, ma to vliv na vykres vyztuze (vyztuz nejde dolu k prekladu 2NP-V10, ktery je zruseny“): dělicí stěna garáž 105 / místnost 209 ve 2.NP (všechny tři části rozděleného úseku: dnešní `2NP-S26` jih 490, `2NP-S21` pás 3 500, `2NP-S16` sever 463) bude ze sádrokartonu s vatou; prvky zůstávají v modelu jako SDK (ID zmrazené, ADR 0026), ve výkazu zdiva se nepočítají (E112 uzavřen, −7,7 m² z pásu a boky), připravený překlad `2NP-V10` je dočasně vyřazený (`zdivo/ifc/prekryv-docasny.json`), skvíra v rohu 209 / 103 / 105 je E183; jistota pracovní do nového IFC a výkresu výztuže (E184); S0.76. DŘÍVĚJŠÍ MATERIÁL (do 30. 10. 2026): Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87); dřívější zdroj: E136 (6), R-87, R-130, E115: nadezdívka stávající východní zdi garáže je součást nástavby (R-64). Materiál platí pro všechny tři části úseku po rozdělení (viz sekce deleni).",
+   "zdroj": "SDK MÍSTO ZDIVA (telefonát se statikem 30. 10. 2026, R-595; `zdivo/steny/deleni-useku.json`): úsek byl v DWG šrafovaný jako zdivo, zůstává v modelu se svým ID jako sádrokartonová stěna, mimo výkaz zdiva; spodní hrana 2920 beze změny; tloušťka 300 mm je tloušťka zdiva z DWG a zůstává jen pracovně (tloušťku ani spodní hranu sádrokartonu nikdo nezadal, sousední SDK příčky z půdorysu jsou jiné; nový DWG od projektantky, otázka 47); dřívější jistota „odvození“. součást nástavby garáže (R-64, investor 2. 10. 2026 17:03:27 SELČ: „s16 je soucast nastavby“): nadezdívka stávající východní zdi garáže (SOLID, s dveřmi ve stávajícím zdivu) na ŽB věnci +2,500 až +2,920 (IFC #15051); spodní hrana +2,920 (investor 2. 10. 2026 16:47: „stoji na venci/prekladu“); JIŽNÍ konec úseku (y 198 714 až 199 204, délka 490) mimo pás překladu: horní hrana +5,740 = blok 70 + 11 řad (řez A-A v DWG; výkres tvaru 2.NP statiky u dilatace „PRŮVLAK DH +5,490“; S0.19, E22); část rozděleného úseku 2NP-S16/jih (`zdivo/steny/deleni-useku.json`, E115), původní úsek 2NP-S16; materiál: SDK PODLE TELEFONÁTU SE STATIKEM 30. 10. 2026 (R-595 (a), doslovně: „2np s21 as26 a s16 a v10 lze zrusit, zustava problem ze je mala skvira v rohu mezi 209, 103 a 105 , doresit - otevreny bod, s21, s16, s26 bude to z SDK, ma to vliv na vykres vyztuze (vyztuz nejde dolu k prekladu 2NP-V10, ktery je zruseny“): dělicí stěna garáž 105 / místnost 209 ve 2.NP (všechny tři části rozděleného úseku: dnešní `2NP-S26` jih 490, `2NP-S21` pás 3 500, `2NP-S16` sever 463) bude ze sádrokartonu s vatou; prvky zůstávají v modelu jako SDK (ID zmrazené, ADR 0026), ve výkazu zdiva se nepočítají (E112 uzavřen, −7,7 m² z pásu a boky), připravený překlad `2NP-V10` je dočasně vyřazený (`zdivo/ifc/prekryv-docasny.json`), skvíra v rohu 209 / 103 / 105 je E183; jistota pracovní do nového IFC a výkresu výztuže (E184); S0.76. DŘÍVĚJŠÍ MATERIÁL (do 30. 10. 2026): Porotherm 30 (nástavba garáže, R-87, R-130; v DWG legenda VAPIS 300; výkaz pro porovnání dál jako VAPIS 300, R-87); dřívější zdroj: E136 (6), R-87, R-130, E115: nadezdívka stávající východní zdi garáže je součást nástavby (R-64). Materiál platí pro všechny tři části úseku po rozdělení (viz sekce deleni).",
    "jistota": "pracovní (telefonát 30. 10. 2026)",
    "strany": [
     "105",
@@ -16063,12 +16233,13 @@
    "jistota_srafa": null,
    "zdvih": 1,
    "lidsky": {
-    "co": "Sádrokartonová příčka nebo předstěna ve 2.NP, materiál sádrokarton. Mezi místnostmi 105 Garáž a 209 Sklad, pracovna.",
-    "rozmer": "délka 490 mm, tloušťka 300 mm, výška 2820 mm; stojí od +2,920 m do +5,740 m nad podlahou 1.NP (±0,000)",
+    "co": "Sádrokartonová stěna místo zdiva (podle telefonátu investora se statikem 30. 10. 2026, pracovní) ve 2.NP, materiál sádrokarton. Mezi místnostmi 105 Garáž a 209 Sklad, pracovna.",
+    "rozmer": "délka 490 mm, tloušťka 300 mm, výška 2820 mm; stojí od +2,920 m do +5,740 m nad podlahou 1.NP (±0,000); tloušťka 300 mm a spodní hrana +2,920 m jsou zatím převzaté z výkresu zdiva (DWG, dřív Porotherm 30; legenda DWG VAPIS 300): sádrokartonová stěna bude jiná, její tloušťku ani spodní hranu zatím nikdo nezadal, obojí je pracovní do nového výkresu od projektantky",
     "odkud": [
      "ifc",
      "tvar",
      "rez",
+     "pudorys",
      "srafa",
      "garaz2006"
     ],
@@ -16211,7 +16382,7 @@
     "id_stare": "2NP-S25"
    },
    "historie_n": 0,
-   "historie_zminek": 1,
+   "historie_zminek": 2,
    "historie": [],
    "dotazy": {
     "otazky": [
@@ -16663,7 +16834,7 @@
     "id_stare": "1NP-O02"
    },
    "historie_n": 23,
-   "historie_zminek": 21,
+   "historie_zminek": 23,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -16675,18 +16846,6 @@
      "typ": "otevřený bod",
      "ref": "E170",
      "text": "… čekají na odpověď stavitele (R-538, statikovi se teď neposílají); práh `1NP-O02` 2 šáry prolévaček vs 3 šáry cihel a …"
-    },
-    {
-     "datum": "2026-10-26",
-     "typ": "otevřený bod",
-     "ref": "E172",
-     "text": "… kuchyň i obecně) [VZATO ZPĚT 31. 10. 2026, R-626, doplněk níže]; `1NP-O02` +0,300 s ŽB prolévačkami (650 mm od …"
-    },
-    {
-     "datum": "2026-10-26",
-     "typ": "otevřený bod",
-     "ref": "E181",
-     "text": "DOČASNÉ PŘEVZETÍ ŽB SLOUPKU U `2NP-D03` A PROLÉVAČEK POD `1NP-O02` Z EXPORTU IFC 26. 10. 2026 DO MODELU PŘED EXPORTEM S …"
     },
     {
      "datum": "2026-10-26",
@@ -16703,6 +16862,12 @@
      "datum": "2026-10-26",
      "typ": "událost",
      "text": "… přerušení tepelného mostu, nebo lehká montovaná konstrukce; práh `1NP-O02` prolévačky + Propasiv a provázání s …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E172",
+     "text": "… kuchyň i obecně) [VZATO ZPĚT 31. 10. 2026, R-626, doplněk níže]; `1NP-O02` +0,300 s ŽB prolévačkami (650 mm od …"
     },
     {
      "datum": "2026-10-28",
@@ -16732,6 +16897,12 @@
      "datum": "2026-10-28",
      "typ": "událost",
      "text": "… `2NP-D03` o 25 mm západněji, `2NP-V16` o 5 mm delší) a prolévačky pod `1NP-O02` (otvor od +0,150, úsek zdi tl. 250, …"
+    },
+    {
+     "datum": "2026-10-29",
+     "typ": "otevřený bod",
+     "ref": "E181",
+     "text": "DOČASNÉ PŘEVZETÍ ŽB SLOUPKU U `2NP-D03` A PROLÉVAČEK POD `1NP-O02` Z EXPORTU IFC 26. 10. 2026 DO MODELU PŘED EXPORTEM S …"
     },
     {
      "datum": "2026-10-29",
@@ -16827,6 +16998,8 @@
     "body": [
      "E147",
      "E170",
+     "E172",
+     "E181",
      "E184",
      "E63"
     ]
@@ -17010,15 +17183,15 @@
     },
     {
      "datum": "2026-10-26",
-     "typ": "otevřený bod",
-     "ref": "E172",
-     "text": "… (650 mm od hydroizolace); terasa `2NP-O10`, `2NP-O13` 200; dveře `1NP-D01`, `D02`, `D03`, `D05`, `D06` bez cihly a …"
-    },
-    {
-     "datum": "2026-10-26",
      "typ": "rozhodnutí",
      "ref": "R-534",
      "text": "R-534: vlastník sedmi nálezů „OTVOR vs IFC“ u dveří (1NP-D01, 1NP-D03, 1NP-D04, 1NP-D06, 2NP-D01, 2NP-D02, 2NP-D03) v …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E172",
+     "text": "… (650 mm od hydroizolace); terasa `2NP-O10`, `2NP-O13` 200; dveře `1NP-D01`, `D02`, `D03`, `D05`, `D06` bez cihly a …"
     },
     {
      "datum": "2026-10-28",
@@ -17070,6 +17243,7 @@
      "E110",
      "E169",
      "E170",
+     "E172",
      "E191"
     ]
    },
@@ -17137,7 +17311,7 @@
    "historie_zminek": 1,
    "historie": [
     {
-     "datum": "2026-10-26",
+     "datum": "2026-10-28",
      "typ": "otevřený bod",
      "ref": "E172",
      "text": "… SCHŮZKU s dodavatelem oken (R-563, po objednávce, před zděním 1.NP): `1NP-D02` (práh, −50?), `1NP-D05` („na podlaze …"
@@ -17183,6 +17357,7 @@
     "otazky_zminene": [],
     "body": [
      "E110",
+     "E172",
      "E191"
     ]
    },
@@ -17267,16 +17442,10 @@
    "historie_zminek": 6,
    "historie": [
     {
-     "datum": "2026-10-26",
+     "datum": "2026-10-28",
      "typ": "otevřený bod",
      "ref": "E172",
      "text": "… dveře −50 mm, HS portál −100 mm; parapety oken 850 nad podlahou (`1NP-O04` kuchyň i obecně) [VZATO ZPĚT 31. 10. 2026, …"
-    },
-    {
-     "datum": "2026-10-26",
-     "typ": "otevřený bod",
-     "ref": "E181",
-     "text": "… `1NP-O02` od +0,150, nová jižní zeď 8 870 mm s přesunutými otvory `1NP-O04`, `1NP-O05`, `1NP-PK07` (materiál Silka …"
     },
     {
      "datum": "2026-10-28",
@@ -17289,6 +17458,12 @@
      "typ": "rozhodnutí",
      "ref": "R-568",
      "text": "R-568: (1) kuchyňské okno s pracovní deskou jako parapetem je `1NP-O04` (volba „Ano, 1NP-O04“); (2) dveře 1.NP …"
+    },
+    {
+     "datum": "2026-10-29",
+     "typ": "otevřený bod",
+     "ref": "E181",
+     "text": "… `1NP-O02` od +0,150, nová jižní zeď 8 870 mm s přesunutými otvory `1NP-O04`, `1NP-O05`, `1NP-PK07` (materiál Silka …"
     },
     {
      "datum": "2026-10-31",
@@ -17319,7 +17494,10 @@
      "statik N14"
     ],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E172",
+     "E181"
+    ]
    },
    "dotaz_srafa": [
     "projektantka 39"
@@ -17397,22 +17575,9 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-D03"
    },
-   "historie_n": 6,
-   "historie_zminek": 2,
+   "historie_n": 4,
+   "historie_zminek": 3,
    "historie": [
-    {
-     "datum": "2026-10-26",
-     "typ": "otevřený bod",
-     "ref": "E172",
-     "text": "… dveře hlavního objektu na první řadu cihel, statika pod `1NP-D01` a `1NP-D03` zdivo do −0,110; pod portálem `1NP-O02` …"
-    },
-    {
-     "datum": "2026-10-26",
-     "typ": "otevřený bod",
-     "ref": "E172",
-     "text": "… `2NP-O07`, `O08`, `O14` a stávající garáže `1NP-O06`, `O07`, okno `1NP-O05` (parapet 1700 → 1650?), vyšší stavební …",
-     "pozn": "pod starým ID 1NP-O05"
-    },
     {
      "datum": "2026-10-26",
      "typ": "rozhodnutí",
@@ -17422,21 +17587,20 @@
     {
      "datum": "2026-10-28",
      "typ": "otevřený bod",
-     "ref": "E198",
-     "text": "… přiřadí výřez řádku datovaného PO zmrazení ID jinému prvku: E172 „okno `1NP-O05` (parapet 1700 → 1650?)“ se na …",
-     "pozn": "pod starým ID 1NP-O05"
-    },
-    {
-     "datum": "2026-10-28",
-     "typ": "otevřený bod",
-     "ref": "E198",
-     "text": "… „okno `1NP-O05` (parapet 1700 → 1650?)“ se na stránce ukazuje u dveří `1NP-D03` s poznámkou „pod starým ID 1NP-O05“, …"
+     "ref": "E172",
+     "text": "… dveře hlavního objektu na první řadu cihel, statika pod `1NP-D01` a `1NP-D03` zdivo do −0,110; pod portálem `1NP-O02` …"
     },
     {
      "datum": "2026-10-28",
      "typ": "rozhodnutí",
      "ref": "R-568",
      "text": "… `1NP-O04` (volba „Ano, 1NP-O04“); (2) dveře 1.NP `1NP-D01`, `1NP-D02`, `1NP-D03`, `1NP-D05`, `1NP-D06`: všechny bez …"
+    },
+    {
+     "datum": "2026-10-31",
+     "typ": "otevřený bod",
+     "ref": "E198",
+     "text": "… „okno `1NP-O05` (parapet 1700 → 1650?)“ se na stránce ukazuje u dveří `1NP-D03` s poznámkou „pod starým ID 1NP-O05“, …"
     }
    ],
    "dotazy": {
@@ -17454,6 +17618,7 @@
     "body": [
      "E100",
      "E169",
+     "E172",
      "E80"
     ]
    },
@@ -17552,7 +17717,7 @@
     "id_stare": "1NP-D04"
    },
    "historie_n": 5,
-   "historie_zminek": 14,
+   "historie_zminek": 15,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -17754,7 +17919,7 @@
    "historie_zminek": 0,
    "historie": [
     {
-     "datum": "2026-10-26",
+     "datum": "2026-10-28",
      "typ": "otevřený bod",
      "ref": "E172",
      "text": "… (R-563, po objednávce, před zděním 1.NP): `1NP-D02` (práh, −50?), `1NP-D05` („na podlaze na 0“?), podezdívka …"
@@ -17778,7 +17943,9 @@
      "statik N14"
     ],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E172"
+    ]
    },
    "dotaz_srafa": [
     "projektantka 39"
@@ -17856,14 +18023,26 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-O07"
    },
-   "historie_n": 1,
-   "historie_zminek": 3,
+   "historie_n": 3,
+   "historie_zminek": 4,
    "historie": [
     {
-     "datum": "2026-10-26",
+     "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E172",
+     "text": "… `2NP-O07`, `O08`, `O14` a stávající garáže `1NP-O06`, `O07`, okno `1NP-O05` (parapet 1700 → 1650?), vyšší stavební …"
+    },
+    {
+     "datum": "2026-10-29",
      "typ": "otevřený bod",
      "ref": "E181",
      "text": "… od +0,150, nová jižní zeď 8 870 mm s přesunutými otvory `1NP-O04`, `1NP-O05`, `1NP-PK07` (materiál Silka jako …"
+    },
+    {
+     "datum": "2026-10-31",
+     "typ": "otevřený bod",
+     "ref": "E198",
+     "text": "… přiřadí výřez řádku datovaného PO zmrazení ID jinému prvku: E172 „okno `1NP-O05` (parapet 1700 → 1650?)“ se na …"
     }
    ],
    "dotazy": {
@@ -17876,7 +18055,10 @@
      "statik N14"
     ],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E172",
+     "E181"
+    ]
    },
    "dotaz_srafa": [
     "projektantka 39"
@@ -17954,7 +18136,7 @@
    "historie_zminek": 0,
    "historie": [
     {
-     "datum": "2026-10-26",
+     "datum": "2026-10-28",
      "typ": "otevřený bod",
      "ref": "E172",
      "text": "… statikovi), okna nástavby `2NP-O07`, `O08`, `O14` a stávající garáže `1NP-O06`, `O07`, okno `1NP-O05` (parapet 1700 → …"
@@ -17968,7 +18150,9 @@
      "projektantka 39"
     ],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E172"
+    ]
    },
    "dotaz_srafa": [
     "projektantka 39"
@@ -18746,11 +18930,11 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-O17"
    },
-   "historie_n": 3,
-   "historie_zminek": 5,
+   "historie_n": 4,
+   "historie_zminek": 6,
    "historie": [
     {
-     "datum": "2026-10-26",
+     "datum": "2026-10-28",
      "typ": "otevřený bod",
      "ref": "E172",
      "text": "… deska jako parapet 850 (rešerše: desky 850 až 920), pás oken ložnice `2NP-O01` až `O04` s ŽB parapetem ze statiky …"
@@ -18760,6 +18944,12 @@
      "typ": "otevřený bod",
      "ref": "E186",
      "text": "… autorizoval (investor (9)), ve změnové dokumentaci zdůraznit; severní okna `2NP-O01`, `O03` podle IFC v pořádku …"
+    },
+    {
+     "datum": "2026-10-30",
+     "typ": "rozhodnutí",
+     "ref": "R-598",
+     "text": "… bodů, odpověď 5). Doslovně: „2. ano“. (3) nadpraží severních oken `2NP-O01` a `2NP-O03` v pořádku podle IFC: na jedné …"
     },
     {
      "datum": "2026-10-30",
@@ -18784,6 +18974,7 @@
     "body": [
      "E132",
      "E167",
+     "E172",
      "E186"
     ]
    },
@@ -18987,7 +19178,7 @@
     "id_stare": "2NP-O16"
    },
    "historie_n": 1,
-   "historie_zminek": 3,
+   "historie_zminek": 4,
    "historie": [
     {
      "datum": "2026-10-30",
@@ -19223,19 +19414,13 @@
     "id_stare": "2NP-D01"
    },
    "historie_n": 6,
-   "historie_zminek": 7,
+   "historie_zminek": 8,
    "historie": [
     {
      "datum": "2026-10-26",
      "typ": "rozhodnutí",
      "ref": "R-534",
      "text": "… nálezů „OTVOR vs IFC“ u dveří (1NP-D01, 1NP-D03, 1NP-D04, 1NP-D06, 2NP-D01, 2NP-D02, 2NP-D03) v klasifikaci nálezů je …"
-    },
-    {
-     "datum": "2026-10-28",
-     "typ": "otevřený bod",
-     "ref": "E198",
-     "text": "… 1NP-O05“, dnešní okno `1NP-O05` E172 nemá; totéž `2NP-D03`/E184 a `2NP-D01`/R-598; oprava: heuristiku následníka …"
     },
     {
      "datum": "2026-10-29",
@@ -19250,16 +19435,21 @@
     },
     {
      "datum": "2026-10-30",
-     "typ": "rozhodnutí",
-     "ref": "R-598",
-     "text": "… v nasem seznamu“. (2) „bude vse ZB“ platí i pro dveře `1NP-D04`, `2NP-D01`, `2NP-D02`: N24 (ploché překlady VAPIS) …"
+     "typ": "otevřený bod",
+     "ref": "E188",
+     "text": "… ruší (R-595 (g): „tak jak je ted nedava smysl“); spojený ŽB překlad `2NP-D01` + `2NP-D02` přes `2NP-S04` by s ním …"
     },
     {
      "datum": "2026-10-30",
      "typ": "rozhodnutí",
      "ref": "R-598",
-     "text": "… bodů, odpověď 5). Doslovně: „2. ano“. (3) nadpraží severních oken `2NP-O01` a `2NP-O03` v pořádku podle IFC: na jedné …",
-     "pozn": "pod starým ID 2NP-O01"
+     "text": "… v nasem seznamu“. (2) „bude vse ZB“ platí i pro dveře `1NP-D04`, `2NP-D01`, `2NP-D02`: N24 (ploché překlady VAPIS) …"
+    },
+    {
+     "datum": "2026-10-31",
+     "typ": "otevřený bod",
+     "ref": "E198",
+     "text": "… 1NP-O05“, dnešní okno `1NP-O05` E172 nemá; totéž `2NP-D03`/E184 a `2NP-D01`/R-598; oprava: heuristiku následníka …"
     }
    ],
    "dotazy": {
@@ -19276,6 +19466,7 @@
     "otazky_zminene": [],
     "body": [
      "E110",
+     "E132",
      "E169",
      "E184",
      "E188"
@@ -19467,8 +19658,8 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-D02"
    },
-   "historie_n": 4,
-   "historie_zminek": 6,
+   "historie_n": 5,
+   "historie_zminek": 7,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -19486,6 +19677,12 @@
      "typ": "otevřený bod",
      "ref": "E184",
      "text": "… `2NP-O05` + `2NP-O06` přes `2NP-S08` (250), spojený překlad `2NP-D01` + `2NP-D02` přes `2NP-S04` (200), `1NP-D04` …"
+    },
+    {
+     "datum": "2026-10-30",
+     "typ": "otevřený bod",
+     "ref": "E188",
+     "text": "… 200 půdorysně, výška 100, +5,840 až +5,940, nad `2NP-S04` u hrany `2NP-D02`) STATIK POSUNE NA VÝCHOD; do nového IFC …"
     },
     {
      "datum": "2026-10-30",
@@ -19701,8 +19898,8 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": null
    },
-   "historie_n": 2,
-   "historie_zminek": 4,
+   "historie_n": 3,
+   "historie_zminek": 7,
    "historie": [
     {
      "datum": "2026-10-28",
@@ -19715,6 +19912,12 @@
      "typ": "rozhodnutí",
      "ref": "R-572",
      "text": "… pise do vysky +3,990“ (odpověď agenta: +3,990 = výška parapetu okna `2NP-O05`, 900 nad podlahou +3,090 a 1070 nad …"
+    },
+    {
+     "datum": "2026-10-30",
+     "typ": "otevřený bod",
+     "ref": "E184",
+     "text": "… (0), `2NP-V18`, `2NP-V19` (dořeší, pracovně 250), spojený překlad `2NP-O05` + `2NP-O06` přes `2NP-S08` (250), spojený …"
     }
    ],
    "dotazy": {
@@ -19933,18 +20136,6 @@
     },
     {
      "datum": "2026-10-26",
-     "typ": "otevřený bod",
-     "ref": "E180",
-     "text": "POSUN DVEŘÍ `2NP-D03` O 25 MM NA ZÁPAD V NOVÉM IFC I NOVÉM DWG, NEOHLÁŠENÝ (S0.71, 29. 10. 2026, R-580, investor …"
-    },
-    {
-     "datum": "2026-10-26",
-     "typ": "otevřený bod",
-     "ref": "E181",
-     "text": "DOČASNÉ PŘEVZETÍ ŽB SLOUPKU U `2NP-D03` A PROLÉVAČEK POD `1NP-O02` Z EXPORTU IFC 26. 10. 2026 DO MODELU PŘED EXPORTEM S …"
-    },
-    {
-     "datum": "2026-10-26",
      "typ": "rozhodnutí",
      "ref": "R-534",
      "text": "… IFC“ u dveří (1NP-D01, 1NP-D03, 1NP-D04, 1NP-D06, 2NP-D01, 2NP-D02, 2NP-D03) v klasifikaci nálezů je otázka …"
@@ -19957,8 +20148,8 @@
     {
      "datum": "2026-10-28",
      "typ": "otevřený bod",
-     "ref": "E198",
-     "text": "… poznámkou „pod starým ID 1NP-O05“, dnešní okno `1NP-O05` E172 nemá; totéž `2NP-D03`/E184 a `2NP-D01`/R-598; oprava: …"
+     "ref": "E178",
+     "text": "… `tools/steny/steny_ze_sraf.py` v mapě `MATERIAL` nemá; `2NP-S09` o 25 mm kratší a `2NP-D03` o 25 mm západněji (ŽB …"
     },
     {
      "datum": "2026-10-28",
@@ -20007,8 +20198,14 @@
     {
      "datum": "2026-10-29",
      "typ": "otevřený bod",
-     "ref": "E178",
-     "text": "… `tools/steny/steny_ze_sraf.py` v mapě `MATERIAL` nemá; `2NP-S09` o 25 mm kratší a `2NP-D03` o 25 mm západněji (ŽB …"
+     "ref": "E180",
+     "text": "POSUN DVEŘÍ `2NP-D03` O 25 MM NA ZÁPAD V NOVÉM IFC I NOVÉM DWG, NEOHLÁŠENÝ (S0.71, 29. 10. 2026, R-580, investor …"
+    },
+    {
+     "datum": "2026-10-29",
+     "typ": "otevřený bod",
+     "ref": "E181",
+     "text": "DOČASNÉ PŘEVZETÍ ŽB SLOUPKU U `2NP-D03` A PROLÉVAČEK POD `1NP-O02` Z EXPORTU IFC 26. 10. 2026 DO MODELU PŘED EXPORTEM S …"
     },
     {
      "datum": "2026-10-29",
@@ -20048,13 +20245,6 @@
      "datum": "2026-10-30",
      "typ": "otevřený bod",
      "ref": "E184",
-     "text": "… (0), `2NP-V18`, `2NP-V19` (dořeší, pracovně 250), spojený překlad `2NP-O05` + `2NP-O06` přes `2NP-S08` (250), spojený …",
-     "pozn": "pod starým ID 2NP-O05"
-    },
-    {
-     "datum": "2026-10-30",
-     "typ": "otevřený bod",
-     "ref": "E184",
      "text": "… garáže (E182); (5) `2NP-V16` jen nad `2NP-S09`, konec věnce u dveří `2NP-D03` bez sloupku. Dokud výkres není, jsou …"
     },
     {
@@ -20062,6 +20252,12 @@
      "typ": "otevřený bod",
      "ref": "E186",
      "text": "… otvorů, přepočítají kusy nad otvory (E132), soupis překladů a výkaz; `2NP-D03` bez překladu, `2NP-S10` a pás nad …"
+    },
+    {
+     "datum": "2026-10-30",
+     "typ": "otevřený bod",
+     "ref": "E188",
+     "text": "… investorova poznámka jmenuje `2NP-V17-OD2` dvakrát, jednou v souvislosti s `2NP-D03`; prostup `2NP-V16-OD2` (300 × …"
     },
     {
      "datum": "2026-10-30",
@@ -20096,13 +20292,19 @@
      "datum": "2026-10-30",
      "typ": "uzavřený bod",
      "ref": "E173",
-     "text": "… UZAVŘENO 30. 10. 2026 (S0.75, R-600 (3), investor: „bod 5 - ok“): sloupek u `2NP-D03` nebude, `2NP-S10` a pás nad …"
+     "text": "… 30. 10. 2026 (S0.75, R-600 (3), investor: „bod 5 - ok“): sloupek u `2NP-D03` nebude, `2NP-S10` a pás nad dveřmi …"
     },
     {
      "datum": "2026-10-30",
      "typ": "uzavřený bod",
      "ref": "E173",
      "text": "NUTNOST ŽB SLOUPKU 200 × 200 u dveří `2NP-D03` (hala 201 / šatna 203) vs celá stěna ze sádrokartonu (S0.64, 28. 10. …"
+    },
+    {
+     "datum": "2026-10-31",
+     "typ": "otevřený bod",
+     "ref": "E198",
+     "text": "… poznámkou „pod starým ID 1NP-O05“, dnešní okno `1NP-O05` E172 nemá; totéž `2NP-D03`/E184 a `2NP-D01`/R-598; oprava: …"
     },
     {
      "datum": "2026-10-31",
@@ -20120,7 +20322,7 @@
      "datum": "2026-10-31",
      "typ": "rozhodnutí",
      "ref": "R-624",
-     "text": "… k otázce investora „Vysvetli Z S0.68 vypadnou přesuny klíčů 2NP-S09 a 2NP-D03“: ID prvků jsou zmrazená v registru …"
+     "text": "… otázce investora „Vysvetli Z S0.68 vypadnou přesuny klíčů 2NP-S09 a 2NP-D03“: ID prvků jsou zmrazená v registru …"
     }
    ],
    "dotazy": {
@@ -20148,6 +20350,9 @@
     "body": [
      "E132",
      "E169",
+     "E178",
+     "E180",
+     "E181",
      "E182",
      "E184",
      "E186",
@@ -20208,7 +20413,7 @@
    "barva": "#f2f2f2",
    "jistota_srafa": null,
    "lidsky": {
-    "co": "Sádrokartonová příčka nebo předstěna ve 2.NP, materiál sádrokarton. Patří k otvoru 2NP-D03.",
+    "co": "Pás sádrokartonu nad dveřmi (bez překladu; podle telefonátu investora se statikem 30. 10. 2026, pracovní) ve 2.NP, materiál sádrokarton. Patří k otvoru 2NP-D03.",
     "rozmer": "délka 900 mm, tloušťka 200 mm, výška 680 mm; stojí od +5,060 m do +5,740 m nad podlahou 1.NP (±0,000)",
     "odkud": [
      "tvar",
@@ -20231,7 +20436,7 @@
     "id_stare": null
    },
    "historie_n": 1,
-   "historie_zminek": 1,
+   "historie_zminek": 2,
    "historie": [
     {
      "datum": "2026-10-30",
@@ -20345,7 +20550,7 @@
    "historie_zminek": 0,
    "historie": [
     {
-     "datum": "2026-10-29",
+     "datum": "2026-10-28",
      "typ": "otevřený bod",
      "ref": "E178",
      "text": "… (sloupek 170) v DWG zaniká; okna `2NP-O07`, `O08`, `O14`, kusy a `2NP-O06` padají jen jako důsledek chybějících stěn. …"
@@ -20368,6 +20573,7 @@
     ],
     "otazky_zminene": [],
     "body": [
+     "E178",
      "E184"
     ]
    },
@@ -20556,16 +20762,16 @@
     "id_stare": "2NP-O07"
    },
    "historie_n": 4,
-   "historie_zminek": 0,
+   "historie_zminek": 1,
    "historie": [
     {
-     "datum": "2026-10-26",
+     "datum": "2026-10-28",
      "typ": "otevřený bod",
      "ref": "E172",
      "text": "… parapetem ze statiky (snížení = otázka statikovi), okna nástavby `2NP-O07`, `O08`, `O14` a stávající garáže …"
     },
     {
-     "datum": "2026-10-29",
+     "datum": "2026-10-28",
      "typ": "otevřený bod",
      "ref": "E178",
      "text": "… `2NP-S31` a `2NP-D09`); `2NP-S10` (sloupek 170) v DWG zaniká; okna `2NP-O07`, `O08`, `O14`, kusy a `2NP-O06` padají …"
@@ -20598,6 +20804,8 @@
     ],
     "otazky_zminene": [],
     "body": [
+     "E172",
+     "E178",
      "E184"
     ]
    },
@@ -20787,7 +20995,7 @@
     "id_stare": "2NP-O08"
    },
    "historie_n": 4,
-   "historie_zminek": 0,
+   "historie_zminek": 2,
    "historie": [
     {
      "datum": "2026-10-29",
@@ -21080,7 +21288,7 @@
    "parapet": 250,
    "vyska_otvoru": 2150,
    "kridlo": null,
-   "zdroj": "kóta ve výkrese: šířka 1000, výška 2150, parapet (250) od podlahy 2NP (`tools/steny/otvory.py`); PŘESAH ŽB PŘEKLADU PODLE TELEFONÁTU SE STATIKEM 30. 10. 2026 (pracovně, přesně dodá statik s výkresem výztuže, E184): 0 mm (jih, do `2NP-S18`) / 0 mm (sever, do `2NP-S18`); nad otvorem: ŽB překlad (nadpraží +5,490 až +5,740); R-595 (e): „presahy ZB prekladu - zatim jen pracovne pro vykaz cihel, statit doda presne“; doslovně: „O10 O13 na presah 0“; R-598 (9): přesah 0 pod e-mailovým minimem 250 statik v telefonátu autorizoval (doslovně: „to autorizoval - zdurazni to v poznamkach, co mu posleme“); `zdivo/steny/preklady-presahy.json`; IFC statika: otvor #17457 1000 × 2150 mm od 3340 do 5490, shoda do 20 mm (E124, S0.37; IO se nekreslí, párování podle polohy)",
+   "zdroj": "kóta ve výkrese: šířka 1000, výška 2150, parapet (250) od podlahy 2NP (`tools/steny/otvory.py`); PŘESAH ŽB PŘEKLADU PODLE TELEFONÁTU SE STATIKEM 30. 10. 2026 (pracovně, přesně dodá statik s výkresem výztuže, E184): 0 mm (jih) / 0 mm (sever, do `2NP-S18`); nad otvorem: ŽB překlad (nadpraží +5,490 až +5,740); R-595 (e): „presahy ZB prekladu - zatim jen pracovne pro vykaz cihel, statit doda presne“; doslovně: „O10 O13 na presah 0“; oprava čtení agenta 1. 11. 2026 (S0.82, nález C5 červeného týmu S0.77): jižně od otvoru není `2NP-S18`, ale roh kolmé stěny `2NP-S27`, proto do_zdiva_zacatek null (přesah 0, výkaz nic neodečítá); R-598 (9): přesah 0 pod e-mailovým minimem 250 statik v telefonátu autorizoval (doslovně: „to autorizoval - zdurazni to v poznamkach, co mu posleme“); `zdivo/steny/preklady-presahy.json`; IFC statika: otvor #17457 1000 × 2150 mm od 3340 do 5490, shoda do 20 mm (E124, S0.37; IO se nekreslí, párování podle polohy)",
    "jistota": "jistá",
    "steny": [
     "2NP-S18"
@@ -21095,7 +21303,7 @@
     "presah_konec": 0,
     "strana_zacatek": "jih",
     "strana_konec": "sever",
-    "do_zdiva_zacatek": "2NP-S18",
+    "do_zdiva_zacatek": null,
     "do_zdiva_konec": "2NP-S18",
     "spojeno_s": null,
     "spojeny_preklad": null,
@@ -21105,7 +21313,7 @@
     "bez_prekladu": null,
     "zb_v_ifc": false,
     "nad_otvorem": "ŽB překlad (nadpraží +5,490 až +5,740)",
-    "zdroj": "R-595 (e): „presahy ZB prekladu - zatim jen pracovne pro vykaz cihel, statit doda presne“; doslovně: „O10 O13 na presah 0“; R-598 (9): přesah 0 pod e-mailovým minimem 250 statik v telefonátu autorizoval (doslovně: „to autorizoval - zdurazni to v poznamkach, co mu posleme“)",
+    "zdroj": "R-595 (e): „presahy ZB prekladu - zatim jen pracovne pro vykaz cihel, statit doda presne“; doslovně: „O10 O13 na presah 0“; oprava čtení agenta 1. 11. 2026 (S0.82, nález C5 červeného týmu S0.77): jižně od otvoru není `2NP-S18`, ale roh kolmé stěny `2NP-S27`, proto do_zdiva_zacatek null (přesah 0, výkaz nic neodečítá); R-598 (9): přesah 0 pod e-mailovým minimem 250 statik v telefonátu autorizoval (doslovně: „to autorizoval - zdurazni to v poznamkach, co mu posleme“)",
     "jistota": "pracovní (telefonát 30. 10. 2026)"
    },
    "ifc_otvory": [
@@ -21144,17 +21352,17 @@
    },
    "technika": {
     "skript": "tools/steny/otvory.py, tools/model/model3d.py",
-    "session": "S0.37",
+    "session": "S0.82, S0.77, S0.37",
     "ifc_id": null,
     "ifc_guid": null,
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-O10"
    },
    "historie_n": 10,
-   "historie_zminek": 11,
+   "historie_zminek": 13,
    "historie": [
     {
-     "datum": "2026-10-26",
+     "datum": "2026-10-28",
      "typ": "otevřený bod",
      "ref": "E172",
      "text": "… `1NP-O02` +0,300 s ŽB prolévačkami (650 mm od hydroizolace); terasa `2NP-O10`, `2NP-O13` 200; dveře `1NP-D01`, `D02`, …"
@@ -21228,6 +21436,7 @@
     ],
     "otazky_zminene": [],
     "body": [
+     "E172",
      "E184",
      "E186",
      "E194",
@@ -21255,7 +21464,7 @@
    ],
    "z0": 5490,
    "z1": 5740,
-   "zdroj": "PŘESAH ŽB PŘEKLADU PODLE TELEFONÁTU SE STATIKEM 30. 10. 2026 (pracovně, přesně dodá statik s výkresem výztuže, E184): 0 mm (jih, do `2NP-S18`) / 0 mm (sever, do `2NP-S18`); nad otvorem: ŽB překlad (nadpraží +5,490 až +5,740); R-595 (e): „presahy ZB prekladu - zatim jen pracovne pro vykaz cihel, statit doda presne“; doslovně: „O10 O13 na presah 0“; R-598 (9): přesah 0 pod e-mailovým minimem 250 statik v telefonátu autorizoval (doslovně: „to autorizoval - zdurazni to v poznamkach, co mu posleme“); `zdivo/steny/preklady-presahy.json`; výška překladu = celý pás od horní hrany otvoru do spodní hrany věnce [NÁVRH AGENTA, potvrdí statik]. Dřívější čtení: řez A-A v DWG prochází oknem O10 (stěna S18): nad oknem železobeton ANSI35 od +5,490 do +5,940 v jednom polygonu s deskou (nadpraží 250 + věnec 200), obrys na vrstvě A2_ZB; PDF řezu potvrzuje (kóta 450 = 150 podhled + 300) (`zdivo/steny/rezy-vysky.md`, S0.19); výkres tvaru 2.NP statiky u tohoto okna popisku nemá; délka jen přes otvor, uložení neznámé KUS ZDIVA NAD OTVOREM: E132 (R-276, R-281, R-287): kolik z tohoto pásu je překlad a kolik zdivo nad ním, určí varianta (hotový překlad + zdivo / ŽB překlad + zdivo / ŽB ke stropu) podle odpovědi stavitele; do té doby je kus nad otvorem v datech „neurčeno“ s maximem = celá výška pásu, ne 0 (R-38 z 27. 9. 2026 tím padá).",
+   "zdroj": "PŘESAH ŽB PŘEKLADU PODLE TELEFONÁTU SE STATIKEM 30. 10. 2026 (pracovně, přesně dodá statik s výkresem výztuže, E184): 0 mm (jih) / 0 mm (sever, do `2NP-S18`); nad otvorem: ŽB překlad (nadpraží +5,490 až +5,740); R-595 (e): „presahy ZB prekladu - zatim jen pracovne pro vykaz cihel, statit doda presne“; doslovně: „O10 O13 na presah 0“; oprava čtení agenta 1. 11. 2026 (S0.82, nález C5 červeného týmu S0.77): jižně od otvoru není `2NP-S18`, ale roh kolmé stěny `2NP-S27`, proto do_zdiva_zacatek null (přesah 0, výkaz nic neodečítá); R-598 (9): přesah 0 pod e-mailovým minimem 250 statik v telefonátu autorizoval (doslovně: „to autorizoval - zdurazni to v poznamkach, co mu posleme“); `zdivo/steny/preklady-presahy.json`; výška překladu = celý pás od horní hrany otvoru do spodní hrany věnce [NÁVRH AGENTA, potvrdí statik]. Dřívější čtení: řez A-A v DWG prochází oknem O10 (stěna S18): nad oknem železobeton ANSI35 od +5,490 do +5,940 v jednom polygonu s deskou (nadpraží 250 + věnec 200), obrys na vrstvě A2_ZB; PDF řezu potvrzuje (kóta 450 = 150 podhled + 300) (`zdivo/steny/rezy-vysky.md`, S0.19); výkres tvaru 2.NP statiky u tohoto okna popisku nemá; délka jen přes otvor, uložení neznámé KUS ZDIVA NAD OTVOREM: E132 (R-276, R-281, R-287): kolik z tohoto pásu je překlad a kolik zdivo nad ním, určí varianta (hotový překlad + zdivo / ŽB překlad + zdivo / ŽB ke stropu) podle odpovědi stavitele; do té doby je kus nad otvorem v datech „neurčeno“ s maximem = celá výška pásu, ne 0 (R-38 z 27. 9. 2026 tím padá).",
    "jistota": "pracovní (telefonát 30. 10. 2026)",
    "otvor": "2NP-O10",
    "zdvih": 2,
@@ -21270,7 +21479,7 @@
     "presah_konec": 0,
     "strana_zacatek": "jih",
     "strana_konec": "sever",
-    "do_zdiva_zacatek": "2NP-S18",
+    "do_zdiva_zacatek": null,
     "do_zdiva_konec": "2NP-S18",
     "spojeno_s": null,
     "spojeny_preklad": null,
@@ -21280,7 +21489,7 @@
     "bez_prekladu": null,
     "zb_v_ifc": false,
     "nad_otvorem": "ŽB překlad (nadpraží +5,490 až +5,740)",
-    "zdroj": "R-595 (e): „presahy ZB prekladu - zatim jen pracovne pro vykaz cihel, statit doda presne“; doslovně: „O10 O13 na presah 0“; R-598 (9): přesah 0 pod e-mailovým minimem 250 statik v telefonátu autorizoval (doslovně: „to autorizoval - zdurazni to v poznamkach, co mu posleme“)",
+    "zdroj": "R-595 (e): „presahy ZB prekladu - zatim jen pracovne pro vykaz cihel, statit doda presne“; doslovně: „O10 O13 na presah 0“; oprava čtení agenta 1. 11. 2026 (S0.82, nález C5 červeného týmu S0.77): jižně od otvoru není `2NP-S18`, ale roh kolmé stěny `2NP-S27`, proto do_zdiva_zacatek null (přesah 0, výkaz nic neodečítá); R-598 (9): přesah 0 pod e-mailovým minimem 250 statik v telefonátu autorizoval (doslovně: „to autorizoval - zdurazni to v poznamkach, co mu posleme“)",
     "jistota": "pracovní (telefonát 30. 10. 2026)"
    },
    "vyska": 250,
@@ -21303,7 +21512,7 @@
    },
    "technika": {
     "skript": "tools/model/model3d.py",
-    "session": "S0.19",
+    "session": "S0.82, S0.77, S0.19",
     "ifc_id": null,
     "ifc_guid": null,
     "json": "zdivo/steny/otvory-kusy.json",
@@ -21828,7 +22037,7 @@
    "historie_zminek": 1,
    "historie": [
     {
-     "datum": "2026-10-26",
+     "datum": "2026-10-28",
      "typ": "otevřený bod",
      "ref": "E172",
      "text": "… +0,300 s ŽB prolévačkami (650 mm od hydroizolace); terasa `2NP-O10`, `2NP-O13` 200; dveře `1NP-D01`, `D02`, `D03`, …"
@@ -21849,7 +22058,7 @@
      "datum": "2026-10-30",
      "typ": "rozhodnutí",
      "ref": "R-595",
-     "text": "… [na obě strany: čtení agenta, investor: „vse presah 25cm“]; `2NP-O10` a `2NP-O13` přesah 0; `2NP-O11` 250; `2NP-O12` …"
+     "text": "… obě strany: čtení agenta, investor: „vse presah 25cm“]; `2NP-O10` a `2NP-O13` přesah 0; `2NP-O11` 250; `2NP-O12` 250; …"
     },
     {
      "datum": "2026-10-31",
@@ -21871,6 +22080,7 @@
     ],
     "otazky_zminene": [],
     "body": [
+     "E172",
      "E184"
     ]
    },
@@ -22521,7 +22731,7 @@
     "id_stare": null
    },
    "historie_n": 7,
-   "historie_zminek": 5,
+   "historie_zminek": 6,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -22531,15 +22741,15 @@
     },
     {
      "datum": "2026-10-26",
-     "typ": "otevřený bod",
-     "ref": "E181",
-     "text": "… nebo krok 12. DOPLNĚNO 30. 10. 2026 21:25 SEČ (S0.77, R-609): kus `1NP-P01` má v datech pracovně materiál prolévací …"
-    },
-    {
-     "datum": "2026-10-26",
      "typ": "rozhodnutí",
      "ref": "R-540",
      "text": "R-540: parapet `1NP-P01` pod portálem `1NP-O02` bude ze 2 šárů prolévacích tvarovek + Propasiv (návrh projektantky), ne …"
+    },
+    {
+     "datum": "2026-10-29",
+     "typ": "otevřený bod",
+     "ref": "E181",
+     "text": "… nebo krok 12. DOPLNĚNO 30. 10. 2026 21:25 SEČ (S0.77, R-609): kus `1NP-P01` má v datech pracovně materiál prolévací …"
     },
     {
      "datum": "2026-10-30",
@@ -22591,6 +22801,7 @@
     ],
     "body": [
      "E170",
+     "E181",
      "E27"
     ]
    },
@@ -25210,10 +25421,10 @@
     "id_stare": null
    },
    "historie_n": 2,
-   "historie_zminek": 3,
+   "historie_zminek": 4,
    "historie": [
     {
-     "datum": "2026-10-26",
+     "datum": "2026-10-29",
      "typ": "otevřený bod",
      "ref": "E180",
      "text": "… zda je to problém (zárubeň 900 vs sloupek, návaznost na SDK příčky `2NP-SDK03`, `SDK04`) a zda se ptát projektantky; …"
@@ -25238,6 +25449,7 @@
      "statik N25"
     ],
     "body": [
+     "E180",
      "E80"
     ]
    },
@@ -26839,11 +27051,17 @@
     "json": "zdivo/steny/otvory-kusy.json",
     "id_stare": null
    },
-   "historie_n": 1,
+   "historie_n": 2,
    "historie_zminek": 2,
    "historie": [
     {
      "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E177",
+     "text": "… modrého týmu (sekce 4 body 8 až 11 dokumentu): (9) šrafa přizdívky `1NP-PZ06`/`PZ07` zůstala, ač bod 6 odpovědi říká …"
+    },
+    {
+     "datum": "2026-10-31",
      "typ": "otevřený bod",
      "ref": "E198",
      "text": "… 10. 2026), E177 datován 16. 9. 2026 (má 28. 10. 2026), takže E177 u `1NP-PZ06` na stránku nejde vůbec včetně doplňku …"
@@ -26860,6 +27078,7 @@
     ],
     "otazky_zminene": [],
     "body": [
+     "E177",
      "E40"
     ]
    },
@@ -26979,7 +27198,7 @@
     "id_stare": null
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 1,
    "historie": [],
    "dotazy": {
     "otazky": [],
@@ -27693,7 +27912,7 @@
    "historie_zminek": 3,
    "historie": [
     {
-     "datum": "2026-10-26",
+     "datum": "2026-10-29",
      "typ": "otevřený bod",
      "ref": "E181",
      "text": "… nová jižní zeď 8 870 mm s přesunutými otvory `1NP-O04`, `1NP-O05`, `1NP-PK07` (materiál Silka jako sousední úsek, …"
@@ -27703,7 +27922,9 @@
     "otazky": [],
     "otazky_hlavni": [],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E181"
+    ]
    },
    "dotaz_srafa": []
   },
@@ -28589,7 +28810,7 @@
      "datum": "2026-10-30",
      "typ": "uzavřený bod",
      "ref": "E112",
-     "text": "… rozhodne pro SDK. Dopad: odpadá otázka statikovi 29 (únosnost věnce `1NP-V04` #15051 pod pásem), výkaz asi −7,7 m² …"
+     "text": "… rozhodne pro SDK. Dopad: odpadá otázka statikovi 29 (únosnost věnce `1NP-V04` pod pásem), výkaz asi −7,7 m² zdiva …"
     }
    ],
    "dotazy": {
@@ -36847,7 +37068,7 @@
    "historie_zminek": 1,
    "historie": [
     {
-     "datum": "2026-10-26",
+     "datum": "2026-10-29",
      "typ": "otevřený bod",
      "ref": "E181",
      "text": "… `2NP-D03` (E180), prodloužený věnec `2NP-V16`; (b) prolévačky: zeď `1NP-IW06` zkrácená na severní úsek tl. 250, otvor …"
@@ -36857,7 +37078,9 @@
     "otazky": [],
     "otazky_hlavni": [],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E181"
+    ]
    },
    "dotaz_srafa": []
   },
@@ -38022,7 +38245,7 @@
    "historie_zminek": 0,
    "historie": [
     {
-     "datum": "2026-10-29",
+     "datum": "2026-10-28",
      "typ": "otevřený bod",
      "ref": "E174",
      "text": "… `2NP-DS01`), v exportu z 26. 10. 2026 chybí (jediný zaniklý ŽB prvek; jižní `2NP-V01` a severní `2NP-V14` věnec …"
@@ -38039,7 +38262,9 @@
     "otazky_zminene": [
      "statik N22"
     ],
-    "body": []
+    "body": [
+     "E174"
+    ]
    },
    "dotaz_srafa": []
   },
@@ -38108,14 +38333,20 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 11,
+   "historie_n": 12,
    "historie_zminek": 15,
    "historie": [
     {
-     "datum": "2026-10-26",
+     "datum": "2026-10-28",
      "typ": "otevřený bod",
-     "ref": "E181",
-     "text": "… `1NP-PK07` (materiál Silka jako sousední úsek, [odvození]); věnec `2NP-V02` zůstává (R-576), 2 mm atik se neberou. …"
+     "ref": "E174",
+     "text": "ZANIKLÝ ŽB VĚNEC `2NP-V02` V NOVÉM IFC 26-10-26 (S0.65 headless, 28. 10. 2026 pozdě večer; porovnání …"
+    },
+    {
+     "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E175",
+     "text": "… ruky): statik slíbil export s materiály na pondělí 2. 11. 2026, věnec `2NP-V02` vrátí (chyba na jejich straně)."
     },
     {
      "datum": "2026-10-28",
@@ -38130,8 +38361,8 @@
     {
      "datum": "2026-10-29",
      "typ": "otevřený bod",
-     "ref": "E174",
-     "text": "ZANIKLÝ ŽB VĚNEC `2NP-V02` V NOVÉM IFC 26-10-26 (S0.65 headless, 28. 10. 2026 pozdě večer; porovnání …"
+     "ref": "E181",
+     "text": "… `1NP-PK07` (materiál Silka jako sousední úsek, [odvození]); věnec `2NP-V02` zůstává (R-576), 2 mm atik se neberou. …"
     },
     {
      "datum": "2026-10-29",
@@ -38188,6 +38419,9 @@
     ],
     "otazky_zminene": [],
     "body": [
+     "E174",
+     "E175",
+     "E181",
      "E190"
     ]
    },
@@ -38315,7 +38549,7 @@
     {
      "datum": "2026-10-30",
      "typ": "událost",
-     "text": "UDÁLOST: doplňující e-mail statikovi k věnci `2NP-V03` ODESLÁN (mandát R-610 a R-612), zpráva `1a18e948cc93ce36` ve …"
+     "text": "UDÁLOST: doplňující e-mail statikovi k věnci `2NP-V03` ODESLÁN (mandát R-610 a R-612), zpráva v Gmailu ve vlákně …"
     },
     {
      "datum": "2026-10-30",
@@ -39504,7 +39738,7 @@
      "datum": "2026-10-30",
      "typ": "rozhodnutí",
      "ref": "R-606",
-     "text": "… KONTROLE MODELU PROTI TELEFONÁTU (sekce 91.2 `ke-kontrole-investor.md`): (1) `2NP-V10` a `2NP-V16-OD2` zůstávají v …"
+     "text": "… MODELU PROTI TELEFONÁTU (sekce 91.2 `ke-kontrole-investor.md`): (1) `2NP-V10` a `2NP-V16-OD2` zůstávají v modelu jako …"
     },
     {
      "datum": "2026-10-30",
@@ -39539,7 +39773,7 @@
      "datum": "2026-10-30",
      "typ": "uzavřený bod",
      "ref": "E112",
-     "text": "Varianta: pás 3,5 m pod překladem `2NP-V10` #20192 v `2NP-S16` ze sádrokartonu místo zdiva 300 (nástavba je Porotherm …"
+     "text": "Varianta: pás 3,5 m pod překladem `2NP-V10` v `2NP-S16` ze sádrokartonu místo zdiva 300 (nástavba je Porotherm 30, R-87 …"
     },
     {
      "datum": "2026-10-30",
@@ -39940,7 +40174,7 @@
     "id_stare": null
    },
    "historie_n": 0,
-   "historie_zminek": 0,
+   "historie_zminek": 1,
    "historie": [],
    "dotazy": {
     "otazky": [
@@ -40023,7 +40257,7 @@
    "historie_zminek": 0,
    "historie": [
     {
-     "datum": "2026-10-29",
+     "datum": "2026-10-28",
      "typ": "otevřený bod",
      "ref": "E174",
      "text": "… 10. 2026 chybí (jediný zaniklý ŽB prvek; jižní `2NP-V01` a severní `2NP-V14` věnec nástavby zůstaly), nikde v …"
@@ -40040,7 +40274,9 @@
     "otazky_zminene": [
      "statik N22"
     ],
-    "body": []
+    "body": [
+     "E174"
+    ]
    },
    "dotaz_srafa": []
   },
@@ -40283,19 +40519,19 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 5,
+   "historie_n": 6,
    "historie_zminek": 10,
    "historie": [
-    {
-     "datum": "2026-10-26",
-     "typ": "otevřený bod",
-     "ref": "E181",
-     "text": "… zeď `2NP-IW22`, posunutý otvor `2NP-D03` (E180), prodloužený věnec `2NP-V16`; (b) prolévačky: zeď `1NP-IW06` zkrácená …"
-    },
     {
      "datum": "2026-10-28",
      "typ": "událost",
      "text": "… `2NP-D03` (`2NP-IW22` o 200 kratší, otvor `2NP-D03` o 25 mm západněji, `2NP-V16` o 5 mm delší) a prolévačky pod …"
+    },
+    {
+     "datum": "2026-10-29",
+     "typ": "otevřený bod",
+     "ref": "E181",
+     "text": "… zeď `2NP-IW22`, posunutý otvor `2NP-D03` (E180), prodloužený věnec `2NP-V16`; (b) prolévačky: zeď `1NP-IW06` zkrácená …"
     },
     {
      "datum": "2026-10-30",
@@ -40308,6 +40544,12 @@
      "typ": "otevřený bod",
      "ref": "E186",
      "text": "… výkaz; `2NP-D03` bez překladu, `2NP-S10` a pás nad dveřmi sádrokarton, `2NP-V16` zkrácen na `2NP-S09`; `2NP-S21`, …"
+    },
+    {
+     "datum": "2026-10-30",
+     "typ": "otevřený bod",
+     "ref": "E188",
+     "text": "… se dočasně ruší prostup `2NP-V16-OD2` (300 × 200, celá výška věnce `2NP-V16` nad `2NP-S09`, 116 až 416 mm západně od …"
     },
     {
      "datum": "2026-10-30",
@@ -40328,6 +40570,7 @@
      "statik N25"
     ],
     "body": [
+     "E181",
      "E184",
      "E186",
      "E188"
@@ -40621,7 +40864,7 @@
     "id_stare": null
    },
    "historie_n": 5,
-   "historie_zminek": 4,
+   "historie_zminek": 5,
    "historie": [
     {
      "datum": "2026-10-30",
@@ -40668,6 +40911,7 @@
      "statik N26"
     ],
     "body": [
+     "E169",
      "E184"
     ]
    },
@@ -40919,7 +41163,7 @@
     "id_stare": null
    },
    "historie_n": 1,
-   "historie_zminek": 1,
+   "historie_zminek": 2,
    "historie": [
     {
      "datum": "2026-10-29",
@@ -41715,9 +41959,15 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 1,
+   "historie_n": 2,
    "historie_zminek": 2,
    "historie": [
+    {
+     "datum": "2026-10-28",
+     "typ": "otevřený bod",
+     "ref": "E175",
+     "text": "… 30. 10. 2026 (S0.74, nález modrého týmu N8, JEN INFO): ocel sloupků `2NP-OS01` až `OS03` je v modelu z IFC S235, …"
+    },
     {
      "datum": "2026-10-30",
      "typ": "rozhodnutí",
@@ -41733,7 +41983,9 @@
     "otazky_zminene": [
      "statik N26"
     ],
-    "body": []
+    "body": [
+     "E175"
+    ]
    },
    "dotaz_srafa": []
   },
@@ -43054,7 +43306,7 @@
    "historie_zminek": 2,
    "historie": [
     {
-     "datum": "2026-10-29",
+     "datum": "2026-10-28",
      "typ": "otevřený bod",
      "ref": "E174",
      "text": "… západní zdi nástavby garáže (`2NP-IW07`, Silka 24, pod stropní deskou `2NP-DS01`), v exportu z 26. 10. 2026 chybí …"
@@ -43069,6 +43321,7 @@
      "statik N22"
     ],
     "body": [
+     "E174",
      "E92"
     ]
    },
@@ -43955,7 +44208,7 @@
    "historie_zminek": 0,
    "historie": [
     {
-     "datum": "2026-10-29",
+     "datum": "2026-10-28",
      "typ": "otevřený bod",
      "ref": "E174",
      "text": "… 300 × 200 mm od +5,740 do +5,940 na západní zdi nástavby garáže (`2NP-IW07`, Silka 24, pod stropní deskou …"
@@ -43969,7 +44222,9 @@
     "otazky_zminene": [
      "statik N22"
     ],
-    "body": []
+    "body": [
+     "E174"
+    ]
    },
    "dotaz_srafa": []
   },
@@ -45116,22 +45371,24 @@
    "historie_zminek": 2,
    "historie": [
     {
-     "datum": "2026-10-26",
-     "typ": "otevřený bod",
-     "ref": "E181",
-     "text": "… podle textu odpovědi projektantky, jistota pracovní), zkrácená zeď `2NP-IW22`, posunutý otvor `2NP-D03` (E180), …"
-    },
-    {
      "datum": "2026-10-28",
      "typ": "událost",
      "text": "… žádný; ohlášené změny v IFC jsou: ŽB sloupek 200 × 200 u `2NP-D03` (`2NP-IW22` o 200 kratší, otvor `2NP-D03` o 25 mm …"
+    },
+    {
+     "datum": "2026-10-29",
+     "typ": "otevřený bod",
+     "ref": "E181",
+     "text": "… podle textu odpovědi projektantky, jistota pracovní), zkrácená zeď `2NP-IW22`, posunutý otvor `2NP-D03` (E180), …"
     }
    ],
    "dotazy": {
     "otazky": [],
     "otazky_hlavni": [],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E181"
+    ]
    },
    "dotaz_srafa": []
   },
@@ -53530,7 +53787,7 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 5,
+   "historie_n": 6,
    "historie_zminek": 8,
    "historie": [
     {
@@ -53538,6 +53795,12 @@
      "typ": "otevřený bod",
      "ref": "E186",
      "text": "… dočasný překryv IFC `zdivo/ifc/prekryv-docasny.json` (`2NP-V10`, `2NP-V16-OD2` vyřazeny, `2NP-V16` zkrácen), SDK …"
+    },
+    {
+     "datum": "2026-10-30",
+     "typ": "otevřený bod",
+     "ref": "E188",
+     "text": "… `2NP-V17-OD2` dvakrát, jednou v souvislosti s `2NP-D03`; prostup `2NP-V16-OD2` (300 × 200, celá výška věnce, 116 až …"
     },
     {
      "datum": "2026-10-30",
@@ -53561,7 +53824,7 @@
      "datum": "2026-10-30",
      "typ": "rozhodnutí",
      "ref": "R-606",
-     "text": "… PROTI TELEFONÁTU (sekce 91.2 `ke-kontrole-investor.md`): (1) `2NP-V10` a `2NP-V16-OD2` zůstávají v modelu jako …"
+     "text": "… TELEFONÁTU (sekce 91.2 `ke-kontrole-investor.md`): (1) `2NP-V10` a `2NP-V16-OD2` zůstávají v modelu jako kategorie …"
     }
    ],
    "dotazy": {
@@ -54254,14 +54517,20 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 5,
+   "historie_n": 6,
    "historie_zminek": 6,
    "historie": [
     {
      "datum": "2026-10-30",
      "typ": "otevřený bod",
      "ref": "E186",
-     "text": "… 4). Zapracování až po potvrzení tabulky 89.4 investorem (který prvek je `2NP-V17-OD2`, severní okna O01 a O03, N24). …"
+     "text": "… Zapracování až po potvrzení tabulky 89.4 investorem (který prvek je `2NP-V17-OD2`, severní okna O01 a O03, N24). …"
+    },
+    {
+     "datum": "2026-10-30",
+     "typ": "otevřený bod",
+     "ref": "E188",
+     "text": "PROSTUP `2NP-V17-OD2` (260 × 200 půdorysně, výška 100, +5,840 až +5,940, nad `2NP-S04` u hrany `2NP-D02`) STATIK POSUNE …"
     },
     {
      "datum": "2026-10-30",
