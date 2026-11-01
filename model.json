@@ -12212,9 +12212,9 @@
    },
    "pozn": "Pole `lidsky` u kazdeho prvku je text pro lidi (E127, R-246), pole `technika` jsou nase interni udaje (skript, session, IFC id a GUID, zdrojovy JSON, stare ID) a pole `historie` je audit trail prvku (E128, R-247; zkraceny text, plne znění `zdivo/model/historie.json`; od S0.44 (R-377, investor 14. 10. 2026 „35 i“) jen rozhodnuti, otevrene a uzavrene body a zmeny dat, zminky nalezu zustavaji jen v `historie.json`; od S0.45 (16. 10. 2026, investor: historie na strance prazdna, jen veci po odeslani S1) jen udalosti od `HISTORIE_OD`, dnes 2026-10-26). Generuji `tools/model/texty_pro_lidi.py` a `tools/model/historie_prvku.py`.",
    "historie_od": "2026-10-26",
-   "historie_udalosti": 405,
-   "historie_zminek": 467,
-   "historie_prvku": 103
+   "historie_udalosti": 409,
+   "historie_zminek": 476,
+   "historie_prvku": 105
   }
  },
  "prvky": [
@@ -13866,8 +13866,8 @@
     "json": "zdivo/steny/steny-v2.json",
     "id_stare": "2NP-S04"
    },
-   "historie_n": 5,
-   "historie_zminek": 10,
+   "historie_n": 6,
+   "historie_zminek": 11,
    "historie": [
     {
      "datum": "2026-10-30",
@@ -13898,6 +13898,12 @@
      "typ": "rozhodnutí",
      "ref": "R-606",
      "text": "… množina stěn „jistá (IFC)“ z E141 se zužuje o šest prvků po telefonátu (`2NP-S04`, `2NP-S08`, `2NP-S10`, `2NP-S16`, …"
+    },
+    {
+     "datum": "2026-11-01",
+     "typ": "rozhodnutí",
+     "ref": "R-635",
+     "text": "… a K7, dále uvádí K10, K12, K15, K17; výkaz sekce 3 nálezy výšek: `2NP-S04` zbytek 120, `2NP-P06`, `P09` zbytek 100, …"
     }
    ],
    "dotazy": {
@@ -16833,7 +16839,7 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-O02"
    },
-   "historie_n": 24,
+   "historie_n": 25,
    "historie_zminek": 23,
    "historie": [
     {
@@ -16974,6 +16980,12 @@
      "typ": "rozhodnutí",
      "ref": "R-633",
      "text": "R-633: VÝKAZ ZDIVA, SKUPINA V7 PROLÉVACÍ TVAROVKY POD PRAHEM `1NP-O02` (kus `1NP-P01`): kusy se nepočítají jako VAPIS …"
+    },
+    {
+     "datum": "2026-11-01",
+     "typ": "rozhodnutí",
+     "ref": "R-635",
+     "text": "… které z R-559 až R-568 (práh 0 bez cihly, okno −50, HS portál −100, `1NP-O02` +0,300 s prolévačkami, terasa 200, …"
     }
    ],
    "dotazy": {
@@ -17445,7 +17457,7 @@
     "id_stare": "1NP-O04"
    },
    "historie_n": 7,
-   "historie_zminek": 6,
+   "historie_zminek": 7,
    "historie": [
     {
      "datum": "2026-10-28",
@@ -18042,7 +18054,7 @@
     "id_stare": "1NP-O07"
    },
    "historie_n": 3,
-   "historie_zminek": 4,
+   "historie_zminek": 6,
    "historie": [
     {
      "datum": "2026-10-28",
@@ -19439,7 +19451,7 @@
     "id_stare": "2NP-D01"
    },
    "historie_n": 7,
-   "historie_zminek": 10,
+   "historie_zminek": 11,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -19690,7 +19702,7 @@
     "id_stare": "2NP-D02"
    },
    "historie_n": 6,
-   "historie_zminek": 7,
+   "historie_zminek": 8,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -22973,9 +22985,16 @@
     "json": "zdivo/steny/otvory-kusy.json",
     "id_stare": null
    },
-   "historie_n": 0,
-   "historie_zminek": 0,
-   "historie": [],
+   "historie_n": 1,
+   "historie_zminek": 2,
+   "historie": [
+    {
+     "datum": "2026-11-01",
+     "typ": "rozhodnutí",
+     "ref": "R-635",
+     "text": "… nálezy výšek: `2NP-S04` zbytek 120, `2NP-P06`, `P09` zbytek 100, `1NP-P03` zbytek 50) poptat u dodavatelů při výkazu …"
+    }
+   ],
    "dotazy": {
     "otazky": [],
     "otazky_hlavni": [],
@@ -23687,9 +23706,16 @@
     "json": "zdivo/steny/otvory-kusy.json",
     "id_stare": null
    },
-   "historie_n": 0,
-   "historie_zminek": 0,
-   "historie": [],
+   "historie_n": 1,
+   "historie_zminek": 1,
+   "historie": [
+    {
+     "datum": "2026-11-01",
+     "typ": "rozhodnutí",
+     "ref": "R-635",
+     "text": "… K12, K15, K17; výkaz sekce 3 nálezy výšek: `2NP-S04` zbytek 120, `2NP-P06`, `P09` zbytek 100, `1NP-P03` zbytek 50) …"
+    }
+   ],
    "dotazy": {
     "otazky": [],
     "otazky_hlavni": [],
