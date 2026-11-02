@@ -1,6 +1,6 @@
 {
  "meta": {
-  "stav_k": "1. 11. 2026 (S0.82)",
+  "stav_k": "2. 11. 2026 (S0.87)",
   "vznik": "krok S0.11, 21. 9. 2026 (E49); S0.12 (nulová spodní hrana, šrafy, SDK, stávající garáž, značky chybějících); S0.14 (ŽB z PDF statiky, E51); S0.16 až S0.26 (viz session logy); S0.29, 2. 10. 2026: ŽB, základy, ocel a kontext zdiva z IFC statika (investor: IFC autoritativní pro ŽB), odvozené ŽB prvky, ŽB z PDF statiky, věnec garáže, ŽB parapety, pracovní atika, ocelové sloupky a nadpraží z modelu odebrány",
   "jednotky": "mm, souřadnice modelu DWG (2.NP posunuté o −50 000 v x, E42), z absolutně od ±0,000",
   "urovne": {
@@ -12212,8 +12212,8 @@
    },
    "pozn": "Pole `lidsky` u kazdeho prvku je text pro lidi (E127, R-246), pole `technika` jsou nase interni udaje (skript, session, IFC id a GUID, zdrojovy JSON, stare ID) a pole `historie` je audit trail prvku (E128, R-247; zkraceny text, plne znění `zdivo/model/historie.json`; od S0.44 (R-377, investor 14. 10. 2026 „35 i“) jen rozhodnuti, otevrene a uzavrene body a zmeny dat, zminky nalezu zustavaji jen v `historie.json`; od S0.45 (16. 10. 2026, investor: historie na strance prazdna, jen veci po odeslani S1) jen udalosti od `HISTORIE_OD`, dnes 2026-10-26). Generuji `tools/model/texty_pro_lidi.py` a `tools/model/historie_prvku.py`.",
    "historie_od": "2026-10-26",
-   "historie_udalosti": 409,
-   "historie_zminek": 476,
+   "historie_udalosti": 426,
+   "historie_zminek": 482,
    "historie_prvku": 105
   }
  },
@@ -13866,7 +13866,7 @@
     "json": "zdivo/steny/steny-v2.json",
     "id_stare": "2NP-S04"
    },
-   "historie_n": 6,
+   "historie_n": 7,
    "historie_zminek": 11,
    "historie": [
     {
@@ -13904,6 +13904,12 @@
      "typ": "rozhodnutí",
      "ref": "R-635",
      "text": "… a K7, dále uvádí K10, K12, K15, K17; výkaz sekce 3 nálezy výšek: `2NP-S04` zbytek 120, `2NP-P06`, `P09` zbytek 100, …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "otevřený bod",
+     "ref": "E200",
+     "text": "PROSTUP `2NP-V17-OD2` (věnec nad `2NP-S04` mezi dveřmi `2NP-D01` a `2NP-D02`) SE PODLE PROJEKTANTKY NEPOSOUVAL: změnová …"
     }
    ],
    "dotazy": {
@@ -14090,7 +14096,7 @@
     "json": "zdivo/steny/steny-v2.json",
     "id_stare": "2NP-S06"
    },
-   "historie_n": 7,
+   "historie_n": 8,
    "historie_zminek": 10,
    "historie": [
     {
@@ -14133,6 +14139,11 @@
      "typ": "rozhodnutí",
      "ref": "R-573",
      "text": "R-573: zídky koupelny 204 (`2NP-S06`, `2NP-S07`, sedák v `2NP-P01`, E88): v příštím e-mailu projektantce (krok 12, po …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "odpověď",
+     "text": "… modelu od S0.69 (R-573); poloha příčky 75 vůči VAPIS 200 a výška `2NP-S06`, `2NP-S07` ke stropu se ověří proti jejím …"
     }
    ],
    "dotazy": {
@@ -14205,7 +14216,7 @@
     "json": "zdivo/steny/steny-v2.json",
     "id_stare": "2NP-S07"
    },
-   "historie_n": 4,
+   "historie_n": 5,
    "historie_zminek": 6,
    "historie": [
     {
@@ -14231,6 +14242,11 @@
      "typ": "rozhodnutí",
      "ref": "R-573",
      "text": "R-573: zídky koupelny 204 (`2NP-S06`, `2NP-S07`, sedák v `2NP-P01`, E88): v příštím e-mailu projektantce (krok 12, po …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "odpověď",
+     "text": "… S0.69 (R-573); poloha příčky 75 vůči VAPIS 200 a výška `2NP-S06`, `2NP-S07` ke stropu se ověří proti jejím obrázkům …"
     }
    ],
    "dotazy": {
@@ -16839,8 +16855,8 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-O02"
    },
-   "historie_n": 25,
-   "historie_zminek": 23,
+   "historie_n": 26,
+   "historie_zminek": 24,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -16986,6 +17002,11 @@
      "typ": "rozhodnutí",
      "ref": "R-635",
      "text": "… které z R-559 až R-568 (práh 0 bez cihly, okno −50, HS portál −100, `1NP-O02` +0,300 s prolévačkami, terasa 200, …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "odpověď",
+     "text": "… dveře = křídlo, vnější = stavební otvor); bod 4 (40, prolévačky pod `1NP-O02` provázané s deskou); bod 5 (41, zídka …"
     }
    ],
    "dotazy": {
@@ -19450,8 +19471,8 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-D01"
    },
-   "historie_n": 7,
-   "historie_zminek": 11,
+   "historie_n": 8,
+   "historie_zminek": 12,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -19493,6 +19514,12 @@
      "typ": "uzavřený bod",
      "ref": "E198",
      "text": "… 1NP-O05“, dnešní okno `1NP-O05` E172 nemá; totéž `2NP-D03`/E184 a `2NP-D01`/R-598; oprava: heuristiku následníka …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "otevřený bod",
+     "ref": "E200",
+     "text": "PROSTUP `2NP-V17-OD2` (věnec nad `2NP-S04` mezi dveřmi `2NP-D01` a `2NP-D02`) SE PODLE PROJEKTANTKY NEPOSOUVAL: změnová …"
     }
    ],
    "dotazy": {
@@ -19701,7 +19728,7 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-D02"
    },
-   "historie_n": 6,
+   "historie_n": 7,
    "historie_zminek": 8,
    "historie": [
     {
@@ -19738,6 +19765,12 @@
      "typ": "rozhodnutí",
      "ref": "R-632",
      "text": "R-632: KUS NAD DVEŘMI `2NP-D01`, `2NP-D02`, `1NP-D04` (E132) ZŮSTÁVÁ ŽB PŘES CELÝ PÁS od hlavy dveří do spodní hrany …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "otevřený bod",
+     "ref": "E200",
+     "text": "… PROSTUP `2NP-V17-OD2` (věnec nad `2NP-S04` mezi dveřmi `2NP-D01` a `2NP-D02`) SE PODLE PROJEKTANTKY NEPOSOUVAL: …"
     }
    ],
    "dotazy": {
@@ -20175,8 +20208,8 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-D03"
    },
-   "historie_n": 34,
-   "historie_zminek": 51,
+   "historie_n": 36,
+   "historie_zminek": 52,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -20310,6 +20343,12 @@
     },
     {
      "datum": "2026-10-30",
+     "typ": "otevřený bod",
+     "ref": "E193",
+     "text": "… 2. 11. 2026 (S0.87): projektantka 12:09 SEČ: posunut jen prostup u `2NP-D03` (`2NP-V16-OD2`), nově v SDK části stěny …"
+    },
+    {
+     "datum": "2026-10-30",
      "typ": "rozhodnutí",
      "ref": "R-595",
      "text": "… sádrokartonu spojeného s `2NP-SDK03` a `2NP-SDK04`; ŽB sloupek 200 × 200 u `2NP-D03` nebude; `2NP-D03-překlad` nebude …"
@@ -20372,6 +20411,12 @@
      "typ": "uzavřený bod",
      "ref": "E198",
      "text": "… poznámkou „pod starým ID 1NP-O05“, dnešní okno `1NP-O05` E172 nemá; totéž `2NP-D03`/E184 a `2NP-D01`/R-598; oprava: …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "otevřený bod",
+     "ref": "E200",
+     "text": "… dodaným ŽB sloupkem (= `2NP-V16-OD2`, nově v SDK části stěny s dveřmi `2NP-D03`, mimo věnec `2NP-V16`). Důsledek: …"
     }
    ],
    "dotazy": {
@@ -20810,8 +20855,8 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-O07"
    },
-   "historie_n": 4,
-   "historie_zminek": 1,
+   "historie_n": 5,
+   "historie_zminek": 2,
    "historie": [
     {
      "datum": "2026-10-28",
@@ -20836,6 +20881,12 @@
      "typ": "rozhodnutí",
      "ref": "R-595",
      "text": "… východní straně (západní strana jen propojení se sloupem `2NP-SL01`); `2NP-O07`, `2NP-O08`, `2NP-O14` (nástavba) …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "otevřený bod",
+     "ref": "E199",
+     "text": "ROZPOR PŘEKLADY NAD OKNY NÁSTAVBY GARÁŽE (`2NP-O07`, `2NP-O08`, `2NP-O14`, Porotherm 30, roletový box v izolaci 150): …"
     }
    ],
    "dotazy": {
@@ -21043,7 +21094,7 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-O08"
    },
-   "historie_n": 4,
+   "historie_n": 5,
    "historie_zminek": 2,
    "historie": [
     {
@@ -21068,6 +21119,12 @@
      "typ": "otevřený bod",
      "ref": "E196",
      "text": "ZÚŽENÍ PŘEKLADU NAD OKNEM GARÁŽE `2NP-O08` KVŮLI ROLETOVÉMU BOXU: REAKCE STAVITELE CHYBÍ (otevřeno 31. 10. 2026, S0.81, …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "otevřený bod",
+     "ref": "E199",
+     "text": "ROZPOR PŘEKLADY NAD OKNY NÁSTAVBY GARÁŽE (`2NP-O07`, `2NP-O08`, `2NP-O14`, Porotherm 30, roletový box v izolaci 150): …"
     }
    ],
    "dotazy": {
@@ -22308,7 +22365,7 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-O14"
    },
-   "historie_n": 3,
+   "historie_n": 4,
    "historie_zminek": 2,
    "historie": [
     {
@@ -22328,6 +22385,12 @@
      "typ": "rozhodnutí",
      "ref": "R-595",
      "text": "… strana jen propojení se sloupem `2NP-SL01`); `2NP-O07`, `2NP-O08`, `2NP-O14` (nástavba) přesah 250 [na obě strany: …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "otevřený bod",
+     "ref": "E199",
+     "text": "ROZPOR PŘEKLADY NAD OKNY NÁSTAVBY GARÁŽE (`2NP-O07`, `2NP-O08`, `2NP-O14`, Porotherm 30, roletový box v izolaci 150): …"
     }
    ],
    "dotazy": {
@@ -23359,7 +23422,7 @@
     "json": "zdivo/steny/otvory-kusy.json",
     "id_stare": null
    },
-   "historie_n": 4,
+   "historie_n": 5,
    "historie_zminek": 8,
    "historie": [
     {
@@ -23385,6 +23448,11 @@
      "typ": "změna dat",
      "ref": "931b742",
      "text": "změna dat prvku: jistota, vyrez, zdroj (commit: S0.69: otázka statikovi N21 (kanon před odesláním, druhý doplňující …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "odpověď",
+     "text": "… agenta: 820 nad HH desky +2,920 = +3,740, shodné se sedákem VAPIS 200 v `2NP-P01` do +3,740 v modelu od S0.69 …"
     }
    ],
    "dotazy": {
@@ -38410,7 +38478,7 @@
     "id_stare": null
    },
    "historie_n": 12,
-   "historie_zminek": 15,
+   "historie_zminek": 16,
    "historie": [
     {
      "datum": "2026-10-28",
@@ -40595,7 +40663,7 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 6,
+   "historie_n": 7,
    "historie_zminek": 10,
    "historie": [
     {
@@ -40632,6 +40700,12 @@
      "typ": "rozhodnutí",
      "ref": "R-595",
      "text": "… `2NP-D03` nebude; `2NP-D03-překlad` nebude ŽB, ale sádrokarton; věnec `2NP-V16` je jen nad stěnou `2NP-S09` a …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "otevřený bod",
+     "ref": "E200",
+     "text": "… `2NP-V16-OD2`, nově v SDK části stěny s dveřmi `2NP-D03`, mimo věnec `2NP-V16`). Důsledek: kolize `2NP-V17-OD2` se …"
     }
    ],
    "dotazy": {
@@ -53863,7 +53937,7 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 6,
+   "historie_n": 8,
    "historie_zminek": 8,
    "historie": [
     {
@@ -53901,6 +53975,17 @@
      "typ": "rozhodnutí",
      "ref": "R-606",
      "text": "… TELEFONÁTU (sekce 91.2 `ke-kontrole-investor.md`): (1) `2NP-V10` a `2NP-V16-OD2` zůstávají v modelu jako kategorie …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "odpověď",
+     "text": "… statikem R-595 A3 a A4 b, nový bod E199); k A5 (posun prostupů VZT `2NP-V16-OD2` a `2NP-V17-OD2`) (jeden vložený …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "otevřený bod",
+     "ref": "E200",
+     "text": "… jen prostup ve stěně, která byla zakončená dodaným ŽB sloupkem (= `2NP-V16-OD2`, nově v SDK části stěny s dveřmi …"
     }
    ],
    "dotazy": {
@@ -54593,8 +54678,8 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 6,
-   "historie_zminek": 6,
+   "historie_n": 8,
+   "historie_zminek": 7,
    "historie": [
     {
      "datum": "2026-10-30",
@@ -54631,6 +54716,17 @@
      "typ": "rozhodnutí",
      "ref": "R-607",
      "text": "… `2NP-V20`, `V21` (přesah 0, R-598 (3)), věnec `2NP-V03` (E195), prostup `2NP-V17-OD2` (jen poznámka); úseky zdiva …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "odpověď",
+     "text": "… a A4 b, nový bod E199); k A5 (posun prostupů VZT `2NP-V16-OD2` a `2NP-V17-OD2`) (jeden vložený obrázek; `2NP-V17-OD2` …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "otevřený bod",
+     "ref": "E200",
+     "text": "PROSTUP `2NP-V17-OD2` (věnec nad `2NP-S04` mezi dveřmi `2NP-D01` a `2NP-D02`) SE PODLE PROJEKTANTKY NEPOSOUVAL: změnová …"
     }
    ],
    "dotazy": {
