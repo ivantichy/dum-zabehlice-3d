@@ -12212,7 +12212,7 @@
    },
    "pozn": "Pole `lidsky` u kazdeho prvku je text pro lidi (E127, R-246), pole `technika` jsou nase interni udaje (skript, session, IFC id a GUID, zdrojovy JSON, stare ID) a pole `historie` je audit trail prvku (E128, R-247; zkraceny text, plne znění `zdivo/model/historie.json`; od S0.44 (R-377, investor 14. 10. 2026 „35 i“) jen rozhodnuti, otevrene a uzavrene body a zmeny dat, zminky nalezu zustavaji jen v `historie.json`; od S0.45 (16. 10. 2026, investor: historie na strance prazdna, jen veci po odeslani S1) jen udalosti od `HISTORIE_OD`, dnes 2026-10-26). Generuji `tools/model/texty_pro_lidi.py` a `tools/model/historie_prvku.py`.",
    "historie_od": "2026-10-26",
-   "historie_udalosti": 426,
+   "historie_udalosti": 432,
    "historie_zminek": 482,
    "historie_prvku": 105
   }
@@ -14096,7 +14096,7 @@
     "json": "zdivo/steny/steny-v2.json",
     "id_stare": "2NP-S06"
    },
-   "historie_n": 8,
+   "historie_n": 9,
    "historie_zminek": 10,
    "historie": [
     {
@@ -14144,6 +14144,12 @@
      "datum": "2026-11-02",
      "typ": "odpověď",
      "text": "… modelu od S0.69 (R-573); poloha příčky 75 vůči VAPIS 200 a výška `2NP-S06`, `2NP-S07` ke stropu se ověří proti jejím …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "rozhodnutí",
+     "ref": "R-642",
+     "text": "R-642: SEDACÍ KOUT V KOUPELNĚ 204 (`2NP-S06`, `2NP-S07`, `2NP-P01`, E88, kanon 37 a 41) BUDE VYZDĚNÝ Z YTONGU (čtení …"
     }
    ],
    "dotazy": {
@@ -14216,7 +14222,7 @@
     "json": "zdivo/steny/steny-v2.json",
     "id_stare": "2NP-S07"
    },
-   "historie_n": 5,
+   "historie_n": 6,
    "historie_zminek": 6,
    "historie": [
     {
@@ -14247,6 +14253,12 @@
      "datum": "2026-11-02",
      "typ": "odpověď",
      "text": "… S0.69 (R-573); poloha příčky 75 vůči VAPIS 200 a výška `2NP-S06`, `2NP-S07` ke stropu se ověří proti jejím obrázkům …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "rozhodnutí",
+     "ref": "R-642",
+     "text": "R-642: SEDACÍ KOUT V KOUPELNĚ 204 (`2NP-S06`, `2NP-S07`, `2NP-P01`, E88, kanon 37 a 41) BUDE VYZDĚNÝ Z YTONGU (čtení …"
     }
    ],
    "dotazy": {
@@ -20855,7 +20867,7 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-O07"
    },
-   "historie_n": 5,
+   "historie_n": 6,
    "historie_zminek": 2,
    "historie": [
     {
@@ -20887,6 +20899,12 @@
      "typ": "otevřený bod",
      "ref": "E199",
      "text": "ROZPOR PŘEKLADY NAD OKNY NÁSTAVBY GARÁŽE (`2NP-O07`, `2NP-O08`, `2NP-O14`, Porotherm 30, roletový box v izolaci 150): …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "rozhodnutí",
+     "ref": "R-641",
+     "text": "R-641: PŘEKLADY NAD OKNY NÁSTAVBY GARÁŽE (`2NP-O07`, `2NP-O08`, `2NP-O14`, E199) BUDOU ŽELEZOBETONOVÉ, detail zúžení …"
     }
    ],
    "dotazy": {
@@ -21094,7 +21112,7 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-O08"
    },
-   "historie_n": 5,
+   "historie_n": 6,
    "historie_zminek": 2,
    "historie": [
     {
@@ -21125,6 +21143,12 @@
      "typ": "otevřený bod",
      "ref": "E199",
      "text": "ROZPOR PŘEKLADY NAD OKNY NÁSTAVBY GARÁŽE (`2NP-O07`, `2NP-O08`, `2NP-O14`, Porotherm 30, roletový box v izolaci 150): …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "rozhodnutí",
+     "ref": "R-641",
+     "text": "R-641: PŘEKLADY NAD OKNY NÁSTAVBY GARÁŽE (`2NP-O07`, `2NP-O08`, `2NP-O14`, E199) BUDOU ŽELEZOBETONOVÉ, detail zúžení …"
     }
    ],
    "dotazy": {
@@ -22365,7 +22389,7 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-O14"
    },
-   "historie_n": 4,
+   "historie_n": 5,
    "historie_zminek": 2,
    "historie": [
     {
@@ -22391,6 +22415,12 @@
      "typ": "otevřený bod",
      "ref": "E199",
      "text": "ROZPOR PŘEKLADY NAD OKNY NÁSTAVBY GARÁŽE (`2NP-O07`, `2NP-O08`, `2NP-O14`, Porotherm 30, roletový box v izolaci 150): …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "rozhodnutí",
+     "ref": "R-641",
+     "text": "R-641: PŘEKLADY NAD OKNY NÁSTAVBY GARÁŽE (`2NP-O07`, `2NP-O08`, `2NP-O14`, E199) BUDOU ŽELEZOBETONOVÉ, detail zúžení …"
     }
    ],
    "dotazy": {
@@ -23422,7 +23452,7 @@
     "json": "zdivo/steny/otvory-kusy.json",
     "id_stare": null
    },
-   "historie_n": 5,
+   "historie_n": 6,
    "historie_zminek": 8,
    "historie": [
     {
@@ -23453,6 +23483,12 @@
      "datum": "2026-11-02",
      "typ": "odpověď",
      "text": "… agenta: 820 nad HH desky +2,920 = +3,740, shodné se sedákem VAPIS 200 v `2NP-P01` do +3,740 v modelu od S0.69 …"
+    },
+    {
+     "datum": "2026-11-02",
+     "typ": "rozhodnutí",
+     "ref": "R-642",
+     "text": "R-642: SEDACÍ KOUT V KOUPELNĚ 204 (`2NP-S06`, `2NP-S07`, `2NP-P01`, E88, kanon 37 a 41) BUDE VYZDĚNÝ Z YTONGU (čtení …"
     }
    ],
    "dotazy": {
