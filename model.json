@@ -12212,8 +12212,8 @@
    },
    "pozn": "Pole `lidsky` u kazdeho prvku je text pro lidi (E127, R-246), pole `technika` jsou nase interni udaje (skript, session, IFC id a GUID, zdrojovy JSON, stare ID) a pole `historie` je audit trail prvku (E128, R-247; zkraceny text, plne znění `zdivo/model/historie.json`; od S0.44 (R-377, investor 14. 10. 2026 „35 i“) jen rozhodnuti, otevrene a uzavrene body a zmeny dat, zminky nalezu zustavaji jen v `historie.json`; od S0.45 (16. 10. 2026, investor: historie na strance prazdna, jen veci po odeslani S1) jen udalosti od `HISTORIE_OD`, dnes 2026-10-26). Generuji `tools/model/texty_pro_lidi.py` a `tools/model/historie_prvku.py`.",
    "historie_od": "2026-10-26",
-   "historie_udalosti": 432,
-   "historie_zminek": 482,
+   "historie_udalosti": 442,
+   "historie_zminek": 483,
    "historie_prvku": 105
   }
  },
@@ -14096,7 +14096,7 @@
     "json": "zdivo/steny/steny-v2.json",
     "id_stare": "2NP-S06"
    },
-   "historie_n": 9,
+   "historie_n": 11,
    "historie_zminek": 10,
    "historie": [
     {
@@ -14150,6 +14150,18 @@
      "typ": "rozhodnutí",
      "ref": "R-642",
      "text": "R-642: SEDACÍ KOUT V KOUPELNĚ 204 (`2NP-S06`, `2NP-S07`, `2NP-P01`, E88, kanon 37 a 41) BUDE VYZDĚNÝ Z YTONGU (čtení …"
+    },
+    {
+     "datum": "2026-11-03",
+     "typ": "rozhodnutí",
+     "ref": "R-646",
+     "text": "… e-mailu 12:53 SEČ (E88), ne nová příčka; prvky niky v našem modelu `2NP-S06`, `2NP-S07`, `2NP-P01`. První čtení …"
+    },
+    {
+     "datum": "2026-11-03",
+     "typ": "rozhodnutí",
+     "ref": "R-648",
+     "text": "R-648: potvrzení R-642: SEDACÍ KOUT V KOUPELNĚ 204 (`2NP-S06`, `2NP-S07`, `2NP-P01`, E88, kanon projektantka 37 „příčky …"
     }
    ],
    "dotazy": {
@@ -14222,7 +14234,7 @@
     "json": "zdivo/steny/steny-v2.json",
     "id_stare": "2NP-S07"
    },
-   "historie_n": 6,
+   "historie_n": 8,
    "historie_zminek": 6,
    "historie": [
     {
@@ -14259,6 +14271,18 @@
      "typ": "rozhodnutí",
      "ref": "R-642",
      "text": "R-642: SEDACÍ KOUT V KOUPELNĚ 204 (`2NP-S06`, `2NP-S07`, `2NP-P01`, E88, kanon 37 a 41) BUDE VYZDĚNÝ Z YTONGU (čtení …"
+    },
+    {
+     "datum": "2026-11-03",
+     "typ": "rozhodnutí",
+     "ref": "R-646",
+     "text": "… 12:53 SEČ (E88), ne nová příčka; prvky niky v našem modelu `2NP-S06`, `2NP-S07`, `2NP-P01`. První čtení agenta …"
+    },
+    {
+     "datum": "2026-11-03",
+     "typ": "rozhodnutí",
+     "ref": "R-648",
+     "text": "R-648: potvrzení R-642: SEDACÍ KOUT V KOUPELNĚ 204 (`2NP-S06`, `2NP-S07`, `2NP-P01`, E88, kanon projektantka 37 „příčky …"
     }
    ],
    "dotazy": {
@@ -16867,8 +16891,8 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-O02"
    },
-   "historie_n": 26,
-   "historie_zminek": 24,
+   "historie_n": 27,
+   "historie_zminek": 25,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -17019,6 +17043,12 @@
      "datum": "2026-11-02",
      "typ": "odpověď",
      "text": "… dveře = křídlo, vnější = stavební otvor); bod 4 (40, prolévačky pod `1NP-O02` provázané s deskou); bod 5 (41, zídka …"
+    },
+    {
+     "datum": "2026-11-03",
+     "typ": "rozhodnutí",
+     "ref": "R-649",
+     "text": "… křídlo, vnější = stavební otvor; 40 prolévačky pod prahem portálu `1NP-O02` provázané s deskou; 41 zídka v koupelně …"
     }
    ],
    "dotazy": {
@@ -20867,7 +20897,7 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-O07"
    },
-   "historie_n": 6,
+   "historie_n": 7,
    "historie_zminek": 2,
    "historie": [
     {
@@ -20905,6 +20935,12 @@
      "typ": "rozhodnutí",
      "ref": "R-641",
      "text": "R-641: PŘEKLADY NAD OKNY NÁSTAVBY GARÁŽE (`2NP-O07`, `2NP-O08`, `2NP-O14`, E199) BUDOU ŽELEZOBETONOVÉ, detail zúžení …"
+    },
+    {
+     "datum": "2026-11-03",
+     "typ": "rozhodnutí",
+     "ref": "R-647",
+     "text": "… R-647: „Bod 2 ok“ = potvrzení R-641 (překlady nad okny nástavby garáže `2NP-O07`, `2NP-O08`, `2NP-O14` …"
     }
    ],
    "dotazy": {
@@ -21112,7 +21148,7 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-O08"
    },
-   "historie_n": 6,
+   "historie_n": 7,
    "historie_zminek": 2,
    "historie": [
     {
@@ -21149,6 +21185,12 @@
      "typ": "rozhodnutí",
      "ref": "R-641",
      "text": "R-641: PŘEKLADY NAD OKNY NÁSTAVBY GARÁŽE (`2NP-O07`, `2NP-O08`, `2NP-O14`, E199) BUDOU ŽELEZOBETONOVÉ, detail zúžení …"
+    },
+    {
+     "datum": "2026-11-03",
+     "typ": "rozhodnutí",
+     "ref": "R-647",
+     "text": "… ok“ = potvrzení R-641 (překlady nad okny nástavby garáže `2NP-O07`, `2NP-O08`, `2NP-O14` ŽELEZOBETONOVÉ, detail …"
     }
    ],
    "dotazy": {
@@ -22389,7 +22431,7 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "2NP-O14"
    },
-   "historie_n": 5,
+   "historie_n": 6,
    "historie_zminek": 2,
    "historie": [
     {
@@ -22421,6 +22463,12 @@
      "typ": "rozhodnutí",
      "ref": "R-641",
      "text": "R-641: PŘEKLADY NAD OKNY NÁSTAVBY GARÁŽE (`2NP-O07`, `2NP-O08`, `2NP-O14`, E199) BUDOU ŽELEZOBETONOVÉ, detail zúžení …"
+    },
+    {
+     "datum": "2026-11-03",
+     "typ": "rozhodnutí",
+     "ref": "R-647",
+     "text": "… potvrzení R-641 (překlady nad okny nástavby garáže `2NP-O07`, `2NP-O08`, `2NP-O14` ŽELEZOBETONOVÉ, detail zúžení …"
     }
    ],
    "dotazy": {
@@ -23452,7 +23500,7 @@
     "json": "zdivo/steny/otvory-kusy.json",
     "id_stare": null
    },
-   "historie_n": 6,
+   "historie_n": 8,
    "historie_zminek": 8,
    "historie": [
     {
@@ -23489,6 +23537,18 @@
      "typ": "rozhodnutí",
      "ref": "R-642",
      "text": "R-642: SEDACÍ KOUT V KOUPELNĚ 204 (`2NP-S06`, `2NP-S07`, `2NP-P01`, E88, kanon 37 a 41) BUDE VYZDĚNÝ Z YTONGU (čtení …"
+    },
+    {
+     "datum": "2026-11-03",
+     "typ": "rozhodnutí",
+     "ref": "R-646",
+     "text": "… (E88), ne nová příčka; prvky niky v našem modelu `2NP-S06`, `2NP-S07`, `2NP-P01`. První čtení agenta „domodelovaná …"
+    },
+    {
+     "datum": "2026-11-03",
+     "typ": "rozhodnutí",
+     "ref": "R-648",
+     "text": "… potvrzení R-642: SEDACÍ KOUT V KOUPELNĚ 204 (`2NP-S06`, `2NP-S07`, `2NP-P01`, E88, kanon projektantka 37 „příčky 75 …"
     }
    ],
    "dotazy": {
