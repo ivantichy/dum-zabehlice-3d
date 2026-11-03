@@ -1,6 +1,6 @@
 {
  "meta": {
-  "stav_k": "2. 11. 2026 (S0.87)",
+  "stav_k": "3. 11. 2026 (S0.89b)",
   "vznik": "krok S0.11, 21. 9. 2026 (E49); S0.12 (nulová spodní hrana, šrafy, SDK, stávající garáž, značky chybějících); S0.14 (ŽB z PDF statiky, E51); S0.16 až S0.26 (viz session logy); S0.29, 2. 10. 2026: ŽB, základy, ocel a kontext zdiva z IFC statika (investor: IFC autoritativní pro ŽB), odvozené ŽB prvky, ŽB z PDF statiky, věnec garáže, ŽB parapety, pracovní atika, ocelové sloupky a nadpraží z modelu odebrány",
   "jednotky": "mm, souřadnice modelu DWG (2.NP posunuté o −50 000 v x, E42), z absolutně od ±0,000",
   "urovne": {
@@ -11250,7 +11250,111 @@
       "E177"
      ],
      "zdroj_kratky": "R-625 (S0.84, 31. 10. 2026 01:28 SEČ, investor volbou „Doplnit výslovně“: věta o prolévačkách v půdorysu 1.NP); R-619 (S0.72b, 31. 10. 2026 00:33 SEČ (30. 10. 2026 23:33 UTC), investor k návrhu revizí: „odstran:  Potřebujeme to před objednávkou zdiva, výkaz cihel děláme z DWG. ; potom napis, ze preklady v pudorysech prekleslovat na ZB nemusi, ze staci,ze to bude ve statice. Snad jen odstranit zminku o vyrobkovych prekladech, at to neni zavadejici a upravit to v rezech.“; nové znění [NÁVRH AGENTA] podle toho); R-618 (S0.72b, 31. 10. 2026 00:08 SEČ (30. 10. 2026 23:08:28 UTC), investor: „souhlasim s navrhem“ k návrhu agenta: DWG 26-10-26 kreslí ŽB sloupek a posunuté dveře 2NP-D03 a zděnou stěnu 105/209, které telefonát se statikem 30. 10. 2026 zrušil (R-595), projektantka o nový výkres nebyla požádána); podklad `docs/porovnani-vykresy_2026-09-16_vs_2026-10-26.md` (sekce 5), změnová dokumentace statikovi `docs/emaily/2026-10-30_statik_zmenova-dokumentace.md` (kopie projektantka, body A1 až A3, A5, A6, A9)",
-     "pozn": "PŘIPRAVENO, NEODESLÁNO: odejde s otázkami 43 až 46 před výkazem cihel (projektantka na dovolené do 31. 10. 2026); nasazení DWG 26-10-26 jako celku do dat čeká na aktualizovanou verzi (S0.68, R-618; S0.68 odložena R-620, nasazení až po opravené verzi podle ADR 0029)",
+     "pozn": "PŘIPRAVENO, NEODESLÁNO: odejde s otázkami 43 až 46 před výkazem cihel (projektantka na dovolené do 31. 10. 2026); nasazení DWG 26-10-26 jako celku do dat čeká na aktualizovanou verzi (S0.68, R-618; S0.68 odblokovaná R-658 bez nasazení, nasazení až po vyčištění fronty vstupů a IFC statika R-653)",
+     "emaily": [],
+     "druh": "otázka"
+    },
+    {
+     "adresat": "projektantka",
+     "cislo": "48",
+     "oznaceni": "projektantka 48",
+     "stav": "aktivní",
+     "text": "V půdorysu 2. NP z 2. 11. 2026 je kóta rámu okna v koupelně 204 rozdělená na 850 + 1 370 + 950 mm a výška 1 750 mm s parapetem 650 mm je u dílu 850 mm (okno 2NP-O06 vedle pilíře). Nika se sedákem je ale podle Vašeho IFC i podle šrafy v půdorysu v jižní části okna 2NP-O05 hned u pilíře, tedy v dílu 1 370 mm, kde je parapet 650 mm nad podlahou; díl 850 mm má parapet 900 mm. Patří výška 1 750 (650) dílu 1 370 mm u niky, nebo má mít díl 850 mm opravdu nižší parapet? Prosíme o opravu kóty, ať dodavatel oken nedostane špatný podklad; dělení rámu 850 / 1 370 / 950 mu předáme.",
+     "prvky": [
+      "2NP-O05",
+      "2NP-O06",
+      "2NP-P01",
+      "2NP-S07",
+      "2NP-S08"
+     ],
+     "prvky_hlavni": [
+      "2NP-O05",
+      "2NP-O06"
+     ],
+     "prvky_zminene": [
+      "2NP-P01",
+      "2NP-S07",
+      "2NP-S08"
+     ],
+     "prvky_rucne": [
+      "2NP-P01",
+      "2NP-S07",
+      "2NP-S08"
+     ],
+     "body": [
+      "E201",
+      "E88"
+     ],
+     "zdroj_kratky": "R-656 (S0.89b, 3. 11. 2026 23:29 SEČ, investor „ano“ k bodu 4 sekce 101; text 48 = bod 3 konceptu doslova, 49, 50 a N37 = věty z bodů 1 (a), 1 (b) a 9 konceptu přeformulované do otázky `docs/emaily/2026-11-03_projektantka-statik_koncept-po-S0.89.md` [NÁVRH AGENTA], založeno před odesláním podle ADR 0028 bod 1)",
+     "pozn": "N1 porovnání S0.89 (sekce 4 dokumentu): kóta „1750 (650)“ u dílu 850 (y 205 484 až 206 334), nika v dílu 1 370 (pilíř 420 + nika 950); IFC B projektantky dává `2NP-O06` parapet +3,990; dělení rámu je nová informace pro dodavatele oken (E113, R-291 jeden rám 3 170)",
+     "emaily": [],
+     "druh": "otázka"
+    },
+    {
+     "adresat": "projektantka",
+     "cislo": "49",
+     "oznaceni": "projektantka 49",
+     "stav": "aktivní",
+     "text": "Po telefonátu se statikem z 30. 10. 2026 mají být zděné atiky z Ytongu (ŽB atiky zůstávají); v řezu A-A z 2. 11. 2026 jsou zděné atiky dál z VAPIS 200. Prosíme o doplnění do výkresů (materiál v řezu a v legendě konstrukcí).",
+     "prvky": [],
+     "prvky_hlavni": [],
+     "prvky_zminene": [],
+     "prvky_rucne": [],
+     "body": [
+      "E201"
+     ],
+     "zdroj_kratky": "R-656 (S0.89b, 3. 11. 2026 23:29 SEČ, investor „ano“ k bodu 4 sekce 101; text 48 = bod 3 konceptu doslova, 49, 50 a N37 = věty z bodů 1 (a), 1 (b) a 9 konceptu přeformulované do otázky `docs/emaily/2026-11-03_projektantka-statik_koncept-po-S0.89.md` [NÁVRH AGENTA], založeno před odesláním podle ADR 0028 bod 1)",
+     "pozn": "N3 porovnání S0.89: zděné atiky 200 × 250 v řezu A-A (x −858 342, −850 493, −850 263, −844 396; +6,140 až +6,390) dál ZDIVO-VYS_PEV; v datech od S0.76 Ytong pracovně (R-595 A6)",
+     "emaily": [],
+     "druh": "otázka"
+    },
+    {
+     "adresat": "projektantka",
+     "cislo": "50",
+     "oznaceni": "projektantka 50",
+     "stav": "aktivní",
+     "text": "Prolévací tvarovky pod prahem portálu 1NP-O02 provázané s deskou (změna po telefonátu se statikem) nejsou ve verzi z 2. 11. 2026 zakreslené nikde: v půdorysu 1. NP, v řezu B-B ani v základech (základy jsou u portálu shodné s verzí 06/2025). Prosíme je zakreslit, nebo aspoň uvést poznámkou.",
+     "prvky": [
+      "1NP-O02",
+      "1NP-P01"
+     ],
+     "prvky_hlavni": [
+      "1NP-O02"
+     ],
+     "prvky_zminene": [
+      "1NP-P01"
+     ],
+     "prvky_rucne": [
+      "1NP-P01"
+     ],
+     "body": [
+      "E201",
+      "E172"
+     ],
+     "zdroj_kratky": "R-656 (S0.89b, 3. 11. 2026 23:29 SEČ, investor „ano“ k bodu 4 sekce 101; text 48 = bod 3 konceptu doslova, 49, 50 a N37 = věty z bodů 1 (a), 1 (b) a 9 konceptu přeformulované do otázky `docs/emaily/2026-11-03_projektantka-statik_koncept-po-S0.89.md` [NÁVRH AGENTA], založeno před odesláním podle ADR 0028 bod 1)",
+     "pozn": "A8 ve verzi 26-11-02 nikde (červený tým S0.89 C2: základy u portálu entitně shodné s 06/2025); otázka 47 zakreslení v 1.NP žádala; řez B-B má Propasiv a prolévačky z 26. 10. beze změny, provázání s deskou ne",
+     "emaily": [],
+     "druh": "otázka"
+    },
+    {
+     "adresat": "statik",
+     "cislo": "N37",
+     "oznaceni": "statik N37",
+     "stav": "aktivní",
+     "text": "V základech architektury z 2. 11. 2026 je nová patka 500 × 500 mm pod ocelovým sloupkem přístřešku 1NP-OS19 (HH −0,310, DH −0,810); v Tvém exportu IFC z 1. 10. 2026 základ pod tímto sloupkem není. Je patka dohodnutá a bude v novém exportu IFC?",
+     "prvky": [
+      "1NP-OS19"
+     ],
+     "prvky_hlavni": [
+      "1NP-OS19"
+     ],
+     "prvky_zminene": [],
+     "prvky_rucne": [],
+     "body": [
+      "E201"
+     ],
+     "zdroj_kratky": "R-656 (S0.89b, 3. 11. 2026 23:29 SEČ, investor „ano“ k bodu 4 sekce 101; text 48 = bod 3 konceptu doslova, 49, 50 a N37 = věty z bodů 1 (a), 1 (b) a 9 konceptu přeformulované do otázky `docs/emaily/2026-11-03_projektantka-statik_koncept-po-S0.89.md` [NÁVRH AGENTA], založeno před odesláním podle ADR 0028 bod 1)",
+     "pozn": "N7 porovnání S0.89 (červený tým C2, render základů): patka 500 × 500 se středem ve sloupku, kóty 500, 525, 2 535; v 1.NP patní plech (skrytá čára oceli); základy jsou v datech jen z IFC statika (ADR 0022)",
      "emaily": [],
      "druh": "otázka"
     }
@@ -11459,11 +11563,12 @@
     {
      "id": "E88",
      "nazev": "Instalační stěna (sedátko) 204: co je pod sedací plochou (investor 29. 9. 2026 20:40:07 SELČ (18:40:07 UTC, S0.25, textové zadání session, doslovně))",
-     "stav": "nový 29. 9. 2026 (S0.25) DOPLNĚNO 6. 10. 2026 (R-99, investor) …, v aktuálním 3D špatně, vrátit se po průchodu; ruší čtení popisky z E81 R29; D2.7 s … ODESLÁNO v první vlně e-mailů (otázka projektantce bod 13), čeká na odpověď (krok 12 plánu)",
+     "stav": "nový 29. 9. 2026 (S0.25) DOPLNĚNO 6. 10. 2026 (R-99, investor) …, v aktuálním 3D špatně, vrátit se po průchodu; ruší čtení popisky z E81 R29; D2.7 s touto premisou. PŘEFORMULOVÁNO 6. 10. 2026 (R-106, investor) …; E32, E33, R-12 … S0.88 může jet",
      "vlastnik": "projektantka (odpověď), investor (zařadí do mailu)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
       "2NP-O05",
+      "2NP-O06",
       "2NP-P01",
       "2NP-S06",
       "2NP-S07"
@@ -11471,7 +11576,8 @@
      "dotazy": [
       "projektantka 32",
       "projektantka 37",
-      "projektantka 41"
+      "projektantka 41",
+      "projektantka 48"
      ]
     },
     {
@@ -11772,6 +11878,7 @@
       "2NP-O13"
      ],
      "dotazy": [
+      "projektantka 50",
       "statik N23"
      ]
     },
@@ -11832,6 +11939,7 @@
       "2NP-D03",
       "2NP-O06",
       "2NP-O07",
+      "2NP-S08",
       "2NP-S09",
       "2NP-S10",
       "2NP-S13"
@@ -12056,10 +12164,11 @@
     {
      "id": "E193",
      "nazev": "POSUN PROSTUPŮ PRO VZT VE VĚNCÍCH 2NP-V16-OD2 A 2NP-V17-OD2 VS VZDUCHOTECHNIKA",
-     "stav": "otevřeno 30. 10. 2026 (S0.76)",
+     "stav": "otevřeno 30. 10. 2026 (S0.76) DOPLNĚNO 2. 11. 2026 (S0.87): projektantka 12:09 SEČ: posunut jen prostup u 2NP-D03 (2NP-V16-OD2), nově v SDK části stěny s dveřmi, mimo … k trase VZT nic výslovně, posun udělali v projektantská kancelář („Posunuli jsme“)",
      "vlastnik": "statik, projektantka",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
+      "2NP-D03",
       "2NP-V16-OD2",
       "2NP-V17-OD2"
      ],
@@ -12081,13 +12190,69 @@
     {
      "id": "E196",
      "nazev": "ZÚŽENÍ PŘEKLADU NAD OKNEM GARÁŽE 2NP-O08 KVŮLI ROLETOVÉMU BOXU: REAKCE STAVITELE CHYBÍ",
-     "stav": "otevřeno 31. 10. 2026 (S0.81, R-616 (3))",
+     "stav": "otevřeno 31. 10. 2026 (S0.81, R-616 (3)) DOPLNĚNO 3. 11. 2026 20:17 SEČ (S0.87c, R-647, investor …): věta o povinnosti reagovat na dotazy jde do nejbližší zprávy staviteli (krok 12b, nebo WhatsApp od investora); teď se nic neposílá (R-644)",
      "vlastnik": "investor (WhatsApp), agent (zápis)",
      "sekce": "E. Znalostní báze a nástroje",
      "prvky": [
       "2NP-O08"
      ],
      "dotazy": []
+    },
+    {
+     "id": "E199",
+     "nazev": "ROZPOR PŘEKLADY NAD OKNY NÁSTAVBY GARÁŽE (2NP-O07, 2NP-O08, 2NP-O14, Porotherm 30, roletový box v izolaci 150): telefonát se statikem 30. 10. 2026",
+     "stav": "otevřeno 2. 11. 2026 (S0.87); rozhodnuto ŽB 2. 11. 2026 (S0.87b, R-641), čeká na detail se stavitelem 3. 11. 2026 (S0.87c, R-647): investor „Bod 2 ok“, ŽB potvrzeno znovu; projektantce a statikovi stále až po S0.89 v jednom e-mailu",
+     "vlastnik": "investor (detail se stavitelem), agent (obrázek detailu, text pro stavitele a pro společný e-mail)",
+     "sekce": "E. Znalostní báze a nástroje",
+     "prvky": [
+      "2NP-O07",
+      "2NP-O08",
+      "2NP-O14"
+     ],
+     "dotazy": []
+    },
+    {
+     "id": "E200",
+     "nazev": "PROSTUP 2NP-V17-OD2 (věnec nad 2NP-S04 mezi dveřmi 2NP-D01 a 2NP-D02) SE PODLE PROJEKTANTKY NEPOSOUVAL: změnová dokumentace statikovi A5 (R-602) a R-598 (4)",
+     "stav": "otevřeno 2. 11. 2026 (S0.87)",
+     "vlastnik": "statik (odpověď na A5 a N29, nový IFC), agent (po IFC poloha prostupu vs překlad)",
+     "sekce": "E. Znalostní báze a nástroje",
+     "prvky": [
+      "2NP-D01",
+      "2NP-D02",
+      "2NP-D03",
+      "2NP-S04",
+      "2NP-V16",
+      "2NP-V16-OD2",
+      "2NP-V17-OD2"
+     ],
+     "dotazy": []
+    },
+    {
+     "id": "E201",
+     "nazev": "NOVÁ VERZE VÝKRESŮ ARCHITEKTURY 26-11-02 A IFC PROJEKTANTKY",
+     "stav": "otevřeno 2. 11. 2026 (S0.87) DOPLNĚNO 2. 11. 2026 19:21 SEČ (S0.87b, R-644, R-645): přílohy DWG a čtyři PDF uložené (IFC projektantky ve složce chybí, doplní investor); porovnání ukáže rozdíly mezi JEDNOTLIVÝMI verzemi …",
+     "vlastnik": "investor (průchod změn v 3D modelu najednou, E202), agent (nasazení až po R-653)",
+     "sekce": "E. Znalostní báze a nástroje",
+     "prvky": [
+      "1NP-O02",
+      "1NP-OS19",
+      "2NP-D03",
+      "2NP-O06",
+      "2NP-P01",
+      "2NP-S08",
+      "2NP-S09",
+      "2NP-S10",
+      "2NP-S23",
+      "2NP-S24",
+      "2NP-S29"
+     ],
+     "dotazy": [
+      "projektantka 48",
+      "projektantka 49",
+      "projektantka 50",
+      "statik N37"
+     ]
     }
    ],
    "srafa_dotaz": "S0.43 (R-327): prvek se šrafuje modře („má dotaz“), když je hlavním prvkem aktivní otázky protistraně a otázka není tabulková (neptá se na celou třídu prvků) ani položka „na vědomí“ (R-353): tabulkové jsou projektantka 22, projektantka 5, projektantka 8, statik 1 + N6, statik N11, statik N9, stavitel 1",
@@ -12101,26 +12266,26 @@
     "stavitel 1"
    ],
    "pocty": {
-    "otazek": 65,
+    "otazek": 69,
     "otazek_podle_adresata": {
-     "projektantka": 33,
-     "statik": 29,
+     "projektantka": 36,
+     "statik": 30,
      "stavitel": 3
     },
     "otazek_podle_stavu": {
      "zodpovězená": 32,
-     "aktivní": 33
+     "aktivní": 37
     },
-    "otazek_aktivnich_s_prvkem": 26,
-    "otazek_bez_prvku": 14,
-    "otazek_bez_hlavniho_prvku": 15,
-    "bodu": 50,
-    "bodu_s_prvkem": 47,
-    "prvku_s_dotazem": 176,
-    "prvku_s_hlavni_otazkou": 137,
+    "otazek_aktivnich_s_prvkem": 29,
+    "otazek_bez_prvku": 15,
+    "otazek_bez_hlavniho_prvku": 16,
+    "bodu": 53,
+    "bodu_s_prvkem": 50,
+    "prvku_s_dotazem": 179,
+    "prvku_s_hlavni_otazkou": 138,
     "prvku_jen_zminenych": 14,
     "otazek_v_odeslanem_emailu": 58,
-    "prvku_se_srafou_dotazu": 96
+    "prvku_se_srafou_dotazu": 97
    }
   },
   "lidsky": {
@@ -12212,8 +12377,8 @@
    },
    "pozn": "Pole `lidsky` u kazdeho prvku je text pro lidi (E127, R-246), pole `technika` jsou nase interni udaje (skript, session, IFC id a GUID, zdrojovy JSON, stare ID) a pole `historie` je audit trail prvku (E128, R-247; zkraceny text, plne znění `zdivo/model/historie.json`; od S0.44 (R-377, investor 14. 10. 2026 „35 i“) jen rozhodnuti, otevrene a uzavrene body a zmeny dat, zminky nalezu zustavaji jen v `historie.json`; od S0.45 (16. 10. 2026, investor: historie na strance prazdna, jen veci po odeslani S1) jen udalosti od `HISTORIE_OD`, dnes 2026-10-26). Generuji `tools/model/texty_pro_lidi.py` a `tools/model/historie_prvku.py`.",
    "historie_od": "2026-10-26",
-   "historie_udalosti": 469,
-   "historie_zminek": 505,
+   "historie_udalosti": 471,
+   "historie_zminek": 509,
    "historie_prvku": 106
   }
  },
@@ -13923,7 +14088,8 @@
     "body": [
      "E184",
      "E186",
-     "E188"
+     "E188",
+     "E200"
     ]
    },
    "dotaz_srafa": [
@@ -14311,14 +14477,17 @@
     "otazky": [
      "projektantka 32",
      "projektantka 37",
-     "projektantka 41"
+     "projektantka 41",
+     "projektantka 48"
     ],
     "otazky_hlavni": [
      "projektantka 32",
      "projektantka 37",
      "projektantka 41"
     ],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "projektantka 48"
+    ],
     "body": [
      "E40",
      "E88"
@@ -14384,7 +14553,7 @@
     "id_stare": "2NP-S08"
    },
    "historie_n": 7,
-   "historie_zminek": 6,
+   "historie_zminek": 7,
    "historie": [
     {
      "datum": "2026-10-28",
@@ -14430,16 +14599,20 @@
    "dotazy": {
     "otazky": [
      "projektantka 22",
+     "projektantka 48",
      "statik N29"
     ],
     "otazky_hlavni": [
      "statik N29"
     ],
     "otazky_zminene": [
-     "projektantka 22"
+     "projektantka 22",
+     "projektantka 48"
     ],
     "body": [
-     "E184"
+     "E178",
+     "E184",
+     "E201"
     ]
    },
    "dotaz_srafa": [
@@ -14614,6 +14787,7 @@
      "E184",
      "E186",
      "E188",
+     "E201",
      "E80"
     ]
    },
@@ -14809,7 +14983,8 @@
      "E170",
      "E178",
      "E180",
-     "E186"
+     "E186",
+     "E201"
     ]
    },
    "dotaz_srafa": [
@@ -16150,7 +16325,9 @@
     "otazky": [],
     "otazky_hlavni": [],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E201"
+    ]
    },
    "dotaz_srafa": []
   },
@@ -16240,7 +16417,9 @@
     "otazky": [],
     "otazky_hlavni": [],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E201"
+    ]
    },
    "dotaz_srafa": []
   },
@@ -16679,7 +16858,7 @@
     "id_stare": "2NP-O15"
    },
    "historie_n": 10,
-   "historie_zminek": 14,
+   "historie_zminek": 15,
    "historie": [
     {
      "datum": "2026-10-26",
@@ -16758,7 +16937,8 @@
      "E139",
      "E165",
      "E170",
-     "E186"
+     "E186",
+     "E201"
     ]
    },
    "dotaz_srafa": [
@@ -16988,7 +17168,7 @@
     "json": "zdivo/steny/otvory.json",
     "id_stare": "1NP-O02"
    },
-   "historie_n": 27,
+   "historie_n": 28,
    "historie_zminek": 25,
    "historie": [
     {
@@ -17142,6 +17322,12 @@
      "text": "… dveře = křídlo, vnější = stavební otvor); bod 4 (40, prolévačky pod `1NP-O02` provázané s deskou); bod 5 (41, zídka …"
     },
     {
+     "datum": "2026-11-02",
+     "typ": "otevřený bod",
+     "ref": "E201",
+     "text": "… dál VAPIS 200, ne Ytong (kanon 49); (2) A8 prolévačky pod prahem `1NP-O02` provázané s deskou nejsou nikde, ani v …"
+    },
+    {
      "datum": "2026-11-03",
      "typ": "rozhodnutí",
      "ref": "R-649",
@@ -17155,6 +17341,7 @@
      "projektantka 40",
      "projektantka 46",
      "projektantka 47",
+     "projektantka 50",
      "statik N14",
      "statik N18",
      "statik N23",
@@ -17165,6 +17352,7 @@
      "projektantka 39",
      "projektantka 40",
      "projektantka 46",
+     "projektantka 50",
      "statik N14",
      "statik N18",
      "statik N23",
@@ -17179,6 +17367,7 @@
      "E172",
      "E181",
      "E184",
+     "E201",
      "E63"
     ]
    },
@@ -17186,6 +17375,7 @@
     "projektantka 39",
     "projektantka 40",
     "projektantka 46",
+    "projektantka 50",
     "statik N23",
     "statik N30"
    ]
@@ -19678,7 +19868,8 @@
      "E132",
      "E169",
      "E184",
-     "E188"
+     "E188",
+     "E200"
     ]
    },
    "dotaz_srafa": [
@@ -19927,7 +20118,8 @@
     "body": [
      "E169",
      "E184",
-     "E188"
+     "E188",
+     "E200"
     ]
    },
    "dotaz_srafa": [
@@ -20146,11 +20338,13 @@
      "projektantka 32",
      "projektantka 39",
      "projektantka 41",
+     "projektantka 48",
      "statik N29"
     ],
     "otazky_hlavni": [
      "projektantka 39",
      "projektantka 41",
+     "projektantka 48",
      "statik N29"
     ],
     "otazky_zminene": [
@@ -20164,6 +20358,7 @@
    "dotaz_srafa": [
     "projektantka 39",
     "projektantka 41",
+    "projektantka 48",
     "statik N29"
    ]
   },
@@ -20601,6 +20796,9 @@
      "E184",
      "E186",
      "E188",
+     "E193",
+     "E200",
+     "E201",
      "E80"
     ]
    },
@@ -20809,31 +21007,36 @@
      "datum": "2026-11-02",
      "typ": "otevřený bod",
      "ref": "E201",
-     "text": "… kóta okna 204 rozdělená 850 + 1 370 + 950 s „1750 (650)“ u dílu 850 (`2NP-O06`) místo dílu 950 u niky (rozpor s IFC B …"
+     "text": "… kóta okna 204 rozdělená 850 + 1 370 + 950 s „1750 (650)“ u dílu 850 (`2NP-O06`) místo dílu 1 370 s nikou (pilíř 420 + …"
     },
     {
      "datum": "2026-11-03",
      "typ": "událost",
-     "text": "… kóta okna 204 rozdělená 850 + 1 370 + 950 s „1750 (650)“ u dílu 850 (`2NP-O06`) místo dílu 950 u niky (rozpor s IFC B …"
+     "text": "… kóta okna 204 rozdělená 850 + 1 370 + 950 s „1750 (650)“ u dílu 850 (`2NP-O06`) místo dílu 1 370 s nikou (pilíř 420 + …"
     }
    ],
    "dotazy": {
     "otazky": [
      "projektantka 39",
+     "projektantka 48",
      "statik N29"
     ],
     "otazky_hlavni": [
      "projektantka 39",
+     "projektantka 48",
      "statik N29"
     ],
     "otazky_zminene": [],
     "body": [
      "E178",
-     "E184"
+     "E184",
+     "E201",
+     "E88"
     ]
    },
    "dotaz_srafa": [
     "projektantka 39",
+    "projektantka 48",
     "statik N29"
    ]
   },
@@ -21079,7 +21282,8 @@
     "body": [
      "E172",
      "E178",
-     "E184"
+     "E184",
+     "E199"
     ]
    },
    "dotaz_srafa": [
@@ -21333,7 +21537,8 @@
     ],
     "body": [
      "E184",
-     "E196"
+     "E196",
+     "E199"
     ]
    },
    "dotaz_srafa": [
@@ -22606,7 +22811,8 @@
     "otazky_zminene": [],
     "body": [
      "E170",
-     "E184"
+     "E184",
+     "E199"
     ]
    },
    "dotaz_srafa": [
@@ -23105,6 +23311,7 @@
      "projektantka 40",
      "projektantka 46",
      "projektantka 47",
+     "projektantka 50",
      "statik N18",
      "statik N23",
      "statik N30"
@@ -23118,6 +23325,7 @@
      "projektantka 22",
      "projektantka 46",
      "projektantka 47",
+     "projektantka 50",
      "statik N23",
      "statik N30"
     ],
@@ -23690,14 +23898,18 @@
    "dotazy": {
     "otazky": [
      "projektantka 32",
-     "projektantka 41"
+     "projektantka 41",
+     "projektantka 48"
     ],
     "otazky_hlavni": [
      "projektantka 32",
      "projektantka 41"
     ],
-    "otazky_zminene": [],
+    "otazky_zminene": [
+     "projektantka 48"
+    ],
     "body": [
+     "E201",
      "E88"
     ]
    },
@@ -33037,8 +33249,8 @@
     "json": "zdivo/ifc/ifc-prvky.json",
     "id_stare": null
    },
-   "historie_n": 4,
-   "historie_zminek": 4,
+   "historie_n": 5,
+   "historie_zminek": 5,
    "historie": [
     {
      "datum": "2026-10-30",
@@ -33060,17 +33272,31 @@
     },
     {
      "datum": "2026-11-03",
+     "typ": "rozhodnutí",
+     "ref": "R-656",
+     "text": "… nikde, A8) a `statik N37` (nová patka 500 × 500 pod ocelovým sloupkem `1NP-OS19` v základech architektury, v IFC …"
+    },
+    {
+     "datum": "2026-11-03",
      "typ": "událost",
      "text": "… klíč registru); N6 a N7 nová patka 500 × 500 pod ocelovým sloupkem `1NP-OS19` v základech (HH −0,310 / DH −0,810) a …"
     }
    ],
    "dotazy": {
-    "otazky": [],
-    "otazky_hlavni": [],
+    "otazky": [
+     "statik N37"
+    ],
+    "otazky_hlavni": [
+     "statik N37"
+    ],
     "otazky_zminene": [],
-    "body": []
+    "body": [
+     "E201"
+    ]
    },
-   "dotaz_srafa": []
+   "dotaz_srafa": [
+    "statik N37"
+   ]
   },
   {
    "id": "1NP-OS20",
@@ -40966,7 +41192,8 @@
      "E181",
      "E184",
      "E186",
-     "E188"
+     "E188",
+     "E200"
     ]
    },
    "dotaz_srafa": [
@@ -54242,7 +54469,8 @@
     "body": [
      "E186",
      "E188",
-     "E193"
+     "E193",
+     "E200"
     ]
    },
    "dotaz_srafa": [
@@ -54922,7 +55150,7 @@
     "id_stare": null
    },
    "historie_n": 9,
-   "historie_zminek": 8,
+   "historie_zminek": 9,
    "historie": [
     {
      "datum": "2026-10-30",
@@ -54988,7 +55216,8 @@
     "body": [
      "E186",
      "E188",
-     "E193"
+     "E193",
+     "E200"
     ]
    },
    "dotaz_srafa": [
